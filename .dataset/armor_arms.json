@@ -1,0 +1,4215 @@
+{
+  "source": "https://monsterhunterworld.wiki.fextralife.com/Arms_Armor",
+  "type": "arms",
+  "armors": [
+    {
+      "name": "Alloy Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Alloy_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 8,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Alloy Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e9/Alloy_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 1
+        },
+        {
+          "name": "Speed Sharpening",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Sharpening",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Alloy Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a7/Alloy_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/03/Anja_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 20,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Special Ammo Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Special_Ammo_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Vambraces +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Vambraces_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fa/Placeholder_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slinger_Capacity",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b4/Anja_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Special Ammo Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Special_Ammo_Boost",
+          "level": 1
+        },
+        {
+          "name": "Fire Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/65/Anja_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Special Ammo Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Special_Ammo_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Azure Starlord Gauntlets Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Azure_Starlord_Gauntlets_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e8/Azure-starlord-gauntlets-alpha-mhw-wiki.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e8/Azure-starlord-gauntlets-alpha-mhw-wiki.png",
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Recovery Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up_Skill",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Baan Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2f/Baan_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 24,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Sleep Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Sleep_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Baan Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2f/Baan_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 46,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Sleep Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Sleep_Attack",
+          "level": 2
+        },
+        {
+          "name": "Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Baan Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2f/Baan_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 46,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Sleep Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Sleep_Attack",
+          "level": 1
+        },
+        {
+          "name": "Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Banbaro Vambraces +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Banbaro_Vambraces_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fa/Placeholder_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Barroth Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Barroth_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 14,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Barroth Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Barroth_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        },
+        {
+          "name": "Stamina Thief",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Thief",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Barroth Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/08/Barroth_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Bazel Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazel_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c2/Bazel_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 58,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Draw",
+          "level": 2
+        },
+        {
+          "name": "Earplugs",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Earplugs",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Bazel Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazel_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a0/Bazel_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 58,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Draw",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Beo Vambraces +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Beo_Vambraces_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fa/Placeholder_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Recovery Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 0,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Blossom Cuffs",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blossom_Cuffs",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bb/Blossom_cuffs_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 4,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Blossom Cuffs Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blossom_Cuffs_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e1/Blossom_cuffs_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 4,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Bone Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/28/Bone_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 6,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Slugger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slugger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Bone Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/62/Bone_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Slugger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slugger",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Bone Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4e/Bone_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Slugger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slugger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Brigade Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/40/Brigade_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 28,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Heavy Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heavy_Artillery",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Brigade Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/01/Brigade_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 52,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Heavy Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heavy_Artillery",
+          "level": 2
+        },
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Brigade Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/40/Brigade_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 52,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Heavy Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heavy_Artillery",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Butterfly Brachia",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Brachia",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/14/Butterfly_brachia_female.png",
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Leap of Faith",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Leap_of_Faith",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Butterfly Brachia Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Brachia_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/aa/Butterfly_brachi_alpha_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 2
+        },
+        {
+          "name": "Leap of Faith",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Leap_of_Faith",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Butterfly Brachia Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Brachia_Beta",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Butterfly_brachia_beta_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Chainmail Gloves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Gloves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f1/Chainmail_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 2,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Chainmail Gloves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Gloves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f4/Chainmail_gloves_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Chainmail Gloves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Gloves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8c/Chainmail_gloves_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 32,
+      "slots": [
+        1
+      ],
+      "skills": [],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Commission Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commission_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Commission_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Blindsider",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blindsider",
+          "level": 1
+        },
+        {
+          "name": "Carving Pro",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Carving_Pro",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Commission Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commission_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/77/Commission_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 70,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Blindsider",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blindsider",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Damascus Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Damascus_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/11/Damascus_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        },
+        {
+          "name": "Speed Sharpening",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Sharpening",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Damascus Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Damascus_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e5/Damascus_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Dante's Gloves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dante%27s_Gloves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/32/Dantes_gloves_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 1
+        },
+        {
+          "name": "Special Ammo Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Special_Ammo_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 3,
+        "ice": -3,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Death Stench Grip",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Grip",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/12/Death_stench_grip_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Death Stench Grip Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Grip_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b4/Death_stench_grip_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 62,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 2
+        },
+        {
+          "name": "Dragon Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Death Stench Grip Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Grip_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Death_stench_grip_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 62,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Diablos Nero Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Nero_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/99/Diablos_nero_braces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 56,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        },
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Nero Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Nero_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/eb/Diablos_nero_braces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/66/Diablos_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Heroics",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heroics",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bc/Diablos_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Heroics",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heroics",
+          "level": 2
+        },
+        {
+          "name": "Tremor Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tremor_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8f/Diablos_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 54,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Heroics",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heroics",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Direwolf Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Direwolf_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fa/Placeholder_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Diver’s Braces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diver%27s_Braces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/Divers_braces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 46,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Drachen Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Drachen_Vambraces_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3a/Drachen_vambraces_alpha_female.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        2,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 2
+        },
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Dober Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f0/Dober_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Surge",
+          "level": 1
+        },
+        {
+          "name": "Mushroomancer",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Mushroomancer",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Dober Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/51/Dober_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Surge",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Dodogama Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dodogama_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b4/Dodogama_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 48,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Bombardier",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bombardier",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Dodogama Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dodogama_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/54/Dodogama_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 48,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Bombardier",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bombardier",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Empress Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Empress_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Empress_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+          "level": 2
+        },
+        {
+          "name": "Blast Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Empress Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Empress_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b3/Empress_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        3,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Empress Vambraces Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Empress_Vambraces_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/36/Empress-vambraces-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/36/Empress-vambraces-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        3,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Extender",
+          "level": 1
+        },
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Gala Suit Cuffs",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gala_Suit_Cuffs",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/58/Gala-suit-cuffs-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/58/Gala-suit-cuffs-mhw-wiki-guide.png",
+      "rarity": 4,
+      "defense": 34,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Maximum_Might",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Gala Suit Cuffs Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gala_Suit_Cuffs_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/58/Gala-suit-cuffs-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/58/Gala-suit-cuffs-mhw-wiki-guide.png",
+      "rarity": 7,
+      "defense": 64,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Maximum_Might",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Girros Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/02/Girros_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 20,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Palico_Rally",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Girros Vambraces +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Vambraces_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fa/Placeholder_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tool_Specialist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Girros Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b5/Girros_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Palico_Rally",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Girros Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/97/Girros_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Palico_Rally",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Golden Lunebraces Alpha +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Golden_Lunebraces_Alpha_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d1/Golden-lunebraces-alpha-plus-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d1/Golden-lunebraces-alpha-plus-mhw-wiki-guide.png",
+      "rarity": 12,
+      "defense": 162,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Resentment",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Resentment",
+          "level": 2
+        },
+        {
+          "name": "Poison Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Golden Lunebraces Beta +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Golden_Lunebraces_Beta_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9b/Golden-lunebraces-beta-plus-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9b/Golden-lunebraces-beta-plus-mhw-wiki-guide.png",
+      "rarity": 12,
+      "defense": 162,
+      "slots": [
+        4,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Resentment",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Resentment",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Guild Cross Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Cross_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6e/Guild_cross_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 68,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tool_Specialist",
+          "level": 1
+        },
+        {
+          "name": "Water Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Resistance_Skill",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Guild Cross Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Cross_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6e/Guild_cross_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 68,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tool_Specialist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Guardian Vambraces Alpha +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guardian_Vambraces_Alpha_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fa/Placeholder_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Harvest Trama",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Trama",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8a/Harvest-trama-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8a/Harvest-trama-mhw-wiki-guide.png",
+      "rarity": 3,
+      "defense": 26,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Harvest Trama Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Trama_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8a/Harvest-trama-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8a/Harvest-trama-mhw-wiki-guide.png",
+      "rarity": 6,
+      "defense": 52,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [],
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "High Metal Braces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Braces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/98/High_metal_braces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "High Metal Braces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Braces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2c/High_metal_braces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 2
+        },
+        {
+          "name": "Ice Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "High Metal Braces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Braces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/98/High_metal_braces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hunter's Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/40/Hunters_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stealth",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stealth",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hunter's Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/05/Hunters_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stealth",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stealth",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hunter's Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1e/Hunters_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stealth",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stealth",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hornetaur Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f0/Hornetaur_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Free Meal",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Meal",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Hornetaur Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Hornetaur_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 38,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Free Meal",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Meal",
+          "level": 1
+        },
+        {
+          "name": "Hunger Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Hunger_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Hornetaur Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a2/Hornetaur_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 38,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Free Meal",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Meal",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Ingot Gloves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Gloves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Ingot_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/44/Ingot_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 28,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fe/Ingot_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 2
+        },
+        {
+          "name": "Thunder Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f5/Ingot_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Jagras Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6b/Jagras_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 8,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Palico_Rally",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Jagras Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cf/Jagras_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Palico_Rally",
+          "level": 1
+        },
+        {
+          "name": "Intimidator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Intimidator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Jagras Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d0/Jagras_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Palico_Rally",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Jyura Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/08/Jyura_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 14,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Water Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Jyura Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/75/Jyura_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Water Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Attack",
+          "level": 2
+        },
+        {
+          "name": "Aquatic/Polar Mobility (Aquatic Expert)",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Aquatic_Expert",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Jyura Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4c/Jyura_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Water Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kadachi Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9a/Kadachi_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Extender",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kadachi Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1d/Kadachi_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Extender",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kadachi Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ea/Kadachi_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Extender",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kaiser Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kaiser_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6a/Kaiser_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Kaiser Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kaiser_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b8/Kaiser_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Kaiser Vambraces Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kaiser_Vambraces_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/93/Kaiser-vambraces-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/93/Kaiser-vambraces-gamma-mhw-wiki-guide.png",
+      "rarity": null,
+      "defense": 64,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 3
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Kestodon Guards",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kestodon_Guards",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9f/Kestodon_guards_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 12,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Affinity_Sliding",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kestodon Guards Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kestodon_Guards_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/dc/Kestodon_guards_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Affinity_Sliding",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kestodon Guards Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kestodon_Guards_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a4/Kestodon_guards_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Affinity_Sliding",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "King Beetle Brachia",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Brachia",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7c/King_beetle_brachia_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Leap of Faith",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Leap_of_Faith",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "King Beetle Brachia Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Brachia_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5a/King_beetle_brachia_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 2
+        },
+        {
+          "name": "Leap of Faith",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Leap_of_Faith",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "King Beetle Brachia Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Brachia_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/33/King_beetle_brachia_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Longarms",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Longarms",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/83/Kirin_longarms_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blight_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Longarms Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Longarms_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/83/Kirin_longarms_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Attack",
+          "level": 2
+        },
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Longarms Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Longarms_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/83/Kirin_longarms_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Longarms Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Longarms_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/ac/Kirin-longarms-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/ac/Kirin-longarms-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        2,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blight_Resistance",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kulu Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/85/Kulu_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kulu Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4e/Kulu_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Pro Transporter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Pro_Transporter",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kulu Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/10/Kulu_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Pro Transporter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Pro_Transporter",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kulve Taroth's Rage Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth%27s_Rage_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Kulve_taroths_rage_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 1
+        },
+        {
+          "name": "Power Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Power_Prolonger",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kulve Taroth's Rage Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth%27s_Rage_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/49/Kulve_taroths_rage_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 1
+        },
+        {
+          "name": "Power Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Power_Prolonger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kulve Taroth’s Rage Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth%27s_Rage_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Kulve_taroths_rage_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 2
+        },
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kushala Grip Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Grip_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3c/Kushala_grip_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 2
+        },
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kushala Grip Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Grip_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/ce/Kushala-grip-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/ce/Kushala-grip-gamma-mhw-wiki-guide.png",
+      "rarity": null,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kushala Grip Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Grip_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/39/Kushala_grip_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Lavasioth Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lavasioth_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5b/Lavasioth_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 56,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Affinity_Sliding",
+          "level": 1
+        },
+        {
+          "name": "Wide-Range",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Lavasioth Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lavasioth_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b6/Lavasioth_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 56,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Affinity_Sliding",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Leather Gloves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Gloves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e7/Leather_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 2,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Leather Gloves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Gloves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/31/Leather_gloves_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Leather Gloves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Gloves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5a/Leather_gloves_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 32,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f5/Legiana_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 30,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Airborne",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Airborne",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Vambraces +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Vambraces_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fa/Placeholder_gloves_male.png",
+      "icon_url_female": null,
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/80/Legiana_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Airborne",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Airborne",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/77/Legiana_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Airborne",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Airborne",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Lumu Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e8/Lumu_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 20,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Artillery",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Lumu Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/48/Lumu_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Artillery",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Lumu Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/03/Lumu_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Artillery",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Nergigante Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Vambraces_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b5/Nergigante_vambraces_alpha_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 2
+        },
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Nergigante Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bc/Nergigante_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Nergigante Vambraces Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Vambraces_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Nergigante-vambraces-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Nergigante-vambraces-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        2,
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Odogaron Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e8/Odogaron_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 30,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Odogaron Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c6/Odogaron_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Odogaron Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/02/Odogaron_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Orion Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Orion_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a4/Orion-vambraces-alpha-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a4/Orion-vambraces-alpha-mhw-wiki-guide.png",
+      "rarity": 6,
+      "defense": 46,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Origin Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Origin_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/05/Origin-vambraces-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/05/Origin-vambraces-mhw-wiki-guide.png",
+      "rarity": 1,
+      "defense": 6,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Pukei Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f1/Pukei_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stealth",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stealth",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Pukei Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8b/Pukei_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Resistance",
+          "level": 2
+        },
+        {
+          "name": "Poison Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Pukei Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f7/Pukei_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Rath Heart Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Heart_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/37/Rath_heart_braces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 52,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rath Heart Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Heart_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/99/Rath_heart_braces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 52,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rath Soul Braces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Soul_Braces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/03/Rath_soul_braces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        },
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rath Soul Braces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Soul_Braces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c3/Rath_soul_braces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rathalos Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Rathalos_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 30,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Resistance_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathalos Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/08/Rathalos_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Resistance_Skill",
+          "level": 2
+        },
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathalos Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/Rathalos_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Resistance_Skill",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathian Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9b/Rathian_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathian Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/50/Rathian_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 46,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathian Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c7/Rathian_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 46,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Ryu's Arms",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ryu%27s_Arms",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 12,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 5,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Ryu's Arms Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ryu%27s_Arms_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 5,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Sakura's Arms Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Sakura%27s_Arms_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 4,
+        "thunder": 0,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Tzitzi Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e1/Tzitzi_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stun_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Tzitzi Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/70/Tzitzi_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stun_Resistance",
+          "level": 2
+        },
+        {
+          "name": "Wide-Range",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Tzitzi Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cf/Tzitzi_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stun_Resistance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Uragaan Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ef/Uragaan_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 1
+        },
+        {
+          "name": "Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Uragaan Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/54/Uragaan_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Vaal Hazak Braces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Braces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6f/Vaal_hazak_braces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Peak_Performance",
+          "level": 1
+        },
+        {
+          "name": "Recovery Speed",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vaal Hazak Braces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Braces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/80/Vaal_hazak_braces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Peak_Performance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vaal Hazak Vambraces Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Vambraces_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fe/Vaal-hazak-vambraces-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fe/Vaal-hazak-vambraces-gamma-mhw-wiki-guide.png",
+      "rarity": null,
+      "defense": 64,
+      "slots": [
+        3,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Dragon Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Attack",
+          "level": 3
+        }
+      ],
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vangis Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vangis_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/03/Vangis_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 28,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 2
+        },
+        {
+          "name": "Partbreaker",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vangis Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vangis_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1b/Vangis_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 28,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vespoid Vambraces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Vambraces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bf/Vespoid_vambraces_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 8,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Vespoid Vambraces Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Vambraces_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/78/Vespoid_vambraces_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 38,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Vespoid Vambraces Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Vambraces_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/ae/Vespoid_vambraces_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 38,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Xeno'jiiva Claws Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Claws_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/aa/Xenojiiva_claws_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Flinch_Free",
+          "level": 1
+        },
+        {
+          "name": "Critical Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Xeno'jiiva Claws Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Claws_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9e/Xenojiiva_claws_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Flinch_Free",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Zorah Claws Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Claws_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/36/Zorah_claws_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 1
+        },
+        {
+          "name": "Bombardier",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bombardier",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Zorah Claws Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Claws_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f4/Zorah_claws_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 44,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Zorah Claws Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Claws_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/36/Zorah_claws_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Earplugs",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Earplugs",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    }
+  ]
+}

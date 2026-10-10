@@ -1,0 +1,4116 @@
+{
+  "source": "https://monsterhunterworld.wiki.fextralife.com/Waist_Armor",
+  "type": "waist",
+  "armors": [
+    {
+      "name": "Alloy Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/af/Alloy_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4f/Alloy_coil_female.png",
+      "rarity": 1,
+      "defense": 8,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Alloy Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4f/Alloy_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/10/Alloy_coil_alpha_female.png",
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Resistance",
+          "level": 1
+        },
+        {
+          "name": "Water Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Resistance_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Alloy Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Coil_Beta",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8e/Alloy_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 36,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e3/Anja_faulds_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/40/Anja_faulds_female.png",
+      "rarity": 1,
+      "defense": 20,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Resistance_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Coil+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Coil_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5d/Anja-coil-waist-armor-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5d/Anja-coil-waist-armor-mhw-wiki-guide.png",
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Coil_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a2/Anja_coil_alpha_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Resistance_Skill",
+          "level": 2
+        },
+        {
+          "name": "Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Artillery",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Coil_Beta",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c9/Anja_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Resistance_Skill",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Azure Starlord Tassets Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Azure_Starlord_Tassets_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2b/Azure-starlord-tassets-alpha-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2b/Azure-starlord-tassets-alpha-mhw-wiki-guide.png",
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Baan Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/aa/Baan_coil_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 24,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Baan Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/aa/Baan_coil_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 46,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Baan Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/aa/Baan_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/51/Baan_coil_beta_female.png",
+      "rarity": 6,
+      "defense": 64,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Banbaro Coil+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Hoja",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Barroth Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e0/Barroth_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/20/Barroth_coil_female.png",
+      "rarity": 2,
+      "defense": 14,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Muck Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Muck_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Barroth Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8e/Barroth_coil_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Muck Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Muck_Resistance",
+          "level": 1
+        },
+        {
+          "name": "Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Barroth Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a1/Barroth_coil_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Muck Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Muck_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Bazel Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazel_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f2/Bazel_coil_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 58,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Earplugs",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Earplugs",
+          "level": 2
+        },
+        {
+          "name": "Jump Master",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Jump_Master",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Bazel Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazel_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/20/Bazel_coil_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 58,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Earplugs",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Earplugs",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Beo Coil+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Hoja",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 0,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Blossom Coat",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blossom_Coat",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d6/Blossom_coat_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/31/Blossom_coat_female.png",
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Scoutfly Range Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Scoutfly_Range_Up",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 4,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Blossom Coat Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blossom_Coat_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/63/Blossom_coat_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/ce/Blossom_coat_alpha_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Scoutfly Range Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Scoutfly_Range_Up",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 4,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Bone Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Bone_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9a/Bone_coil_female.png",
+      "rarity": 1,
+      "defense": 6,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Horn Maestro",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Horn_Maestro",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Bone Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/63/Bone_coil_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Horn Maestro",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Horn_Maestro",
+          "level": 1
+        },
+        {
+          "name": "Master Fisher",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Master_Fisher",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Bone Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2c/Bone_coil_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Horn Maestro",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Horn_Maestro",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Brigade Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/31/Brigade_coil_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 28,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Geologist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Geologist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Brigade Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fe/Brigade_coil_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 52,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Geologist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Geologist",
+          "level": 2
+        },
+        {
+          "name": "Recovery Speed",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Brigade Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/97/Brigade_boots_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 52,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Scholar",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Scholar",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Butterfly Elytra",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Elytra",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/ae/Butterfly_elytra_female.png",
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Honey_Hunter",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Butterfly Elytra Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Elytra_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/30/Butterfly_elytra_alpha_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Honey_Hunter",
+          "level": 1
+        },
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Butterfly Elytra Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Elytra_Beta",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/16/Butterfly_elytra_beta_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Honey_Hunter",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Chainmail Belt",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Belt",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0a/Chainmail_belt_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/49/Chainmail_belt_female.png",
+      "rarity": 1,
+      "defense": 2,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Chainmail Belt Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Belt_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/60/Chainmail_belt_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Chainmail Belt Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Belt_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/33/Chainmail_belt_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 32,
+      "slots": [
+        1
+      ],
+      "skills": [],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Commission Belt Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commission_Belt_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e6/Commission_belt_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 70,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Mushroomancer",
+          "level": 1
+        },
+        {
+          "name": "Pro Transporter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Pro_Transporter",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Commission Belt Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commission_Belt_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/01/Commission_belt_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 70,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Mushroomancer",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Damascus Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Damascus_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Damascus_coil_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        },
+        {
+          "name": "Iron Skin",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Iron_Skin",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Damascus Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Damascus_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5d/Damascus_coil_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1,
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Dante's Belt Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dante%27s_Belt_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/44/Dantes_belt_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/ce/Dantes_belt_alpha_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 1
+        },
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 3,
+        "ice": -3,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Death Stench Bowels",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Bowels",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5d/Death_stench_bowels_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Dragon Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Death Stench Bowels Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Bowels_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/28/Death_stench_bowels_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 62,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Dragon Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Attack",
+          "level": 2
+        },
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Death Stench Bowels Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Bowels_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b6/Death_stench_bowels_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f1/Death_stench_bowels_beta_female.png",
+      "rarity": 7,
+      "defense": 62,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Dragon Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Diablos Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/dd/Diablos_coil_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cf/Diablos_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d9/Diablos_coil_alpha_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 2
+        },
+        {
+          "name": "Critical Draw",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Draw",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/22/Diablos_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c9/Diablos_greaves_beta_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Nero Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Nero_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e2/Diablos_nero_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/68/Diablos_nero_coil_alpha_female.png",
+      "rarity": 7,
+      "defense": 56,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Resentment",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Resentment",
+          "level": 1
+        },
+        {
+          "name": "Partbreaker",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Nero Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Nero_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c5/Diablos_nero_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3e/Diablos_nero_coil_beta_female.png",
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Resentment",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Resentment",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Direwolf Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Hoja",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Cliffhanger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Cliffhanger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Diver's Belt Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diver%27s_Belt_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/50/Divers_belt_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 46,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Aquatic/Polar Mobility (Aquatic Expert)",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Aquatic_Expert",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Dober Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Dober_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f2/Dober_coil_alpha_female.png",
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Dragon Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Resistance_Skill",
+          "level": 2
+        },
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Dober Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/57/Dober_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/ae/Dober_coil_beta_female.png",
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Dragon Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Resistance_Skill",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Dodogama Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dodogama_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6e/Dodogama_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b7/Dodogama_coil_alpha_female.png",
+      "rarity": 5,
+      "defense": 48,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Artillery",
+          "level": 2
+        },
+        {
+          "name": "Blast Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Dodogama Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dodogama_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fa/Dodogama_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/01/Dodogama_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 48,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Artillery",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Drachen Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Drachen_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8d/Drachen_coil_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 2
+        },
+        {
+          "name": "Power Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Power_Prolonger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Empress Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Empress_Coil_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tool_Specialist",
+          "level": 2
+        },
+        {
+          "name": "Blast Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Empress Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Empress_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f4/Empress_coil_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        2,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tool_Specialist",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Gala Suit Tail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gala_Suit_Tail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/99/Gala-suit-tail-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/99/Gala-suit-tail-mhw-wiki-guide.png",
+      "rarity": 7,
+      "defense": 64,
+      "slots": [
+        1,
+        1,
+        3
+      ],
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slinger_Capacity",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Gala Suit Tail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gala_Suit_Tail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/99/Gala-suit-tail-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/99/Gala-suit-tail-mhw-wiki-guide.png",
+      "rarity": 4,
+      "defense": 34,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slinger_Capacity",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Girros Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/15/Girros_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/10/Girros_coil_female.png",
+      "rarity": 3,
+      "defense": 20,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Effluvial Expert",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvial_Expert",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Girros Coil+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Hoja",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Eating",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Girros Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5b/Girros_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/92/Girros_coil_alpha_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Effluvial Expert",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvial_Expert",
+          "level": 1
+        },
+        {
+          "name": "Paralysis Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Girros Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Girros_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/76/Girros_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Effluvial Expert",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvial_Expert",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Golden Lunecoil Alpha+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Golden_Lunecoil_Alpha_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3a/Golden-lunecoil-alpha-plus-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3a/Golden-lunecoil-alpha-plus-mhw-wiki-guide.png",
+      "rarity": 12,
+      "defense": 162,
+      "slots": [
+        2,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 3
+        },
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Golden Lunecoil Beta+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Golden_Lunecoil_Beta_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3c/Golden-lunecoil-beta-plus-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3c/Golden-lunecoil-beta-plus-mhw-wiki-guide.png",
+      "rarity": 12,
+      "defense": 162,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 3
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Guild Cross Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Cross_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e0/Guild_cross_coil_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 68,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Fortify",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fortify",
+          "level": 1
+        },
+        {
+          "name": "Dragon Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Resistance_Skill",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Guild Cross Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Cross_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/af/Guild_cross_coil_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 68,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Fortify",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fortify",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Guardian Coil Alpha+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guardian_Coil_Alpha_Plus",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 2
+        },
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Harvest Hoja",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Hoja",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2f/Harvest-hoja-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2f/Harvest-hoja-mhw-wiki-guide.png",
+      "rarity": 3,
+      "defense": 26,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Harvest Hoja Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Hoja_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2f/Harvest-hoja-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2f/Harvest-hoja-mhw-wiki-guide.png",
+      "rarity": null,
+      "defense": 52,
+      "slots": [
+        1,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "High Metal Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/84/High_metal_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/93/High_metal_coil_female.png",
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Capacity Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Capacity_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "High Metal Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d1/High_metal_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/High_metal_coil_alpha_female.png",
+      "rarity": 6,
+      "defense": 50,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Capacity Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Capacity_Boost",
+          "level": 1
+        },
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "High Metal Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a2/High_metal_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c5/High_metal_coil_beta_female.png",
+      "rarity": 6,
+      "defense": 50,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Capacity Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Capacity_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hunter's Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1e/Hunters_faulds_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/92/Hunters_faulds_female.png",
+      "rarity": 1,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Scenthound",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Scenthound",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hunter's Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c3/Hunters_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/Hunters_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Master Gatherer",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Master_Gatherer",
+          "level": 1
+        },
+        {
+          "name": "Stealth",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stealth",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hunter's Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c3/Hunters_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/Hunters_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Master Gatherer",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Master_Gatherer",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hornetaur Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9a/Hornetaur_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d9/Hornetaur_coil_female.png",
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Carving Pro",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Carving_Pro",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Hornetaur Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/39/Hornetaur_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5e/Hornetaur_coil_alpha_female.png",
+      "rarity": 5,
+      "defense": 38,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Carving Pro",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Carving_Pro",
+          "level": 1
+        },
+        {
+          "name": "Hunger Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Hunger_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Hornetaur Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d9/Hornetaur_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b9/Hornetaur_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 38,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Carving Pro",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Carving_Pro",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Ingot Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Faulds",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6f/Ingot_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6a/Ingot_coil_female.png",
+      "rarity": 1,
+      "defense": 28,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b6/Ingot_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1b/Ingot_coil_alpha_female.png",
+      "rarity": 6,
+      "defense": 50,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3b/Ingot_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/dd/Ingot_coil_beta_female.png",
+      "rarity": 6,
+      "defense": 50,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Faulds",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Faulds",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Ingot_faulds_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stun_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Jagras Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b3/Jagras_faulds_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a4/Jagras_faulds_female.png",
+      "rarity": 1,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fortify",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fortify",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Jagras Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b3/Jagras_faulds_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fortify",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fortify",
+          "level": 1
+        },
+        {
+          "name": "Speed Eating",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Eating",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Jagras Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b3/Jagras_faulds_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Fortify",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fortify",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Jyura Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/97/Jyura_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/93/Jyura_coil_female.png",
+      "rarity": 2,
+      "defense": 14,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Resistance_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Jyura Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/97/Jyura_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/93/Jyura_coil_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Resistance_Skill",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Jyura Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/97/Jyura_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/93/Jyura_coil_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Resistance_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kadachi Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b7/Kadachi_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/05/Kadachi_coil_female.png",
+      "rarity": 2,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kadachi Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/22/Kadachi_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/05/Kadachi_coil_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Attack",
+          "level": 2
+        },
+        {
+          "name": "Thunder Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Resistance_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kadachi Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Kadachi_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/05/Kadachi_coil_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kaiser Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kaiser_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/21/Kaiser_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/15/Kaiser_coil_alpha_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Attack",
+          "level": 2
+        },
+        {
+          "name": "Weakness Exploit",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Kaiser Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kaiser_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/dd/Kaiser_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/28/Kaiser_coil_beta_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Kaiser Coil Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kaiser_Coil_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/38/Kaiser-coil-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/38/Kaiser-coil-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "King Beetle Elytra",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Elytra",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a4/King_beetle_elytra_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Honey_Hunter",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "King Beetle Elytra Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Elytra_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/30/King_beetle_elytra_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Honey_Hunter",
+          "level": 1
+        },
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "King Beetle Elytra Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Elytra_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/17/King_beetle_elytra_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Honey_Hunter",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Hoop",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Hoop",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/12/Kirin_hoop_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/49/Kirin_hoop_female.png",
+      "rarity": 4,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Hoop Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Hoop_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/12/Kirin_hoop_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/49/Kirin_hoop_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blight_Resistance",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Hoop Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Hoop_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/12/Kirin_hoop_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/49/Kirin_hoop_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blight_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Hoop Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Hoop_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0e/Kirin-hoop-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0e/Kirin-hoop-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kulu Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a9/Feathered_faulds_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1c/Feathered_faulds_female.png",
+      "rarity": 1,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stealth",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stealth",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kulu Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a9/Feathered_faulds_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Item Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Item_Prolonger",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kulu Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/df/Kulu_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6e/Kulu_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Item Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Item_Prolonger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kulve Taroth's Malice Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth%27s_Malice_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f9/Kulve_taroths_malice_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8f/Kulve_taroths_malice_alpha_female.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kulve Taroth's Malice Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth%27s_Malice_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a5/Kulve_taroths_malice_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6f/Kulve_taroths_malice_beta_female.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kulve Taroth's Malice Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth%27s_Malice_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f9/Kulve_taroths_malice_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8f/Kulve_taroths_malice_alpha_female.png",
+      "rarity": null,
+      "defense": 72,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Critical Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Boost",
+          "level": 1
+        },
+        {
+          "name": "Weakness Exploit",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kushala Cocoon Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Cocoon_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/73/Kushala_cocoon_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/36/Kushala_cocoon_alpha_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Attack",
+          "level": 2
+        },
+        {
+          "name": "Evade Extender",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Extender",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kushala Cocoon Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Cocoon_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/73/Kushala_cocoon_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/36/Kushala_cocoon_alpha_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kushala Cocoon Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Cocoon_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/87/Kushala-cocoon-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/87/Kushala-cocoon-gamma-mhw-wiki-guide.png",
+      "rarity": null,
+      "defense": 64,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 3
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Lavasioth Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lavasioth_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/74/Lavasioth_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e4/Lavasioth_coil_alpha_female.png",
+      "rarity": 5,
+      "defense": 56,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 2
+        },
+        {
+          "name": "Recovery Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Lavasioth Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lavasioth_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/06/Lavasioth_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a1/Lavasioth_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 56,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Leather Belt",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Belt",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/ab/Leather_belt_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/35/Leather_belt_female.png",
+      "rarity": 1,
+      "defense": 2,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Leather Belt Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Belt_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cc/Leather_belt_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/77/Leather_belt_alpha_female.png",
+      "rarity": 5,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Surge",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Leather Belt Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Belt_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/78/Leather_belt_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a4/Leather_belt_beta_female.png",
+      "rarity": 5,
+      "defense": 32,
+      "slots": [
+        1
+      ],
+      "skills": [],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c4/Legiana_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ed/Legiana_coil_female.png",
+      "rarity": 4,
+      "defense": 30,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Coil+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Hoja",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0f/Legiana_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2a/Legiana_coil_alpha_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Attack",
+          "level": 2
+        },
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/75/Legiana_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/69/Legiana_coil_beta_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Lumu Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/67/Lumu_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f9/Lumu_coil_female.png",
+      "rarity": 3,
+      "defense": 20,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Lumu Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/42/Lumu_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/60/Lumu_coil_alpha_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Lumu Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/06/Lumu_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/61/Lumu_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Nergigante Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2a/Nergigante_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/50/Nergigante_coil_alpha_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 2
+        },
+        {
+          "name": "Stamina Surge",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Surge",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Nergigante Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8e/Nergigante_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Nergigante_coil_beta_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Nergigante Coil Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Coil_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a8/Nergigante-coil-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a8/Nergigante-coil-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1,
+        3
+      ],
+      "skills": [
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 1
+        },
+        {
+          "name": "Maximum Might",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Maximum_Might",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Odogaron Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4f/Odogaron_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/70/Odogaron_coil_female.png",
+      "rarity": 4,
+      "defense": 30,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Odogaron Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9b/Odogaron_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e2/Odogaron_coil_alpha_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 2
+        },
+        {
+          "name": "Speed Sharpening",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Sharpening",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Odogaron Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/11/Odogaron_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/12/Odogaron_coil_beta_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Orion Coat Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Orion_Coat_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/38/Orion-coat-alpha-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/38/Orion-coat-alpha-mhw-wiki-guide.png",
+      "rarity": 6,
+      "defense": 58,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Origin Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Origin_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6a/Origin-coil-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6a/Origin-coil-mhw-wiki-guide.png",
+      "rarity": 1,
+      "defense": 6,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Pukei Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8c/Forest_faulds_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c3/Forest_faulds_female.png",
+      "rarity": 2,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Pukei Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/52/Pukei_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/05/Pukei_coil_alpha_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Pukei Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d9/Pukei_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/55/Pukei_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Rath Heart Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Heart_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8a/Rath_heart_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ea/Rath_heart_coil_alpha_female.png",
+      "rarity": 6,
+      "defense": 52,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        },
+        {
+          "name": "Poison Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rath Soul Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Soul_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/67/Rath_soul_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/59/Rath_soul_coil_alpha_female.png",
+      "rarity": 7,
+      "defense": 56,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 2
+        },
+        {
+          "name": "Piercing Shots",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Piercing_Shots",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rath Soul Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Soul_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/78/Rath_soul_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Rath_soul_greaves_beta_female.png",
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rathalos Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d1/Rathalos_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ef/Rathalos_coil_female.png",
+      "rarity": 4,
+      "defense": 30,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fire Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathalos Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/47/Rathalos_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7f/Rathalos_coil_alpha_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fire Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Attack",
+          "level": 2
+        },
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathalos Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b9/Rathalos_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/20/Rathalos_coil_beta_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Fire Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathian Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/44/Rathian_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a4/Rathian_coil_female.png",
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathian Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bc/Rathian_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8a/Rathian_coil_alpha_female.png",
+      "rarity": 5,
+      "defense": 46,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Resistance",
+          "level": 2
+        },
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathian Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/25/Rathian_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0b/Rathian_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 46,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Resistance",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Ryu's Torso",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ryu%27s_Torso",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 12,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 5,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Ryu's Torso Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ryu%27s_Torso_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 5,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Sakura's Skirt Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Sakura%27s_Skirt_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 4,
+        "thunder": 0,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Tzitzi Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/16/Tzitzi_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/32/Tzitzi_coil_female.png",
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Tzitzi Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/09/Tzitzi_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d4/Tzitzi_coil_alpha_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+          "level": 2
+        },
+        {
+          "name": "Water Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Tzitzi Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d5/Tzitzi_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5c/Tzitzi_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Uragaan Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/29/Uragaan_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2c/Uragaan_coil_alpha_female.png",
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker",
+          "level": 1
+        },
+        {
+          "name": "Thunder Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Resistance_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Uragaan Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d9/Uragaan_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a6/Uragaan_coil_beta_female.png",
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        3,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Vangis Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vangis_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e3/Vangis_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/05/Vangis_coil_alpha_female.png",
+      "rarity": 7,
+      "defense": 58,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vangis Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vangis_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/45/Vangis_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/03/Vangis_coil_beta_female.png",
+      "rarity": 7,
+      "defense": 58,
+      "slots": [
+        1,
+        3
+      ],
+      "skills": [
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vaal Hazak Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ee/Vaal_hazak_coil_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/33/Vaal_hazak_coil_alpha_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Peak_Performance",
+          "level": 1
+        },
+        {
+          "name": "Effluvia Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvia_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vaal Hazak Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/30/Vaal_hazak_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f4/Vaal_hazak_coil_beta_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Peak_Performance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vaal Hazak Coil Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Coil_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c9/Vaal-hazak-coil-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c9/Vaal-hazak-coil-gamma-mhw-wiki-guide.png",
+      "rarity": null,
+      "defense": 64,
+      "slots": [
+        1,
+        1,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Dragon Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Attack",
+          "level": 1
+        },
+        {
+          "name": "Recovery Speed",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed_Skill",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vespoid Coil",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Coil",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ee/Vespoid_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6b/Vespoid_coil_female.png",
+      "rarity": 1,
+      "defense": 8,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Vespoid Coil Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Coil_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ee/Vespoid_coil_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6b/Vespoid_coil_female.png",
+      "rarity": 5,
+      "defense": 38,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Vespoid Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/97/Vespoid_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1f/Vespoid_coil_beta_female.png",
+      "rarity": 5,
+      "defense": 38,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Xeno'jiiva Spine Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Spine_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e8/Xenojiiva_spine_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c5/Xenojiiva_spine_alpha_female.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blight_Resistance",
+          "level": 2
+        },
+        {
+          "name": "Special Ammo Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Special_Ammo_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Xeno'jiiva Spine Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Spine_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8c/Xenojiiva_spine_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cf/Xenojiiva_spine_beta_female.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blight_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Zorah Spine Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Spine_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e0/Zorah_spine_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fortify",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fortify",
+          "level": 1
+        },
+        {
+          "name": "Tremor Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tremor_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Zorah Spine Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Spine_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5a/Zorah_spine_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 44,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Fortify",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fortify",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Zorah Spine Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Spine_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5a/Zorah_spine_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        },
+        {
+          "name": "Bombardier",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bombardier",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    }
+  ]
+}

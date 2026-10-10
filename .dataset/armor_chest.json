@@ -1,0 +1,4213 @@
+{
+  "source": "https://monsterhunterworld.wiki.fextralife.com/Chest_Armor",
+  "type": "chest",
+  "armors": [
+    {
+      "name": "Alloy Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/72/Alloy_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 9,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Water Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Alloy Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/62/Alloy_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Water Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Resistance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Alloy Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/52/Alloy_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Water Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/96/Anja_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 20,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -1,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Mail +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Mail_Plus",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/10/Anja-mail-female-monsterhunterworld-wiki-guide.png",
+      "rarity": 9,
+      "defense": 3,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slinger_Capacity",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/04/Anja_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        },
+        {
+          "name": "Special Ammo Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Special_Ammo_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/Anja_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Azure Starlord Armor Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Azure_Starlord_Armor_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d4/Azure-starlord-armor-alpha-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d4/Azure-starlord-armor-alpha-mhw-wiki-guide.png",
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Baan Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/15/Baan_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 24,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Sleep Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Sleep_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Baan Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/15/Baan_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 46,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Sleep Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Sleep_Attack",
+          "level": 1
+        },
+        {
+          "name": "Bleeding Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bleeding_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Baan Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/15/Baan_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 46,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Sleep Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Sleep_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Banbaro Mail +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Banbaro_Mail_Plus",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b4/Banbaro-mail-female-monsterhunterworld-wiki-guide.png",
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Barnos Jacket Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barnos_Jacket_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e7/Barnos_jacket_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 48,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Heat Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heat_Guard",
+          "level": 1
+        },
+        {
+          "name": "Iron Skin",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Iron_Skin",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Barnos Jacket Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barnos_Jacket_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/63/Barnos_jacket_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 48,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Heat Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heat_Guard",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Barroth Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/94/Barroth_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 14,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stamina Thief",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Thief",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Barroth Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ec/Barroth_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stamina Thief",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Thief",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Barroth Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/21/Barroth_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Stamina Thief",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Thief",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Bazel Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazel_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d7/Bazel_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 58,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+          "level": 2
+        },
+        {
+          "name": "Blast Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Resistance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Bazel Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazel_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/99/Bazel_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 58,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Beo Mail +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Beo_Mail_Plus",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cc/Beo-mail-female-monsterhunterworld-wiki-guide.png",
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Recovery Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 0,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Blossom Vest",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blossom_Vest",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/ca/Blossom_vest_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 4,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Blossom Vest Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blossom_Vest_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0b/Blossom_vest_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 4,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Bone Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/99/Bone_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 6,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Bone Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5f/Bone_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Bone Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/91/Bone_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Brigade Suit",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Suit",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/18/Brigade_suit_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 28,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Brigade Suit Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Suit_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/49/Brigade_suit_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 52,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Brigade Suit Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Suit_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/18/Brigade_suit_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 52,
+      "slots": [
+        2,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Butterfly Thorax",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Thorax",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/de/Butterfly_thorax_female.png",
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Butterfly Thorax Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Thorax_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/89/Butterfly_thorax_alpha_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 1
+        },
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Butterfly Thorax Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Thorax_Beta",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/06/Butterfly_thorax_beta_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Chainmail Vest",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Vest",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/84/Chainmail_vest_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 2,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Chainmail Armor Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Armor_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e7/Chainmail_armor_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Water Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Chainmail Armor Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Armor_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/50/Chainmail_armor_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 32,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Water Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Commission Jacket Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commission_Jacket_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/33/Commission_jacket_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 70,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+          "level": 2
+        },
+        {
+          "name": "Cliffhanger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Cliffhanger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Commission Jacket Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commission_Jacket_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Commission_jacket_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 70,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Damascus Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Damascus_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/37/Damascus_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        },
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Damascus Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Damascus_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9c/Damascus_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1,
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Dante's Coat Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dante%27s_Coat_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ec/Dantes_coat_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 3,
+        "ice": -3,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Death Stench Muscle",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Muscle",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Death_stench_muscle_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fortify",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fortify",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Death Stench Muscle Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Muscle_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/14/Death_stench_muscle_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 62,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fortify",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fortify",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Death Stench Muscle Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Muscle_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e8/Death_stench_muscle_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 62,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Fortify",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fortify",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Diablos Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/da/Diablos_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Slugger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slugger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2a/Diablos_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Slugger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slugger",
+          "level": 1
+        },
+        {
+          "name": "Heroics",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heroics",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4a/Diablos_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Slugger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slugger",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Nero Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Nero_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/20/Diablos_nero_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Resentment",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Resentment",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Nero Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Nero_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0c/Diablos_nero_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Resentment",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Resentment",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Direwolf Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Direwolf_Mail",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/da/Dire-wolf-mail-female-monsterhunterworld-wiki-guide.png",
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Diver's Suit Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diver%27s_Suit_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c5/Divers_suit_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": null,
+      "defense": 46,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Dober Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cb/Dober_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 2
+        },
+        {
+          "name": "Mushroomancer",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Mushroomancer",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Dober Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6f/Dober_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Dodogama Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dodogama_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1c/Dodogama_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 48,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Dodogama Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dodogama_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6c/Dodogama_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 48,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Drachen Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Drachen_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2a/Drachen_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 2
+        },
+        {
+          "name": "Critical Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Empress Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Empress_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3a/Empress_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Peak_Performance",
+          "level": 2
+        },
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Empress Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Empress_Mail_Beta",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/02/Empress_mail_beta_female.png",
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        1,
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Peak_Performance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Empress Mail Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Empress_Mail_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/02/Empress-mail-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/02/Empress-mail-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Earplugs",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Earplugs",
+          "level": 2
+        },
+        {
+          "name": "Tool Specialist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tool_Specialist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Gala Suit Jacket Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gala_Suit_Jacket_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/16/Gala-suit-jacket-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/16/Gala-suit-jacket-mhw-wiki-guide.png",
+      "rarity": 7,
+      "defense": 64,
+      "slots": [
+        2,
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Draw",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Gala Suit Jacket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gala_Suit_Jacket",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/16/Gala-suit-jacket-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/16/Gala-suit-jacket-mhw-wiki-guide.png",
+      "rarity": 4,
+      "defense": 34,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Draw",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Girros Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/70/Girros_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 20,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Girros Mail +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Tronco",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tool_Specialist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Girros Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b8/Girros_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Resistance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Girros Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/ab/Girros_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Golden Lunemail Alpha +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Golden_Lunemail_Alpha_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1e/Golden-lunemail-alpha-plus-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1e/Golden-lunemail-alpha-plus-mhw-wiki-guide.png",
+      "rarity": 12,
+      "defense": 162,
+      "slots": [
+        3,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 2
+        },
+        {
+          "name": "Resentment",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Resentment",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Golden Lunemail Beta +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Golden_Lunemail_Beta_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/97/Golden-lunemail-beta-plus-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/97/Golden-lunemail-beta-plus-mhw-wiki-guide.png",
+      "rarity": 12,
+      "defense": 162,
+      "slots": [
+        4,
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Guild Cross Suit Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Cross_Suit_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/11/Guild_cross_suite_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 68,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Resuscitate",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Resuscitate",
+          "level": 1
+        },
+        {
+          "name": "Ice Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Resistance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Guild Cross Suit Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Cross_Suit_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/99/Guild_cross_suit_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 68,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Resuscitate",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Resuscitate",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Guardian Suit Alpha +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guardian_Suit_Alpha_Plus",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Harvest Tronco",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Tronco",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c0/Harvest-tronco-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c0/Harvest-tronco-mhw-wiki-guide.png",
+      "rarity": 3,
+      "defense": 26,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tremor_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Harvest Tronco Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Tronco_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c0/Harvest-tronco-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c0/Harvest-tronco-mhw-wiki-guide.png",
+      "rarity": null,
+      "defense": 52,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tremor_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "High Metal Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5e/High_metal_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Earplugs",
+          "url": null,
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "High Metal Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f2/High_metal_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 50,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Earplugs",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Earplugs",
+          "level": 2
+        },
+        {
+          "name": "Ice Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "High Metal Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/08/High_metal_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Earplugs",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Earplugs",
+          "level": 1
+        },
+        {
+          "name": "Ice Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hornetaur Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8c/Hornetaur_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Effluvial Expert",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvial_Expert",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Hornetaur Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/38/Hornetaur_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 38,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Effluvial Expert",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvial_Expert",
+          "level": 1
+        },
+        {
+          "name": "Hunger Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Hunger_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Hornetaur Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Hornetaur_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 38,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Effluvial Expert",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvial_Expert",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Hunter's Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d7/Hunters_armor_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 6,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slinger_Capacity",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hunter's Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/28/Hunters_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slinger_Capacity",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hunter's Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/63/Hunters_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slinger_Capacity",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7e/Ingot_armor_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 28,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9c/Ingot_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Resistance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/28/Ingot_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Jagras Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f1/Jagras_armor_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 8,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Intimidator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Intimidator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Jagras Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ee/Jagras_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Intimidator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Intimidator",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Jagras Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/43/Jagras_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Intimidator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Intimidator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Jyura Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/08/Jyura_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 14,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Muck Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Muck_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Jyura Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c0/Jyura_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Muck Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Muck_Resistance",
+          "level": 1
+        },
+        {
+          "name": "Water Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Jyura Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/20/Jyura_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Muck Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Muck_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kadachi Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0c/Kadachi_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Jump Master",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Jump_Master",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kadachi Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/68/Kadachi_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Jump Master",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Jump_Master",
+          "level": 1
+        },
+        {
+          "name": "Evade Extender",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Extender",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kadachi Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f8/Kadachi_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Jump Master",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Jump_Master",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kaiser Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kaiser_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9e/Kaiser_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Special Ammo Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Special_Ammo_Boost",
+          "level": 2
+        },
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Kaiser Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kaiser_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/44/Kaiser_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Special Ammo Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Special_Ammo_Boost",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Kaiser Mail Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kaiser_Mail_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/28/Kaiser-mail-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/28/Kaiser-mail-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 2
+        },
+        {
+          "name": "Weakness Exploit",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "King Beetle Thorax",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Thorax",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ec/King_beetle_thorax_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "King Beetle Thorax Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Thorax_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/34/King_beetle_thorax_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 2
+        },
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "King Beetle Thorax Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Thorax_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/04/King_beetle_thorax_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Jacket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Jacket",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1b/Kirin_jacket_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Jacket Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Jacket_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1b/Kirin_jacket_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        },
+        {
+          "name": "Thunder Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Jacket Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Jacket_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1b/Kirin_jacket_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Jacket Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Jacket_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/ca/Kirin-jacket-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/ca/Kirin-jacket-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kulu Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8e/Kulu_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 10,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Surge",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kulu Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fd/Kulu_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Surge",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kulu Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e9/Kulu_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Surge",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kulve Taroth's Ire Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth%27s_Ire_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9c/Kulve_taroths_ire_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stun_Resistance",
+          "level": 2
+        },
+        {
+          "name": "Critical Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Boost",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kulve Taroth's Ire Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth%27s_Ire_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0c/Kulve_taroths_ire_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stun_Resistance",
+          "level": 2
+        },
+        {
+          "name": "Critical Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kulve Taroth's Ire Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth%27s_Ire_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9c/Kulve_taroths_ire_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": null,
+      "defense": 72,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 2
+        },
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kushala Cista Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Cista_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/91/Kushala_cista_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 2
+        },
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kushala Cista Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Cista_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/03/Kushala_cista_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kushala Cista Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Cista_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Kushala-cista-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Kushala-cista-gamma-mhw-wiki-guide.png",
+      "rarity": null,
+      "defense": 72,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Attack",
+          "level": 3
+        },
+        {
+          "name": "Evade Extender",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Extender",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Lavasioth Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lavasioth_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c5/Lavasioth_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 56,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fire Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Attack",
+          "level": 2
+        },
+        {
+          "name": "Heat Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heat_Guard",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Lavasioth Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lavasioth_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d5/Lavasioth_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 56,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Fire Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Leather Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5f/Leather_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 1,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Leather Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f5/Leather_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Resistance_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Leather Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d5/Leather_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 32,
+      "slots": [
+        1
+      ],
+      "skills": [],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cc/Legiana_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 30,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Mail +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Tronco",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": null,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d5/Legiana_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 2
+        },
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "legiana Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d5/Legiana_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Lumu Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cb/Lumu_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 20,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Master Mounter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Master_Mounter",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Lumu Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7f/Lumu_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Master Mounter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Master_Mounter",
+          "level": 1
+        },
+        {
+          "name": "Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Artillery",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Lumu Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6d/Lumu_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Master Mounter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Master_Mounter",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Nergigante Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d8/Nergigante_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Surge",
+          "level": 2
+        },
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Nergigante Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c4/Nergigante_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Surge",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Nergigante Mail Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Mail_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/68/Nergigante-mail-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/68/Nergigante-mail-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3,
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Maximum_Might",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Odogaron Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/97/Odogaron_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 30,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Sharpening",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Odogaron Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8c/Odogaron_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Sharpening",
+          "level": 2
+        },
+        {
+          "name": "Bleeding Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bleeding_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Odogaron Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/10/Odogaron_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 54,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Sharpening",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Orion Vest Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Orion_Vest_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f3/Orion-vest-alpha-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f3/Orion-vest-alpha-mhw-wiki-guide.png",
+      "rarity": 6,
+      "defense": 58,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tremor_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Origin Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Origin_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/71/Origin-mail-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/71/Origin-mail-mhw-wiki-guide.png",
+      "rarity": 1,
+      "defense": 6,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Pukei Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/11/Pukei_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 12,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Item Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Item_Prolonger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Pukei Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/59/Pukei_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Item Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Item_Prolonger",
+          "level": 1
+        },
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Pukei Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/44/Pukei_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Item Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Item_Prolonger",
+          "level": 1
+        },
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Rath Heart Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Heart_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/Rath_heart_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 52,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Extender",
+          "level": 1
+        },
+        {
+          "name": "Poison Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Rath Heart Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Heart_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e6/Rath_heart_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 52,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tool_Specialist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Rath Soul Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Soul_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/02/Rath_soul_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 1
+        },
+        {
+          "name": "Intimidator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Intimidator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rath Soul Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Soul_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/02/Rath_soul_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rathalos Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/ca/Rathalos_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 4,
+      "defense": 30,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathalos Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/ca/Rathalos_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+          "level": 2
+        },
+        {
+          "name": "Fire Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathalos Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/08/Rathalos_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathian Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/eb/Rathian_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Rathian Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6b/Rathian_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 46,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 2
+        },
+        {
+          "name": "Recovery Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Rathian Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2a/Rathian_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 46,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ryu's Karate Gi",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ryu%27s_Karate_Gi",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 12,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 5,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Ryu's Karate Gi Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ryu%27s_Karate_Gi_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 1
+        },
+        {
+          "name": "Resuscitate",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Resuscitate",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 5,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Sakura's Work Uniform Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Sakura%27s_Work_Uniform_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Surge",
+          "level": 1
+        },
+        {
+          "name": "Resuscitate",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Resuscitate",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 4,
+        "thunder": 0,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Tzitzi Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/46/Tzitzi_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Tzitzi Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/99/Tzitzi_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        },
+        {
+          "name": "Water Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Tzitzi Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/48/Tzitzi_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        },
+        {
+          "name": "Water Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Uragaan Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/56/Uragaan_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Uragaan Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/db/Uragaan_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Vaal Hazak Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3f/Vaal_hazak_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed",
+          "level": 2
+        },
+        {
+          "name": "Dragon Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vaal Hazak Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8c/Vaal_hazak_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vaal Hazak Mail Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Mail_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1d/Vaal-hazak-mail-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1d/Vaal-hazak-mail-gamma-mhw-wiki-guide.png",
+      "rarity": null,
+      "defense": 64,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Recovery Up",
+          "url": null,
+          "level": 1
+        },
+        {
+          "name": "Peak Performance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Peak_Performance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vangis Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vangis_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ef/Vangis_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 58,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Eating",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vangis Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vangis_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/49/Vangis_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 58,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Eating",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vespoid Mail",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Mail",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/dc/Vespoid_mail_male.png",
+      "icon_url_female": null,
+      "rarity": 1,
+      "defense": 6,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Vespoid Mail Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Mail_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f0/Vespoid_mail_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 38,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Vespoid Mail Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Mail_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/12/Vespoid_mail_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 38,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Xeno'jiiva Hide Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Hide_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8a/Xenojiiva_hide_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Power_Prolonger",
+          "level": 2
+        },
+        {
+          "name": "Blight Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blight_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Xeno'jiiva Hide Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Hide_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/Xenojiiva_hide_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Power_Prolonger",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Zorah Hide Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Hide_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c7/Zorah_hide_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Attack",
+          "level": 2
+        },
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Zorah Hide Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Hide_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ea/Zorah_hide_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 44,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Zorah Hide Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Hide_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c7/Zorah_hide_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1,
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tremor_Resistance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    }
+  ]
+}

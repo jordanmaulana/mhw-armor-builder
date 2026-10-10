@@ -1,0 +1,4197 @@
+{
+  "source": "https://monsterhunterworld.wiki.fextralife.com/Leg_Armor",
+  "type": "legs",
+  "armors": [
+    {
+      "name": "Alloy Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Alloy_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c2/Alloy_greaves_female.png",
+      "rarity": 2,
+      "defense": 8,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Sharpening",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Alloy Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e1/Alloy_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6e/Alloy_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Sharpening",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Alloy Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/37/Alloy_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1e/Alloy_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 36,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Sharpening",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/83/Anja_leggings_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ed/Anja_leggings_female.png",
+      "rarity": 3,
+      "defense": 20,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Artillery",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Greaves +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Greaves_Plus",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/00/Anja-greaves-armor-mhw-wiki-guide.png",
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slinger_Capacity",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/91/Anja_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Anja_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Artillery",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Anja Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f3/Anja_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/30/Anja_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Artillery",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Azure Starlord Guards Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Azure_Starlord_Guards_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c1/Azure-starlord-guards-alpha-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c1/Azure-starlord-guards-alpha-mhw-wiki-guide.png",
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Critical Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Baan Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/28/Baan_greaves_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 24,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Bleeding Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bleeding_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Baan Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Greaves_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cb/Baan_greaves_alpha_female.png",
+      "rarity": 6,
+      "defense": 46,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Bleeding Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bleeding_Resistance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Baan Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/28/Baan_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/23/Baan_greaves_beta_female.png",
+      "rarity": 6,
+      "defense": 46,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Bleeding Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bleeding_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Banbaro Greaves +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Banbaro_Greaves_Plus",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/57/Banbaro-greaves-armor-mhw-wiki-guide.png",
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Barroth Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Greaves",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/07/Barroth_greaves_female.png",
+      "rarity": 2,
+      "defense": 14,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stun_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Barroth Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/98/Barroth_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/61/Barroth_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stun_Resistance",
+          "level": 2
+        },
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Barroth Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/dd/Barroth_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d6/Barroth_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stun_Resistance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Bazel Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazel_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9c/Bazel_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/ba/Bazel_greaves_alpha_female.png",
+      "rarity": 7,
+      "defense": 58,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Bombardier",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bombardier",
+          "level": 2
+        },
+        {
+          "name": "Critical Draw",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Draw",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Bazel Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazel_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/12/Bazel_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4e/Bazel_greaves_beta_female.png",
+      "rarity": 7,
+      "defense": 58,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Bombardier",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bombardier",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Beo Greaves +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Beo_Greaves_Plus",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a4/Beo-greaves-armor-mhw-wiki-guide.png",
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 0,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Blossom Boots",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blossom_Boots",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2b/Blossom_boots_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e0/Blossom_boots_female.png",
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 4,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Blossom Boots Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blossom_Boots_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/41/Blossom_boots_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/48/Blossom_boots_alpha_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 4,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Bone Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/20/Bone_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f3/Bone_greaves_female.png",
+      "rarity": 1,
+      "defense": 6,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Entomologist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Entomologist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Bone Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8d/Bone_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a1/Bone_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Entomologist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Entomologist",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Bone Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fc/Bone_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0a/Bone_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 34,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Entomologist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Entomologist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Brigade Boots",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Boots",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/97/Brigade_boots_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/33/Brigade_boots_beta_female.png",
+      "rarity": 4,
+      "defense": 28,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Scholar",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Scholar",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Brigade Boots Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Boots_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/55/Brigade_boots_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/30/Brigade_boots_alpha_female.png",
+      "rarity": 4,
+      "defense": 52,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Scholar",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Scholar",
+          "level": 1
+        },
+        {
+          "name": "Geologist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Geologist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Butterfly Crura",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Crura",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1b/Butterfly_crura_female.png",
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Forager's Luck",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Forager%27s_Luck",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Butterfly Crura Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Crura_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/03/Butterfly_crura_alpha_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Forager's Luck",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Forager%27s_Luck",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Butterfly Crura Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Crura_Beta",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b6/Butterfly_crura_beta_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Forager's Luck",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Forager%27s_Luck",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Chainmail Trousers",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Trousers",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/Chainmail_trousers_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b8/Chainmail_trousers_female.png",
+      "rarity": 1,
+      "defense": 2,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Chainmail Trousers Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Trousers_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Chainmail_trousers_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Chainmail_trousers_alpha_female.png",
+      "rarity": 5,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Recovery Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Chainmail Trousers Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Trousers_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/39/Chainmail_trousers_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/71/Chainmail_trousers_beta_female.png",
+      "rarity": 5,
+      "defense": 32,
+      "slots": [
+        1
+      ],
+      "skills": [],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Commission Pants Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commission_Pants_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/eb/Commission_pants_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d6/Commission_pants_alpha_female.png",
+      "rarity": 8,
+      "defense": 70,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stealth",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stealth",
+          "level": 2
+        },
+        {
+          "name": "Affinity Sliding",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Affinity_Sliding",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Commission Pants Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commission_Pants_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/22/Commission_pants_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/71/Commission_pants_beta_female.png",
+      "rarity": 1,
+      "defense": 70,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Stealth",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stealth",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Damascus Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Damascus_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/98/Damascus_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8d/Damascus_greaves_alpha_female.png",
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 2
+        },
+        {
+          "name": "Iron Skin",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Iron_Skin",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Damascus Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Damascus_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5b/Damascus_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b9/Damascus_greaves_beta_female.png",
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Dante's Leather Boots Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dante%27s_Leather_Boots_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/07/Dantes_leather_boots_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d7/Dantes_leather_boots_alpha_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 3,
+        "ice": -3,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Death Stench Heels",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Heels",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d5/Death_stench_heel_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3d/Death_stench_heel_female.png",
+      "rarity": 4,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Death Stench Heel Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Heel_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/85/Death_stench_heel_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5c/Death_stench_heel_alpha_female.png",
+      "rarity": 7,
+      "defense": 62,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 2
+        },
+        {
+          "name": "Dragon Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Death Stench Heel Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Heel_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f2/Death_stench_heel_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/58/Death_stench_heel_beta_female.png",
+      "rarity": 7,
+      "defense": 62,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Diablos Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0a/Diablos_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7e/Diablos_greaves_female.png",
+      "rarity": 4,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tremor_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d1/Diablos_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e7/Diablos_greaves_alpha_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tremor_Resistance",
+          "level": 2
+        },
+        {
+          "name": "Slugger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slugger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/22/Diablos_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c9/Diablos_greaves_beta_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tremor_Resistance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Nero Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Nero_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/60/Diablos_nero_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/ba/Diablos_nero_greaves_alpha_female.png",
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Normal Shots",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Normal_Shots",
+          "level": 1
+        },
+        {
+          "name": "Heroics",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heroics",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Diablos Nero Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Nero_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d3/Diablos_nero_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2a/Diablos_nero_greaves_beta_female.png",
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Normal Shots",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Normal_Shots",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Direwolf Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Direwolf_Greaves",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/ba/Direwolf-greaves-armor-mhw-wiki-guide.png",
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Survival Expert(Sporepuff Expert)",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Survival_Expert",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Diver's Boots Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diver%27s_Boots_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/23/Divers_boots_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 46,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Hunger Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Hunger_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Dober Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e7/Dober_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/be/Dober_greaves_alpha_female.png",
+      "rarity": 7,
+      "defense": 60,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 2
+        },
+        {
+          "name": "Stamina Surge",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Surge",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Drachen Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Drachen_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8b/Drachen_greaves_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 2
+        },
+        {
+          "name": "Critical Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Dober Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d2/Dober_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/68/Dober_greaves_beta_female.png",
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Dodogama Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dodogama_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/42/Dodogama_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7c/Dodogama_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 48,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Capacity Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Capacity_Boost",
+          "level": 1
+        },
+        {
+          "name": "Blast Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Dodogama Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dodogama_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/23/Dodogama_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/85/Dodogama_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 48,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Capacity Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Capacity_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Empress Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Empress_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b8/Empress_greaves_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 2
+        },
+        {
+          "name": "Wide-Range",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Empress Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Empress_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b8/Empress_greaves_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        2,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Empress Greaves Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Empress_Greaves_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8e/Empress-greaves-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8e/Empress-greaves-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Earplugs",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Earplugs",
+          "level": 2
+        },
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Gajau Boots",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gajau_Boots",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9c/Gajau_boots_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c7/Gajau_boots_female.png",
+      "rarity": 1,
+      "defense": 12,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Aquatic/Polar Mobility (Aquatic Expert)",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Aquatic_Expert",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 5,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Gajau Boots Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gajau_Boots_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/81/Gajau_boots_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/98/Gajau_boots_alpha_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Aquatic/Polar Mobility (Aquatic Expert)",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Aquatic_Expert",
+          "level": 2
+        },
+        {
+          "name": "Water Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 5,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Gajau Boots Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gajau_Boots_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cd/Gajau_boots_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/77/Gajau_boots_beta_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Aquatic/Polar Mobility (Aquatic Expert)",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Aquatic_Expert",
+          "level": 2
+        },
+        {
+          "name": "Water Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 5,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Gala Suit Slacks Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gala_Suit_Slacks_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6d/Gala-suit-slacks-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6d/Gala-suit-slacks-mhw-wiki-guide.png",
+      "rarity": 7,
+      "defense": 74,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Gala Suit Slacks",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gala_Suit_Slacks",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6d/Gala-suit-slacks-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6d/Gala-suit-slacks-mhw-wiki-guide.png",
+      "rarity": 4,
+      "defense": 34,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Girros Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/54/Girros_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e9/Girros_greaves_female.png",
+      "rarity": 3,
+      "defense": 20,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Girros Greaves +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Greaves_Plus",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1f/Girros-greaves-armor-mhw-wiki-guide.png",
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Eating",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Girros Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e4/Girros_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/ac/Girros_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Girros Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f9/Girros_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/43/Girros_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Golden Lunegreaves Alpha +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Golden_Lunegreaves_Alpha_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/41/Golden-lunegreaves-alpha-plus-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/41/Golden-lunegreaves-alpha-plus-mhw-wiki-guide.png",
+      "rarity": 12,
+      "defense": 162,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+          "level": 2
+        },
+        {
+          "name": "Spread/Power Shots",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Spread_Power_Shots",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Golden Lunegreaves Beta +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Golden_Lunegreaves_Beta_Plus",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d8/Golden-lunegreaves-beta-plus-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d8/Golden-lunegreaves-beta-plus-mhw-wiki-guide.png",
+      "rarity": 12,
+      "defense": 162,
+      "slots": [
+        4
+      ],
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Guild Cross Boots Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Cross_Boots_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5f/Guild_cross_boots_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 68,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Airborne",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Airborne",
+          "level": 1
+        },
+        {
+          "name": "Fire Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Resistance_Skill",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Guild Cross Boots Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Cross_Boots_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Guild_cross_boots_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 68,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Airborne",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Airborne",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Harvest Raiz",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Raiz",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a4/Harvest-raiz-alpha-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a4/Harvest-raiz-alpha-mhw-wiki-guide.png",
+      "rarity": 3,
+      "defense": 26,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Mushroomancer",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Harvest Raiz Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Raiz_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a4/Harvest-raiz-alpha-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a4/Harvest-raiz-alpha-mhw-wiki-guide.png",
+      "rarity": null,
+      "defense": 52,
+      "slots": [
+        1,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Mushroomancer",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "High Metal Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c9/High_metal_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/10/High_metal_greaves_female.png",
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Heavy Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heavy_Artillery",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "High Metal Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a8/High_metal_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/33/High_metal_greaves_alpha_female.png",
+      "rarity": 6,
+      "defense": 50,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Heavy Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heavy_Artillery",
+          "level": 1
+        },
+        {
+          "name": "Ice Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Resistance_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "High Metal Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5b/High_metal_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/07/High_metal_greaves_beta_female.png",
+      "rarity": 6,
+      "defense": 50,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Heavy Artillery",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heavy_Artillery",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hornetaur Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/87/Hornetaur_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/ae/Hornetaur_greaves_female.png",
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Hornetaur Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7f/Hornetaur_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7c/Hornetaur_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 38,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        },
+        {
+          "name": "Dragon Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Hornetaur Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/49/Hornetaur_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/64/Hornetaur_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 38,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Hunter's Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f7/Hunters_leggings_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fe/Hunters_leggings_female.png",
+      "rarity": 1,
+      "defense": 6,
+      "slots": [],
+      "skills": [
+        {
+          "name": "BBQ Master",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/BBQ_Master",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hunter's Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/66/Hunters_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f2/Hunters_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 36,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Scenthound",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Scenthound",
+          "level": 1
+        },
+        {
+          "name": "Slinger Capacity",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Slinger_Capacity",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Hunter's Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c4/Hunters_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/83/Hunters_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 36,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Scenthound",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Scenthound",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a1/Ingot_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/Ingot_greaves_female.png",
+      "rarity": 4,
+      "defense": 28,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/19/Ingot_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2c/Ingot_greaves_alpha_female.png",
+      "rarity": 6,
+      "defense": 52,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 2
+        },
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/81/Ingot_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/36/Ingot_greaves_beta_female.png",
+      "rarity": 6,
+      "defense": 52,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Ingot Leggings",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Leggings",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6c/Ingot_leggings_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/ce/Ingot_leggings_female.png",
+      "rarity": 1,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Jagras Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Jagras_leggings_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/Jagras_leggings_female.png",
+      "rarity": 1,
+      "defense": 8,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Speed Crawler",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Crawler",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Jagras Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d7/Jagras_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c5/Jagras_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Speed Crawler",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Crawler",
+          "level": 1
+        },
+        {
+          "name": "Free Meal",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Meal",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Jagras Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Jagras_leggings_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/Jagras_leggings_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Speed Crawler",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Crawler",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Jyura Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7a/Jyura_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/70/Jyura_greaves_female.png",
+      "rarity": 2,
+      "defense": 14,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Jyura Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/25/Jyura_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8b/Jyura_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Jyura Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Jyura_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2d/Jyura_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kadachi Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/37/Kadachi_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/40/Kadachi_greaves_female.png",
+      "rarity": 2,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Resistance_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kadachi Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/62/Kadachi_greaves_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Resistance_Skill",
+          "level": 2
+        },
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kadachi Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/28/Kadachi_greaves_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Resistance_Skill",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kaiser Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kaiser_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ef/Kaiser_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6e/Kaiser_greaves_alpha_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 2
+        },
+        {
+          "name": "Blast Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Kaiser Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kaiser_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ea/Kaiser_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/64/Kaiser_greaves_beta_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Latent Power",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Kaiser Greaves Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kaiser_Greaves_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a6/Kaiser-greaves-gamma-mhw-wiki.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a6/Kaiser-greaves-gamma-mhw-wiki.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        3,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "King Beetle Crura",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Crura",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ea/King_beetle_crura_male.png",
+      "icon_url_female": null,
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Forager's Luck",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Forager%27s_Luck",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "King Beetle Crura Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Crura_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bb/King_beetle_crura_alpha_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Forager's Luck",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Forager%27s_Luck",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "King Beetle Crura Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Crura_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2f/King_beetle_crura_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Forager's Luck",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Forager%27s_Luck",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Leg Guards",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Leg_Guards",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Kirin_leg_guards_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/36/Kirin_leg_guards_female.png",
+      "rarity": 4,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Resistance_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Leg Guards Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Leg_Guards_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Kirin_leg_guards_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cc/Kirin_leg_guards_alpha_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Resistance_Skill",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Leg Guards Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Leg_Guards_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Kirin_leg_guards_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e3/Kirin_leg_guards_beta_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kirin Leg Guards Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Leg_Guards_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/39/Kirin-leg-guards-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/39/Kirin-leg-guards-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blight_Resistance",
+          "level": 1
+        },
+        {
+          "name": "Thunder Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Attack",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Kulu Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c1/Kulu_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5b/Kulu_greaves_female.png",
+      "rarity": 1,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kulu Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f9/Kulu_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/59/Kulu_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        },
+        {
+          "name": "Item Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Item_Prolonger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kulu Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/eb/Kulu_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7c/Kulu_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Kulve Taroth's Wrath Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth%27s_Wrath_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/68/Kulve_taroths_wrath_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Kulve_taroths_wrath_alpha_female.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+          "level": 2
+        },
+        {
+          "name": "Peak Performance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Peak_Performance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kulve Taroth's Wrath Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth%27s_Wrath_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fa/Kulve_taroths_wrath_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/69/Kulve_taroths_wrath_beta_female.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+          "level": 2
+        },
+        {
+          "name": "Peak Performance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Peak_Performance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kulve Taroth's Wrath Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth%27s_Wrath_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/68/Kulve_taroths_wrath_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Kulve_taroths_wrath_alpha_female.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 2
+        },
+        {
+          "name": "Heat Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heat_Guard",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kushala Crus Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Crus_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fd/Kushala_crus_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f7/Kushala_crus_alhpa_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Extender",
+          "level": 2
+        },
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kushala Crus Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Crus_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/64/Kushala_crus_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/af/Kushala_crus_beta_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Extender",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Kushala Crus Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Crus_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a5/Kushala-crus-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a5/Kushala-crus-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Lavasioth Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lavasioth_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/52/Lavasioth_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/55/Lavasioth_greaves_alpha_female.png",
+      "rarity": 6,
+      "defense": 56,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Spread/Power Shots",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Spread_Power_Shots",
+          "level": 1
+        },
+        {
+          "name": "Fire Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Lavasioth Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lavasioth_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/86/Lavasioth_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9d/Lavasioth_greaves_beta_female.png",
+      "rarity": 6,
+      "defense": 56,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Spread/Power Shots",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Spread_Power_Shots",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Leather Trousers",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Trousers",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ea/Leather_trousers_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/34/Leather_trousers_female.png",
+      "rarity": 1,
+      "defense": 2,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Leather Trousers Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Trousers_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/63/Leather_trousers_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6c/Leather_trousers_alpha_female.png",
+      "rarity": 5,
+      "defense": 32,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Cliffhanger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Cliffhanger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Leather Trousers Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Trousers_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a1/Leather_trousers_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4f/Leather_trousers_beta_female.png",
+      "rarity": 5,
+      "defense": 32,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Cliffhanger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Cliffhanger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d8/Legiana_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3e/Legiana_greaves_female.png",
+      "rarity": 4,
+      "defense": 30,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Resistance_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Greaves +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Greaves_Plus",
+      "icon_url_male": null,
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0a/Legiana-greaves-armor-mhw-wiki-guide.png",
+      "rarity": 9,
+      "defense": 130,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b0/Legiana_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9f/Legiana_greaves_alpha_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Resistance_Skill",
+          "level": 2
+        },
+        {
+          "name": "Critical Draw",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Draw",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Legiana Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5e/Legiana_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/24/Legiana_greaves_beta_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Resistance_Skill",
+          "level": 2
+        },
+        {
+          "name": "Critical Draw",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Draw",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Lumu Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/76/Lumu_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ee/Lumu_greaves_female.png",
+      "rarity": 3,
+      "defense": 20,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Lumu Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/76/Lumu_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ee/Lumu_greaves_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Lumu Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1c/Lumu_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b9/Lumu_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 44,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Nergigante Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/28/Nergigante_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ec/Nergigante_greaves_alpha_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Maximum_Might",
+          "level": 1
+        },
+        {
+          "name": "Agitator",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Nergigante Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5f/Nergigante_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Nergigante_greaves_beta_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Maximum_Might",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Nergigante Greaves Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Greaves_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b3/Nergigante-greaves-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b3/Nergigante-greaves-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        2,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+          "level": 3
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Odogaron Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e0/Odogaron_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5e/Odogaron_greaves_female.png",
+      "rarity": 4,
+      "defense": 30,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Odogaron Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3c/Odogaron_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3e/Odogaron-greaves_alpha_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Odogaron Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/30/Odogaron_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/de/Odogaron_greaves_beta_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Orion Boots Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Orion_Boots_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f9/Orion-boots-alpha-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f9/Orion-boots-alpha-mhw-wiki-guide.png",
+      "rarity": 6,
+      "defense": 58,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Heroics",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Heroics",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Origin Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Origin_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3f/Origin-greaves-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3f/Origin-greaves-mhw-wiki-guide.png",
+      "rarity": 1,
+      "defense": 6,
+      "slots": [],
+      "skills": [],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Pukei Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9f/Forest_leggings_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/ff/Forest_leggings_female.png",
+      "rarity": 1,
+      "defense": 16,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Stealth",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Stealth",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Pukei Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9f/Forest_leggings_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/ff/Forest_leggings_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 2
+        },
+        {
+          "name": "Survival Expert(Sporepuff Expert)",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Survival_Expert",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Pukei Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/33/Pukei_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/52/Pukei_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 42,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Botanist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    {
+      "name": "Rath Heart Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Heart_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/49/Rath_heart_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/af/Rath_heart_greaves_alpha_female.png",
+      "rarity": 6,
+      "defense": 52,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tool_Specialist",
+          "level": 1
+        },
+        {
+          "name": "Windproof",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rath Heart Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Heart_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fd/Rath_heart_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a2/Rath_heart_greaves_beta_female.png",
+      "rarity": 6,
+      "defense": 52,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Tool_Specialist",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rath Soul Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Soul_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d9/Rath_soul_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/dd/Rath_soul_greaves_alpha_female.png",
+      "rarity": 7,
+      "defense": 56,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        },
+        {
+          "name": "Cliffhanger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Cliffhanger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rath Soul Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Soul_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/78/Rath_soul_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Rath_soul_greaves_beta_female.png",
+      "rarity": 7,
+      "defense": 56,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Focus",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Rathalos Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d1/Rathalos_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f5/Rathalos_greaves_female.png",
+      "rarity": 4,
+      "defense": 30,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Jump Master",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Jump_Master",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathalos Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d1/Rathalos_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f5/Rathalos_greaves_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Jump Master",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Jump_Master",
+          "level": 1
+        },
+        {
+          "name": "Weakness Exploit",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathalos Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f2/Rathalos_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/38/Rathalos_greaves_beta_female.png",
+      "rarity": 6,
+      "defense": 54,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Jump Master",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Jump_Master",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathian Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a7/Rathian_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2b/Rathian_greaves_female.png",
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Recovery Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathian Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5a/Rathian_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f4/Rathian_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 46,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Recovery Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up_Skill",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Rathian Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b8/Rathian_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/73/Rathian_greaves_beta_female.png",
+      "rarity": 5,
+      "defense": 46,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Recovery Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up_Skill",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Ryu's Legs",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ryu%27s_Legs",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 2,
+      "defense": 12,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 5,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Ryu's Legs Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ryu%27s_Legs_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 5,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Sakura's Legs Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Sakura%27s_Legs_Alpha",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 4,
+        "thunder": 0,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Tzitzi Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c7/Tzitzi_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0d/Tzitzi_greaves_female.png",
+      "rarity": 3,
+      "defense": 18,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Sleep Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Sleep_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Tzitzi Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Tzitzi_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e6/Tzitzi_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 40,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Sleep Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Sleep_Resistance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Tzitzi Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1c/Tzitzi_greaves_beta_male.png",
+      "icon_url_female": null,
+      "rarity": 5,
+      "defense": 40,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Sleep Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Sleep_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    {
+      "name": "Uragaan Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9a/Uragaan_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/07/Uragaan_greaves_alpha_female.png",
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Uragaan Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9a/Uragaan_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/aa/Uragaan_greaves_beta_female.png",
+      "rarity": 7,
+      "defense": 60,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Guard",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Vaal Hazak Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a1/Vaal_hazak_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/96/Vaal_hazal_greaves_alpha_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Effluvia Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvia_Resistance",
+          "level": 2
+        },
+        {
+          "name": "Dragon Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Attack",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Vaal Hazak Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/90/Vaal_hazak_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/84/Vaal_hazak_greaves_beta_female.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Effluvia Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvia_Resistance",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Vaal Hazak Greaves Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Greaves_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a7/Vaal-hazak-greaves-gamma-mhw-wiki-guide.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a7/Vaal-hazak-greaves-gamma-mhw-wiki-guide.png",
+      "rarity": 8,
+      "defense": 64,
+      "slots": [
+        1,
+        3
+      ],
+      "skills": [
+        {
+          "name": "Recovery Up",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up_Skill",
+          "level": 1
+        },
+        {
+          "name": "Peak Performance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Peak_Performance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": 3
+      }
+    },
+    {
+      "name": "Vangis Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vangis_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fc/Vangis_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c6/Vangis_greaves_alpha_female.png",
+      "rarity": 7,
+      "defense": 58,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Eating",
+          "level": 2
+        },
+        {
+          "name": "Partbreaker",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vangis Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vangis_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c3/Vangis_greaves_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/ba/Vangis_greaves_beta_female.png",
+      "rarity": 7,
+      "defense": 58,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Eating",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Vespoid Greaves",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Greaves",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4e/Vespoid_greaves_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/df/Vespoid_greaves_female.png",
+      "rarity": 1,
+      "defense": 8,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Honey_Hunter",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Vespoid Greaves Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Greaves_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5d/Vespoid_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/44/Vespoid_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 38,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Honey_Hunter",
+          "level": 1
+        },
+        {
+          "name": "Paralysis Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Vespoid Greaves Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Greaves_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5d/Vespoid_greaves_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/44/Vespoid_greaves_alpha_female.png",
+      "rarity": 5,
+      "defense": 38,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Honey_Hunter",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    {
+      "name": "Xeno'jiiva Spurs Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Spurs_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/23/Xenojiiva_spurs_alpha_%282%29_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b3/Xenojiiva_spurs_alpha_female.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Flinch_Free",
+          "level": 1
+        },
+        {
+          "name": "Power Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Power_Prolonger",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Xeno'jiiva Spurs Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Spurs_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/21/Xenojiiva_spurs_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/01/Xenojiiva_spurs_beta_female.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Flinch_Free",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 4
+      }
+    },
+    {
+      "name": "Zorah Spurs Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Spurs_Alpha",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/df/Zorah_spurs_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/32/Zorah_spurs_alpha_female.png",
+      "rarity": 6,
+      "defense": 44,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Bombardier",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bombardier",
+          "level": 2
+        },
+        {
+          "name": "Earplugs",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Earplugs",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Zorah Spurs Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Spurs_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1a/Zorah_spurs_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e4/Zorah_spurs_beta_female.png",
+      "rarity": 6,
+      "defense": 44,
+      "slots": [
+        2
+      ],
+      "skills": [
+        {
+          "name": "Bombardier",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Bombardier",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    {
+      "name": "Zorah Spurs Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Spurs_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/df/Zorah_spurs_alpha_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/32/Zorah_spurs_alpha_female.png",
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3,
+        2
+      ],
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Attack",
+          "level": 2
+        },
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    }
+  ]
+}

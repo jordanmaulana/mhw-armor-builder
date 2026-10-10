@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "skills",
     "charms",
     "decorations",
+    "armors",
 ]
 
 REST_FRAMEWORK = {
