@@ -1192,6 +1192,29 @@
       }
     },
     {
+      "name": "Diver's Mask",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diver%27s_Mask",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3a/Divers_mask_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/99/Divers_mask_female.png",
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
       "name": "Dober Helm Alpha",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Helm_Alpha",
       "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b8/Dober_helm_alpha_male.png",
@@ -4487,6 +4510,38 @@
         {
           "name": "Flinch Free",
           "url": "https://monsterhunterworld.wiki.fextralife.com/Flinch_Free",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Xeno'jiiva Headgear Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%E2%80%99jiiva_Headgear_Gamma",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        2,
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Blight_Resistance",
+          "level": 2
+        },
+        {
+          "name": "Power Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Power_Prolonger",
           "level": 1
         }
       ],

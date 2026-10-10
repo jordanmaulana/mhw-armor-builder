@@ -12,6 +12,6 @@ class ArmorSkillInline(admin.TabularInline):
 @admin.register(Armor)
 class ArmorAdmin(admin.ModelAdmin):
     list_display = ("name", "type", "rarity", "defense")
-    list_filter = ("type", "rarity")
+    list_filter = ("type", "rarity", "set_bonus")
     search_fields = ("name",)
     inlines = (ArmorSkillInline,)

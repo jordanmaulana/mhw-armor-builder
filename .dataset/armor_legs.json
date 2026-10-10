@@ -1142,6 +1142,29 @@
       }
     },
     {
+      "name": "Diver's Boots",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diver%27s_Boots",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e6/Divers_boots_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2a/Divers_boots_female.png",
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Hunger Resistance",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Hunger_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
       "name": "Dober Greaves Alpha",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Greaves_Alpha",
       "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e7/Dober_greaves_alpha_male.png",
@@ -1638,6 +1661,34 @@
         "thunder": -4,
         "ice": 0,
         "dragon": 4
+      }
+    },
+    {
+      "name": "Guardian Greaves Alpha +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guardian_Greaves_Alpha_Plus",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 6,
+      "defense": 50,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 0,
+        "ice": 2,
+        "dragon": 3
       }
     },
     {
@@ -4107,6 +4158,33 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 4
+      }
+    },
+    {
+      "name": "Xeno'jiiva Spurs Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%E2%80%99jiiva_Spurs_Gamma",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        2,
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Critical Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Boost",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": -4
       }
     },
     {

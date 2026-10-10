@@ -9,6 +9,15 @@
   --color-background: hsl(0 0% 100%);
   --color-foreground: hsl(0 0% 9%);
   --radius: 0.625rem;
+
+  /* armor builder: smithy-dark teal, bone lettering, brass for levels the set has earned */
+  --color-hide: #1b2a2c;
+  --color-plate: #233739;
+  --color-seam: #3a5352;
+  --color-bone: #ece6d6;
+  --color-moss: #9fb5ae;
+  --color-brass: #dcae4f;
+  --color-ember: #ea5a4e;
 }
 
 html, body, #root {

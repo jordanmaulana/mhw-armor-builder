@@ -1225,6 +1225,29 @@
       }
     },
     {
+      "name": "Diver's Suit",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diver%27s_Suit",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Divers_suit_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d4/Divers_suit_female.png",
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
       "name": "Dober Mail Alpha",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Mail_Alpha",
       "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cb/Dober_mail_alpha_male.png",
@@ -4127,6 +4150,32 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 4
+      }
+    },
+    {
+      "name": "Xeno'jiiva Hide Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%E2%80%99jiiva_Hide_Gamma",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        1,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Flinch_Free",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": -4
       }
     },
     {

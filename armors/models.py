@@ -27,6 +27,11 @@ class Armor(BaseModel):
     ice_res = models.SmallIntegerField()
     dragon_res = models.SmallIntegerField()
     skills = models.ManyToManyField("skills.Skill", through="ArmorSkill", related_name="armors")
+    # on the piece, not on a set: pieces of different sets can feed the same bonus
+    # (Rathalos Alpha + Rath Soul Beta both count toward Rathalos Mastery)
+    set_bonus = models.ForeignKey(
+        "skills.SetBonus", null=True, blank=True, on_delete=models.SET_NULL, related_name="armors"
+    )
 
     class Meta(BaseModel.Meta):
         ordering = ["name"]

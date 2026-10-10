@@ -27,6 +27,9 @@ class SetBonus(BaseModel):
     icon_url = models.URLField()
     requirement = models.TextField()
     effects = models.JSONField(default=list, blank=True)  # list of strings
+    # JSON list of {pieces, skill}, lowest threshold first; effects[i] describes tiers[i].
+    # Filled by load_sets, empty for the bonuses the scraped set list doesn't cover.
+    tiers = models.JSONField(default=list, blank=True)
 
     class Meta(BaseModel.Meta):
         ordering = ["name"]

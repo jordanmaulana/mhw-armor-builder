@@ -47,6 +47,16 @@ path("projects/<str:pk>/", ProjectAPI.as_view(), name="api-v1-project-detail"),
 
 > Existing `auth_api.py` / `payments_api.py` use the older function-based `@api_view` style and predate this rule. `auth_api.py`'s custom endpoints (`login`/`register`/`logout`/`google`) are the canonical example of what now belongs in an `auth_extras_api.py`. Leave both as-is unless you're touching them for another reason.
 
+## Armor builder (public, no login)
+
+- Page: `/` → `BuilderPage` in `frontend/src/features/builder/`. Build state is `buildAtom` (`state.ts`, persisted to localStorage under `build`); every number on screen comes from the pure `computeTotals` in `totals.ts`, checked by `pnpm test` (plain `node`, no test runner).
+- Data: `GET /api/v1/{skills,set-bonuses,armors,decorations,charms}/` — list-only catalog views in `api/v1/{resource}_api.py`. The whole catalog is fetched once (`useCatalog`) and filtered in the browser.
+- **Public views set `authentication_classes = []`, not just `AllowAny`.** `TokenAuthentication` raises 401 on a bad token before permissions run, so a visitor with a stale token in localStorage would be locked out of a "public" page. The frontend also passes `skipAuth: true`.
+- Granted skills serialize as `{skill: <id>, level}` via `source="skill_id"`, so prefetching the through rows is the only extra query. `api/v1/tests.py` pins this with `assertNumQueries(2)`.
+- Set bonuses hang off the **piece**, not a set: `Armor.set_bonus` (FK) + `SetBonus.tiers` (`[{pieces, skill}]`, `effects[i]` describes `tiers[i]`). Pieces of different sets feed one bonus (Rathalos α + Rath Soul β → Rathalos Mastery), so there is no `ArmorSet` table. Both fields come from `.dataset/sets.json` via `load_sets` — the last step of `seed`, and it relinks from scratch on every run. The file is `sets.json`, not `armor_sets.json`: `load_armors` globs `armor_*.json`.
+- Set-bonus skills render in their own Summary block and are never added to skill points — most (Adrenaline, Guts, …) aren't in the skill catalog.
+- Not modelled: secret-skill caps and Iceborne sets. `sets.json` is scraped from the wiki's base-game set comparison page, so the other 45 set bonuses have no tiers and no armors, and skills cap at `max_level`.
+
 ## Auth + frontend flow (read before touching login/onboarding/routing)
 
 - Endpoints: `api/v1/auth_api.py` — `POST /auth/google/`, `POST /auth/register/`, `POST /auth/login/` each return `{ token, user }`; `GET /auth/me/` rehydrates the user from the token; `POST /auth/logout/` deletes the token.
@@ -54,7 +64,7 @@ path("projects/<str:pk>/", ProjectAPI.as_view(), name="api-v1-project-detail"),
 - **Routing is centralized in `AuthGate`** (`frontend/src/features/auth/components/auth-gate.tsx`) — the single source of truth for redirects:
   - No token + not on a public path (`/`, `/login`) → `/login`.
   - Token + `!onboarded` → `/onboarding` (the opt-in gate; dormant by default).
-  - `onboarded` + on public/`/onboarding` → `/dashboard`.
+  - `onboarded` + on `/login` or `/onboarding` → `/dashboard`. **Not** on `/`: that is the public armor builder, and signed-in users may stay on it.
 - **`onboarded` source of truth** = `get_onboarded` in `api/v1/serializers.py`. **It defaults to `True`** so a fresh template runs `login → dashboard` out of the box. The `/onboarding` page (`frontend/src/routes/onboarding.tsx`) is an optional placeholder and is unreachable while `onboarded` is always true.
 
 ### Enabling a real onboarding step

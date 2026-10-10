@@ -1,0 +1,2289 @@
+{
+  "source": "https://monsterhunterworld.wiki.fextralife.com/Armor_Set_Defense_Bonus_Skill_Comparison",
+  "set_bonuses": [
+    {
+      "name": "Anjanath Power",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Adrenaline"
+        }
+      ]
+    },
+    {
+      "name": "Anjanath Will",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Adrenaline"
+        },
+        {
+          "pieces": 4,
+          "skill": "Stamina Cap Up"
+        }
+      ]
+    },
+    {
+      "name": "Astera Blessing",
+      "tiers": [
+        {
+          "pieces": 5,
+          "skill": "Great Luck"
+        }
+      ]
+    },
+    {
+      "name": "Bazelgeuse Protection",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Guts"
+        }
+      ]
+    },
+    {
+      "name": "Commission Guidance",
+      "tiers": [
+        {
+          "pieces": 4,
+          "skill": "Carving Master"
+        }
+      ]
+    },
+    {
+      "name": "Diablos Mastery",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Bludgeoner"
+        },
+        {
+          "pieces": 4,
+          "skill": "Non-elemental Boost"
+        }
+      ]
+    },
+    {
+      "name": "Diablos Power",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Bludgeoner"
+        }
+      ]
+    },
+    {
+      "name": "Guild Guidance",
+      "tiers": [
+        {
+          "pieces": 4,
+          "skill": "Great Luck"
+        }
+      ]
+    },
+    {
+      "name": "Kirin Blessing",
+      "tiers": [
+        {
+          "pieces": 4,
+          "skill": "Capture Master"
+        }
+      ]
+    },
+    {
+      "name": "Kirin Favor",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Capture Master"
+        }
+      ]
+    },
+    {
+      "name": "Kushala Daora Flight",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Nullify Wind Pressure"
+        }
+      ]
+    },
+    {
+      "name": "Legiana Blessing",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Good Luck"
+        }
+      ]
+    },
+    {
+      "name": "Legiana Favor",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Good Luck"
+        },
+        {
+          "pieces": 4,
+          "skill": "Bow Charge Plus"
+        }
+      ]
+    },
+    {
+      "name": "Lunastra Favor",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Stamina Cap Up"
+        },
+        {
+          "pieces": 4,
+          "skill": "Mind's Eye/Ballistics"
+        }
+      ]
+    },
+    {
+      "name": "Nergigante Hunger",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Hasten Recovery"
+        }
+      ]
+    },
+    {
+      "name": "Odogaron Mastery",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Punishing Draw"
+        },
+        {
+          "pieces": 4,
+          "skill": "Protective Polish"
+        }
+      ]
+    },
+    {
+      "name": "Odogaron Power",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Punishing Draw"
+        }
+      ]
+    },
+    {
+      "name": "Pink Rathian Mastery",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Poison Duration Up"
+        }
+      ]
+    },
+    {
+      "name": "Rathalos Mastery",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Critical Element"
+        },
+        {
+          "pieces": 4,
+          "skill": "Mind's Eye/Ballistics"
+        }
+      ]
+    },
+    {
+      "name": "Rathalos Power",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Critical Element"
+        }
+      ]
+    },
+    {
+      "name": "Soul of the Dragoon",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Elemental Airborne"
+        },
+        {
+          "pieces": 4,
+          "skill": "Master's Touch"
+        }
+      ]
+    },
+    {
+      "name": "Teostra Technique",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Master's Touch"
+        }
+      ]
+    },
+    {
+      "name": "Uragaan Protection",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Guard Up"
+        }
+      ]
+    },
+    {
+      "name": "Vaal Hazak Vitality",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Super Recovery"
+        }
+      ]
+    },
+    {
+      "name": "Xeno'jiiva Divinity",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Razor Sharp/Spare Shot"
+        }
+      ]
+    },
+    {
+      "name": "Zorah Magdaros Mastery",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Critical Status"
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "name": "Alloy Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Alloy Helm",
+        "Alloy Mail",
+        "Alloy Vambraces",
+        "Alloy Coil",
+        "Alloy Greaves"
+      ]
+    },
+    {
+      "name": "Alloy Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Alloy Helm Alpha",
+        "Alloy Mail Alpha",
+        "Alloy Vambraces Alpha",
+        "Alloy Coil Alpha",
+        "Alloy Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Alloy Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alloy_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Alloy Helm Beta",
+        "Alloy Mail Beta",
+        "Alloy Vambraces Beta",
+        "Alloy Coil Beta",
+        "Alloy Greaves Beta"
+      ]
+    },
+    {
+      "name": "Aloy Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Aloy_Alpha_Armor_Set",
+      "set_bonus": "Anjanath Will",
+      "pieces": [
+        "Aloy's Head Alpha",
+        "Aloy's Body Alpha",
+        "Aloy's Arms Alpha",
+        "Aloy's Torso Alpha",
+        "Aloy's Leggings Alpha"
+      ]
+    },
+    {
+      "name": "Anja Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Armor_Set",
+      "set_bonus": "Anjanath Power",
+      "pieces": [
+        "Anja Helm",
+        "Anja Mail",
+        "Anja Vambraces",
+        "Anja Coil",
+        "Anja Greaves"
+      ]
+    },
+    {
+      "name": "Anja Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Alpha_Armor_Set",
+      "set_bonus": "Anjanath Will",
+      "pieces": [
+        "Anja Helm Alpha",
+        "Anja Mail Alpha",
+        "Anja Vambraces Alpha",
+        "Anja Coil Alpha",
+        "Anja Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Anja Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anja_Beta_Armor_Set",
+      "set_bonus": "Anjanath Will",
+      "pieces": [
+        "Anja Helm Beta",
+        "Anja Mail Beta",
+        "Anja Vambraces Beta",
+        "Anja Coil Beta",
+        "Anja Greaves Beta"
+      ]
+    },
+    {
+      "name": "Azure Starlord Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Azure_Starlord_Alpha_Armor_Set",
+      "set_bonus": "Rathalos Mastery",
+      "pieces": [
+        "Azure Starlord Crown Alpha",
+        "Azure Starlord Armor Alpha",
+        "Azure Starlord Gauntlets Alpha",
+        "Azure Starlord Tassets Alpha",
+        "Azure Starlord Guards Alpha"
+      ]
+    },
+    {
+      "name": "Baan Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Baan Helm",
+        "Baan Mail",
+        "Baan Vambraces",
+        "Baan Coil",
+        "Baan Greaves"
+      ]
+    },
+    {
+      "name": "Baan Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Baan Helm Alpha",
+        "Baan Mail Alpha",
+        "Baan Vambraces Alpha",
+        "Baan Coil Alpha",
+        "Baan Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Baan Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Baan_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Baan Helm Beta",
+        "Baan Mail Beta",
+        "Baan Vambraces Beta",
+        "Baan Coil Beta",
+        "Baan Greaves Beta"
+      ]
+    },
+    {
+      "name": "Barnos Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barnos_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Barnos Jacket Alpha"
+      ]
+    },
+    {
+      "name": "Barnos Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barnos_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Barnos Jacket Beta"
+      ]
+    },
+    {
+      "name": "Barroth Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Barroth Helm",
+        "Barroth Mail",
+        "Barroth Vambraces",
+        "Barroth Coil",
+        "Barroth Greaves"
+      ]
+    },
+    {
+      "name": "Barroth Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Barroth Helm Alpha",
+        "Barroth Mail Alpha",
+        "Barroth Vambraces Alpha",
+        "Barroth Coil Alpha",
+        "Barroth Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Barroth Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Barroth Helm Beta",
+        "Barroth Mail Beta",
+        "Barroth Vambraces Beta",
+        "Barroth Coil Beta",
+        "Barroth Greaves Beta"
+      ]
+    },
+    {
+      "name": "Bazel Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazel_Alpha_Armor_Set",
+      "set_bonus": "Bazelgeuse Protection",
+      "pieces": [
+        "Bazel Helm Alpha",
+        "Bazel Mail Alpha",
+        "Bazel Vambraces Alpha",
+        "Bazel Coil Alpha",
+        "Bazel Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Bazel Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazel_Beta_Armor_Set",
+      "set_bonus": "Bazelgeuse Protection",
+      "pieces": [
+        "Bazel Helm Beta",
+        "Bazel Mail Beta",
+        "Bazel Vambraces Beta",
+        "Bazel Coil Beta",
+        "Bazel Greaves Beta"
+      ]
+    },
+    {
+      "name": "Blossom Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blossom_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Blossom Headgear",
+        "Blossom Vest",
+        "Blossom Cuffs",
+        "Blossom Coat",
+        "Blossom Boots"
+      ]
+    },
+    {
+      "name": "Blossom Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blossom_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Blossom Headgear Alpha",
+        "Blossom Vest Alpha",
+        "Blossom Cuffs Alpha",
+        "Blossom Coat Alpha",
+        "Blossom Boots Alpha"
+      ]
+    },
+    {
+      "name": "Bone Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Bone Helm",
+        "Bone Mail",
+        "Bone Vambraces",
+        "Bone Coil",
+        "Bone Greaves"
+      ]
+    },
+    {
+      "name": "Bone Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Bone Helm Alpha",
+        "Bone Mail Alpha",
+        "Bone Vambraces Alpha",
+        "Bone Coil Alpha",
+        "Bone Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Bone Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bone_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Bone Helm Beta",
+        "Bone Mail Beta",
+        "Bone Vambraces Beta",
+        "Bone Coil Beta",
+        "Bone Greaves Beta"
+      ]
+    },
+    {
+      "name": "Butterfly Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Butterfly Vertex",
+        "Butterfly Thorax",
+        "Butterfly Brachia",
+        "Butterfly Elytra",
+        "Butterfly Crura"
+      ]
+    },
+    {
+      "name": "Butterfly Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Butterfly Vertex Alpha",
+        "Butterfly Thorax Alpha",
+        "Butterfly Brachia Alpha",
+        "Butterfly Elytra Alpha",
+        "Butterfly Crura Alpha"
+      ]
+    },
+    {
+      "name": "Butterfly Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Butterfly_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Butterfly Vertex Beta",
+        "Butterfly Thorax Beta",
+        "Butterfly Brachia Beta",
+        "Butterfly Elytra Beta",
+        "Butterfly Crura Beta"
+      ]
+    },
+    {
+      "name": "Brigade Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Brigade Lobos",
+        "Brigade Suit",
+        "Brigade Vambraces",
+        "Brigade Coil",
+        "Brigade Boots"
+      ]
+    },
+    {
+      "name": "Brigade Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Brigade Lobos Alpha",
+        "Brigade Suit Alpha",
+        "Brigade Vambraces Alpha",
+        "Brigade Coil Alpha",
+        "Brigade Boots Alpha"
+      ]
+    },
+    {
+      "name": "Brigade Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brigade_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Brigade Lobos Beta",
+        "Brigade Suit Beta",
+        "Brigade Vambraces Beta",
+        "Brigade Coil Beta",
+        "Brigade Boots Beta"
+      ]
+    },
+    {
+      "name": "Chainmail Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Chainmail Headgear",
+        "Chainmail Vest",
+        "Chainmail Gloves",
+        "Chainmail Belt",
+        "Chainmail Trousers"
+      ]
+    },
+    {
+      "name": "Chainmail Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Chainmail Headgear Alpha",
+        "Chainmail Armor Alpha",
+        "Chainmail Gloves Alpha",
+        "Chainmail Belt Alpha",
+        "Chainmail Trousers Alpha"
+      ]
+    },
+    {
+      "name": "Chainmail Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chainmail_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Chainmail Headgear Beta",
+        "Chainmail Armor Beta",
+        "Chainmail Gloves Beta",
+        "Chainmail Belt Beta",
+        "Chainmail Trousers Beta"
+      ]
+    },
+    {
+      "name": "Commission Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commission_Alpha_Armor_Set",
+      "set_bonus": "Commission Guidance",
+      "pieces": [
+        "Commission Gorget Alpha",
+        "Commission Jacket Alpha",
+        "Commission Vambraces Alpha",
+        "Commission Belt Alpha",
+        "Commission Pants Alpha"
+      ]
+    },
+    {
+      "name": "Commission Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commission_Beta_Armor_Set",
+      "set_bonus": "Commission Guidance",
+      "pieces": [
+        "Commission Gorget Beta",
+        "Commission Jacket Beta",
+        "Commission Vambraces Beta",
+        "Commission Belt Beta",
+        "Commission Pants Beta"
+      ]
+    },
+    {
+      "name": "Damascus Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Damascus_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Damascus Helm Alpha",
+        "Damascus Mail Alpha",
+        "Damascus Vambraces Alpha",
+        "Damascus Coil Alpha",
+        "Damascus Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Damascus Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Damascus_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Damascus Helm Beta",
+        "Damascus Mail Beta",
+        "Damascus Vambraces Beta",
+        "Damascus Coil Beta",
+        "Damascus Greaves Beta"
+      ]
+    },
+    {
+      "name": "Dante Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dante_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Dante's Hair Alpha",
+        "Dante's Coat Alpha",
+        "Dante's Gloves Alpha",
+        "Dante's Belt Alpha",
+        "Dante's Leather Boots Alpha"
+      ]
+    },
+    {
+      "name": "Death Stench Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Death Stench Brain",
+        "Death Stench Muscle",
+        "Death Stench Grip",
+        "Death Stench Bowels",
+        "Death Stench Heels"
+      ]
+    },
+    {
+      "name": "Death Stench Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Death Stench Brain Alpha",
+        "Death Stench Muscle Alpha",
+        "Death Stench Grip Alpha",
+        "Death Stench Bowels Alpha",
+        "Death Stench Heel Alpha"
+      ]
+    },
+    {
+      "name": "Death Stench Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Death_Stench_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Death Stench Brain Beta",
+        "Death Stench Muscle Beta",
+        "Death Stench Grip Beta",
+        "Death Stench Bowels Beta",
+        "Death Stench Heel Beta"
+      ]
+    },
+    {
+      "name": "Deviljho Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Deviljho_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Vangis Helm Alpha",
+        "Vangis Mail Alpha",
+        "Vangis Vambraces Alpha",
+        "Vangis Coil Alpha",
+        "Vangis Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Deviljho Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Deviljho_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Vangis Helm Beta",
+        "Vangis Mail Beta",
+        "Vangis Vambraces Beta",
+        "Vangis Coil Beta",
+        "Vangis Greaves Beta"
+      ]
+    },
+    {
+      "name": "Diablos Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Armor_Set",
+      "set_bonus": "Diablos Power",
+      "pieces": [
+        "Diablos Helm",
+        "Diablos Mail",
+        "Diablos Vambraces",
+        "Diablos Coil",
+        "Diablos Greaves"
+      ]
+    },
+    {
+      "name": "Diablos Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Alpha_Armor_Set",
+      "set_bonus": "Diablos Mastery",
+      "pieces": [
+        "Diablos Helm Alpha",
+        "Diablos Mail Alpha",
+        "Diablos Vambraces Alpha",
+        "Diablos Coil Alpha",
+        "Diablos Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Diablos Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Beta_Armor_Set",
+      "set_bonus": "Diablos Mastery",
+      "pieces": [
+        "Diablos Helm Beta",
+        "Diablos Mail Beta",
+        "Diablos Vambraces Beta",
+        "Diablos Coil Beta",
+        "Diablos Greaves Beta"
+      ]
+    },
+    {
+      "name": "Diablos Nero Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Nero_Alpha_Armor_Set",
+      "set_bonus": "Diablos Mastery",
+      "pieces": [
+        "Diablos Nero Helm Alpha",
+        "Diablos Nero Mail Alpha",
+        "Diablos Nero Vambraces Alpha",
+        "Diablos Nero Coil Alpha",
+        "Diablos Nero Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Diablos Nero Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Nero_Beta_Armor_Set",
+      "set_bonus": "Diablos Mastery",
+      "pieces": [
+        "Diablos Nero Helm Beta",
+        "Diablos Nero Mail Beta",
+        "Diablos Nero Vambraces Beta",
+        "Diablos Nero Coil Beta",
+        "Diablos Nero Greaves Beta"
+      ]
+    },
+    {
+      "name": "Diver Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diver_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Diver's Mask",
+        "Diver's Suit",
+        "Diver's Braces",
+        "Diver's Belt",
+        "Diver's Boots"
+      ]
+    },
+    {
+      "name": "Diver Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diver_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Diver's Mask Alpha",
+        "Diver's Suit Alpha",
+        "Diver’s Braces Alpha",
+        "Diver's Belt Alpha",
+        "Diver's Boots Alpha"
+      ]
+    },
+    {
+      "name": "Dragonking Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dragonking_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Dragonking Eyepatch Alpha"
+      ]
+    },
+    {
+      "name": "Drachen Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Drachen_Alpha_Armor_Set",
+      "set_bonus": "Soul of the Dragoon",
+      "pieces": [
+        "Drachen Armet Alpha",
+        "Drachen Mail Alpha",
+        "Drachen Vambraces Alpha",
+        "Drachen Coil Alpha",
+        "Drachen Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Dodogama Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dodogama_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Dodogama Helm Alpha",
+        "Dodogama Mail Alpha",
+        "Dodogama Vambraces Alpha",
+        "Dodogama Coil Alpha",
+        "Dodogama Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Dodogama Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dodogama_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Dodogama Helm Beta",
+        "Dodogama Mail Beta",
+        "Dodogama Vambraces Beta",
+        "Dodogama Coil Beta",
+        "Dodogama Greaves Beta"
+      ]
+    },
+    {
+      "name": "Dober Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Dober Helm Alpha",
+        "Dober Mail Alpha",
+        "Dober Vambraces Alpha",
+        "Dober Coil Alpha",
+        "Dober Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Dober Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Dober Helm Beta",
+        "Dober Mail Beta",
+        "Dober Vambraces Beta",
+        "Dober Coil Beta",
+        "Dober Greaves Beta"
+      ]
+    },
+    {
+      "name": "Faux Felyne Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Faux_Felyne_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Faux Felyne Alpha Helm"
+      ]
+    },
+    {
+      "name": "Gala Suit Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gala_Suit_Armor_Set",
+      "set_bonus": "Astera Blessing",
+      "pieces": [
+        "Gala Suit Top Hat",
+        "Gala Suit Jacket",
+        "Gala Suit Cuffs",
+        "Gala Suit Tail",
+        "Gala Suit Slacks"
+      ]
+    },
+    {
+      "name": "Gala Suit Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gala_Suit_Alpha_Armor_Set",
+      "set_bonus": "Astera Blessing",
+      "pieces": [
+        "Gala Suit Top Hat Alpha",
+        "Gala Suit Jacket Alpha",
+        "Gala Suit Cuffs Alpha",
+        "Gala Suit Tail Alpha",
+        "Gala Suit Slacks Alpha"
+      ]
+    },
+    {
+      "name": "Gajau Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gajau_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Gajau Boots"
+      ]
+    },
+    {
+      "name": "Gajau Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gajau_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Gajau Boots Alpha"
+      ]
+    },
+    {
+      "name": "Gajau Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gajau_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Gajau Boots Beta"
+      ]
+    },
+    {
+      "name": "Gastodon Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gastodon_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Gastodon Horn Alpha"
+      ]
+    },
+    {
+      "name": "Gastodon Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gastodon_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Gastodon Horn Beta"
+      ]
+    },
+    {
+      "name": "Girros Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Girros Mask",
+        "Girros Mail",
+        "Girros Vambraces",
+        "Girros Coil",
+        "Girros Greaves"
+      ]
+    },
+    {
+      "name": "Girros Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Girros Mask Alpha",
+        "Girros Mail Alpha",
+        "Girros Vambraces Alpha",
+        "Girros Coil Alpha",
+        "Girros Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Girros Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Girros Mask Beta",
+        "Girros Mail Beta",
+        "Girros Vambraces Beta",
+        "Girros Coil Beta",
+        "Girros Greaves Beta"
+      ]
+    },
+    {
+      "name": "Guild Cross Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Cross_Alpha_Armor_Set",
+      "set_bonus": "Guild Guidance",
+      "pieces": [
+        "Guild Cross Circlet Alpha",
+        "Guild Cross Suit Alpha",
+        "Guild Cross Vambraces Alpha",
+        "Guild Cross Coil Alpha",
+        "Guild Cross Boots Alpha"
+      ]
+    },
+    {
+      "name": "Guild Cross Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Cross_Beta_Armor_Set",
+      "set_bonus": "Guild Guidance",
+      "pieces": [
+        "Guild Cross Circlet Beta",
+        "Guild Cross Suit Beta",
+        "Guild Cross Vambraces Beta",
+        "Guild Cross Coil Beta",
+        "Guild Cross Boots Beta"
+      ]
+    },
+    {
+      "name": "Guardian Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guardian_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Guardian Helm Alpha+",
+        "Guardian Suit Alpha +",
+        "Guardian Vambraces Alpha +",
+        "Guardian Coil Alpha+",
+        "Guardian Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Harvest Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Harvest Flor",
+        "Harvest Tronco",
+        "Harvest Trama",
+        "Harvest Hoja",
+        "Harvest Raiz"
+      ]
+    },
+    {
+      "name": "Harvest Armor Set Alpha",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Harvest_Armor_Set_Alpha",
+      "set_bonus": null,
+      "pieces": [
+        "Harvest Flor Alpha",
+        "Harvest Tronco Alpha",
+        "Harvest Trama Alpha",
+        "Harvest Hoja Alpha",
+        "Harvest Raiz Alpha"
+      ]
+    },
+    {
+      "name": "High Metal Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "High Metal Helm",
+        "High Metal Mail",
+        "High Metal Braces",
+        "High Metal Coil",
+        "High Metal Greaves"
+      ]
+    },
+    {
+      "name": "High Metal Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "High Metal Helm Alpha",
+        "High Metal Mail Alpha",
+        "High Metal Braces Alpha",
+        "High Metal Coil Alpha",
+        "High Metal Greaves Alpha"
+      ]
+    },
+    {
+      "name": "High Metal Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Metal_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "High Metal Helm Beta",
+        "High Metal Mail Beta",
+        "High Metal Braces Beta",
+        "High Metal Coil Beta",
+        "High Metal Greaves Beta"
+      ]
+    },
+    {
+      "name": "Hornetaur Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Hornetaur Helm",
+        "Hornetaur Mail",
+        "Hornetaur Vambraces",
+        "Hornetaur Coil",
+        "Hornetaur Greaves"
+      ]
+    },
+    {
+      "name": "Hornetaur Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Hornetaur Helm Alpha",
+        "Hornetaur Mail Alpha",
+        "Hornetaur Vambraces Alpha",
+        "Hornetaur Coil Alpha",
+        "Hornetaur Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Hornetaur Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Hornetaur Helm Beta",
+        "Hornetaur Mail Beta",
+        "Hornetaur Vambraces Beta",
+        "Hornetaur Coil Beta",
+        "Hornetaur Greaves Beta"
+      ]
+    },
+    {
+      "name": "Hunter's Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Hunter's Headgear",
+        "Hunter's Mail",
+        "Hunter's Vambraces",
+        "Hunter's Coil",
+        "Hunter's Greaves"
+      ]
+    },
+    {
+      "name": "Hunter's Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Hunter's Headgear Alpha",
+        "Hunter's Mail Alpha",
+        "Hunter's Vambraces Alpha",
+        "Hunter's Coil Alpha",
+        "Hunter's Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Hunter's Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter%27s_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Hunter's Headgear Beta",
+        "Hunter's Mail Beta",
+        "Hunter's Vambraces Beta",
+        "Hunter's Coil Beta",
+        "Hunter's Greaves Beta"
+      ]
+    },
+    {
+      "name": "Ingot Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Ingot Helm",
+        "Ingot Mail",
+        "Ingot Vambraces",
+        "Ingot Coil",
+        "Ingot Greaves"
+      ]
+    },
+    {
+      "name": "Ingot Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Ingot Helm Alpha",
+        "Ingot Mail Alpha",
+        "Ingot Vambraces Alpha",
+        "Ingot Coil Alpha",
+        "Ingot Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Ingot Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ingot_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Ingot Helm Beta",
+        "Ingot Mail Beta",
+        "Ingot Vambraces Beta",
+        "Ingot Coil Beta",
+        "Ingot Greaves Beta"
+      ]
+    },
+    {
+      "name": "Jagras Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Jagras Helm",
+        "Jagras Mail",
+        "Jagras Vambraces",
+        "Jagras Coil",
+        "Jagras Greaves"
+      ]
+    },
+    {
+      "name": "Jagras Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Jagras Helm Alpha",
+        "Jagras Mail Alpha",
+        "Jagras Vambraces Alpha",
+        "Jagras Coil Alpha",
+        "Jagras Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Jagras Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Jagras Helm Beta",
+        "Jagras Mail Beta",
+        "Jagras Vambraces Beta",
+        "Jagras Coil Beta",
+        "Jagras Greaves Beta"
+      ]
+    },
+    {
+      "name": "Jyura Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Jyura Helm",
+        "Jyura Mail",
+        "Jyura Vambraces",
+        "Jyura Coil",
+        "Jyura Greaves"
+      ]
+    },
+    {
+      "name": "Jyura Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Jyura Helm Alpha",
+        "Jyura Mail Alpha",
+        "Jyura Vambraces Alpha",
+        "Jyura Coil Alpha",
+        "Jyura Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Jyura Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Jyura Helm Beta",
+        "Jyura Mail Beta",
+        "Jyura Vambraces Beta",
+        "Jyura Coil Beta",
+        "Jyura Greaves Beta"
+      ]
+    },
+    {
+      "name": "Kadachi Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Kadachi Helm",
+        "Kadachi Mail",
+        "Kadachi Vambraces",
+        "Kadachi Coil",
+        "Kadachi Greaves"
+      ]
+    },
+    {
+      "name": "Kadachi Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Kadachi Helm Alpha",
+        "Kadachi Mail Alpha",
+        "Kadachi Vambraces Alpha",
+        "Kadachi Coil Alpha",
+        "Kadachi Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Kadachi Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kadachi_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Kadachi Helm Beta",
+        "Kadachi Mail Beta",
+        "Kadachi Vambraces Beta",
+        "Kadachi Coil Beta",
+        "Kadachi Greaves Beta"
+      ]
+    },
+    {
+      "name": "Kestodon Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kestodon_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Kestodon Guards"
+      ]
+    },
+    {
+      "name": "Kestodon Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kestodon_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Kestodon Guards Alpha"
+      ]
+    },
+    {
+      "name": "Kestodon Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kestodon_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Kestodon Guards Beta"
+      ]
+    },
+    {
+      "name": "King Beetle Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "King Beetle Vertex",
+        "King Beetle Thorax",
+        "King Beetle Brachia",
+        "King Beetle Elytra",
+        "King Beetle Crura"
+      ]
+    },
+    {
+      "name": "King Beetle Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "King Beetle Vertex Alpha",
+        "King Beetle Thorax Alpha",
+        "King Beetle Brachia Alpha",
+        "King Beetle Elytra Alpha",
+        "King Beetle Crura Alpha"
+      ]
+    },
+    {
+      "name": "King Beetle Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Beetle_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "King Beetle Vertex Beta",
+        "King Beetle Thorax Beta",
+        "King Beetle Brachia Beta",
+        "King Beetle Elytra Beta",
+        "King Beetle Crura Beta"
+      ]
+    },
+    {
+      "name": "Kirin Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Armor_Set",
+      "set_bonus": "Kirin Blessing",
+      "pieces": [
+        "Kirin Horn",
+        "Kirin Jacket",
+        "Kirin Longarms",
+        "Kirin Hoop",
+        "Kirin Leg Guards"
+      ]
+    },
+    {
+      "name": "Kirin Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Alpha_Armor_Set",
+      "set_bonus": "Kirin Favor",
+      "pieces": [
+        "Kirin Horn Alpha",
+        "Kirin Jacket Alpha",
+        "Kirin Longarms Alpha",
+        "Kirin Hoop Alpha",
+        "Kirin Leg Guards Alpha"
+      ]
+    },
+    {
+      "name": "Kirin Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Beta_Armor_Set",
+      "set_bonus": "Kirin Favor",
+      "pieces": [
+        "Kirin Horn Beta",
+        "Kirin Jacket Beta",
+        "Kirin Longarms Beta",
+        "Kirin Hoop Beta",
+        "Kirin Leg Guards Beta"
+      ]
+    },
+    {
+      "name": "Kirin Gamma Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Gamma_Armor_Set",
+      "set_bonus": "Kirin Favor",
+      "pieces": [
+        "Kirin Horn Gamma",
+        "Kirin Jacket Gamma",
+        "Kirin Longarms Gamma",
+        "Kirin Hoop Gamma",
+        "Kirin Leg Guards Gamma"
+      ]
+    },
+    {
+      "name": "Kulu Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Kulu Headpiece",
+        "Kulu Mail",
+        "Kulu Vambraces",
+        "Kulu Coil",
+        "Kulu Greaves"
+      ]
+    },
+    {
+      "name": "Kulu Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Kulu Headpiece Alpha",
+        "Kulu Mail Alpha",
+        "Kulu Vambraces Alpha",
+        "Kulu Coil Alpha",
+        "Kulu Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Kulu Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Kulu Headpiece Beta",
+        "Kulu Mail Beta",
+        "Kulu Vambraces Beta",
+        "Kulu Coil Beta",
+        "Kulu Greaves Beta"
+      ]
+    },
+    {
+      "name": "Kushala Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Alpha_Armor_Set",
+      "set_bonus": "Kushala Daora Flight",
+      "pieces": [
+        "Kushala Glare Alpha",
+        "Kushala Cista Alpha",
+        "Kushala Grip Alpha",
+        "Kushala Cocoon Alpha",
+        "Kushala Crus Alpha"
+      ]
+    },
+    {
+      "name": "Kushala Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Beta_Armor_Set",
+      "set_bonus": "Kushala Daora Flight",
+      "pieces": [
+        "Kushala Glare Beta",
+        "Kushala Cista Beta",
+        "Kushala Grip Beta",
+        "Kushala Cocoon Beta",
+        "Kushala Crus Beta"
+      ]
+    },
+    {
+      "name": "Kushala Gamma Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Gamma_Armor_Set",
+      "set_bonus": "Kushala Daora Flight",
+      "pieces": [
+        "Kushala Glare Gamma",
+        "Kushala Cista Gamma",
+        "Kushala Grip Gamma",
+        "Kushala Cocoon Gamma",
+        "Kushala Crus Gamma"
+      ]
+    },
+    {
+      "name": "Lavasioth Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lavasioth_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Lavasioth Helm Alpha",
+        "Lavasioth Mail Alpha",
+        "Lavasioth Vambraces Alpha",
+        "Lavasioth Coil Alpha",
+        "Lavasioth Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Lavasioth Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lavasioth_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Lavasioth Helm Beta",
+        "Lavasioth Mail Beta",
+        "Lavasioth Vambraces Beta",
+        "Lavasioth Coil Beta",
+        "Lavasioth Greaves Beta"
+      ]
+    },
+    {
+      "name": "Leather Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Leather Headgear",
+        "Leather Mail",
+        "Leather Gloves",
+        "Leather Belt",
+        "Leather Trousers"
+      ]
+    },
+    {
+      "name": "Leather Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Leather Headgear Alpha",
+        "Leather Mail Alpha",
+        "Leather Gloves Alpha",
+        "Leather Belt Alpha",
+        "Leather Trousers Alpha"
+      ]
+    },
+    {
+      "name": "Leather Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leather_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Leather Headgear Beta",
+        "Leather Mail Beta",
+        "Leather Gloves Beta",
+        "Leather Belt Beta",
+        "Leather Trousers Beta"
+      ]
+    },
+    {
+      "name": "Legiana Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Armor_Set",
+      "set_bonus": "Legiana Blessing",
+      "pieces": [
+        "Legiana Helm",
+        "Legiana Mail",
+        "Legiana Vambraces",
+        "Legiana Coil",
+        "Legiana Greaves"
+      ]
+    },
+    {
+      "name": "Legiana Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Alpha_Armor_Set",
+      "set_bonus": "Legiana Favor",
+      "pieces": [
+        "Legiana Helm Alpha",
+        "Legiana Mail Alpha",
+        "Legiana Vambraces Alpha",
+        "Legiana Coil Alpha",
+        "Legiana Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Legiana Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Beta_Armor_Set",
+      "set_bonus": "Legiana Favor",
+      "pieces": [
+        "Legiana Helm Beta",
+        "legiana Mail Beta",
+        "Legiana Vambraces Beta",
+        "Legiana Coil Beta",
+        "Legiana Greaves Beta"
+      ]
+    },
+    {
+      "name": "Lunastra Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lunastra_Alpha_Armor_Set",
+      "set_bonus": "Lunastra Favor",
+      "pieces": [
+        "Empress Crown Alpha",
+        "Empress Mail Alpha",
+        "Empress Vambraces Alpha",
+        "Empress Coil Alpha",
+        "Empress Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Lunastra Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lunastra_Beta_Armor_Set",
+      "set_bonus": "Lunastra Favor",
+      "pieces": [
+        "Empress Crown Beta",
+        "Empress Mail Beta",
+        "Empress Vambraces Beta",
+        "Empress Coil Beta",
+        "Empress Greaves Beta"
+      ]
+    },
+    {
+      "name": "Lunastra Gamma Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lunastra_Gamma_Armor_Set",
+      "set_bonus": "Lunastra Favor",
+      "pieces": [
+        "Empress Crown Gamma",
+        "Empress Mail Gamma",
+        "Empress Vambraces Gamma",
+        "Empress Coil Gamma",
+        "Empress Greaves Gamma"
+      ]
+    },
+    {
+      "name": "Lumu Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Lumu Hat",
+        "Lumu Mail",
+        "Lumu Vambraces",
+        "Lumu Coil",
+        "Lumu Greaves"
+      ]
+    },
+    {
+      "name": "Lumu Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Lumu Hat Alpha",
+        "Lumu Mail Alpha",
+        "Lumu Vambraces Alpha",
+        "Lumu Coil Alpha",
+        "Lumu Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Lumu Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lumu_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Lumu Hat Beta",
+        "Lumu Mail Beta",
+        "Lumu Vambraces Beta",
+        "Lumu Coil Beta",
+        "Lumu Greaves Beta"
+      ]
+    },
+    {
+      "name": "Mosswine Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Mosswine_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Mosswine Mask Alpha"
+      ]
+    },
+    {
+      "name": "Nergigante Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Alpha_Armor_Set",
+      "set_bonus": "Nergigante Hunger",
+      "pieces": [
+        "Nergigante Helm Alpha",
+        "Nergigante Mail Alpha",
+        "Nergigante Vambraces Alpha",
+        "Nergigante Coil Alpha",
+        "Nergigante Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Nergigante Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Beta_Armor_Set",
+      "set_bonus": "Nergigante Hunger",
+      "pieces": [
+        "Nergigante Helm Beta",
+        "Nergigante Mail Beta",
+        "Nergigante Vambraces Beta",
+        "Nergigante Coil Beta",
+        "Nergigante Greaves Beta"
+      ]
+    },
+    {
+      "name": "Nergigante Gamma Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Gamma_Armor_Set",
+      "set_bonus": "Nergigante Hunger",
+      "pieces": [
+        "Nergigante Helm Gamma",
+        "Nergigante Mail Gamma",
+        "Nergigante Vambraces Gamma",
+        "Nergigante Coil Gamma",
+        "Nergigante Greaves Gamma"
+      ]
+    },
+    {
+      "name": "Odogaron Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Armor_Set",
+      "set_bonus": "Odogaron Power",
+      "pieces": [
+        "Odogaron Helm",
+        "Odogaron Mail",
+        "Odogaron Vambraces",
+        "Odogaron Coil",
+        "Odogaron Greaves"
+      ]
+    },
+    {
+      "name": "Odogaron Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Alpha_Armor_Set",
+      "set_bonus": "Odogaron Mastery",
+      "pieces": [
+        "Odogaron Helm Alpha",
+        "Odogaron Mail Alpha",
+        "Odogaron Vambraces Alpha",
+        "Odogaron Coil Alpha",
+        "Odogaron Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Odogaron Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Beta_Armor_Set",
+      "set_bonus": "Odogaron Mastery",
+      "pieces": [
+        "Odogaron Helm Beta",
+        "Odogaron Mail Beta",
+        "Odogaron Vambraces Beta",
+        "Odogaron Coil Beta",
+        "Odogaron Greaves Beta"
+      ]
+    },
+    {
+      "name": "Orion Armor Alpha Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Orion_Armor_Alpha_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Orion Cap Alpha",
+        "Orion Vest Alpha",
+        "Orion Vambraces Alpha",
+        "Orion Coat Alpha",
+        "Orion Boots Alpha"
+      ]
+    },
+    {
+      "name": "Origin Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Origin_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Origin Helm",
+        "Origin Mail",
+        "Origin Vambraces",
+        "Origin Coil",
+        "Origin Greaves"
+      ]
+    },
+    {
+      "name": "Pukei Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Pukei Hood",
+        "Pukei Mail",
+        "Pukei Vambraces",
+        "Pukei Coil",
+        "Pukei Greaves"
+      ]
+    },
+    {
+      "name": "Pukei Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Pukei Hood Alpha",
+        "Pukei Mail Alpha",
+        "Pukei Vambraces Alpha",
+        "Pukei Coil Alpha",
+        "Pukei Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Pukei Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Pukei Hood Beta",
+        "Pukei Mail Beta",
+        "Pukei Vambraces Beta",
+        "Pukei Coil Beta",
+        "Pukei Greaves Beta"
+      ]
+    },
+    {
+      "name": "Rath Heart Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Heart_Alpha_Armor_Set",
+      "set_bonus": "Pink Rathian Mastery",
+      "pieces": [
+        "Rath Heart Helm Alpha",
+        "Rath Heart Mail Alpha",
+        "Rath Heart Vambraces Alpha",
+        "Rath Heart Coil Alpha",
+        "Rath Heart Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Rath Heart Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Heart_Beta_Armor_Set",
+      "set_bonus": "Pink Rathian Mastery",
+      "pieces": [
+        "Rath Heart Helm Beta",
+        "Rath Heart Mail Beta",
+        "Rath Heart Vambraces Beta",
+        "Rath Heart Coil Beta",
+        "Rath Heart Greaves Beta"
+      ]
+    },
+    {
+      "name": "Rath Soul Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Soul_Alpha_Armor_Set",
+      "set_bonus": "Rathalos Mastery",
+      "pieces": [
+        "Rath Soul Helm Alpha",
+        "Rath Soul Mail Alpha",
+        "Rath Soul Braces Alpha",
+        "Rath Soul Coil Alpha",
+        "Rath Soul Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Rath Soul Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Soul_Beta_Armor_Set",
+      "set_bonus": "Rathalos Mastery",
+      "pieces": [
+        "Rath Soul Helm Beta",
+        "Rath Soul Mail Beta",
+        "Rath Soul Braces Beta",
+        "Rath Soul Coil Beta",
+        "Rath Soul Greaves Beta"
+      ]
+    },
+    {
+      "name": "Rathalos Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Armor_Set",
+      "set_bonus": "Rathalos Power",
+      "pieces": [
+        "Rathalos Helm",
+        "Rathalos Mail",
+        "Rathalos Vambraces",
+        "Rathalos Coil",
+        "Rathalos Greaves"
+      ]
+    },
+    {
+      "name": "Rathalos Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Alpha_Armor_Set",
+      "set_bonus": "Rathalos Mastery",
+      "pieces": [
+        "Rathalos Helm Alpha",
+        "Rathalos Mail Alpha",
+        "Rathalos Vambraces Alpha",
+        "Rathalos Coil Alpha",
+        "Rathalos Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Rathalos Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Beta_Armor_Set",
+      "set_bonus": "Rathalos Mastery",
+      "pieces": [
+        "Rathalos Helm Beta",
+        "Rathalos Mail Beta",
+        "Rathalos Vambraces Beta",
+        "Rathalos Coil Beta",
+        "Rathalos Greaves Beta"
+      ]
+    },
+    {
+      "name": "Rathian Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Rathian Helm",
+        "Rathian Mail",
+        "Rathian Vambraces",
+        "Rathian Coil",
+        "Rathian Greaves"
+      ]
+    },
+    {
+      "name": "Rathian Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Rathian Helm Alpha",
+        "Rathian Mail Alpha",
+        "Rathian Vambraces Alpha",
+        "Rathian Coil Alpha",
+        "Rathian Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Rathian Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Rathian Helm Beta",
+        "Rathian Mail Beta",
+        "Rathian Vambraces Beta",
+        "Rathian Coil Beta",
+        "Rathian Greaves Beta"
+      ]
+    },
+    {
+      "name": "Ryu's Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ryu%27s_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Ryu's Head",
+        "Ryu's Karate Gi",
+        "Ryu's Arms",
+        "Ryu's Torso",
+        "Ryu's Legs"
+      ]
+    },
+    {
+      "name": "Ryu's Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ryu%27s_Alpha_Armor_Set",
+      "set_bonus": "Rathalos Mastery",
+      "pieces": [
+        "Ryu's Head Alpha",
+        "Ryu's Karate Gi Alpha",
+        "Ryu's Arms Alpha",
+        "Ryu's Torso Alpha",
+        "Ryu's Legs Alpha"
+      ]
+    },
+    {
+      "name": "Sakura Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Sakura_Alpha_Armor_Set",
+      "set_bonus": "Pink Rathian Mastery",
+      "pieces": [
+        "Sakura's Head Alpha",
+        "Sakura's Work Uniform Alpha",
+        "Sakura's Arms Alpha",
+        "Sakura's Skirt Alpha",
+        "Sakura's Legs Alpha"
+      ]
+    },
+    {
+      "name": "Shamos Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Shamos_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Shamos Goggles"
+      ]
+    },
+    {
+      "name": "Shamos Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Shamos_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Shamos Goggles Alpha"
+      ]
+    },
+    {
+      "name": "Shamos Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Shamos_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Shamos Goggles Beta"
+      ]
+    },
+    {
+      "name": "Strategist Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Strategist_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Strategist Spectacles Alpha"
+      ]
+    },
+    {
+      "name": "Teostra Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Teostra_Alpha_Armor_Set",
+      "set_bonus": "Teostra Technique",
+      "pieces": [
+        "Kaiser Crown Alpha",
+        "Kaiser Mail Alpha",
+        "Kaiser Vambraces Alpha",
+        "Kaiser Coil Alpha",
+        "Kaiser Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Teostra Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Teostra_Beta_Armor_Set",
+      "set_bonus": "Teostra Technique",
+      "pieces": [
+        "Kaiser Crown Beta",
+        "Kaiser Mail Beta",
+        "Kaiser Vambraces Beta",
+        "Kaiser Coil Beta",
+        "Kaiser Greaves Beta"
+      ]
+    },
+    {
+      "name": "Teostra Gamma Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Teostra_Gamma_Armor_Set",
+      "set_bonus": "Teostra Technique",
+      "pieces": [
+        "Kaiser Crown Gamma",
+        "Kaiser Mail Gamma",
+        "Kaiser Vambraces Gamma",
+        "Kaiser Coil Gamma",
+        "Kaiser Greaves Gamma"
+      ]
+    },
+    {
+      "name": "Tzitzi Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Tzitzi Headgear",
+        "Tzitzi Mail",
+        "Tzitzi Vambraces",
+        "Tzitzi Coil",
+        "Tzitzi Greaves"
+      ]
+    },
+    {
+      "name": "Tzitzi Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Tzitzi Headgear Alpha",
+        "Tzitzi Mail Alpha",
+        "Tzitzi Vambraces Alpha",
+        "Tzitzi Coil Alpha",
+        "Tzitzi Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Tzitzi Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Tzitzi Headgear Beta",
+        "Tzitzi Mail Beta",
+        "Tzitzi Vambraces Beta",
+        "Tzitzi Coil Beta",
+        "Tzitzi Greaves Beta"
+      ]
+    },
+    {
+      "name": "Uragaan Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan_Alpha_Armor_Set",
+      "set_bonus": "Uragaan Protection",
+      "pieces": [
+        "Uragaan Helm Alpha",
+        "Uragaan Mail Alpha",
+        "Uragaan Vambraces Alpha",
+        "Uragaan Coil Alpha",
+        "Uragaan Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Uragaan Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan_Beta_Armor_Set",
+      "set_bonus": "Uragaan Protection",
+      "pieces": [
+        "Uragaan Helm Beta",
+        "Uragaan Mail Beta",
+        "Uragaan Vambraces Beta",
+        "Uragaan Coil Beta",
+        "Uragaan Greaves Beta"
+      ]
+    },
+    {
+      "name": "Vaal Hazak Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Alpha_Armor_Set",
+      "set_bonus": "Vaal Hazak Vitality",
+      "pieces": [
+        "Vaal Hazak Helm Alpha",
+        "Vaal Hazak Mail Alpha",
+        "Vaal Hazak Braces Alpha",
+        "Vaal Hazak Coil Alpha",
+        "Vaal Hazak Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Vaal Hazak Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Beta_Armor_Set",
+      "set_bonus": "Vaal Hazak Vitality",
+      "pieces": [
+        "Vaal Hazak Helm Beta",
+        "Vaal Hazak Mail Beta",
+        "Vaal Hazak Braces Beta",
+        "Vaal Hazak Coil Beta",
+        "Vaal Hazak Greaves Beta"
+      ]
+    },
+    {
+      "name": "Vaal Hazak Gamma Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Gamma_Armor_Set",
+      "set_bonus": "Vaal Hazak Vitality",
+      "pieces": [
+        "Vaal Hazak Helm Gamma",
+        "Vaal Hazak Mail Gamma",
+        "Vaal Hazak Vambraces Gamma",
+        "Vaal Hazak Coil Gamma",
+        "Vaal Hazak Greaves Gamma"
+      ]
+    },
+    {
+      "name": "Vespoid Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Vespoid Helm",
+        "Vespoid Mail",
+        "Vespoid Vambraces",
+        "Vespoid Coil",
+        "Vespoid Greaves"
+      ]
+    },
+    {
+      "name": "Vespoid Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Vespoid Helm Alpha",
+        "Vespoid Mail Alpha",
+        "Vespoid Vambraces Alpha",
+        "Vespoid Coil Alpha",
+        "Vespoid Greaves Alpha"
+      ]
+    },
+    {
+      "name": "Vespoid Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Vespoid Helm Beta",
+        "Vespoid Mail Beta",
+        "Vespoid Vambraces Beta",
+        "Vespoid Coil Beta",
+        "Vespoid Greaves Beta"
+      ]
+    },
+    {
+      "name": "Xeno'jiiva Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Alpha_Armor_Set",
+      "set_bonus": "Xeno'jiiva Divinity",
+      "pieces": [
+        "Xeno'jiiva Headgear Alpha",
+        "Xeno'jiiva Hide Alpha",
+        "Xeno'jiiva Claws Alpha",
+        "Xeno'jiiva Spine Alpha",
+        "Xeno'jiiva Spurs Alpha"
+      ]
+    },
+    {
+      "name": "Xeno'jiiva Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Beta_Armor_Set",
+      "set_bonus": "Xeno'jiiva Divinity",
+      "pieces": [
+        "Xeno'jiiva Headgear Beta",
+        "Xeno'jiiva Hide Beta",
+        "Xeno'jiiva Claws Beta",
+        "Xeno'jiiva Spine Beta",
+        "Xeno'jiiva Spurs Beta"
+      ]
+    },
+    {
+      "name": "Xeno'jiiva Gamma Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Gamma_Armor_Set",
+      "set_bonus": "Xeno'jiiva Divinity",
+      "pieces": [
+        "Xeno'jiiva Headgear Gamma",
+        "Xeno'jiiva Hide Gamma",
+        "Xeno'jiiva Claws Gamma",
+        "Xeno'jiiva Spine Gamma",
+        "Xeno'jiiva Spurs Gamma"
+      ]
+    },
+    {
+      "name": "Zorah Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Alpha_Armor_Set",
+      "set_bonus": "Zorah Magdaros Mastery",
+      "pieces": [
+        "Zorah Headgear Alpha",
+        "Zorah Hide Alpha",
+        "Zorah Claws Alpha",
+        "Zorah Spine Alpha",
+        "Zorah Spurs Alpha"
+      ]
+    },
+    {
+      "name": "Zorah Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Beta_Armor_Set",
+      "set_bonus": "Zorah Magdaros Mastery",
+      "pieces": [
+        "Zorah Headgear Beta",
+        "Zorah Hide Beta",
+        "Zorah Claws Beta",
+        "Zorah Spine Beta",
+        "Zorah Spurs Beta"
+      ]
+    },
+    {
+      "name": "Zorah Gamma Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Gamma_Armor_Set",
+      "set_bonus": "Zorah Magdaros Mastery",
+      "pieces": [
+        "Zorah Headgear Gamma",
+        "Zorah Hide Gamma",
+        "Zorah Claws Gamma",
+        "Zorah Spine Gamma",
+        "Zorah Spurs Gamma"
+      ]
+    },
+    {
+      "name": "Kulve Taroth Alpha Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth_Alpha_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Kulve Taroth's Fury Alpha",
+        "Kulve Taroth's Ire Alpha",
+        "Kulve Taroth's Rage Alpha",
+        "Kulve Taroth's Malice Alpha",
+        "Kulve Taroth's Wrath Alpha"
+      ]
+    },
+    {
+      "name": "Kulve Taroth Beta Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth_Beta_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Kulve Taroth's Fury Beta",
+        "Kulve Taroth's Ire Beta",
+        "Kulve Taroth's Rage Beta",
+        "Kulve Taroth's Malice Beta",
+        "Kulve Taroth's Wrath Beta"
+      ]
+    },
+    {
+      "name": "Kulve Taroth Gamma Armor Set",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth_Gamma_Armor_Set",
+      "set_bonus": null,
+      "pieces": [
+        "Kulve Taroth's Fury Gamma",
+        "Kulve Taroth's Ire Gamma",
+        "Kulve Taroth’s Rage Gamma",
+        "Kulve Taroth's Malice Gamma",
+        "Kulve Taroth's Wrath Gamma"
+      ]
+    }
+  ]
+}

@@ -17,3 +17,4 @@ class SeedTests(TestCase):
         for model in (Skill, Charm, Decoration, Armor):
             self.assertTrue(model.objects.exists(), model.__name__)
         self.assertTrue(out.getvalue().startswith("skills:"))
+        self.assertTrue(Armor.objects.filter(set_bonus__isnull=False).exists())

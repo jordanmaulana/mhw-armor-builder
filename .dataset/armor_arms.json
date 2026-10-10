@@ -1189,6 +1189,29 @@
       }
     },
     {
+      "name": "Diver's Braces",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diver%27s_Braces",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c4/Divers_braces_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/dc/Divers_braces_female.png",
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
       "name": "Drachen Vambraces Alpha",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Drachen_Vambraces_Alpha",
       "icon_url_male": null,
@@ -4121,6 +4144,38 @@
         {
           "name": "Flinch Free",
           "url": "https://monsterhunterworld.wiki.fextralife.com/Flinch_Free",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Xeno'jiiva Claws Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%E2%80%99jiiva_Claws_Gamma",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        2,
+        2,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Power_Prolonger",
+          "level": 1
+        },
+        {
+          "name": "Special Ammo Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Special_Ammo_Boost",
           "level": 1
         }
       ],

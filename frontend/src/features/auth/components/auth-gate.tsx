@@ -49,7 +49,8 @@ export function AuthGate() {
       navigate({ to: "/onboarding" });
       return;
     }
-    if (user.onboarded && (PUBLIC_PATHS.has(pathname) || pathname === "/onboarding")) {
+    // "/" is the public armor builder: signed-in users may stay on it.
+    if (user.onboarded && (pathname === "/login" || pathname === "/onboarding")) {
       navigate({ to: "/dashboard" });
     }
   }, [token, user, pathname, navigate]);

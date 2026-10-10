@@ -1182,6 +1182,29 @@
       }
     },
     {
+      "name": "Diver's Belt",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diver%27s_Belt",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/50/Divers_belt_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/26/Divers_belt_female.png",
+      "rarity": 3,
+      "defense": 22,
+      "slots": [],
+      "skills": [
+        {
+          "name": "Aquatic/Polar Mobility (Aquatic Expert)",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Aquatic_Expert",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    {
       "name": "Dober Coil Alpha",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Dober_Coil_Alpha",
       "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Dober_coil_alpha_male.png",
@@ -1365,6 +1388,36 @@
         {
           "name": "Tool Specialist",
           "url": "https://monsterhunterworld.wiki.fextralife.com/Tool_Specialist",
+          "level": 2
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    {
+      "name": "Empress Coil Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Empress_Coil_Gamma",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d1/Empress-coil-gamma-mhw-wiki-guide.png",
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 70,
+      "slots": [
+        3
+      ],
+      "skills": [
+        {
+          "name": "Evade Window",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+          "level": 2
+        },
+        {
+          "name": "Health Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
           "level": 2
         }
       ],
@@ -3342,6 +3395,31 @@
       }
     },
     {
+      "name": "Rath Heart Coil Beta",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Heart_Coil_Beta",
+      "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Rath_heart_coil_beta_male.png",
+      "icon_url_female": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/dc/Rath_heart_coil_beta_female.png",
+      "rarity": 6,
+      "defense": 52,
+      "slots": [
+        1
+      ],
+      "skills": [
+        {
+          "name": "Handicraft",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    {
       "name": "Rath Soul Coil Alpha",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Rath_Soul_Coil_Alpha",
       "icon_url_male": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/67/Rath_soul_coil_alpha_male.png",
@@ -4017,6 +4095,32 @@
         {
           "name": "Blight Resistance",
           "url": "https://monsterhunterworld.wiki.fextralife.com/Blight_Resistance",
+          "level": 1
+        }
+      ],
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": -4
+      }
+    },
+    {
+      "name": "Xeno'jiiva Spine Gamma",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%E2%80%99jiiva_Spine_Gamma",
+      "icon_url_male": null,
+      "icon_url_female": null,
+      "rarity": 8,
+      "defense": 72,
+      "slots": [
+        3,
+        1
+      ],
+      "skills": [
+        {
+          "name": "Critical Boost",
+          "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Boost",
           "level": 1
         }
       ],
