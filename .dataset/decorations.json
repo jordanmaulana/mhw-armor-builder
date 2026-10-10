@@ -1,0 +1,9425 @@
+{
+  "source": "https://monsterhunterworld.wiki.fextralife.com/Decorations",
+  "decorations": [
+    {
+      "name": "Antiblast Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Blast Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Antiblast Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Blast Resistance",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Antidote Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 4.57,
+        "glowing": 3.495,
+        "worn": 0.538,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Antidote Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "level": 2
+        }
+      ],
+      "note": "only obtainable once; complete A Queen At Heart",
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Antipara Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 4.57,
+        "glowing": 3.495,
+        "worn": 0.538,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Antipara Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "level": 2
+        }
+      ],
+      "note": "only obtainable once; complete Bugger Off Bugs!",
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Artillery Jewel 1",
+      "slot": 1,
+      "rarity": 8,
+      "skills": [
+        {
+          "name": "Artillery",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.273,
+        "warped": 0.682,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Artillery Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Artillery",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Attack Jewel 1",
+      "slot": 1,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.017,
+        "worn": 0.1,
+        "warped": 0.3,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Attack Jewel+ 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.267
+      }
+    },
+    {
+      "name": "Blast Jewel 1",
+      "slot": 1,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.05,
+        "worn": 0.3,
+        "warped": 0.9,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Blast Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.189,
+        "carved": 0.5,
+        "sealed": 0.743
+      }
+    },
+    {
+      "name": "Blastcoat Jewel 3",
+      "slot": 3,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Blast Functionality",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.083,
+        "worn": 0.5,
+        "warped": 1.5,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Blaze Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Fire Attack",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Blaze Jewel+ 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Fire Attack",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.284,
+        "carved": 0.75,
+        "sealed": 1.115
+      }
+    },
+    {
+      "name": "Bolt Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Bolt Jewel+ 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.284,
+        "carved": 0.75,
+        "sealed": 1.115
+      }
+    },
+    {
+      "name": "Bomber Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Bomber/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Bomber/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Bomber/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.371
+      }
+    },
+    {
+      "name": "Bomber/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Bomber/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Bomber/Release Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Botany Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Botanist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Botany Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Botanist",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Brace Jewel 3",
+      "slot": 3,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.714,
+        "glowing": 1.619,
+        "worn": 3.905,
+        "warped": 3.667,
+        "ancient": 2.524,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Brace/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Brace/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Brace/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Brace/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Brace/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Brace/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Challenger Jewel 2",
+      "slot": 2,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Agitator",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.017,
+        "worn": 0.1,
+        "warped": 0.3,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Challenger Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Agitator",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Challenger/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Agitator",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Challenger/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Agitator",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Challenger/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Agitator",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Challenger/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Agitator",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Challenger/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Agitator",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Challenger/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Agitator",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Charger Jewel 2",
+      "slot": 2,
+      "rarity": 8,
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.091,
+        "warped": 0.227,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Charger/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Charger/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Charger/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Charger/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Charger/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Charger/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Cooling Jewel 2",
+      "slot": 2,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Heat Guard",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Crisis Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Resuscitate",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 4.57,
+        "glowing": 3.495,
+        "worn": 0.538,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Crisis/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Resuscitate",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Crisis/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Resuscitate",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Crisis/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Resuscitate",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Crisis/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Resuscitate",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Crisis/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Resuscitate",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Crisis/Release Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Resuscitate",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Critical Jewel 2",
+      "slot": 2,
+      "rarity": 8,
+      "skills": [
+        {
+          "name": "Critical Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.455,
+        "warped": 1.136,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Critical/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Critical Boost",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.533
+      }
+    },
+    {
+      "name": "Critical/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Critical Boost",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Critical/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Critical Boost",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Critical/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Critical Boost",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.533
+      }
+    },
+    {
+      "name": "Critical/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Critical Boost",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Critical/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Critical Boost",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Def Lock Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Iron Skin",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 4.57,
+        "glowing": 3.495,
+        "worn": 0.538,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Def Lock Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Iron Skin",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Defense Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Defense Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Destroyer Jewel 2",
+      "slot": 2,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.143,
+        "glowing": 0.324,
+        "worn": 0.781,
+        "warped": 0.733,
+        "ancient": 0.505,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Destroyer/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Destroyer/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Destroyer/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Destroyer/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Destroyer/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Destroyer/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Dragon Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Dragon Attack",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Dragon Jewel+ 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Dragon Attack",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.284,
+        "carved": 0.75,
+        "sealed": 1.115
+      }
+    },
+    {
+      "name": "Dragon Res Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Dragon Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Dragon Res Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Dragon Resistance",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Dragonseal Jewel 3",
+      "slot": 3,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Elderseal Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.05,
+        "worn": 0.3,
+        "warped": 0.9,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Drain Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Stamina Thief",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Drain/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Stamina Thief",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Drain/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Stamina Thief",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Drain/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Stamina Thief",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Drain/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Stamina Thief",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Drain/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Stamina Thief",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Drain/Release Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Stamina Thief",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Draw Jewel 2",
+      "slot": 2,
+      "rarity": 8,
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.091,
+        "warped": 0.227,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Draw/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Draw/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.13,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Draw/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.13,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Draw/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Draw/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Draw/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Earplug Jewel 3",
+      "slot": 3,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Earplug Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.267
+      }
+    },
+    {
+      "name": "Earplug/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.533
+      }
+    },
+    {
+      "name": "Earplug/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Earplug/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Earplug/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.533
+      }
+    },
+    {
+      "name": "Earplug/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Earplug/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Elementless Jewel 2",
+      "slot": 2,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Non-elemental Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.334,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Enduring Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Item Prolonger",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.714,
+        "glowing": 1.619,
+        "worn": 3.905,
+        "warped": 3.667,
+        "ancient": 2.524,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Enduring Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Item Prolonger",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Enhancer Jewel 2",
+      "slot": 2,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.05,
+        "worn": 0.3,
+        "warped": 0.9,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Enhancer/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Enhancer/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.371
+      }
+    },
+    {
+      "name": "Enhancer/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Enhancer/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Enhancer/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Enhancer/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Evasion Jewel 2",
+      "slot": 2,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.143,
+        "glowing": 0.324,
+        "worn": 0.781,
+        "warped": 0.733,
+        "ancient": 0.505,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Evade Window",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Expert Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.143,
+        "glowing": 0.324,
+        "worn": 0.781,
+        "warped": 0.733,
+        "ancient": 0.505,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Expert Jewel+ 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.267
+      }
+    },
+    {
+      "name": "Fire Res Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Fire Res Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Flawless Jewel 2",
+      "slot": 2,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.083,
+        "worn": 0.5,
+        "warped": 1.5,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Flawless/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Flawless/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Flawless/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Flawless/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Flawless/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Flawless/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Flight Jewel 2",
+      "slot": 2,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Airborne",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 4.57,
+        "glowing": 3.495,
+        "worn": 0.538,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Flight/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Airborne",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Flight/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Airborne",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Flight/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Airborne",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Flight/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Airborne",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Flight/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Airborne",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Flight/Release Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Airborne",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.22
+      }
+    },
+    {
+      "name": "Footing Jewel 2",
+      "slot": 2,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.714,
+        "glowing": 1.619,
+        "worn": 3.905,
+        "warped": 3.667,
+        "ancient": 2.524,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Footing/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Footing/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Footing/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Footing/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Footing/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Footing/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Forceshot Jewel 3",
+      "slot": 3,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Normal Shots",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.017,
+        "worn": 0.1,
+        "warped": 0.3,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Fortitude Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 4.57,
+        "glowing": 3.495,
+        "worn": 0.538,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Fortitude/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Fortitude/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Fortitude/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Fortitude/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Fortitude/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Fortitude/Release Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Friendship Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Friendship Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Friendship/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Friendship/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Friendship/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Friendship/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Friendship/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Friendship/Release Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Frost Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Frost Jewel+ 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.284,
+        "carved": 0.75,
+        "sealed": 1.115
+      }
+    },
+    {
+      "name": "Fungiform Jewel 1",
+      "slot": 1,
+      "rarity": 8,
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.91,
+        "warped": 0.227,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Fungiform/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Fungiform/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Fungiform/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Fungiform/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Fungiform/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Fungiform/Release Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Furor Jewel 2",
+      "slot": 2,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.017,
+        "worn": 0.1,
+        "warped": 0.3,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Furor Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Furor/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Furor/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Furor/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Furor/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Furor/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Furor/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Geology Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Geologist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Geology Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Geologist",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Gobbler Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.714,
+        "glowing": 1.619,
+        "worn": 3.905,
+        "warped": 3.667,
+        "ancient": 2.524,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Gobbler/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Gobbler/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Gobbler/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Gobbler/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Gobbler/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Gobbler/Release Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Grinder Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Grinder/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Grinder/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Grinder/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Grinder/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Grinder/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Grinder/Release Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Guardian Jewel 2",
+      "slot": 2,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Offensive Guard",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 1.053,
+        "sealed": 0.596
+      }
+    },
+    {
+      "name": "Guardian/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Offensive Guard",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Guardian/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Offensive Guard",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Guardian/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Offensive Guard",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Guardian/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Offensive Guard",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Guardian/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Offensive Guard",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Guardian/Release Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Offensive Guard",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Handicraft Jewel 3",
+      "slot": 3,
+      "rarity": 8,
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.091,
+        "warped": 0.227,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.267
+      }
+    },
+    {
+      "name": "Handicraft/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.533
+      }
+    },
+    {
+      "name": "Handicraft/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Handicraft/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Handicraft/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.533
+      }
+    },
+    {
+      "name": "Handicraft/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Handicraft/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Hard Botany Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Botanist",
+          "level": 4
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Hard Defense Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Hard Dragon Res Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Dragon Resistance",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Hard Enduring Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Item Prolonger",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Hard Fire Res Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Hard Geology Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Geologist",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Hard Ice Res Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Hard Intimidator Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Intimidator",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Hard Meowster Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Hard Specimen Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Entomologist",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Hard Survival Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Survival Expert(Sporepuff Expert)",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Hard Thunder Res Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Hard Tip Toe Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Stealth",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Hard Water Res Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Water Resistance",
+          "level": 3
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Heavy Artillery Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Heavy Artillery",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Heavy Artillery Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Heavy Artillery",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Hungerless Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Hunger Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.914,
+        "glowing": 0.699,
+        "worn": 0.108,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Hungerless Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Hunger Resistance",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Ice Res Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Ice Res Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "level": 2
+        }
+      ],
+      "note": "only obtainable once; complete The Great Jagras Returns!",
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Intimidator Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Intimidator",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.914,
+        "glowing": 0.699,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Intimidator Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Intimidator",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Ironwall Jewel 1",
+      "slot": 1,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.017,
+        "worn": 0.1,
+        "warped": 0.3,
+        "ancient": 0.0,
+        "carved": 1.053,
+        "sealed": 0.596
+      }
+    },
+    {
+      "name": "Ironwall Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Ironwall/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Ironwall/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Ironwall/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Ironwall/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Ironwall/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Ironwall/Release Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Jumping Jewel 2",
+      "slot": 2,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.143,
+        "glowing": 0.324,
+        "worn": 0.781,
+        "warped": 0.733,
+        "ancient": 0.505,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Jumping/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Jumping/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Jumping/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Jumping/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Jumping/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Jumping/Release Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "KO Jewel 2",
+      "slot": 2,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "KO/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "KO/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "KO/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "KO/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "KO/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "KO/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Magazine Jewel 2",
+      "slot": 2,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Capacity Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.017,
+        "worn": 0.1,
+        "warped": 0.3,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Maintenance Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.914,
+        "glowing": 0.699,
+        "worn": 0.108,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Medicine Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Meowster Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 4.57,
+        "glowing": 3.495,
+        "worn": 0.538,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Meowster Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Miasma Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Effluvia Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Miasma Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Effluvia Resistance",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Mighty Bow Jewel 2",
+      "slot": 2,
+      "rarity": 8,
+      "skills": [
+        {
+          "name": "Bow Charge Plus",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.273,
+        "warped": 0.682,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Mighty Jewel 2",
+      "slot": 2,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.05,
+        "worn": 0.3,
+        "warped": 0.9,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Mighty/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Mighty/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Mighty/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Mighty/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Mighty/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Mighty/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Mind's Eye Jewel 2",
+      "slot": 2,
+      "rarity": 8,
+      "skills": [
+        {
+          "name": "Mind's Eye/Ballistics",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.091,
+        "warped": 0.227,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Mirewalker Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Aquatic/Polar Mobility (Aquatic Expert)",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.914,
+        "glowing": 0.699,
+        "worn": 0.109,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Mirewalker Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Aquatic/Polar Mobility (Aquatic Expert)",
+          "level": 2
+        }
+      ],
+      "note": "obtainable once; complete Jyura In My Way",
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Paracoat Jewel 3",
+      "slot": 3,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Paralysis Functionality",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.05,
+        "worn": 0.3,
+        "warped": 0.9,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Paralyzer Jewel 1",
+      "slot": 1,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.05,
+        "worn": 0.3,
+        "warped": 0.901,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Paralyzer Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.189,
+        "carved": 0.5,
+        "sealed": 0.743
+      }
+    },
+    {
+      "name": "Pep Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Sleep Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 4.57,
+        "glowing": 3.495,
+        "worn": 0.538,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Pep Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Sleep Resistance",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Phoenix Jewel 3",
+      "slot": 3,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Coalescence",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Phoenix/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Coalescence",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.533
+      }
+    },
+    {
+      "name": "Phoenix/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Coalescence",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Phoenix/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Coalescence",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Phoenix/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Coalescence",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.533
+      }
+    },
+    {
+      "name": "Phoenix/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Coalescence",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Phoenix/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Coalescence",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Physique Jewel 2",
+      "slot": 2,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.143,
+        "glowing": 0.324,
+        "worn": 0.781,
+        "warped": 0.733,
+        "ancient": 0.505,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Constitution",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Pierce Jewel 3",
+      "slot": 3,
+      "rarity": 8,
+      "skills": [
+        {
+          "name": "Piercing Shots",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.091,
+        "warped": 0.227,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Poisoncoat Jewel 3",
+      "slot": 3,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Poison Functionality",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.714,
+        "glowing": 1.619,
+        "worn": 3.905,
+        "warped": 3.667,
+        "ancient": 2.524,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Potential Jewel 2",
+      "slot": 2,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Heroics",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.083,
+        "worn": 0.5,
+        "warped": 1.5,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Potential Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Heroics",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Potential/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Heroics",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Potential/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Heroics",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Potential/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Heroics",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Potential/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Heroics",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Potential/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Heroics",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Potential/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Heroics",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Protection Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.914,
+        "glowing": 0.699,
+        "worn": 0.108,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Recovery Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.143,
+        "glowing": 0.324,
+        "worn": 0.781,
+        "warped": 0.733,
+        "ancient": 0.505,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Recovery Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Refresh Jewel 2",
+      "slot": 2,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.017,
+        "worn": 0.1,
+        "warped": 0.3,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Refresh/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Refresh/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Refresh/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Refresh/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Refresh/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Refresh/Release Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Release Jewel 3",
+      "slot": 3,
+      "rarity": 8,
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.091,
+        "warped": 0.227,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Release/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.533
+      }
+    },
+    {
+      "name": "Release/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Release/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Release/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.533
+      }
+    },
+    {
+      "name": "Release/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Release/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Resistor Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.714,
+        "glowing": 1.619,
+        "worn": 3.905,
+        "warped": 3.664,
+        "ancient": 2.524,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Resistor/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Resistor/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Resistor/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Resistor/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Resistor/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Resistor/Release Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Satiated Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Free Meal",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.914,
+        "glowing": 0.699,
+        "worn": 0.108,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Satiated/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Free Meal",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Satiated/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Free Meal",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Satiated/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Free Meal",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Satiated/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Free Meal",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Satiated/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Free Meal",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Satiated/Release Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Free Meal",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Scent Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Scenthound",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Sharp Jewel 2",
+      "slot": 2,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Protective Polish",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.05,
+        "worn": 0.3,
+        "warped": 0.9,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Sheath Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.143,
+        "glowing": 0.324,
+        "worn": 0.781,
+        "warped": 0.733,
+        "ancient": 0.505,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Sheath/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Sheath/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Sheath/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Sheath/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Sheath/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Sheath/Release Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Shield Jewel 2",
+      "slot": 2,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Guard Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.017,
+        "worn": 0.1,
+        "warped": 0.3,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Sleep Jewel 1",
+      "slot": 1,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Sleep Attack",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.083,
+        "worn": 0.5,
+        "warped": 1.5,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Sleep Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Sleep Attack",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.189,
+        "carved": 0.5,
+        "sealed": 0.743
+      }
+    },
+    {
+      "name": "Sleepcoat Jewel 3",
+      "slot": 3,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Sleep Functionality",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.083,
+        "worn": 0.5,
+        "warped": 1.5,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Slider Jewel 2",
+      "slot": 2,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Slider/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Slider/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Slider/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Slider/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Slider/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Slider/Release Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Sonorous Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Horn Maestro",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.143,
+        "glowing": 0.324,
+        "worn": 0.781,
+        "warped": 0.733,
+        "ancient": 0.505,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Sonorous Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Horn Maestro",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Specimen Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Entomologist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 4.57,
+        "glowing": 3.495,
+        "worn": 0.538,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Specimen Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Entomologist",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Spread Jewel 3",
+      "slot": 3,
+      "rarity": 8,
+      "skills": [
+        {
+          "name": "Spread/Power Shots",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.273,
+        "warped": 0.682,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Sprinter Jewel 2",
+      "slot": 2,
+      "rarity": 8,
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.091,
+        "warped": 0.227,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Sprinter/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Sprinter/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Sprinter/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Sprinter/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Sprinter/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Sprinter/Release Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Steadfast Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.714,
+        "glowing": 1.619,
+        "worn": 3.905,
+        "warped": 3.667,
+        "ancient": 2.524,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Steadfast Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Stonethrower Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Stonethrower/Attack Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Stonethrower/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Stonethrower/Expert Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Stonethrower/Handicraft Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Stonethrower/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Stonethrower/Release Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Stream Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Water Attack",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Stream Jewel+ 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Water Attack",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.284,
+        "carved": 0.75,
+        "sealed": 1.115
+      }
+    },
+    {
+      "name": "Smoke Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Survival Expert(Sporepuff Expert)",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Survival Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Survival Expert(Sporepuff Expert)",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Suture Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Bleeding Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Suture Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Bleeding Resistance",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Tenderizer Jewel 2",
+      "slot": 2,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.143,
+        "glowing": 0.324,
+        "worn": 0.781,
+        "warped": 0.733,
+        "ancient": 0.505,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Tenderizer/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.533
+      }
+    },
+    {
+      "name": "Tenderizer/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Tenderizer/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Tenderizer/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.533
+      }
+    },
+    {
+      "name": "Tenderizer/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Tenderizer/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Throttle Jewel 2",
+      "slot": 2,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.083,
+        "worn": 0.5,
+        "warped": 1.5,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Throttle Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Throttle/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Throttle/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Throttle/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Throttle/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Throttle/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Throttle/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Thunder Res Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Thunder Res Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Tip Toe Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Stealth",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Tip Toe Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Stealth",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Trueshot Jewel 1",
+      "slot": 1,
+      "rarity": 7,
+      "skills": [
+        {
+          "name": "Special Ammo Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.017,
+        "worn": 0.1,
+        "warped": 0.3,
+        "ancient": 0.0,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Trueshot Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Special Ammo Boost",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.267
+      }
+    },
+    {
+      "name": "Venom Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.714,
+        "glowing": 1.619,
+        "worn": 3.905,
+        "warped": 3.667,
+        "ancient": 2.524,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Venom Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.189,
+        "carved": 0.5,
+        "sealed": 0.743
+      }
+    },
+    {
+      "name": "Vitality Jewel 1",
+      "slot": 1,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.714,
+        "glowing": 1.619,
+        "worn": 3.905,
+        "warped": 3.667,
+        "ancient": 2.524,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Warming Jewel 2",
+      "slot": 2,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Coldproof",
+          "level": 1
+        }
+      ],
+      "note": "only obtainable once, given by the commander during the Iceborne story",
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Water Res Jewel 1",
+      "slot": 1,
+      "rarity": 5,
+      "skills": [
+        {
+          "name": "Water Resistance",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 2.742,
+        "glowing": 2.097,
+        "worn": 0.323,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Water Res Jewel 4",
+      "slot": 4,
+      "rarity": 9,
+      "skills": [
+        {
+          "name": "Water Resistance",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.647,
+        "carved": 0.412,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Wind Resist Jewel 2",
+      "slot": 2,
+      "rarity": 6,
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.429,
+        "glowing": 0.971,
+        "worn": 2.343,
+        "warped": 2.2,
+        "ancient": 1.514,
+        "carved": 0.526,
+        "sealed": 0.298
+      }
+    },
+    {
+      "name": "Wind Resist Jewel 4",
+      "slot": 4,
+      "rarity": 12,
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 2
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.267
+      }
+    },
+    {
+      "name": "Wind resist/Evasion Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Wind Resist/Maintenance Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 1
+        },
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Wind Resist/Medicine Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Wind Resist/Physique Jewel 4",
+      "slot": 4,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 1
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.13,
+        "sealed": 0.217
+      }
+    },
+    {
+      "name": "Wind Resist/Protection Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 1
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Wind Resist/Vitality Jewel 4",
+      "slot": 4,
+      "rarity": 10,
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "note": null,
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.095,
+        "carved": 0.25,
+        "sealed": 0.372
+      }
+    },
+    {
+      "name": "Diversion Jewel 3",
+      "slot": 3,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Provoker",
+          "level": 1
+        }
+      ],
+      "note": "only meldable at the Elder Melder after unlocking Guiding Lands",
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Acrobat Jewel 3",
+      "slot": 3,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Safe Landing",
+          "level": 1
+        }
+      ],
+      "note": "only meldable at the Elder Melder after unlocking Guiding Lands",
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    },
+    {
+      "name": "Shaver Jewel 3",
+      "slot": 3,
+      "rarity": 11,
+      "skills": [
+        {
+          "name": "Clutch Claw Boost",
+          "level": 1
+        }
+      ],
+      "note": "only meldable at the Elder Melder after unlocking Guiding Lands",
+      "drop_rates": {
+        "mysterious": 0.0,
+        "glowing": 0.0,
+        "worn": 0.0,
+        "warped": 0.0,
+        "ancient": 0.0,
+        "carved": 0.0,
+        "sealed": 0.0
+      }
+    }
+  ]
+}

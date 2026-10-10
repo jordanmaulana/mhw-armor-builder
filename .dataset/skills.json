@@ -1,0 +1,1794 @@
+{
+  "source": "https://monsterhunterworld.wiki.fextralife.com/Skills",
+  "skills": [
+    {
+      "name": "Affinity Sliding",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Affinity_Sliding",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
+      "description": "Sliding increases your affinity for a short time.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Agitator",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Agitator",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
+      "description": "Increases attack power and affinity when Large_Monsters become enraged.",
+      "max_level": 5,
+      "secret": {
+        "name": "Agitator Secret",
+        "max_level": 7
+      },
+      "levels": []
+    },
+    {
+      "name": "Airborne",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Airborne",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e9/Airborne-skill-mhw.png",
+      "description": "Increases the damage caused by jumping attacks.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Aquatic/Polar Mobility (Aquatic Expert)",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Aquatic_Expert",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/58/Aquatic-expert-skill-mhw.png",
+      "description": "Lets you move more freely in water. Also prevents you from being slowed down by terrain effects, such as deep snow.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Artillery",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Artillery",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/81/Artillery-skill-mhw.png",
+      "description": "Strengthens explosive attacks like Gunlance shells, Wyvern's fire, charge blade phial attacks and sticky ammo.",
+      "max_level": 3,
+      "secret": {
+        "name": "Artillery Secret",
+        "max_level": 5
+      },
+      "levels": []
+    },
+    {
+      "name": "Attack Boost",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Attack_Boost",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
+      "description": "Increases attack power. Also increases affinity at higher levels.",
+      "max_level": 7,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "BBQ Master",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/BBQ_Master",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e6/Bbq-master-skill-mhw.png",
+      "description": "Improves your skill at cooking meat.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Blast Attack",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Attack",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/85/Blast-attack-skill-mhw.png",
+      "description": "Increases the rate of blast buildup. (Elemental buildup has a maximum limit)",
+      "max_level": 4,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Blast Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Resistance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f8/Blast-resistance-skill-mhw.png",
+      "description": "Grants protection against Blastblight.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Bleeding Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bleeding_Resistance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b3/Bleeding-resistance-skill-mhw.png",
+      "description": "Grants protection against bleeding.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Blight Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blight_Resistance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3d/Mushroomancer-skill-mhw.png",
+      "description": "Grants protection against all elemental blights.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Blindsider",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blindsider",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a6/Blindsider-skill-mhw.png",
+      "description": "Increases the effective range of flash attacks",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Bombardier",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bombardier",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/02/Bombadier-skill-mhw.png",
+      "description": "Increases the damage of explosive items:",
+      "max_level": 3,
+      "secret": {
+        "name": "Bombardier Secret",
+        "max_level": 5
+      },
+      "levels": []
+    },
+    {
+      "name": "Botanist",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/24/Slinger-capacity-skill-mhw.png",
+      "description": "Increases the quantity of herbs and other consumable items you gather.",
+      "max_level": 4,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Capacity Boost",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Capacity_Boost",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/75/Capacity-boost-skill-mhw.png",
+      "description": "Increases the gunlance's shell capacity and charge blade's phial capacity.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Carving Pro",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Carving_Pro",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bd/Carving-pro-skill-mhw.png",
+      "description": "Prevents knockback from attacks while carving.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Cliffhanger",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Cliffhanger",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/87/Cliffhanger-skill-mhw.png",
+      "description": "Decrease stamina consumption when evading while clinging to walls or ivy.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Constitution",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Constitution",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c7/Constitution-skill-mhw.png",
+      "description": "Reduces Stamina depletion when performing stamina-draining moves such as evading, etc.",
+      "max_level": 5,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Critical Boost",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Boost",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b9/Critical-draw-skill-mhw.png",
+      "description": "Increases the damage of critical hits.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Critical Draw",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Draw",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b9/Critical-draw-skill-mhw.png",
+      "description": "Increases affinity when performing draw attacks.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Critical Eye",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Eye",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8f/Critical-eye-skill-mhw.png",
+      "description": "Increases Affinity.",
+      "max_level": 7,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Defense Boost",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Defense_Boost",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/43/Defense-boost-skill-mhw.png",
+      "description": "Increases Defense. Also increases Elemental Resistances at higher levels.",
+      "max_level": 7,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Detector",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Detector",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2c/Foragers-luck-skill-mhw.png",
+      "description": "Shows rare gathering points on the Wildlife Map.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Divine Blessing",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Divine_Blessing",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/56/Divine-blessing-skill-mhw.png",
+      "description": "Has predetermined chance of reducing the damage you take.",
+      "max_level": 3,
+      "secret": {
+        "name": "Divine Blessing Secret",
+        "max_level": 5
+      },
+      "levels": []
+    },
+    {
+      "name": "Dragon Attack",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Attack",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d9/Dragon-resistance-skill-mhw.png",
+      "description": "Increases the power of Dragon Attacks.",
+      "max_level": 6,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Dragon Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dragon_Resistance_Skill",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d9/Dragon-resistance-skill-mhw.png",
+      "description": "Increases Dragon Resistance Also improves Defense at higher levels.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Dungmaster",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dungmaster",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/92/Dung-master-skill-mhw.png",
+      "description": "Makes monster hit with slinger dung pods more likely to run.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Earplugs",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Earplugs",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/66/Earplugs-skill-mhw.png",
+      "description": "Grants protection from Large_Monsters' roars.",
+      "max_level": 5,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Effluvia Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvia_Resistance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4f/Effluvial-expert-skill-mhw.png",
+      "description": "Gain a resistance to effluvial buildup.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Effluvial Expert",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvial_Expert",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4f/Effluvial-expert-skill-mhw.png",
+      "description": "Effluvial Expert nullifies or reduces environmental damage in the Rotten Vale.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Elderseal Boost",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elderseal_Boost",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d9/Dragon-resistance-skill-mhw.png",
+      "description": "Increases the Elderseal of weapons and dragon ammo. This skill can be obtained from the Dragonseal Jewel 3 decoration.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Evade Window",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Window",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bd/Evade-window-skill-mhw.png",
+      "description": "Extends the invulnerability period while evading.",
+      "max_level": 5,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Entomologist",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Entomologist",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d6/Entomologist-skill-mhw.png",
+      "description": "When slaying small insects, it will become easier to carve materials from them.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Evade Extender",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Evade_Extender",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bd/Evade-window-skill-mhw.png",
+      "description": "Increase evade distance.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Fire Attack",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Attack",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/62/Fire-attack-skill-mhw.png",
+      "description": "Increases the power of Fire Attacks.",
+      "max_level": 6,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Fire Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Fire_Resistance_Skill",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/67/Fire-resistance-skill-mhw.png",
+      "description": "Increases Fire Resistance Also improves Defense at higher levels.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Flinch Free",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Flinch_Free",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0d/Guard-skill-mhw.png",
+      "description": "Prevents knockbacks and other reactions to small damage",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Focus",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Focus",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Focus-skill-mhw.png",
+      "description": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Forager's Luck",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Forager%27s_Luck",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2c/Foragers-luck-skill-mhw.png",
+      "description": "Increases the chance of finding rare gathering points.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Fortify",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Fortify",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/62/Fire-attack-skill-mhw.png",
+      "description": "Increases your attack and defense every time you fall in battle, up to two times.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Free Elem/Ammo Up",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Elem_Ammo_Up",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/68/Free-elem-ammo-up-skill-mhw.png",
+      "description": "Unlocks your weapon's hidden element. Also increases bowgun loading capacity (there's a cap to loading capacity)",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Free Meal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Free_Meal",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/02/Free-meal-skill-mhw.png",
+      "description": "Gives you a predetermined chance of consuming a food or drink item for free.",
+      "max_level": 1,
+      "secret": {
+        "name": "Free Meal Secret",
+        "max_level": 3
+      },
+      "levels": []
+    },
+    {
+      "name": "Geologist",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Geologist",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Focus-skill-mhw.png",
+      "description": "Increases the number of times you can use a gathering point.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Guard",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guard",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0d/Guard-skill-mhw.png",
+      "description": "Reduces knockbacks and stamina depletion when guarding.",
+      "max_level": 5,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Handicraft",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Handicraft",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7e/Handicraft-skill-mhw.png",
+      "description": "Extends the weapon sharpness gauge. However, it will not increase the gauge past its maximum.",
+      "max_level": 5,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Health Boost",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Health_Boost",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/df/Health-boost-skill-mhw.png",
+      "description": "Increases health.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Heat Guard",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Heat_Guard",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a5/Placeholder-skill-mhw.png",
+      "description": "Nullifies damage from heat.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Heavy Artillery",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Heavy_Artillery",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/0d/Heavy-artillery-skill-mhw.png",
+      "description": "Increase the firepower of ballistae and cannons.",
+      "max_level": 2,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Heroics",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Heroics",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/67/Fire-resistance-skill-mhw.png",
+      "description": "Increases attack power and Defense when health drops to 35% or lower.",
+      "max_level": 5,
+      "secret": {
+        "name": "Heroics Secret",
+        "max_level": 7
+      },
+      "levels": []
+    },
+    {
+      "name": "Honey Hunter",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Honey_Hunter",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Honey-hunter-skill-mhw.png",
+      "description": "Increases the quantity of honey you receive when gathering in the field.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Horn Maestro",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Horn_Maestro",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f1/Stealth-skill-mhw.png",
+      "description": "Increases the effect duration of hunting horn melodies.",
+      "max_level": 2,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Hunger Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunger_Resistance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e1/Hunger-resistance-skill-mhw.png",
+      "description": "Reduces maximum stamina depletion over time.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Ice Attack",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Attack",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5b/Ice-attack-skill-mhw.png",
+      "description": "Increases the power of Ice Attacks.",
+      "max_level": 6,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Ice Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ice_Resistance_Skill",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5b/Ice-attack-skill-mhw.png",
+      "description": "Increases Ice Resistance Also improves Defense at higher levels.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Intimidator",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Intimidator",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e8/Intimidator-skill-mhw.png",
+      "description": "Reduces the chances small monsters will attack after spotting you.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Iron Skin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Iron_Skin",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/43/Defense-boost-skill-mhw.png",
+      "description": "Grants protection against Defense Down.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Item Prolonger",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Item_Prolonger",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/93/Item-prolonger-skill-mhw.png",
+      "description": "Extends the duration of some item effects.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Jump Master",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jump_Master",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/ca/Jump-master-skill-mhw.png",
+      "description": "Prevents attacks from knocking you back during a jump.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Latent Power",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Latent_Power",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d9/Dragon-resistance-skill-mhw.png",
+      "description": "Temporarily increases affinity and reduced stamina depletion when certain conditions are met.",
+      "max_level": 5,
+      "secret": {
+        "name": "Latent Power Secret",
+        "max_level": 7
+      },
+      "levels": []
+    },
+    {
+      "name": "Leap of Faith",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Leap_of_Faith",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/41/Leap-of-faith-skill-mhw.png",
+      "description": "Allows you to do a dive-evade when facing towards Large_Monsters, and extends the dive-evade distance",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Marathon Runner",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Marathon_Runner",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/ca/Marathon-runner-skill-mhw.png",
+      "description": "Slows down stamina depletion for actions which continuously drain stamina (such as dashing).",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Master Fisher",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Master_Fisher",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/ad/Master-fisher-skill-mhw.png",
+      "description": "Improves your skill at fishing.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Master Gatherer",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Master_Gatherer",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d0/Master-gatherer-skill-mhw.png",
+      "description": "Allows you to gather more quickly, and also prevents attacks from knocking you back while gathering.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Master Mounter",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Master_Mounter",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bd/Master-mounter-skill-mhw.png",
+      "description": "Makes it easier to mount Monsters.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Maximum Might",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Maximum_Might",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/15/Maximum-might-skill-mhw.png",
+      "description": "Increases affinity when stamina is full for several seconds. After activation, if stamina is used, the effects will continue for a few seconds.",
+      "max_level": 3,
+      "secret": {
+        "name": "Maximum Might Secret",
+        "max_level": 5
+      },
+      "levels": []
+    },
+    {
+      "name": "Muck Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Muck_Resistance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f1/Stealth-skill-mhw.png",
+      "description": "Reduces impairments to mobility while stuck in monster muck.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Mushroomancer",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Mushroomancer",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3d/Mushroomancer-skill-mhw.png",
+      "description": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Normal Shots",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Normal_Shots",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e8/Intimidator-skill-mhw.png",
+      "description": "Increases the attack power of normal ammo and normal arrows.",
+      "max_level": 2,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Palico Rally",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Palico_Rally",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/71/Palico-rally-skill-mhw.png",
+      "description": "Powers up Palicoes.",
+      "max_level": 5,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Paralysis Attack",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Attack",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/41/Paralysis-attack-skill-mhw.png",
+      "description": "Increase the rate of paralysis buildup.",
+      "max_level": 4,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Paralysis Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Resistance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/77/Paralysis-resistance-skill-mhw.png",
+      "description": "Reduce the duration of Paralysis.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Partbreaker",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/81/Artillery-skill-mhw.png",
+      "description": "Makes it easier to break or sever parts of Large_Monsters.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Peak Performance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Peak_Performance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
+      "description": "Increases attack when your health is full.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Piercing Shots",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Piercing_Shots",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/56/Divine-blessing-skill-mhw.png",
+      "description": "Increases the attack power of piercing ammo and Dragon Piercer.",
+      "max_level": 2,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Poison Attack",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Attack",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e5/Poison-attack-skill-mhw.png",
+      "description": "Increase the rate of poison buildup.",
+      "max_level": 4,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Poison Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Resistance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/63/Poison-resistance-skill-mhw.png",
+      "description": "Grants protection against the effects of poison.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Power Prolonger",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Power_Prolonger",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/93/Item-prolonger-skill-mhw.png",
+      "description": "Allows long swords, dual blades, insect glaives, switch axes and charge blades to stay powered up longer.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Pro Transporter",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pro_Transporter",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bb/Pro-transporter-skill-mhw.png",
+      "description": "Increases your speed while transporting items and decreases the likelihood of dropping them.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Quick Sheath",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Quick_Sheath",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3e/Quick-sheath-skill-mhw.png",
+      "description": "Speeds up weapon sheathing.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Recovery Speed",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Speed_Skill",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2c/Recovery-speed-skill-mhw.png",
+      "description": "Speeds recovery for temporary damage (the red portion of the health gauge).",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Recovery Up",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Recovery_Up_Skill",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2a/Recovery-up-skill-mhw.png",
+      "description": "Increases the amount restored when restoring Health.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Resentment",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Resentment",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d9/Dragon-resistance-skill-mhw.png",
+      "description": "Increases attack when you have recoverable damage (the red portion of your health gauge).",
+      "max_level": 5,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Resuscitate",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Resuscitate",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d3/Resuscitate-skill-mhw.png",
+      "description": "Improves evasion and reduces stamina depletion when afflicted with abnormal status effects.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Scenthound",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Scenthound",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/18/Scenthound-skill-mhw.png",
+      "description": "Increases your scoutflies' gauge fill rate when you find tracks and other traces left by monsters.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Scholar",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Scholar",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/06/Scholar-skill-mhw.png",
+      "description": "Speeds up progress on research levels and special investigations. (Effect is applied at the quest results screen).",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Scoutfly Range Up",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Scoutfly_Range_Up",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/43/Scoutfly-range-up-skill-mhw.png",
+      "description": "Expands your scoutflies' detection range.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Sleep Attack",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Sleep_Attack",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d8/Sleep-attack-skill-mhw.png",
+      "description": "Increases the rate of sleep buildup. (Elemental buildup has a maximum limit)",
+      "max_level": 4,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Sleep Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Sleep_Resistance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/1d/Sleep-resistance-skill-mhw.png",
+      "description": "Reduces the duration of sleep.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Slinger Capacity",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Slinger_Capacity",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/24/Slinger-capacity-skill-mhw.png",
+      "description": "Increases the loading capacity for slinger ammo obtained in the field.",
+      "max_level": 3,
+      "secret": {
+        "name": "Slinger Ammo Secret",
+        "max_level": 5
+      },
+      "levels": []
+    },
+    {
+      "name": "Slugger",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Slugger",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/43/Defense-boost-skill-mhw.png",
+      "description": "Make it easier to dizzy monsters.",
+      "max_level": 3,
+      "secret": {
+        "name": "Slugger Secret",
+        "max_level": 5
+      },
+      "levels": []
+    },
+    {
+      "name": "Special Ammo Boost",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Special_Ammo_Boost",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c1/Special-ammo-boost-skill-mhw.png",
+      "description": "Increases the power of bowgun special ammo and Dragon Piercer.",
+      "max_level": 2,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Speed Crawler",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Crawler",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/11/Speed-crawler-skill-mhw.png",
+      "description": "Increases movement speed while crouching.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Speed Eating",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Eating",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8a/Speed-eating-skill-mhws.png",
+      "description": "Increases meat-eating and item consumption speed.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Speed Sharpening",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Speed_Sharpening",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f3/Speed-sharpening-skill-mhw.png",
+      "description": "Speeds up weapon sharpening when using a whetstone.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Survival Expert(Sporepuff Expert)",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Survival_Expert",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/10/Sporepuff-expert-skill-mhw.png",
+      "description": "Extra health is recovered from environmental interactable like sporepuffs or wiggly litchi.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Spread/Power Shots",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Spread_Power_Shots",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7f/Spread-power-shots-skill-mhw.png",
+      "description": "Increases the attack power of spread ammo and power shot arrows.",
+      "max_level": 2,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Stamina Surge",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Surge",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8d/Stamina-surge-skill-mhw.png",
+      "description": "Speeds up stamina recovery.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Stamina Thief",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Stamina_Thief",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/df/Health-boost-skill-mhw.png",
+      "description": "Increases certain attacks' ability to exhaust monsters.",
+      "max_level": 3,
+      "secret": {
+        "name": "Stamina Thief Secret",
+        "max_level": 5
+      },
+      "levels": []
+    },
+    {
+      "name": "Stealth",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Stealth",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f1/Stealth-skill-mhw.png",
+      "description": "Makes it easier for monsters to lose sight of you.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Stun Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Stun_Resistance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/69/Stun-resistance-skill-mhw.png",
+      "description": "Reduces stun duration.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Thunder Attack",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Attack",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/67/Thunder-attack-skill-mhw.png",
+      "description": "Increases the power of Thunder Attacks.",
+      "max_level": 6,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Thunder Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Resistance_Skill",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e0/Thunder-resistance-skill-mhw.png",
+      "description": "Increases Thunder Resistance Also improves Defense at higher levels.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Tool Specialist",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tool_Specialist",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6d/Tool-specialist-skill-mhw.png",
+      "description": "Reduces the Recharge time for specialized tools.",
+      "max_level": 3,
+      "secret": {
+        "name": "Tool Specialist Secret",
+        "max_level": 5
+      },
+      "levels": []
+    },
+    {
+      "name": "Tremor Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tremor_Resistance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e3/Tremor-resistance-skill-mhw.png",
+      "description": "Grants protection against ground tremors.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Water Attack",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Attack",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/65/Water-attack-skill-mhw.png",
+      "description": "Increases the power of Water Attacks.",
+      "max_level": 6,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Water Resistance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Water_Resistance_Skill",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/49/Water-resistance-skill-mhw.png",
+      "description": "Increases Water Resistance Also improves Defense at higher levels.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Weakness Exploit",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Weakness_Exploit",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/79/Weakness-exploit-skill-mhw.png",
+      "description": "Increases the affinity of attacks that exploit a monster's weak spot.",
+      "max_level": 3,
+      "secret": null,
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts."
+        },
+        {
+          "level": 2,
+          "effect": "Attacks that hit weak spots have 15% increased affinity, with an extra 15% on wounded parts."
+        },
+        {
+          "level": 3,
+          "effect": "Attacks that hit weak spots have 30% increased affinity, with an extra 20% on wounded parts."
+        }
+      ]
+    },
+    {
+      "name": "Wide-Range",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Wide-Range",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/28/Wide-range-skill-mhw.png",
+      "description": "Allows the effects of certain items to also affect nearby allies.",
+      "max_level": 5,
+      "secret": null,
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Items affect nearby allies with 33% of their efficacy."
+        },
+        {
+          "level": 2,
+          "effect": "Items affect nearby allies in a wider radius with 33% of their efficacy."
+        },
+        {
+          "level": 3,
+          "effect": "Items affect nearby allies in a wider radius with 66% of their efficacy."
+        },
+        {
+          "level": 4,
+          "effect": "Items affect nearby allies in a much wider radius with 66% of their efficacy."
+        },
+        {
+          "level": 5,
+          "effect": "Items affect nearby allies in a wider radius with full efficacy."
+        }
+      ]
+    },
+    {
+      "name": "Windproof",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Windproof",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/85/Windproof-skill-mhw.png",
+      "description": "Grants protection against wind pressure.",
+      "max_level": 5,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Critical Element",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Element",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b2/Critical-element-skill-mhw.png",
+      "description": "Increases Elemental Damage when landing critical hits",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Offensive Guard",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Offensive_Guard",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/85/Windproof-skill-mhw.png",
+      "description": "Temporarily increases attack power after executing a perfectly-timed guard.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Critical Status",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Critical_Status",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d2/Critical-status-skill-mhw.png",
+      "description": "Increases abnormal status effect damage when landing critical hits",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Non-elemental Boost",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Non-elemental_Boost",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
+      "description": "Powers up non-elemental weapons you have equipped.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Coalescence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Coalescence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/63/Poison-resistance-skill-mhw.png",
+      "description": "Temporarily enhances attacks after recovering from blights or abnormal statuses.",
+      "max_level": 3,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Provoker",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Provoker",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8d/Stamina-surge-skill-mhw.png",
+      "description": "Increases the chance that a monster will target you (instead of a teammate) by 20%.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Blast Functionality",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blast_Functionality",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a5/Placeholder-skill-mhw.png",
+      "description": "Allows you to apply blast coatings.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Paralysis Functionality",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Paralysis_Functionality",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a5/Placeholder-skill-mhw.png",
+      "description": "Allows you to apply paralysis coatings.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Poison Functionality",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Functionality",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a5/Placeholder-skill-mhw.png",
+      "description": "Allows you to apply poison coatings",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Sleep Functionality",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Sleep_Functionality",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a5/Placeholder-skill-mhw.png",
+      "description": "Allows you to apply sleep coatings.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Safe Landing",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Safe_Landing",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/56/Divine-blessing-skill-mhw.png",
+      "description": "Allows you to quickly recover from heavy attacks that blow you back when you have your weapon unsheathed.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Bow Charge Plus",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bow_Charge_Plus",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c6/Bow-charge-plus-skill-mhw.png",
+      "description": "Increases max bow charge by one.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Coldproof",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Coldproof",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/85/Windproof-skill-mhw.png",
+      "description": "Nullifies the effects of cold weather.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    },
+    {
+      "name": "Clutch Claw Boost",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Clutch_Claw_Boost",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9d/Fortify-skill-icon.png",
+      "description": "Makes light weapons wound with one clutch claw attack and makes heavy weapons drop slinger ammo after a clutch claw attack.",
+      "max_level": 1,
+      "secret": null,
+      "levels": []
+    }
+  ],
+  "set_bonuses": [
+    {
+      "name": "Anjanath Power",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anjanath_Power",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fd/Anjanath-power-skill-mhw.png",
+      "requirement": "Adds Adrenaline when 3 pieces of Anja Armor Set are equipped",
+      "effects": [
+        "Temporarily reduces stamina depletion when health is at 40% or lower."
+      ]
+    },
+    {
+      "name": "Anjanath Will",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anjanath_Will",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b4/Anjanath-will-skill-mhw.png",
+      "requirement": "Adds Adrenaline when 2 pieces, adds Stamina Cap Up when 4 pieces of Aloy α Armor Set , Aloy Gamma Armor Set, Anja α Set or Anja β Set are equipped.",
+      "effects": [
+        "Temporarily reduces stamina depletion when health is at 40% or lower.",
+        "Increases Stamina Cap"
+      ]
+    },
+    {
+      "name": "Astera Blessing",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Astera_Blessing",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bf/Bazelgeuse-protection-skill-mhw.png",
+      "requirement": "Astera Blessing is unlocked by equipping 5 pieces from the Gala Suit Armor Set and Gala Suit Alpha Armor Set",
+      "effects": [
+        "Often increases the number of rewards received at the end of a quest. (Does not work if joining a quest in progress)"
+      ]
+    },
+    {
+      "name": "Bazelgeuse Protection",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazelgeuse_Protection",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bf/Bazelgeuse-protection-skill-mhw.png",
+      "requirement": "Adds Guts when 3 pieces of Bazel α Set or Bazel β Set are equipped",
+      "effects": [
+        "Once only, above a certain threshold, you withstand an attack that would normally cart you"
+      ]
+    },
+    {
+      "name": "Commission Guidance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commission_Guidance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7b/Commission-guidance-skill-mhw.png",
+      "requirement": "Adds Carving Master when 4 pieces of Commission α Set or Commission β Set are equipped",
+      "effects": [
+        "Lets you carve one additional time (no effect when joining mid-quest)"
+      ]
+    },
+    {
+      "name": "Diablos Mastery",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Mastery",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
+      "requirement": "Adds Bludgeoner when 2 pieces, Adds Non-elemental Boost when 4 pieces of Diablos α Set, Diablos β Set, Diablos Nero α Set ,Diablos Nero α Armor Set,Diablos Nero β Armor Set or Diablos Nero β Set are equipped",
+      "effects": [
+        "Raises attack as your weapon loses sharpness. Also boost ranged weapon melee attacks and odds of stunning",
+        "Powers up non-elemental weapons you have equipped"
+      ]
+    },
+    {
+      "name": "Diablos Power",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Power",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Diablos-power-skill-mhw.png",
+      "requirement": "Adds Bludgeoner when 2 pieces or Non-elemental Boost for 4 pieces of Diablos Set ,Diablos α Armor Set,Diablos β Armor Set are equipped",
+      "effects": [
+        "Raises attack as your weapon loses sharpness. Also boost ranged weapon melee attacks and odds of stunning"
+      ]
+    },
+    {
+      "name": "Guild Guidance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Guidance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Guild-guidance-skill-mhw.png",
+      "requirement": "Adds Great Luck when 4 pieces of Guild Cross α Set or Guild Cross β Set are equipped",
+      "effects": [
+        "High chance of increased game rewards (no effect when joining mid-quest)"
+      ]
+    },
+    {
+      "name": "Kirin Blessing",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Blessing",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/e7/Kirin-blessing-skill-mhw.png",
+      "requirement": "Adds Capture Master when 4 pieces of Kirin Armor Set are equipped",
+      "effects": [
+        "High chance of increased capture rewards (no effect when joining mid-quest)"
+      ]
+    },
+    {
+      "name": "Kirin Favor",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Favor",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ed/Kirin-favor-skill-mhw.png",
+      "requirement": "Adds Capture Master when 3 pieces of Kirin Gamma Armor Set Kirin α Set or Kirin β Set are equipped",
+      "effects": [
+        "High chance of increased capture rewards (no effect when joining mid-quest)"
+      ]
+    },
+    {
+      "name": "Kushala Daora Flight",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Daora_Flight",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Kushala-daora-flight-skill-mhw.png",
+      "requirement": "Adds Nullify Wind Pressure when 3 pieces of Kushala Gamma Armor Set, Kushala α Set or Kushala β Set are equipped.",
+      "effects": [
+        "Negates all wind pressure"
+      ]
+    },
+    {
+      "name": "Legiana Blessing",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Blessing",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
+      "requirement": "Adds Good Luck when 3 pieces of Legiana Armor Set are equipped",
+      "effects": [
+        "Good chance of increased quest rewards (no effect when joining mid-quest)"
+      ]
+    },
+    {
+      "name": "Legiana Favor",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Favor",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
+      "requirement": "Adds Good Luck when 2 pieces, then Bow Charge Plus when 4 pieces of Legiana α Set or Legiana β Set are equipped.",
+      "effects": [
+        "Good chance of increased quest rewards (no effect when joining mid-quest)",
+        "Increase Max Bow Charge level by one"
+      ]
+    },
+    {
+      "name": "Lunastra Favor",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lunastra_Favor",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
+      "requirement": "Adds Stamina Cap Up when 2 pieces of the Lunastra Alpha, Gamma or Beta armor set are equipped. Adds Mind's Eye/Ballistics when 4 pieces are equipped.",
+      "effects": [
+        "Increases Stamina Cap.",
+        "Prevents attacks from being deflected. Also shortens the distance before ammo and arrows reach maximum power"
+      ]
+    },
+    {
+      "name": "Nergigante Hunger",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Hunger",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/40/Nergigante-hunger-skill-mhw.png",
+      "requirement": "Adds Hasten Recovery when 3 pieces of Nergigante α Set or Nergigante β Set are equipped",
+      "effects": [
+        "Regenerates your health as you continuosly attack a monster. Recovery varies by weapon"
+      ]
+    },
+    {
+      "name": "Odogaron Mastery",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Mastery",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Odogaron-mastery-skill-mhw.png",
+      "requirement": "Adds Punishing Draw when 2 pieces, Protective Polish when 4 pieces of Odogaron α Set or Odogaron β Set are equipped",
+      "effects": [
+        "Adds a stun effect to draw attacks and slightly increases attack power",
+        "Weapon sharpness does not decrease for a set time after sharpening"
+      ]
+    },
+    {
+      "name": "Odogaron Power",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Power",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Odogaron-power-skill-mhw.png",
+      "requirement": "Adds Punishing Draw when 3 pieces of Odogaron Armor Set, Odogaron α Set,Odogaron β Set are equipped",
+      "effects": [
+        "Adds a stun effect to draw attacks and slightly increases attack power"
+      ]
+    },
+    {
+      "name": "Pink Rathian Mastery",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pink_Rathian_Mastery",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/e/ea/Pink-rathian-mastery-skill-mhw.png",
+      "requirement": "Adds Poison Duration Up when 3 pieces of Sakura Alpha Armor Set, Rath Heart α Set or Rath Heart β Set are equipped.",
+      "effects": [
+        "Extends the duration of your poison's effect on monsters"
+      ]
+    },
+    {
+      "name": "Rathalos Power",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Power",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d4/Rathalos-power-skill-mhw.png",
+      "requirement": "Adds Critical Element when 3 pieces of Rathalos Armor Set, Rathalos α Set, Rathalos β Set are equipped",
+      "effects": [
+        "Increases Elemental Damage when landing critical hits"
+      ]
+    },
+    {
+      "name": "Rathalos Mastery",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Mastery",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/24/Rathalos-mastery-skill-mhw.png",
+      "requirement": "Adds Critical Element when 2 piece, Mind's Eye/Ballistic when 4 pieces of Ryu Alpha Armor Set, Rathalos α Set, Rathalos β Set,Azure Starlord α Armor Set, Rath Soul α Set or Rath Soul β Set are equipped",
+      "effects": [
+        "Increases Elemental Damage when landing critical hits",
+        "Prevents attacks from being deflected. Also shortens the distance before ammo and arrows reach maximum power"
+      ]
+    },
+    {
+      "name": "Soul of the Dragoon",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Soul_of_the_Dragoon",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
+      "requirement": "Adds Elemental Airborne when 2 pieces of the Drachen Alpha Armor Set are equipped. Adds Master's Touch when 4 pieces are equipped.",
+      "effects": [
+        "Elemental damage increased for jumping attacks.",
+        "Prevents your weapon from losing sharpness during critical hits"
+      ]
+    },
+    {
+      "name": "Teostra Technique",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Teostra_Technique",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/39/Teostra-technique-skill-mhw.png",
+      "requirement": "Adds Master's Touch when 3 pieces of Teostra Gamma Armor Set, Teostra α Set or Teostra β Set are equipped",
+      "effects": [
+        "Prevents your weapon from losing sharpness during critical hits"
+      ]
+    },
+    {
+      "name": "Uragaan Protection",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan_Protection",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7a/Uragaan-protectionl-mhw.png",
+      "requirement": "Adds Guard Up when 3 pieces of Uragaan α Set or Uragaan β Set are equipped.",
+      "effects": [
+        "Allows you to guard against ordinarily unblockable attacks"
+      ]
+    },
+    {
+      "name": "Vaal Hazak Vitality",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Vitality",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/25/Vaal-hazak-vitality-skill-mhw.png",
+      "requirement": "Adds Super Recovery when 3 pieces of Vaal Hazak Gamma Armor Set, Vaal Hazak α Set or Vaal Hazak β Set are equipped",
+      "effects": [
+        "Allows recovery to exceed the red portion of the health gauge"
+      ]
+    },
+    {
+      "name": "Xeno'jiiva Divinity",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Divinity",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5a/Xenojiiva-divinity-skill-mhw.png",
+      "requirement": "Adds Razor Sharp/Spare Shot when 3' pieces' of Xeno'jiiva Gamma Armor Set (γ), Xeno'jiiva α Set or Xeno'jiiva β Set are equipped",
+      "effects": [
+        "Halves sharpness loss. For bows and bowguns, shots have a chance not to expend coatings or ammo"
+      ]
+    },
+    {
+      "name": "Zorah Magdaros Mastery",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Magdaros_Mastery",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6f/Zorah-magdaros-mastery-skill-mhw.png",
+      "requirement": "Adds Critical Status when 3 pieces of Zorah Gamma Set, Zorah α Set or Zorah β Set are equipped",
+      "effects": [
+        "Increases abnormal status effect damage when landing critical hits"
+      ]
+    },
+    {
+      "name": "Anjanath Dominance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anjanath_Dominance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/39/Teostra-technique-skill-mhw.png",
+      "requirement": "Adds Stamina Cap Up when 2 pieces of Anja Alpha + (α) Set or Anja Beta + (β) Set are eqipped",
+      "effects": [
+        "Adds Stamina Cap Up. Increases Stamina Cap"
+      ]
+    },
+    {
+      "name": "Rathian Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7b/Commission-guidance-skill-mhw.png",
+      "requirement": "Adds Poison Duration Up when 2 pieces of Rathian Alpha + (α) Set or Rathian Beta + (β) Set are equipped",
+      "effects": [
+        "Adds Poison Duration Up. Extends the duration of your poison's effect on monsters"
+      ]
+    },
+    {
+      "name": "Ancient Divinity",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ancient_Divinity",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
+      "requirement": "Adds Critical Status when 2 pieces of the Artian Alpha + (α) Set or Artian Beta + (β) Set are equipped.",
+      "effects": [
+        "Adds Critical Status. Increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits"
+      ]
+    },
+    {
+      "name": "Commission Alchemy",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commission_Alchemy",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
+      "requirement": "Adds Bombardier Secret 3 pieces of the Clockwork Alpha + (α) Set or Clockwork Beta + (β) Set are equipped.",
+      "effects": [
+        "Adds Bombardier Secret when 3 pieces of Clockwork Alpha + (α) Set or Clockwork Beta + (β) Set are equipped"
+      ]
+    },
+    {
+      "name": "Barioth Hidden Art",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barioth_Hidden_Art",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bf/Bazelgeuse-protection-skill-mhw.png",
+      "requirement": "Adds Punishing Draw when 2 pieces of the Barioth Alpha + (α) Set or Barioth Beta + (β) Set are equipped.",
+      "effects": [
+        "Adds Punishing Draw. Adds a stun effect to draw attacks and slightly increases attack power when 2 pieces of Barioth Alpha + (α) Set or Barioth Beta + (β) Set"
+      ]
+    },
+    {
+      "name": "Rathalos Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fd/Anjanath-power-skill-mhw.png",
+      "requirement": "Adds Mind's Eye/Ballistics when 3 pieces of the Rathalos Alpha + (α) Set or Rathalos Beta + (β) Set are equipped.",
+      "effects": [
+        "Adds Mind's Eye/Ballistics Prevents attacks from being deflected. Also shortens the distance before ammo and arrows reach maximum power when 3 pieces of the Rathalos Alpha + (α) Set or Rathalos Beta + (β) Set are equipped."
+      ]
+    },
+    {
+      "name": "Diablos Ambition",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos_Ambition",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
+      "requirement": "Adds Slugger Secret when 3 pieces of Diablos Alpha + (α) Set, Diablos Beta + (β) Set, Diablos Nero Alpha + (α) Set or Diablos Nero Beta + (β) Set are equipped.",
+      "effects": [
+        "Raises the maximum level of the Slugger skill when 3 pieces of Diablos Alpha + (α) Set, Diablos Beta + (β) Set, Diablos Nero Alpha + (α) Set or Diablos Nero Beta + (β) Set are equipped"
+      ]
+    },
+    {
+      "name": "Legiana Ambition",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Ambition",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
+      "requirement": "Adds Bow Charge Plus when 3 pieces of Legiana Alpha + (α) Set or Legiana Beta + (β) Set are equipped",
+      "effects": [
+        "Adds Bow Charge Plus. Increases max bow charge level by one when 3 pieces of Legiana Alpha + (α) Set or Legiana Beta + (β) Set are equipped"
+      ]
+    },
+    {
+      "name": "Odogaron Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Odogaron-power-skill-mhw.png",
+      "requirement": "Adds Protective Polish when 3 pieces of Odogaron Alpha + (α) Set or Odogaron Beta + (β) Set are equipped",
+      "effects": [
+        "Weapon sharpness does not decrease for a set time after sharpening when 3 pieces of Odogaron Alpha + (α) Set or Odogaron Beta + (β) Set are equipped"
+      ]
+    },
+    {
+      "name": "Uragaan Ambition",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan_Ambition",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Guild-guidance-skill-mhw.png",
+      "requirement": "Adds Guard Up when 2 pieces of the Uragaan Alpha + (α) Set or Uragaan Beta + (β) Set are equipped",
+      "effects": [
+        "Adds Guard Up. Allows you to guard against ordinarily unblockable when 2 pieces of Uragaan Alpha + (α) Set or Uragaan Beta + (β) Set"
+      ]
+    },
+    {
+      "name": "Nargacuga Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nargacuga_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
+      "requirement": "Adds True Razor Sharp/Spare Shot when 3 pieces of the Nargacuga Alpha + (α) Set or Nargacuga Beta + (β) Set are equipped",
+      "effects": [
+        "Adds True Razor Sharp/Spare Shot. Greatly reduces sharpness loss and bows and bowguns have a chance not to expend coating or ammo"
+      ]
+    },
+    {
+      "name": "Glavenus Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Glavenus_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
+      "requirement": "Adds Maximum Might Secret when 3 pieces of the Glavenus Alpha + (α) Set or Glavenus Beta + (β) Set are equipped.",
+      "effects": [
+        "Adds Maximum Might Secret. Raises the maximum level of the Maximum Might skill to Lv5 when 3 pieces of Glavenus Alpha + (α) Set or Glavenus Beta + (β) Set"
+      ]
+    },
+    {
+      "name": "Brachydios Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brachydios_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
+      "requirement": "Adds Agitator Secret when 3 pieces of the Brachydios Alpha + (α) Set or Brachydios Beta + (β) Set are equipped.",
+      "effects": [
+        "Adds Agitator Secret. Raises the maximum level of the Agitator skill to Lv7 when 3 pieces of Brachydios Alpha + (α) Set or Brachydios Beta + (β) Set are equipped"
+      ]
+    },
+    {
+      "name": "Tigrex Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tigrex_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
+      "requirement": "Adds Free Meal Secret when 3 pieces of the Tigrex Alpha + (α) Set or Tigrex Beta + (β) Set are equipped.",
+      "effects": [
+        "Adds Free Meal Secret. Raises the maximum level of the Free Meal to Lv3 when 3 pieces of Tigrex Alpha + (α) Set or Tigrex Beta + (β) Set are equipped"
+      ]
+    },
+    {
+      "name": "Instructor's Guidance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Instructor%27s_Guidance",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
+      "requirement": "Adds Capture Master when 2 pieces of Black Belt Alpha + (α) Set or Black Belt Beta + (β) Set are equipped. (No effect when joining mid-quest.)",
+      "effects": [
+        "Adds Capture Master. High chance of increased capture rewards when 2 pieces of Black Belt Alpha + (α) Set or Black Belt Beta + (β) Set are equipped."
+      ]
+    },
+    {
+      "name": "Bazelgeuse Ambition",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazelgeuse_Ambition",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/39/Teostra-technique-skill-mhw.png",
+      "requirement": "Adds Guts when 2 pieces of Seething Bazel Alpha + (α) Set or Seething Bazel Beta + (β) Set are equipped.",
+      "effects": [
+        "Adds Guts. Above a certain health threshold, you withstand an attack would normally cart you (once only) when 2 pieces of Seething Bazel Alpha + (α) Set are equipped"
+      ]
+    },
+    {
+      "name": "Deviljho Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Deviljho_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/39/Teostra-technique-skill-mhw.png",
+      "requirement": "Adds Stamina Thief Secret when 3 pieces of the Savage Jho Alpha + (α) or Savage Jho Beta + (β) are equipped.",
+      "effects": [
+        "Adds Stamina Thief Secret. Raises the maximum level of the Stamina Thief skill to Lv5 when 3 pieces of Savage Jho Alpha + (α) or Savage Jho Beta + (β) are equipped"
+      ]
+    },
+    {
+      "name": "Velkhana Divinity",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Velkhana_Divinity",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5a/Xenojiiva-divinity-skill-mhw.png",
+      "requirement": "2 Pieces of Velkhana Alpha + (α) Set or Velkhana Beta + (β) Set Adds Critical Element whiel 4 Pieces Adds Frostcraft",
+      "effects": [
+        "Adds Critical Element when 2 pieces of Velkhana Alpha + (α) Set or Velkhana Beta + (β) Set and Adds Frostcraft when 4 pieces are equipped."
+      ]
+    },
+    {
+      "name": "Vaal Soulvein",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Soulvein",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5a/Xenojiiva-divinity-skill-mhw.png",
+      "requirement": "Adds Super Recovery when 2 pieces of Blackveil Hazak Alpha + (α) Set or Blackveil Hazak Beta + (β) Set are equipped",
+      "effects": [
+        "Adds Super Recovery. Allows recovery to exceed the red portion of the health gauge when 2 pieces of Blackveil Hazak Alpha + (α) Set or Blackveil Hazak Beta + (β) Set are equipped"
+      ]
+    },
+    {
+      "name": "Hasten Recovery",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hasten_Recovery",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6f/Zorah-magdaros-mastery-skill-mhw.png",
+      "requirement": "Regenerates your health as you continually attack a monster. Recovery varies by weapon.",
+      "effects": []
+    },
+    {
+      "name": "Kirin Divinity",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Divinity",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6f/Zorah-magdaros-mastery-skill-mhw.png",
+      "requirement": "Adds Great Luck when 3 pieces of Kirin Alpha + (α) Set or Kirin Beta + (β) Set are equipped. (No effect when joining mid-quest)",
+      "effects": [
+        "Adds Great Luck. High chance of increased quest rewards when 3 pieces of Kirin Alpha + (α) Set or Kirin Beta + (β) Set are equipped."
+      ]
+    },
+    {
+      "name": "Namielle Divinity",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Namielle_Divinity",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
+      "requirement": "Adds Element Acceleration when 2 pieces of Namielle Alpha + (α) Set or Namielle Beta + (β) Set and Adds True Element Accelerationwhen 4 pieces are equipped",
+      "effects": [
+        "Adds Element Acceleration when 2 pieces of Namielle Alpha + (α) Set or Namielle Beta + (β) Set are equipped and True Element Acceleration when 4 pieces are equipped."
+      ]
+    },
+    {
+      "name": "Shara Ishvalda Divinity",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Shara_Ishvalda_Divinity",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Diablos-power-skill-mhw.png",
+      "requirement": "Adds Gaia's Veil when 4 pieces of Shara Ishvalda Alpha + (α) Set or Shara Ishvalda Beta + (β) Set and adds True Gaia's Veil wearing 5 pieces of are equipped.",
+      "effects": [
+        "Adds Gaia's Veil whie 4 pieces of Shara Ishvalda Alpha + (α) Set or Shara Ishvalda Beta + (β) Set are equipped and True Gaia's Veil while 5 pieces are equipped."
+      ]
+    },
+    {
+      "name": "Zorah Magdaros Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Magdaros_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Kushala-daora-flight-skill-mhw.png",
+      "requirement": "Adds Artillery Secret when 3 pieces of Zorah Alpha + (α) Set or Zorah Beta + (β) Set are equipped.",
+      "effects": [
+        "Adds Artillery Secret. Raises the maximum level of the Artillery skill to Lv5 when 3 pieces of Zorah Alpha + (α) Set or Zorah Beta + (β) Set are equipped."
+      ]
+    },
+    {
+      "name": "Zinogre Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zinogre_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Kushala-daora-flight-skill-mhw.png",
+      "requirement": "Adds Latent Power Secret when 3 pieces of the ??? and ??? are equipped.",
+      "effects": [
+        "Adds Latent Power Secret. Raises the maximum level of the Latent Power skill to Lv7"
+      ]
+    },
+    {
+      "name": "Rajang's Rage",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rajang%27s_Rage",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Guild-guidance-skill-mhw.png",
+      "requirement": "Adds Mind's Eye Ballistics when 2 pieces of the Rajang Alpha + (α) Set or Rajang Beta + (β) Set are equipped, while Protective Polish is added when 4 pieces are equipped.",
+      "effects": [
+        "Adds Minds' Eye/Ballistics and Protective Polish."
+      ]
+    },
+    {
+      "name": "Survivor",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Survivor",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Odogaron-power-skill-mhw.png",
+      "requirement": "Adds Zombie & Effluvia Resistance when 2 pieces of Leon Alpha + (α) Set or Claire Alpha + (α) Set are equipped, while Agitator Secret is added when 4 pieces are equipped.",
+      "effects": [
+        "Adds Zombie & Effluvia Res. and Agitator Secret."
+      ]
+    },
+    {
+      "name": "Safi'jiiva Seal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Safi%27jiiva_Seal",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Odogaron-power-skill-mhw.png",
+      "requirement": "Adds Dragonvein Awakening when 3 pieces of Safi'jiiva α+ Set or Safi'jiiva β+ Set are equipped, while True Dragonvein Awakening is added when 5 pieces are equipped.",
+      "effects": [
+        "Adds Dragonvein Awakening and True Dragonvein Awakening."
+      ]
+    },
+    {
+      "name": "Joyful Blessing",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Joyful_Blessing",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/06/Joyful-blessing-mhw-wiki-guide2.png",
+      "requirement": "Joy's Gift Increases odds of getting special holiday Joy rewards when 3 pieces equipped (No effects when joining mid-quest). Greatly increases odds of getting special holiday joy rewards when 5 pieces equipped. (No effects when joining mid-quest)",
+      "effects": []
+    },
+    {
+      "name": "Guild Pride",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Pride",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
+      "requirement": "Adds Good Luck when 2 pieces, adds Carving Master when 4 pieces of Guildwork Sets or Guild Palace Sets are equipped.",
+      "effects": []
+    },
+    {
+      "name": "Silver Rathalos Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Silver_Rathalos_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
+      "requirement": "Adds Slinger Ammo Secret when 2 pieces of Sol Alpha + Armor Set and Silver Sol Beta + Armor Set: are equipped, while True Critical Element is added when 4 pieces are equipped.",
+      "effects": []
+    },
+    {
+      "name": "Gold Rathian Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gold_Rathian_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
+      "requirement": "Raises the maximum level of divine blessing skills when 2 pieces are equipped. Greatly increases status effect damage (paralysis, sleep, blast, poison) when landing critical hits when 4 pieces are equipped.",
+      "effects": []
+    },
+    {
+      "name": "Lunastra Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lunastra_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
+      "requirement": "Reduces the recharge time for specialized tools. when 3 pieces are equipped.",
+      "effects": []
+    },
+    {
+      "name": "Appreciation Blessing",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Appreciation_Blessing",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
+      "requirement": "Increases odds of getting special Grand Appreciation rewards. (No effect when joining mid-quest)",
+      "effects": []
+    },
+    {
+      "name": "Power Cell",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Power_Cell",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
+      "requirement": "Increases defense and eliminates damage reactions. Taking several hits knocks it out, but reactivate over time.",
+      "effects": []
+    },
+    {
+      "name": "Witcher's Knowledge",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Witcher%27s_Knowledge",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5a/Xenojiiva-divinity-skill-mhw.png",
+      "requirement": "Adds Igni Intensity when 2 pieces, Super Recovery when 4 pieces of Geralt's Alpha Armor Set are Equipped.",
+      "effects": []
+    },
+    {
+      "name": "Brachydios Will",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brachydios_Will",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7b/Commission-guidance-skill-mhw.png",
+      "requirement": "Adds Agitator Secret and Artillery Secret. Raises the maximum level of the Agitator and Artillery skills when 2 or 4 pieces of Raging Brachy Alpha + Armor Set or Raging Brachy Beta + Armor Set are equipped.",
+      "effects": []
+    },
+    {
+      "name": "Rajang Will",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rajang_Will",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Guild-guidance-skill-mhw.png",
+      "requirement": "Adds Maximum Might Secret. Raises the maximum level of the Maximum Might skill to Lv5, Adds Heroics Secret. Raises the maximum level of the Heroics skill when equiping 2 or 4 pieces of Glavenus Alpha + (α) Set or Glavenus Beta + (β) Set.",
+      "effects": []
+    },
+    {
+      "name": "Kulve Taroth Essence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth_Essence",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
+      "requirement": "Adds Guts when 2 pieces of the Kulve Taroth Alpha + Armor Set or Kulve Taroth Beta + Armor Set equipped, while Free Meal Secret is added when 5 pieces are equipped. Guts, above a certain health threshold, you withstand an attack that would normally cart you (once only). Free Meal Secret, raises the maximum level of the Free Meal skill.",
+      "effects": []
+    },
+    {
+      "name": "Alatreon Divinity",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alatreon_Divinity",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/35/Alatreon-divinity-mhw-wiki-guide.png",
+      "requirement": "Adds Element Conversion when 2 pieces of the Alatreon Alpha + Armor Set or Alatreon Beta + Armor Set equipped, while All Elemental Resistance is added when 3 pieces are equipped. Your weapon's elemental power increases as your armor's elemental resistance increases. All Elemental Resistance further increases all elemental resistances +20%.",
+      "effects": []
+    },
+    {
+      "name": "Frostfang Absolute Art",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Frostfang_Absolute_Art",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bf/Bazelgeuse-protection-skill-mhw.png",
+      "requirement": "Adds Punishing Draw when 1 piece of Frostfang Barioth Alpha + (α) or Frostfang Barioth Beta + (β) equipped, which adds a stun effect to draw attacks and slightly increases attack power. Adds Slugger Secret when 3 pieces of Frostfang Barioth Alpha + (α) or Frostfang Barioth Beta + (β) equipped. Raises the maximum level of the slugger skill.",
+      "effects": []
+    },
+    {
+      "name": "Sizzling Blessing",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Sizzling_Blessing",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
+      "requirement": "Adds Sizzling Gift when 3 pieces of Passionate Alpha + Armor Set equipped, which increases the odds of getting special Sizzling Spice rewards. Adds Sizzling Gratitude when 5 pieces of Passionate Alpha + Armor Set equipped. Greatly increases the odds of getting special Sizzling Spice rewards.",
+      "effects": []
+    },
+    {
+      "name": "Fatalis Legend",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Fatalis_Legend",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Kushala-daora-flight-skill-mhw.png",
+      "requirement": "Adds Inheritance when 2 pieces of the Fatalis Alpha + Armor or Fatalis Beta + Armor are equipped. Adds Transcendence when 4 pieces of the Fatalis Alpha + Armor or Fatalis Beta + Armor are equipped.",
+      "effects": []
+    },
+    {
+      "name": "Fun Fright Blessing",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Fun_Fright_Blessing",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3e/Fun_fright_blessing_mhw-wiki-guide.png",
+      "requirement": "Adds Fun Fright's Gift when 3 pieces of Demonlord Alpha + (α) equipped, which increases the odds of getting special Fun Fright rewards. Adds Fun Fright's Gratitude when 5 pieces of Demonlord Alpha + (α) equipped. Greatly increases the odds of getting special Fun Fright rewards.",
+      "effects": []
+    },
+    {
+      "name": "New World",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/New_World",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
+      "requirement": "Adds Hasten Recovery when 2 pieces of Artemis Alpha + Armor equipped, which regenerates your health as you continually attack a monster, recovery varies by weapon. Adds Great Luck when 4 pieces of Artemis Alpha + Armor equipped. High chance of increased quest rewards.",
+      "effects": []
+    }
+  ]
+}
