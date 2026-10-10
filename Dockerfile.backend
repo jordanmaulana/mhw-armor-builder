@@ -1,0 +1,52 @@
+# --- tailwind stage: build static/output.css ---
+FROM node:20-alpine AS tw
+WORKDIR /app
+COPY package.json ./
+RUN npm install --no-audit --no-fund
+COPY static ./static
+COPY templates ./templates
+RUN npx @tailwindcss/cli -i ./static/input.css -o ./static/output.css --minify
+
+# --- python stage ---
+FROM python:3.12-slim AS app
+# PATH puts the venv first so `gunicorn` / `python manage.py ...` work directly.
+# `uv run` revalidates the lock on every invocation — build-time only, not runtime.
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    UV_LINK_MODE=copy \
+    UV_COMPILE_BYTECODE=1 \
+    HOME=/home/app \
+    PATH="/app/.venv/bin:$PATH"
+# No build-essential: it installs 51 packages for 323MB, and every dep ships a
+# manylinux wheel for py3.12 (psycopg[binary] bundles libpq). If a future dep needs
+# a compiler, `uv sync` below fails loudly — add it back then.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+      libpq5 curl ca-certificates && \
+    rm -rf /var/lib/apt/lists/*
+COPY --chmod=755 docker/backend-entrypoint.sh /entrypoint.sh
+# Non-root. Everything under /app is created already owned by `app`, via --chown
+# below: a `chown -R app /app` after the fact rewrites the whole venv and
+# duplicates ~130MB into an extra layer.
+RUN useradd --create-home --uid 10001 app && mkdir -p /app && chown app:app /app
+WORKDIR /app
+USER app
+COPY --chown=app:app pyproject.toml uv.lock ./
+# uv is mounted for this one command rather than COPYed into the image: it is a
+# build-time tool only (the venv is on PATH at runtime) and its binary is 47MB.
+RUN --mount=from=ghcr.io/astral-sh/uv:latest,source=/uv,target=/usr/local/bin/uv \
+    uv sync --frozen --no-install-project
+COPY --chown=app:app . .
+COPY --from=tw --chown=app:app /app/static/output.css ./static/output.css
+# The entrypoint collectstatics into staticfiles/, so /app stays writable by `app`.
+RUN rm -f static/input.css
+EXPOSE 8000
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["gunicorn", "core.wsgi", \
+     "--bind", "0.0.0.0:8000", \
+     "--workers", "3", \
+     "--worker-class", "gthread", \
+     "--threads", "4", \
+     "--max-requests", "1000", \
+     "--max-requests-jitter", "100", \
+     "--timeout", "60", \
+     "--access-logfile", "-"]

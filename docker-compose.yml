@@ -1,0 +1,99 @@
+# Docker's default json-file driver is unbounded and gunicorn writes an access log
+# line per request, so a long-running VPS otherwise fills its disk with logs.
+x-logging: &logging
+  driver: json-file
+  options: {max-size: "10m", max-file: "3"}
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    logging: *logging
+    environment:
+      # `:?` = required. `.env.docker` only reaches interpolation via --env-file, so a
+      # bare `docker compose up` aborts here instead of initdb'ing a cluster with
+      # throwaway defaults that the backend then cannot log into. initdb runs only
+      # once on an empty data dir, so that mistake is not fixable by a restart.
+      POSTGRES_DB: ${POSTGRES_DB:?missing — run `make dock`, or pass --env-file .env.docker}
+      POSTGRES_USER: ${POSTGRES_USER:?missing — run `make dock`, or pass --env-file .env.docker}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?missing — run `make dock`, or pass --env-file .env.docker}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER}"]
+      interval: 30s
+      timeout: 3s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 512M
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    restart: unless-stopped
+    logging: *logging
+    env_file: .env.docker
+    environment:
+      ROLE: web
+      POSTGRES_HOST: postgres
+      # `environment:` wins over `env_file:`, so these and the postgres service above
+      # resolve from ONE source and cannot drift. Don't delete them to "let .env.docker
+      # handle it": env_file is honored unconditionally while interpolation needs
+      # --env-file, and that asymmetry is exactly what creates a cluster owned by a
+      # role the backend never asked for.
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    # No `ports`: nginx reaches this over the compose network and /admin/ is served
+    # through it, at http://localhost:${FRONTEND_PORT}/admin/. Publishing 8000 would
+    # expose Django on the host's public IP over plain HTTP.
+    depends_on:
+      postgres: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8000/login/"]
+      interval: 30s
+      timeout: 3s
+      retries: 5
+      start_period: 30s
+    deploy:
+      resources:
+        limits:
+          cpus: "1.5"
+          memory: 768M
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        # VITE_API_URL is deliberately unset: the SPA calls relative /api/v1 and
+        # nginx proxies it to backend:8000, so this image is environment-agnostic.
+        VITE_GOOGLE_CLIENT_ID: ${VITE_GOOGLE_CLIENT_ID-}
+    restart: unless-stopped
+    logging: *logging
+    # Loopback only — put a reverse proxy or tunnel on the host in front of this.
+    ports:
+      - "127.0.0.1:${FRONTEND_PORT:-8080}:80"
+    # nginx resolves the literal `backend` hostname at config load and refuses to
+    # start if it isn't up yet.
+    depends_on:
+      backend: {condition: service_healthy}
+    healthcheck:
+      # 127.0.0.1, not localhost: in this image localhost resolves to ::1 while
+      # nginx listens on 0.0.0.0:80 only, and busybox wget does not fall back to
+      # IPv4 — so `localhost` here reports unhealthy forever while the site is fine.
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1/"]
+      interval: 30s
+      timeout: 3s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 128M
+
+volumes:
+  pgdata:

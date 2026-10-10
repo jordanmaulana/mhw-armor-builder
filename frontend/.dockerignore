@@ -1,0 +1,9 @@
+node_modules
+dist
+.tanstack
+.git
+.env
+.env.*
+Dockerfile
+.dockerignore
+backups/
