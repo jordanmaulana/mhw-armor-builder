@@ -13,6 +13,7 @@ class Command(BaseCommand):
             "load_charms",
             "load_decorations",
             "load_armors",
+            "load_weapons",
             "load_sets",
         ):
             call_command(command, stdout=self.stdout, stderr=self.stderr)

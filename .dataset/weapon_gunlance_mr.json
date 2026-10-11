@@ -1,0 +1,4831 @@
+{
+  "source": "https://monsterhunterworld.wiki.fextralife.com/Master_Rank_Weapons",
+  "type": "gunlance",
+  "weapons": [
+    {
+      "name": "Chrome Halberd I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chrome_Halberd_I",
+      "rarity": 9,
+      "attack": 506,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        1,
+        1
+      ],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 300
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        80,
+        80,
+        30,
+        30,
+        80,
+        50,
+        0
+      ],
+      "sharpness_max": [
+        80,
+        80,
+        30,
+        30,
+        80,
+        100,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Great Demon Gunlance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Great_Demon_Gunlance",
+      "rarity": 12,
+      "attack": 656,
+      "affinity": -15,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 120
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Chrome Halberd II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chrome_Halberd_II",
+      "rarity": 10,
+      "attack": 552,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        1,
+        1
+      ],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 330
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        70,
+        80,
+        30,
+        30,
+        80,
+        60,
+        0
+      ],
+      "sharpness_max": [
+        70,
+        80,
+        30,
+        30,
+        80,
+        110,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Chrome Halberd III",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chrome_Halberd_III",
+      "rarity": 11,
+      "attack": 598,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        1,
+        1
+      ],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 360
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        110,
+        30,
+        30,
+        60,
+        50,
+        70,
+        0
+      ],
+      "sharpness_max": [
+        110,
+        30,
+        30,
+        60,
+        50,
+        90,
+        30
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Blackwing Gunlance I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blackwing_Gunlance_I",
+      "rarity": 10,
+      "attack": 598,
+      "affinity": 20,
+      "defense": 0,
+      "slots": [
+        3
+      ],
+      "elements": [
+        {
+          "type": "poison",
+          "damage": 210
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        140,
+        30,
+        90,
+        30,
+        30,
+        30,
+        0
+      ],
+      "sharpness_max": [
+        140,
+        30,
+        90,
+        30,
+        30,
+        60,
+        20
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Blackwing Gunlance II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blackwing_Gunlance_II",
+      "rarity": 11,
+      "attack": 621,
+      "affinity": 25,
+      "defense": 0,
+      "slots": [
+        3
+      ],
+      "elements": [
+        {
+          "type": "poison",
+          "damage": 240
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        140,
+        30,
+        90,
+        30,
+        30,
+        30,
+        0
+      ],
+      "sharpness_max": [
+        140,
+        30,
+        90,
+        30,
+        30,
+        60,
+        20
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Mythic Kadachi Striker+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Mythic_Kadachi_Striker_Plus",
+      "rarity": 9,
+      "attack": 483,
+      "affinity": 20,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 450
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        80,
+        30,
+        30,
+        80,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        80,
+        30,
+        30,
+        80,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Thundering Striker",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Thundering_Striker",
+      "rarity": 10,
+      "attack": 529,
+      "affinity": 20,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 510
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        120,
+        30,
+        90,
+        30,
+        30,
+        50,
+        0
+      ],
+      "sharpness_max": [
+        120,
+        30,
+        90,
+        30,
+        30,
+        80,
+        20
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Crimson Ember",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Crimson_Ember",
+      "rarity": 9,
+      "attack": 529,
+      "affinity": 15,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 270
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        80,
+        30,
+        30,
+        80,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        80,
+        30,
+        30,
+        80,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Crimson Ember+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Crimson_Ember_Plus",
+      "rarity": 10,
+      "attack": 575,
+      "affinity": 15,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 300
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        120,
+        30,
+        90,
+        30,
+        30,
+        50,
+        0
+      ],
+      "sharpness_max": [
+        120,
+        30,
+        90,
+        30,
+        30,
+        80,
+        20
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Crimson Hornet",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Crimson_Hornet",
+      "rarity": 11,
+      "attack": 598,
+      "affinity": 15,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 330
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        120,
+        30,
+        90,
+        30,
+        30,
+        50,
+        0
+      ],
+      "sharpness_max": [
+        120,
+        30,
+        90,
+        30,
+        30,
+        80,
+        20
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Blue Chariot+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Blue_Chariot_Plus",
+      "rarity": 10,
+      "attack": 506,
+      "affinity": 20,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 270
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        100,
+        40,
+        50,
+        60,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        100,
+        40,
+        50,
+        60,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Soul Chariot",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Soul_Chariot",
+      "rarity": 10,
+      "attack": 552,
+      "affinity": 20,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 300
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        30,
+        30,
+        110,
+        40,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        30,
+        30,
+        110,
+        40,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Royal Burst+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Royal_Burst_Plus",
+      "rarity": 9,
+      "attack": 529,
+      "affinity": 15,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "poison",
+          "damage": 360
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Highness's Fury",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Highness%27s_Fury",
+      "rarity": 10,
+      "attack": 598,
+      "affinity": 15,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "poison",
+          "damage": 390
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        30,
+        30,
+        110,
+        40,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        30,
+        30,
+        110,
+        40,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Jyura Demolisher I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Demolisher_I",
+      "rarity": 9,
+      "attack": 506,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        3,
+        1
+      ],
+      "elements": [
+        {
+          "type": "water",
+          "damage": 390
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Jyura Demolisher II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jyura_Demolisher_II",
+      "rarity": 10,
+      "attack": 598,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        3,
+        1
+      ],
+      "elements": [
+        {
+          "type": "water",
+          "damage": 420
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Twinfang",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Twinfang",
+      "rarity": 10,
+      "attack": 506,
+      "affinity": 20,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 210
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        30,
+        30,
+        110,
+        40,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        30,
+        30,
+        110,
+        40,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Twinfang+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Twinfang_Plus",
+      "rarity": 10,
+      "attack": 529,
+      "affinity": 25,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 270
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        30,
+        30,
+        110,
+        40,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        30,
+        30,
+        110,
+        40,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Ambermarch",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ambermarch",
+      "rarity": 11,
+      "attack": 575,
+      "affinity": 30,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 330
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        30,
+        30,
+        110,
+        40,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        30,
+        30,
+        110,
+        40,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Legiana Cannon III",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana_Cannon_III",
+      "rarity": 10,
+      "attack": 483,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 450
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        80,
+        30,
+        30,
+        80,
+        30,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        80,
+        30,
+        30,
+        80,
+        80,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Hoarcry Cannon",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hoarcry_Cannon",
+      "rarity": 10,
+      "attack": 529,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 570
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        120,
+        30,
+        30,
+        60,
+        50,
+        60,
+        0
+      ],
+      "sharpness_max": [
+        120,
+        30,
+        30,
+        60,
+        50,
+        80,
+        30
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Hidden Cannon I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hidden_Cannon_I",
+      "rarity": 10,
+      "attack": 483,
+      "affinity": 15,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "poison",
+          "damage": 420
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        80,
+        30,
+        30,
+        80,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        80,
+        30,
+        30,
+        80,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Hidden Cannon II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hidden_Cannon_II",
+      "rarity": 10,
+      "attack": 529,
+      "affinity": 20,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "poison",
+          "damage": 570
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        130,
+        20,
+        20,
+        70,
+        40,
+        30,
+        40
+      ],
+      "sharpness_max": [
+        130,
+        20,
+        20,
+        70,
+        40,
+        30,
+        90
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Dragonpike \"Quake\" I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dragonpike_Quake_I",
+      "rarity": 9,
+      "attack": 529,
+      "affinity": 0,
+      "defense": 35,
+      "slots": [
+        3
+      ],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 300
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        100,
+        40,
+        50,
+        60,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        100,
+        40,
+        50,
+        60,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Dragonpike \"Quake\" II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dragonpike_Quake_II",
+      "rarity": 10,
+      "attack": 575,
+      "affinity": 0,
+      "defense": 35,
+      "slots": [
+        3
+      ],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 330
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Dragonpike \"Quake\" III",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dragonpike_Quake_III",
+      "rarity": 11,
+      "attack": 644,
+      "affinity": 0,
+      "defense": 35,
+      "slots": [
+        3
+      ],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 360
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        80,
+        100,
+        40,
+        50,
+        80,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        80,
+        100,
+        40,
+        50,
+        80,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Eisritter",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Eisritter",
+      "rarity": 11,
+      "attack": 598,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 240
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        140,
+        30,
+        30,
+        60,
+        50,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        140,
+        30,
+        30,
+        60,
+        50,
+        40,
+        50
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Vorpal Icefort",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vorpal_Icefort",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 270
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        130,
+        30,
+        30,
+        60,
+        50,
+        50,
+        0
+      ],
+      "sharpness_max": [
+        130,
+        30,
+        30,
+        60,
+        50,
+        50,
+        50
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Bazelpride",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bazelpride",
+      "rarity": 11,
+      "attack": 598,
+      "affinity": -10,
+      "defense": 0,
+      "slots": [
+        1,
+        1
+      ],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 270
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        160,
+        30,
+        30,
+        60,
+        50,
+        20,
+        0
+      ],
+      "sharpness_max": [
+        160,
+        30,
+        30,
+        60,
+        50,
+        20,
+        50
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Glutton's Fang I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Glutton%27s_Fang_I",
+      "rarity": 9,
+      "attack": 529,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        3,
+        3
+      ],
+      "elements": [
+        {
+          "type": "sleep",
+          "damage": 360
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        80,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        80,
+        120,
+        0,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Glutton's Fang II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Glutton%27s_Fang_II",
+      "rarity": 10,
+      "attack": 598,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        3,
+        3
+      ],
+      "elements": [
+        {
+          "type": "sleep",
+          "damage": 420
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        80,
+        30,
+        30,
+        80,
+        30,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        80,
+        30,
+        30,
+        80,
+        80,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Tiger Blast",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tiger_Blast",
+      "rarity": 10,
+      "attack": 575,
+      "affinity": -15,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 300
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        70,
+        30,
+        30,
+        110,
+        40,
+        70,
+        0
+      ],
+      "sharpness_max": [
+        70,
+        30,
+        30,
+        110,
+        40,
+        120,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Tiger Blast+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tiger_Blast_Plus",
+      "rarity": 10,
+      "attack": 621,
+      "affinity": -15,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 330
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        60,
+        30,
+        30,
+        110,
+        40,
+        80,
+        0
+      ],
+      "sharpness_max": [
+        60,
+        30,
+        30,
+        110,
+        40,
+        130,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Tigrex Gunlance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tigrex_Gunlance",
+      "rarity": 11,
+      "attack": 644,
+      "affinity": -15,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 360
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        50,
+        30,
+        30,
+        110,
+        40,
+        90,
+        0
+      ],
+      "sharpness_max": [
+        50,
+        30,
+        30,
+        110,
+        40,
+        140,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Nightveil Gunlance I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nightveil_Gunlance_I",
+      "rarity": 9,
+      "attack": 460,
+      "affinity": 20,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 480
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        100,
+        40,
+        50,
+        80,
+        40,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Nightveil Gunlance II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nightveil_Gunlance_II",
+      "rarity": 10,
+      "attack": 552,
+      "affinity": 20,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 510
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        70,
+        100,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        70,
+        100,
+        40,
+        50,
+        100,
+        40,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Glavenus Buster I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Glavenus_Buster_I",
+      "rarity": 10,
+      "attack": 529,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 300
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        30,
+        30,
+        110,
+        40,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        30,
+        30,
+        110,
+        40,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Glavenus Buster II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Glavenus_Buster_II",
+      "rarity": 10,
+      "attack": 575,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        1,
+        1
+      ],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 390
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        120,
+        30,
+        30,
+        60,
+        50,
+        60,
+        0
+      ],
+      "sharpness_max": [
+        120,
+        30,
+        30,
+        60,
+        50,
+        80,
+        30
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Deathlance Vaal Spysa",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Deathlance_Vaal_Spysa",
+      "rarity": 11,
+      "attack": 575,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        2,
+        2
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 510
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "average",
+      "sharpness": [
+        70,
+        80,
+        30,
+        30,
+        80,
+        60,
+        0
+      ],
+      "sharpness_max": [
+        70,
+        80,
+        30,
+        30,
+        80,
+        110,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Acid Buster I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Acid_Buster_I",
+      "rarity": 10,
+      "attack": 621,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 300
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        160,
+        100,
+        30,
+        30,
+        30,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        160,
+        100,
+        30,
+        30,
+        50,
+        30,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Acid Buster II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Acid_Buster_II",
+      "rarity": 11,
+      "attack": 667,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 330
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        60,
+        50,
+        110,
+        90,
+        40,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        60,
+        50,
+        110,
+        90,
+        60,
+        20,
+        10
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Barroth Bluff I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Bluff_I",
+      "rarity": 9,
+      "attack": 529,
+      "affinity": -10,
+      "defense": 25,
+      "slots": [
+        2,
+        2
+      ],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 450
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        60,
+        60,
+        60,
+        100,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        60,
+        60,
+        60,
+        100,
+        90,
+        30,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Barroth Bluff II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Bluff_II",
+      "rarity": 10,
+      "attack": 621,
+      "affinity": -10,
+      "defense": 25,
+      "slots": [
+        2,
+        2
+      ],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 510
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        50,
+        60,
+        20,
+        150,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        50,
+        60,
+        20,
+        150,
+        90,
+        30,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Brachydios Buster I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brachydios_Buster_I",
+      "rarity": 10,
+      "attack": 529,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 300
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        100,
+        40,
+        50,
+        70,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Brachydios Buster II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brachydios_Buster_II",
+      "rarity": 10,
+      "attack": 552,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 480
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        30,
+        30,
+        110,
+        40,
+        50,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        30,
+        30,
+        110,
+        40,
+        100,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Mammoth Gunlance I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Mammoth_Gunlance_I",
+      "rarity": 9,
+      "attack": 552,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 420
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        80,
+        50,
+        50,
+        80,
+        90,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        80,
+        50,
+        50,
+        80,
+        140,
+        0,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Mammoth Gunlance II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Mammoth_Gunlance_II",
+      "rarity": 10,
+      "attack": 644,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 510
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        80,
+        50,
+        50,
+        80,
+        90,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        80,
+        50,
+        50,
+        80,
+        140,
+        0,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Usurper's Roar",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Usurper%27s_Roar",
+      "rarity": 10,
+      "attack": 552,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        2
+      ],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 240
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        110,
+        30,
+        30,
+        110,
+        40,
+        30,
+        0
+      ],
+      "sharpness_max": [
+        110,
+        30,
+        30,
+        110,
+        40,
+        80,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Usurper's Roar+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Usurper%27s_Roar_Plus",
+      "rarity": 11,
+      "attack": 575,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        2
+      ],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 300
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        120,
+        30,
+        90,
+        30,
+        30,
+        50,
+        0
+      ],
+      "sharpness_max": [
+        120,
+        30,
+        90,
+        30,
+        30,
+        80,
+        20
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Anjanath Flamelance I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anjanath_Flamelance_I",
+      "rarity": 9,
+      "attack": 529,
+      "affinity": -20,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 540
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        70,
+        100,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        70,
+        100,
+        40,
+        50,
+        90,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Anjanath Flamelance II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anjanath_Flamelance_II",
+      "rarity": 10,
+      "attack": 621,
+      "affinity": -20,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 600
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        70,
+        100,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        70,
+        100,
+        40,
+        50,
+        90,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Ending Fulgur I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ending_Fulgur_I",
+      "rarity": 10,
+      "attack": 552,
+      "affinity": 10,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 240
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        70,
+        100,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        70,
+        100,
+        40,
+        50,
+        90,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Ending Fulgur II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ending_Fulgur_II",
+      "rarity": 10,
+      "attack": 575,
+      "affinity": 20,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 330
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        70,
+        100,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        70,
+        100,
+        40,
+        50,
+        90,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Dragonseal Gunlance I",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dragonseal_Gunlance_I",
+      "rarity": 10,
+      "attack": 483,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        1,
+        1
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 540
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "average",
+      "sharpness": [
+        60,
+        60,
+        60,
+        100,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        60,
+        60,
+        60,
+        100,
+        90,
+        30,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Dragonseal Gunlance II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Dragonseal_Gunlance_II",
+      "rarity": 11,
+      "attack": 552,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        1,
+        1
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 660
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "average",
+      "sharpness": [
+        50,
+        60,
+        20,
+        150,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        50,
+        60,
+        20,
+        150,
+        90,
+        30,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Broken Silence",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Broken_Silence",
+      "rarity": 12,
+      "attack": 644,
+      "affinity": 0,
+      "defense": 30,
+      "slots": [
+        1,
+        1
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 510
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "high",
+      "sharpness": [
+        160,
+        30,
+        30,
+        60,
+        50,
+        20,
+        0
+      ],
+      "sharpness_max": [
+        160,
+        30,
+        30,
+        60,
+        50,
+        40,
+        30
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Hydra Ephyra",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hydra_Ephyra",
+      "rarity": 11,
+      "attack": 621,
+      "affinity": 15,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "water",
+          "damage": 330
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        80,
+        80,
+        30,
+        30,
+        80,
+        50,
+        0
+      ],
+      "sharpness_max": [
+        80,
+        80,
+        30,
+        30,
+        80,
+        100,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Black Ephyra",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Black_Ephyra",
+      "rarity": 12,
+      "attack": 644,
+      "affinity": 15,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "water",
+          "damage": 390
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        60,
+        80,
+        30,
+        30,
+        80,
+        70,
+        0
+      ],
+      "sharpness_max": [
+        60,
+        80,
+        30,
+        30,
+        80,
+        120,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Daora's Tempest",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Daora%27s_Tempest",
+      "rarity": 11,
+      "attack": 598,
+      "affinity": 10,
+      "defense": 0,
+      "slots": [
+        3
+      ],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 270
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        130,
+        30,
+        30,
+        60,
+        50,
+        50,
+        0
+      ],
+      "sharpness_max": [
+        130,
+        30,
+        30,
+        60,
+        50,
+        70,
+        30
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Consummate Gunlance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Consummate_Gunlance",
+      "rarity": 12,
+      "attack": 644,
+      "affinity": -30,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 390
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "high",
+      "sharpness": [
+        150,
+        30,
+        30,
+        60,
+        50,
+        30,
+        0
+      ],
+      "sharpness_max": [
+        150,
+        30,
+        30,
+        60,
+        50,
+        50,
+        30
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Gajalaka Firestabber",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gajalaka_Firestabber",
+      "rarity": 10,
+      "attack": 575,
+      "affinity": 0,
+      "defense": 30,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 390
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "high",
+      "sharpness": [
+        60,
+        100,
+        40,
+        40,
+        110,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        60,
+        100,
+        40,
+        40,
+        160,
+        0,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Gajalaka Firepike",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gajalaka_Firepike",
+      "rarity": 11,
+      "attack": 621,
+      "affinity": 0,
+      "defense": 30,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 450
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "high",
+      "sharpness": [
+        40,
+        100,
+        40,
+        40,
+        130,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        40,
+        100,
+        40,
+        40,
+        180,
+        0,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Demon Gunlance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Demon_Gunlance",
+      "rarity": 11,
+      "attack": 644,
+      "affinity": -15,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 90
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        100,
+        40,
+        50,
+        60,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        100,
+        40,
+        50,
+        60,
+        50,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Ruinous Eradication",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ruinous_Eradication_(Gunlance)",
+      "rarity": 12,
+      "attack": 667,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        2
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 210
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "high",
+      "sharpness": [
+        80,
+        30,
+        30,
+        110,
+        40,
+        110,
+        0
+      ],
+      "sharpness_max": [
+        80,
+        30,
+        30,
+        110,
+        40,
+        110,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Chariot Gun",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chariot_Gun",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 20,
+      "defense": 0,
+      "slots": [
+        2
+      ],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 330
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        120,
+        30,
+        30,
+        60,
+        50,
+        60,
+        0
+      ],
+      "sharpness_max": [
+        120,
+        30,
+        30,
+        60,
+        50,
+        80,
+        30
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Queen's Panoply",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Queen%27s_Panoply",
+      "rarity": 12,
+      "attack": 667,
+      "affinity": 15,
+      "defense": 0,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "poison",
+          "damage": 450
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        60,
+        80,
+        30,
+        30,
+        80,
+        70,
+        0
+      ],
+      "sharpness_max": [
+        60,
+        80,
+        30,
+        30,
+        80,
+        120,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Accursed Blast",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Accursed_Blast",
+      "rarity": 11,
+      "attack": 644,
+      "affinity": -30,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "sleep",
+          "damage": 240
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        20,
+        30,
+        90,
+        90,
+        20,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        20,
+        30,
+        90,
+        90,
+        30,
+        40
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Flamebite",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Flamebite",
+      "rarity": 12,
+      "attack": 667,
+      "affinity": -30,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "sleep",
+          "damage": 270
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        20,
+        30,
+        90,
+        90,
+        30,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        20,
+        30,
+        90,
+        90,
+        40,
+        40
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Despot's Phlogiston",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Despot%27s_Phlogiston",
+      "rarity": 12,
+      "attack": 598,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        2
+      ],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 450
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        120,
+        30,
+        90,
+        30,
+        30,
+        50,
+        0
+      ],
+      "sharpness_max": [
+        120,
+        30,
+        90,
+        30,
+        30,
+        80,
+        20
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Magda Lahat Reforged",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Magda_Lahat_Reforged",
+      "rarity": 11,
+      "attack": 644,
+      "affinity": -10,
+      "defense": 45,
+      "slots": [
+        2
+      ],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 450
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        130,
+        40,
+        40,
+        70,
+        70,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        130,
+        40,
+        40,
+        70,
+        80,
+        20,
+        20
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Soulfire Talon \"Blaze\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Soulfire_Talon_Blaze",
+      "rarity": 12,
+      "attack": 575,
+      "affinity": 20,
+      "defense": 0,
+      "slots": [
+        2,
+        1
+      ],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 270
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        110,
+        30,
+        90,
+        30,
+        30,
+        60,
+        0
+      ],
+      "sharpness_max": [
+        110,
+        30,
+        90,
+        30,
+        30,
+        90,
+        20
+      ],
+      "skill": "Guts"
+    },
+    {
+      "name": "Soulfire Talon \"Ruin\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Soulfire_Talon_Ruin",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        2,
+        2
+      ],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 210
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        110,
+        30,
+        90,
+        30,
+        30,
+        60,
+        0
+      ],
+      "sharpness_max": [
+        110,
+        30,
+        90,
+        30,
+        30,
+        90,
+        20
+      ],
+      "skill": "Hasten Recovery"
+    },
+    {
+      "name": "Soulfire Talon \"Styx\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Soulfire_Talon_Styx",
+      "rarity": 12,
+      "attack": 575,
+      "affinity": 10,
+      "defense": 0,
+      "slots": [
+        3,
+        3
+      ],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 330
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        110,
+        30,
+        90,
+        30,
+        30,
+        60,
+        0
+      ],
+      "sharpness_max": [
+        110,
+        30,
+        90,
+        30,
+        30,
+        90,
+        20
+      ],
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    {
+      "name": "Brimstren Drakeblood",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brimstren_Drakeblood",
+      "rarity": 11,
+      "attack": 575,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        2
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 300
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "average",
+      "sharpness": [
+        140,
+        20,
+        20,
+        70,
+        40,
+        30,
+        30
+      ],
+      "sharpness_max": [
+        140,
+        20,
+        20,
+        70,
+        40,
+        30,
+        80
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Stygian Avaritia",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Stygian_Avaritia",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        2
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 360
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "average",
+      "sharpness": [
+        110,
+        20,
+        20,
+        70,
+        40,
+        30,
+        60
+      ],
+      "sharpness_max": [
+        110,
+        20,
+        20,
+        70,
+        40,
+        30,
+        110
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Xeno Hemta+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno_Hemta_Plus",
+      "rarity": 12,
+      "attack": 644,
+      "affinity": 15,
+      "defense": 0,
+      "slots": [
+        4,
+        4
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 300
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "low",
+      "sharpness": [
+        100,
+        80,
+        30,
+        30,
+        80,
+        30,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        80,
+        30,
+        30,
+        80,
+        80,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Safi's Hellbuster",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Safi%27s_Hellbuster",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 5,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 180
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Safi's Aquabuster",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Safi%27s_Aquabuster",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 5,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "water",
+          "damage": 180
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Safi's Boltbuster",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Safi%27s_Boltbuster",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 5,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 180
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Safi's Frostbuster",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Safi%27s_Frostbuster",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 5,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 180
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Safi's Drakbuster",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Safi%27s_Drakbuster",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 5,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 180
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "average",
+      "sharpness": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Safi's Bindbuster",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Safi%27s_Bindbuster",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 5,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 180
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Safi's Dreambuster",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Safi%27s_Dreambuster",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 5,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "sleep",
+          "damage": 180
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Safi's Shatterbuster",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Safi%27s_Shatterbuster",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 5,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 240
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Safi's Venombuster",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Safi%27s_Venombuster",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 5,
+      "defense": 0,
+      "slots": [
+        4
+      ],
+      "elements": [
+        {
+          "type": "poison",
+          "damage": 240
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        50,
+        60,
+        90,
+        0
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Guild Palace Order",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Palace_Order",
+      "rarity": 10,
+      "attack": 575,
+      "affinity": 10,
+      "defense": 30,
+      "slots": [
+        3
+      ],
+      "elements": [
+        {
+          "type": "water",
+          "damage": 420
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        140,
+        30,
+        30,
+        60,
+        50,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        140,
+        30,
+        30,
+        60,
+        50,
+        60,
+        30
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Royal Guard Striker",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Royal_Guard_Striker",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 15,
+      "defense": 30,
+      "slots": [
+        3
+      ],
+      "elements": [
+        {
+          "type": "water",
+          "damage": 510
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        130,
+        30,
+        30,
+        60,
+        50,
+        50,
+        0
+      ],
+      "sharpness_max": [
+        130,
+        30,
+        30,
+        60,
+        50,
+        50,
+        50
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Demonlord Gunlance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Demonlord_Gunlance",
+      "rarity": 12,
+      "attack": 644,
+      "affinity": 15,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 300
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        110,
+        20,
+        20,
+        70,
+        40,
+        30,
+        60
+      ],
+      "sharpness_max": [
+        110,
+        20,
+        20,
+        70,
+        40,
+        30,
+        110
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Lightbreak Gunlance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lightbreak_Gunlance",
+      "rarity": 12,
+      "attack": 690,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        4,
+        3
+      ],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 270
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        140,
+        30,
+        30,
+        60,
+        50,
+        60,
+        30
+      ],
+      "sharpness_max": [
+        140,
+        30,
+        30,
+        60,
+        50,
+        60,
+        30
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Alatreon Gunlance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alatreon_Gunlance",
+      "rarity": 11,
+      "attack": 575,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        2
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 540
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "low",
+      "sharpness": [
+        120,
+        20,
+        20,
+        70,
+        40,
+        30,
+        50
+      ],
+      "sharpness_max": [
+        120,
+        20,
+        20,
+        70,
+        40,
+        30,
+        100
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Alatreon Melt",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Alatreon_Melt",
+      "rarity": 12,
+      "attack": 644,
+      "affinity": 0,
+      "defense": 0,
+      "slots": [
+        2,
+        2
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 660
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "low",
+      "sharpness": [
+        80,
+        20,
+        20,
+        70,
+        40,
+        30,
+        90
+      ],
+      "sharpness_max": [
+        80,
+        20,
+        20,
+        70,
+        40,
+        30,
+        140
+      ],
+      "skill": ""
+    },
+    {
+      "name": "White Night",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/White_Night",
+      "rarity": 11,
+      "attack": 621,
+      "affinity": 15,
+      "defense": 0,
+      "slots": [],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 480
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        10,
+        30,
+        50,
+        50,
+        60,
+        120,
+        30
+      ],
+      "sharpness_max": [
+        10,
+        30,
+        50,
+        50,
+        60,
+        120,
+        80
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Fatalis Gunlance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Fatalis_Gunlance",
+      "rarity": 11,
+      "attack": 782,
+      "affinity": -40,
+      "defense": 0,
+      "slots": [
+        4,
+        4
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 90
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "high",
+      "sharpness": [
+        140,
+        20,
+        20,
+        70,
+        40,
+        30,
+        30
+      ],
+      "sharpness_max": [
+        140,
+        20,
+        20,
+        70,
+        40,
+        30,
+        80
+      ],
+      "skill": ""
+    },
+    {
+      "name": "True Fatalis Gunlance",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/True_Fatalis_Gunlance",
+      "rarity": 12,
+      "attack": 897,
+      "affinity": -20,
+      "defense": 0,
+      "slots": [
+        4,
+        4
+      ],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 150
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "high",
+      "sharpness": [
+        130,
+        20,
+        20,
+        70,
+        40,
+        30,
+        40
+      ],
+      "sharpness_max": [
+        130,
+        20,
+        20,
+        70,
+        40,
+        30,
+        90
+      ],
+      "skill": ""
+    },
+    {
+      "name": "Gold Water Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gold_Water_Exploder",
+      "rarity": 10,
+      "attack": 483,
+      "affinity": 0,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "water",
+          "damage": 390
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        60,
+        80,
+        80,
+        70,
+        20,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        60,
+        80,
+        80,
+        70,
+        20,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Gold Poison Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gold_Poison_Exploder",
+      "rarity": 10,
+      "attack": 460,
+      "affinity": 15,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "poison",
+          "damage": 330
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        60,
+        60,
+        100,
+        60,
+        30,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        60,
+        60,
+        100,
+        60,
+        30,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Gold Sleep Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gold_Sleep_Exploder",
+      "rarity": 10,
+      "attack": 483,
+      "affinity": 0,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "sleep",
+          "damage": 330
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        120,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        120,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Glutton Gold Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Glutton_Gold_Exploder",
+      "rarity": 10,
+      "attack": 483,
+      "affinity": 0,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "sleep",
+          "damage": 210
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        120,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        120,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Mire Gold Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Mire_Gold_Exploder",
+      "rarity": 10,
+      "attack": 483,
+      "affinity": 0,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "water",
+          "damage": 360
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        60,
+        80,
+        80,
+        70,
+        20,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        60,
+        80,
+        80,
+        70,
+        20,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Mud Gold Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Mud_Gold_Exploder",
+      "rarity": 10,
+      "attack": 460,
+      "affinity": -10,
+      "defense": 45,
+      "slots": [],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 300
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        250,
+        20,
+        20,
+        20,
+        30,
+        60,
+        0
+      ],
+      "sharpness_max": [
+        250,
+        20,
+        20,
+        20,
+        30,
+        60,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Spark Gold Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Spark_Gold_Exploder",
+      "rarity": 10,
+      "attack": 483,
+      "affinity": 20,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 300
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        80,
+        120,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        80,
+        120,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Rage Gold Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rage_Gold_Exploder",
+      "rarity": 10,
+      "attack": 506,
+      "affinity": -20,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 390
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        120,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        120,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Numb Gold Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Numb_Gold_Exploder",
+      "rarity": 10,
+      "attack": 483,
+      "affinity": 10,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 330
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        110,
+        50,
+        50,
+        80,
+        110,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        110,
+        50,
+        50,
+        80,
+        110,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Stream Gold Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Stream_Gold_Exploder",
+      "rarity": 10,
+      "attack": 483,
+      "affinity": 10,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 360
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        170,
+        70,
+        20,
+        20,
+        80,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        170,
+        70,
+        20,
+        20,
+        80,
+        40,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Decay Gold Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Decay_Gold_Exploder",
+      "rarity": 10,
+      "attack": 529,
+      "affinity": 10,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 300
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "average",
+      "sharpness": [
+        200,
+        70,
+        20,
+        20,
+        50,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        200,
+        70,
+        20,
+        20,
+        50,
+        40,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "King Gold Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/King_Gold_Exploder",
+      "rarity": 10,
+      "attack": 483,
+      "affinity": 20,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 300
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        50,
+        50,
+        80,
+        130,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        50,
+        50,
+        80,
+        130,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Bomber Gold Exploder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bomber_Gold_Exploder",
+      "rarity": 10,
+      "attack": 529,
+      "affinity": 0,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 210
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        80,
+        120,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        80,
+        120,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Glutton\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Glutton",
+      "rarity": 11,
+      "attack": 598,
+      "affinity": 0,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "sleep",
+          "damage": 300
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        120,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        120,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Mire\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Mire",
+      "rarity": 11,
+      "attack": 598,
+      "affinity": 0,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "water",
+          "damage": 540
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        60,
+        80,
+        80,
+        70,
+        20,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        60,
+        80,
+        80,
+        70,
+        20,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Mud\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Mud",
+      "rarity": 11,
+      "attack": 552,
+      "affinity": -10,
+      "defense": 45,
+      "slots": [],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 510
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        250,
+        20,
+        20,
+        20,
+        30,
+        60,
+        0
+      ],
+      "sharpness_max": [
+        250,
+        20,
+        20,
+        20,
+        30,
+        60,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Spark\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Spark",
+      "rarity": 11,
+      "attack": 552,
+      "affinity": 20,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 450
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        80,
+        120,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        80,
+        120,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Rage\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Rage",
+      "rarity": 11,
+      "attack": 621,
+      "affinity": -20,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 630
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        120,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        120,
+        40,
+        50,
+        90,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Numb\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Numb",
+      "rarity": 11,
+      "attack": 529,
+      "affinity": 10,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 570
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        110,
+        50,
+        50,
+        80,
+        110,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        110,
+        50,
+        50,
+        80,
+        110,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Stream\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Stream",
+      "rarity": 11,
+      "attack": 529,
+      "affinity": 10,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 540
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        170,
+        70,
+        20,
+        20,
+        80,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        170,
+        70,
+        20,
+        20,
+        80,
+        40,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Decay\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Decay",
+      "rarity": 11,
+      "attack": 621,
+      "affinity": 10,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 450
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "average",
+      "sharpness": [
+        200,
+        70,
+        20,
+        20,
+        50,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        200,
+        70,
+        20,
+        20,
+        50,
+        40,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"King\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_King",
+      "rarity": 11,
+      "attack": 575,
+      "affinity": 20,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 420
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        90,
+        50,
+        50,
+        80,
+        130,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        90,
+        50,
+        50,
+        80,
+        130,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Bomber\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Bomber",
+      "rarity": 11,
+      "attack": 575,
+      "affinity": 0,
+      "defense": 40,
+      "slots": [],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 330
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        80,
+        120,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        80,
+        120,
+        0,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Water\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Water",
+      "rarity": 12,
+      "attack": 644,
+      "affinity": 0,
+      "defense": 40,
+      "slots": [
+        3
+      ],
+      "elements": [
+        {
+          "type": "water",
+          "damage": 630
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        80,
+        60,
+        60,
+        100,
+        70,
+        30,
+        0
+      ],
+      "sharpness_max": [
+        80,
+        60,
+        60,
+        100,
+        70,
+        30,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Poison\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Poison",
+      "rarity": 12,
+      "attack": 667,
+      "affinity": 15,
+      "defense": 40,
+      "slots": [
+        3
+      ],
+      "elements": [
+        {
+          "type": "poison",
+          "damage": 570
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        70,
+        50,
+        60,
+        120,
+        60,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        70,
+        50,
+        60,
+        120,
+        60,
+        40,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Sleep\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Sleep",
+      "rarity": 12,
+      "attack": 644,
+      "affinity": 0,
+      "defense": 40,
+      "slots": [
+        3
+      ],
+      "elements": [
+        {
+          "type": "sleep",
+          "damage": 570
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        190,
+        70,
+        20,
+        20,
+        60,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        190,
+        70,
+        20,
+        20,
+        60,
+        40,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Taroth Buster \"Ice\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Taroth_Buster_Ice",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 0,
+      "defense": 40,
+      "slots": [
+        3
+      ],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 630
+        }
+      ],
+      "element_hidden": true,
+      "elderseal": "",
+      "sharpness": [
+        230,
+        20,
+        20,
+        20,
+        30,
+        80,
+        0
+      ],
+      "sharpness_max": [
+        230,
+        20,
+        20,
+        20,
+        30,
+        80,
+        0
+      ],
+      "skill": "Kulve Taroth Essence"
+    },
+    {
+      "name": "Kjárr Buster \"Stream\"",
+      "url": "",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 15,
+      "defense": 20,
+      "slots": [],
+      "elements": [
+        {
+          "type": "ice",
+          "damage": 570
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        170,
+        70,
+        20,
+        20,
+        80,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        170,
+        70,
+        20,
+        20,
+        80,
+        40,
+        0
+      ],
+      "skill": "Critical Element"
+    },
+    {
+      "name": "Kjárr Buster \"Decay\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kjarr_Buster_Decay",
+      "rarity": 12,
+      "attack": 644,
+      "affinity": 15,
+      "defense": 20,
+      "slots": [],
+      "elements": [
+        {
+          "type": "dragon",
+          "damage": 480
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "average",
+      "sharpness": [
+        190,
+        70,
+        20,
+        20,
+        60,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        190,
+        70,
+        20,
+        20,
+        60,
+        40,
+        0
+      ],
+      "skill": "Critical Element"
+    },
+    {
+      "name": "Kjárr Buster \"King\"",
+      "url": "",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 15,
+      "defense": 20,
+      "slots": [],
+      "elements": [
+        {
+          "type": "fire",
+          "damage": 570
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        70,
+        50,
+        50,
+        80,
+        150,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        70,
+        50,
+        50,
+        80,
+        150,
+        0,
+        0
+      ],
+      "skill": "Critical Element"
+    },
+    {
+      "name": "Kjárr Buster \"Bomber\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kjarr_Buster_Bomber",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 20,
+      "defense": 20,
+      "slots": [
+        1
+      ],
+      "elements": [
+        {
+          "type": "blast",
+          "damage": 450
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        80,
+        50,
+        50,
+        80,
+        140,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        80,
+        50,
+        50,
+        80,
+        140,
+        0,
+        0
+      ],
+      "skill": "Critical Status"
+    },
+    {
+      "name": "Kjárr Buster \"Spark\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kjarr_Buster_Spark",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 15,
+      "defense": 20,
+      "slots": [],
+      "elements": [
+        {
+          "type": "thunder",
+          "damage": 510
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        80,
+        50,
+        60,
+        120,
+        50,
+        40,
+        0
+      ],
+      "sharpness_max": [
+        80,
+        50,
+        60,
+        120,
+        50,
+        40,
+        0
+      ],
+      "skill": "Critical Element"
+    },
+    {
+      "name": "Kjárr Buster \"Paralysis\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kjarr_Buster_Paralysis",
+      "rarity": 12,
+      "attack": 621,
+      "affinity": 15,
+      "defense": 20,
+      "slots": [],
+      "elements": [
+        {
+          "type": "paralysis",
+          "damage": 480
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        100,
+        50,
+        50,
+        80,
+        120,
+        0,
+        0
+      ],
+      "sharpness_max": [
+        100,
+        50,
+        50,
+        80,
+        120,
+        0,
+        0
+      ],
+      "skill": "Critical Status"
+    },
+    {
+      "name": "Kjárr Buster \"Water\"",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kjarr_Buster_Water",
+      "rarity": 12,
+      "attack": 644,
+      "affinity": 10,
+      "defense": 20,
+      "slots": [],
+      "elements": [
+        {
+          "type": "water",
+          "damage": 600
+        }
+      ],
+      "element_hidden": false,
+      "elderseal": "",
+      "sharpness": [
+        70,
+        60,
+        60,
+        100,
+        80,
+        30,
+        0
+      ],
+      "sharpness_max": [
+        70,
+        60,
+        60,
+        100,
+        80,
+        30,
+        0
+      ],
+      "skill": "Critical Element"
+    }
+  ]
+}

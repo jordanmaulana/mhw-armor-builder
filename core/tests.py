@@ -7,6 +7,7 @@ from armors.models import Armor
 from charms.models import Charm
 from decorations.models import Decoration
 from skills.models import Skill
+from weapons.models import Weapon
 
 
 class SeedTests(TestCase):
@@ -14,7 +15,7 @@ class SeedTests(TestCase):
         out = StringIO()
         call_command("seed", stdout=out)
 
-        for model in (Skill, Charm, Decoration, Armor):
+        for model in (Skill, Charm, Decoration, Armor, Weapon):
             self.assertTrue(model.objects.exists(), model.__name__)
         self.assertTrue(out.getvalue().startswith("skills:"))
         self.assertTrue(Armor.objects.filter(set_bonus__isnull=False).exists())
