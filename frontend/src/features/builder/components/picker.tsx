@@ -6,7 +6,7 @@ import type { GrantedSkill, Skill } from "@/features/builder/types";
 interface Pickable {
   id: string;
   name: string;
-  skills: GrantedSkill[];
+  skills?: GrantedSkill[];
 }
 
 interface PickerProps<T extends Pickable> {
@@ -17,6 +17,8 @@ interface PickerProps<T extends Pickable> {
   // the caller orders `items`; this only draws the choice
   sort?: { options: string[]; value: string; onChange: (value: string) => void };
   meta?: (item: T) => ReactNode;
+  // the line under the name, for items that don't grant skills; it is searched too
+  detail?: (item: T) => string;
   onPick: (item: T | null) => void; // null = remove what's equipped
   onClose: () => void;
 }
@@ -29,6 +31,7 @@ export function Picker<T extends Pickable>({
   selectedId,
   sort,
   meta,
+  detail,
   onPick,
   onClose,
 }: PickerProps<T>) {
@@ -43,10 +46,10 @@ export function Picker<T extends Pickable>({
   const rows = useMemo(
     () =>
       items.map((item) => {
-        const granted = describeSkills(item.skills, skills);
+        const granted = detail ? detail(item) : describeSkills(item.skills ?? [], skills);
         return { item, granted, haystack: `${item.name} ${granted}`.toLowerCase() };
       }),
-    [items, skills],
+    [items, skills, detail],
   );
   const needle = query.trim().toLowerCase();
   // ponytail: plain substring scan and no list virtualization; fine for the ~400 rows a picker
@@ -139,7 +142,9 @@ export function Picker<T extends Pickable>({
                     <span className="font-medium">{item.name}</span>
                     {meta && <span className="shrink-0 text-sm text-moss">{meta(item)}</span>}
                   </span>
-                  <span className="text-sm text-moss">{granted || "No skills"}</span>
+                  <span className="text-sm text-moss">
+                    {granted || (detail ? "" : "No skills")}
+                  </span>
                 </button>
               </li>
             ))}

@@ -21,8 +21,9 @@ export function SoundToggle() {
 
   return (
     <>
-      {/* floats bottom-left, over the equipment's label column: never on a tap target or the
-          Summary's numbers. Its own dark fill, like SlotButton: it sits bare on the backdrop */}
+      {/* floats bottom-left, over the equipment's label column or the set search's number
+          gutter, whichever is on the left: never on a tap target or the Summary's numbers.
+          Its own dark fill, like SlotButton: it sits bare on the backdrop */}
       <button
         type="button"
         aria-label="Music"

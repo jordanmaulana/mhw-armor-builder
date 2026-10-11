@@ -4,6 +4,7 @@ import { RESET } from "jotai/utils";
 
 import { EquipRow, SlotButton, SlotGem } from "@/features/builder/components/equip-row";
 import { Picker } from "@/features/builder/components/picker";
+import { SetSearch } from "@/features/builder/components/set-search";
 import { SoundToggle } from "@/features/builder/components/sound-toggle";
 import { Summary } from "@/features/builder/components/summary";
 import { useCatalog } from "@/features/builder/hooks";
@@ -136,7 +137,8 @@ export function BuilderPage() {
   return (
     <main className="smithy min-h-screen text-bone">
       {/* pb-20: the footer has to clear the floating SoundToggle */}
-      <div className="mx-auto max-w-6xl px-4 pt-8 pb-20 sm:px-6 lg:pt-12">
+      {/* wider at xl, where the set search takes a column of its own */}
+      <div className="mx-auto max-w-6xl px-4 pt-8 pb-20 sm:px-6 lg:pt-12 xl:max-w-[90rem]">
         <header className="flex items-baseline justify-between gap-4 pb-4">
           {/* the game titles a screen with its path: "Smithy ▸ Change Equipment" */}
           <h1 className="font-serif text-2xl text-aqua text-shadow-glow sm:text-3xl">
@@ -157,45 +159,49 @@ export function BuilderPage() {
           </button>
         </header>
 
-        <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-14">
-          <ul aria-label="Equipment">
-            {ARMOR_TYPES.map((type) => {
-              const piece = build.pieces[type];
-              const armor = piece ? catalog.armors.get(piece.armorId) : undefined;
-              return (
-                <EquipRow
-                  key={type}
-                  label={LABELS[type]}
-                  emptyText={`Choose ${type} armor`}
-                  item={armor}
-                  icon={armor && (armor.icon_url_male || armor.icon_url_female)}
-                  meta={armor && `Defense ${armor.defense}`}
-                  skills={catalog.skills}
-                  onChoose={() => setPicking({ kind: "armor", type })}
-                >
-                  {armor?.slots.length
-                    ? armor.slots.map((level, index) => (
-                        <SlotButton
-                          key={index}
-                          level={level}
-                          decoration={catalog.decorations.get(piece?.decoIds[index] ?? "")}
-                          skills={catalog.skills}
-                          onClick={() => setPicking({ kind: "slot", type, index })}
-                        />
-                      ))
-                    : null}
-                </EquipRow>
-              );
-            })}
-            <EquipRow
-              label="Charm"
-              emptyText="Choose a charm"
-              item={charm}
-              icon={charm?.icon_url}
-              skills={catalog.skills}
-              onChoose={() => setPicking({ kind: "charm" })}
-            />
-          </ul>
+        <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-14 xl:grid-cols-[24rem_minmax(0,1fr)_20rem] xl:gap-10">
+          {/* one stacked column until xl, where its two children become grid columns of their own */}
+          <div className="flex min-w-0 flex-col gap-6 xl:contents">
+            <SetSearch catalog={catalog} build={build} onUse={setBuild} />
+            <ul aria-label="Equipment">
+              {ARMOR_TYPES.map((type) => {
+                const piece = build.pieces[type];
+                const armor = piece ? catalog.armors.get(piece.armorId) : undefined;
+                return (
+                  <EquipRow
+                    key={type}
+                    label={LABELS[type]}
+                    emptyText={`Choose ${type} armor`}
+                    item={armor}
+                    icon={armor && (armor.icon_url_male || armor.icon_url_female)}
+                    meta={armor && `Defense ${armor.defense}`}
+                    skills={catalog.skills}
+                    onChoose={() => setPicking({ kind: "armor", type })}
+                  >
+                    {armor?.slots.length
+                      ? armor.slots.map((level, index) => (
+                          <SlotButton
+                            key={index}
+                            level={level}
+                            decoration={catalog.decorations.get(piece?.decoIds[index] ?? "")}
+                            skills={catalog.skills}
+                            onClick={() => setPicking({ kind: "slot", type, index })}
+                          />
+                        ))
+                      : null}
+                  </EquipRow>
+                );
+              })}
+              <EquipRow
+                label="Charm"
+                emptyText="Choose a charm"
+                item={charm}
+                icon={charm?.icon_url}
+                skills={catalog.skills}
+                onChoose={() => setPicking({ kind: "charm" })}
+              />
+            </ul>
+          </div>
 
           <div className="pt-4 lg:sticky lg:top-8 lg:self-start">
             <Summary totals={computeTotals(build, catalog)} />
