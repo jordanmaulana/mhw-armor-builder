@@ -55,6 +55,7 @@ path("projects/<str:pk>/", ProjectAPI.as_view(), name="api-v1-project-detail"),
 - Granted skills serialize as `{skill: <id>, level}` via `source="skill_id"`, so prefetching the through rows is the only extra query. `api/v1/tests.py` pins this with `assertNumQueries(2)`.
 - Set bonuses hang off the **piece**, not a set: `Armor.set_bonus` (FK) + `SetBonus.tiers` (`[{pieces, skill}]`, `effects[i]` describes `tiers[i]`). Pieces of different sets feed one bonus (Rathalos α + Rath Soul β → Rathalos Mastery), so there is no `ArmorSet` table. Both fields come from `.dataset/sets.json` via `load_sets` — the last step of `seed`, and it relinks from scratch on every run. The file is `sets.json`, not `armor_sets.json`: `load_armors` globs `armor_*.json`.
 - Set-bonus skills render in their own Summary block and are never added to skill points — most (Adrenaline, Guts, …) aren't in the skill catalog.
+- Background music: `SoundToggle` in the builder header plays `frontend/public/audio/seliana-{day,night}.mp3` in turn. The files are supplied locally, not committed. Sound is off by default and not persisted — browsers block audio before a gesture. A missing file does not 404 (Vite and nginx both fall back to `index.html`), so the only symptom is the toggle snapping back to off.
 - Not modelled: secret-skill caps and Iceborne sets. `sets.json` is scraped from the wiki's base-game set comparison page, so the other 45 set bonuses have no tiers and no armors, and skills cap at `max_level`.
 
 ## Auth + frontend flow (read before touching login/onboarding/routing)

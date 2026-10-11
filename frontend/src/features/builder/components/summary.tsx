@@ -1,12 +1,17 @@
+import dragon from "@/assets/elements/dragon.png";
+import fire from "@/assets/elements/fire.png";
+import ice from "@/assets/elements/ice.png";
+import thunder from "@/assets/elements/thunder.png";
+import water from "@/assets/elements/water.png";
 import { ELEMENTS, type Element, type Totals } from "@/features/builder/totals";
 
-// the game's own element colours, so the row reads without its labels
-const ELEMENT_STYLE: Record<Element, { label: string; color: string }> = {
-  fire: { label: "Fire", color: "#e8643c" },
-  water: { label: "Water", color: "#4aa3e8" },
-  thunder: { label: "Thunder", color: "#ecc94b" },
-  ice: { label: "Ice", color: "#9fe0ee" },
-  dragon: { label: "Dragon", color: "#a47be0" },
+// the game's own element icons, so the row reads without its labels
+const ELEMENT_STYLE: Record<Element, { label: string; icon: string }> = {
+  fire: { label: "Fire", icon: fire },
+  water: { label: "Water", icon: water },
+  thunder: { label: "Thunder", icon: thunder },
+  ice: { label: "Ice", icon: ice },
+  dragon: { label: "Dragon", icon: dragon },
 };
 
 const signed = (n: number) => (n > 0 ? `+${n}` : `${n}`);
@@ -21,12 +26,12 @@ export function Summary({ totals }: { totals: Totals }) {
 
       <dl className="grid grid-cols-5 gap-2 text-center">
         {ELEMENTS.map((element) => {
-          const { label, color } = ELEMENT_STYLE[element];
+          const { label, icon } = ELEMENT_STYLE[element];
           const value = totals.resistances[element];
           return (
             <div key={element} className="flex flex-col items-center gap-1">
               <dt className="flex flex-col items-center gap-1.5 text-xs text-moss">
-                <span aria-hidden className="size-2 rounded-full" style={{ background: color }} />
+                <img src={icon} alt="" className="size-6" />
                 {label}
               </dt>
               <dd className={`font-medium tabular-nums ${value < 0 ? "text-ember" : ""}`}>

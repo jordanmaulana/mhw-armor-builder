@@ -4,6 +4,7 @@ import { RESET } from "jotai/utils";
 
 import { EquipRow, SlotButton, SlotGem } from "@/features/builder/components/equip-row";
 import { Picker } from "@/features/builder/components/picker";
+import { SoundToggle } from "@/features/builder/components/sound-toggle";
 import { Summary } from "@/features/builder/components/summary";
 import { useCatalog } from "@/features/builder/hooks";
 import { buildAtom } from "@/features/builder/state";
@@ -125,13 +126,16 @@ export function BuilderPage() {
             <h1 className="text-2xl font-semibold tracking-tight">Armor set builder</h1>
             <p className="mt-1 text-sm text-moss">Monster Hunter: World</p>
           </div>
-          <button
-            type="button"
-            onClick={() => setBuild(RESET)}
-            className="text-sm text-moss underline-offset-4 hover:text-bone hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brass"
-          >
-            Clear set
-          </button>
+          <div className="flex items-baseline gap-5">
+            <SoundToggle />
+            <button
+              type="button"
+              onClick={() => setBuild(RESET)}
+              className="text-sm text-moss underline-offset-4 hover:text-bone hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brass"
+            >
+              Clear set
+            </button>
+          </div>
         </header>
 
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-14">
