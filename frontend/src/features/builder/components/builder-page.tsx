@@ -9,7 +9,7 @@ import { Summary } from "@/features/builder/components/summary";
 import { useCatalog } from "@/features/builder/hooks";
 import { buildAtom } from "@/features/builder/state";
 import { computeTotals } from "@/features/builder/totals";
-import { ARMOR_TYPES, type ArmorType, type Piece } from "@/features/builder/types";
+import { ARMOR_TYPES, type Armor, type ArmorType, type Piece } from "@/features/builder/types";
 
 const LABELS: Record<ArmorType, string> = {
   head: "Head",
@@ -17,6 +17,15 @@ const LABELS: Record<ArmorType, string> = {
   arms: "Arms",
   waist: "Waist",
   legs: "Legs",
+};
+
+const slotTotal = (armor: Armor) => armor.slots.reduce((sum, level) => sum + level, 0);
+
+// The catalog arrives name-ordered and sort is stable, so ties stay alphabetical.
+const ARMOR_SORTS: Record<string, (a: Armor, b: Armor) => number> = {
+  Defense: (a, b) => b.defense - a.defense,
+  // most slots first, then the bigger ones: [3, 2] before [1, 1]
+  Slots: (a, b) => b.slots.length - a.slots.length || slotTotal(b) - slotTotal(a),
 };
 
 type Picking =
@@ -28,6 +37,8 @@ export function BuilderPage() {
   const { data: catalog, isError } = useCatalog();
   const [build, setBuild] = useAtom(buildAtom);
   const [picking, setPicking] = useState<Picking | null>(null);
+  // held here, not in Picker: the picker unmounts on close, and the choice should outlive it
+  const [armorSort, setArmorSort] = useState("Defense");
 
   if (!catalog) {
     return (
@@ -68,12 +79,16 @@ export function BuilderPage() {
     const piece = build.pieces[type];
 
     if (picking.kind === "armor") {
+      const armors = [...catalog.armors.values()]
+        .filter((armor) => armor.type === type)
+        .sort(ARMOR_SORTS[armorSort]);
       return (
         <Picker
           title={`Choose ${type} armor`}
-          items={[...catalog.armors.values()].filter((armor) => armor.type === type)}
+          items={armors}
           skills={catalog.skills}
           selectedId={piece?.armorId}
+          sort={{ options: Object.keys(ARMOR_SORTS), value: armorSort, onChange: setArmorSort }}
           onClose={close}
           meta={(armor) => (
             <span className="flex items-center gap-2.5 tabular-nums">

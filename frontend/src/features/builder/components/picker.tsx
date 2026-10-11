@@ -14,6 +14,8 @@ interface PickerProps<T extends Pickable> {
   items: T[];
   skills: Map<string, Skill>;
   selectedId?: string | null;
+  // the caller orders `items`; this only draws the choice
+  sort?: { options: string[]; value: string; onChange: (value: string) => void };
   meta?: (item: T) => ReactNode;
   onPick: (item: T | null) => void; // null = remove what's equipped
   onClose: () => void;
@@ -25,6 +27,7 @@ export function Picker<T extends Pickable>({
   items,
   skills,
   selectedId,
+  sort,
   meta,
   onPick,
   onClose,
@@ -91,6 +94,26 @@ export function Picker<T extends Pickable>({
               Close
             </button>
           </div>
+          {/* right-aligned: it sits over the columns it sorts */}
+          {sort && (
+            <div role="group" aria-label="Sort by" className="flex justify-end gap-4 text-sm">
+              <span aria-hidden className="text-moss">
+                Sort by
+              </span>
+              {/* underline means "active" here, so unlike Close these don't underline on hover */}
+              {sort.options.map((option) => (
+                <button
+                  key={option}
+                  type="button"
+                  aria-pressed={option === sort.value}
+                  onClick={() => sort.onChange(option)}
+                  className="text-moss decoration-hunt underline-offset-4 hover:text-bone focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt aria-pressed:text-bone aria-pressed:underline"
+                >
+                  {option}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
 
         {shown.length === 0 ? (
@@ -98,7 +121,8 @@ export function Picker<T extends Pickable>({
             Nothing matches “{query.trim()}”. Try part of a name or a skill, like “attack”.
           </p>
         ) : (
-          <ul className="flex-1 overflow-y-auto overscroll-contain">
+          // keyed on the sort so a new order remounts the list and starts from the top
+          <ul key={sort?.value} className="flex-1 overflow-y-auto overscroll-contain">
             {shown.map(({ item, granted }) => (
               <li
                 key={item.id}
