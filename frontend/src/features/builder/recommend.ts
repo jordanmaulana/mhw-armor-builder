@@ -2,7 +2,7 @@ import { ARMOR_TYPES, type Build, type Catalog, type Decoration, type GrantedSki
 
 // ponytail: the search runs on the main thread, on every change to the wanted list, and grows
 // with it. The slowest list found at this size (twelve damage skills, all at their cap) takes
-// ~0.2s on a desktop; most take a few tens of ms. Move it to a Web Worker before raising this,
+// ~0.3s on a desktop; most take a few tens of ms. Move it to a Web Worker before raising this,
 // or if a phone stutters.
 export const MAX_WANTED = 12;
 
@@ -39,8 +39,8 @@ export function recommend(wanted: GrantedSkill[], catalog: Catalog, limit = 10):
   };
 
   // ponytail: one jewel per skill, the smallest that grants that skill alone. Combo and "+"
-  // jewels need a level 4 slot and three pieces in the dataset have one; count them once the
-  // Iceborne armor is loaded.
+  // jewels need a level 4 slot, and half the Master Rank pieces have one: until they are
+  // counted, such a slot gets a smaller jewel and the rest of it goes unused.
   const jewels = targets.map(({ skill }) => {
     let smallest: Decoration | undefined;
     for (const jewel of catalog.decorations.values()) {
@@ -95,7 +95,7 @@ export function recommend(wanted: GrantedSkill[], catalog: Catalog, limit = 10):
   };
   // A row is dropped when another has at least its points, slots and defense: swapping that one
   // in can only help. Of two equal rows the earlier stays. This is what makes the search small:
-  // some 170 pieces a slot come down to between 3 and 17.
+  // some 340 pieces a slot come down to between 12 and 32 for a list of twelve skills.
   const prune = (rows: Row[]) =>
     rows.filter(
       (x, i) =>
