@@ -49,17 +49,26 @@ function Icon({ src, rarity }: { src?: string; rarity?: number | null }) {
   );
 }
 
-// The diamond the game draws for a decoration slot, with the slot's level inside.
-export function SlotGem({ level, filled = false }: { level: number; filled?: boolean }) {
+// The game's socket icons, as the wiki's armor tables show them, one file for every slot level
+// holding every jewel level it can: `4-2.svg` is a level 4 slot with a level 2 jewel in it,
+// `4-0.svg` an empty one. The jewel lights as much of the icon as it uses of the slot, so the
+// drawing is in the files and none of it is done here.
+const SLOT_ICONS = import.meta.glob<string>("@/assets/slots/*.svg", {
+  eager: true,
+  import: "default",
+});
+
+// `filled` is the level of the jewel in the slot, 0 for none.
+export function SlotGem({ level, filled = 0 }: { level: number; filled?: number }) {
   return (
-    <span
-      aria-hidden
-      className={`grid size-4 shrink-0 rotate-45 place-items-center border ${
-        filled ? "border-brass bg-brass text-hide" : "border-moss text-moss"
-      }`}
-    >
-      <span className="-rotate-45 text-[0.625rem] leading-none font-semibold">{level}</span>
-    </span>
+    <img
+      src={SLOT_ICONS[`/src/assets/slots/${level}-${Math.min(filled, level)}.svg`]}
+      alt=""
+      // An image stands on the text baseline, and at 24px it is taller than the line beside it.
+      // The margin takes it back to the 16px a line has room for, the nudge re-centers it: a
+      // picker row stays as tall with slots as without, and its numbers stay on the baseline.
+      className="-mt-2 size-6 shrink-0 translate-y-1"
+    />
   );
 }
 
@@ -71,17 +80,24 @@ interface SlotButtonProps {
 }
 
 export function SlotButton({ level, decoration, skills, onClick }: SlotButtonProps) {
+  // a jewel smaller than its slot leaves the difference unused
+  const wasted = decoration ? level - decoration.slot : 0;
+  const wastedText = `${wasted} ${wasted === 1 ? "level" : "levels"} wasted`;
   return (
     <button
       type="button"
       onClick={onClick}
       title={decoration && describeSkills(decoration.skills, skills)}
-      aria-label={`Level ${level} slot: ${decoration?.name ?? "empty"}`}
+      aria-label={`Level ${level} slot: ${decoration?.name ?? "empty"}${wasted > 0 ? `, ${wastedText}` : ""}`}
       // its own dark fill: the border has to read against something, and the backdrop varies
       className={`flex items-center gap-2.5 rounded-sm border border-seam bg-hide py-1 pr-3 pl-2.5 text-sm hover:border-hunt ${FOCUS}`}
     >
-      <SlotGem level={level} filled={!!decoration} />
-      <span className={decoration ? "" : "text-moss"}>{decoration?.name ?? "Empty slot"}</span>
+      <SlotGem level={level} filled={decoration?.slot} />
+      {/* on a narrow screen the warning drops under the name, rather than both breaking mid-phrase */}
+      <span className="flex min-w-0 flex-wrap items-baseline gap-x-2.5 text-left">
+        <span className={decoration ? "" : "text-moss"}>{decoration?.name ?? "Empty slot"}</span>
+        {wasted > 0 && <span className="text-xs whitespace-nowrap text-ember">{wastedText}</span>}
+      </span>
     </button>
   );
 }

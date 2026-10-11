@@ -92,7 +92,7 @@ export function BuilderPage() {
           sort={{ options: Object.keys(ARMOR_SORTS), value: armorSort, onChange: setArmorSort }}
           onClose={close}
           meta={(armor) => (
-            <span className="flex items-center gap-2.5 tabular-nums">
+            <span className="flex items-baseline gap-0.5 tabular-nums">
               {armor.slots.map((level, i) => (
                 <SlotGem key={i} level={level} />
               ))}
