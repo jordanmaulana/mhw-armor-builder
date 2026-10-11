@@ -31,7 +31,7 @@ export function BuilderPage() {
 
   if (!catalog) {
     return (
-      <main className="grid min-h-screen place-items-center bg-hide px-4 text-moss">
+      <main className="smithy grid min-h-screen place-items-center px-4 text-moss">
         <p role="status">
           {isError
             ? "Couldn't load the armor list. Check your connection, then reload the page."
@@ -119,23 +119,27 @@ export function BuilderPage() {
   const charm = build.charmId ? catalog.charms.get(build.charmId) : undefined;
 
   return (
-    <main className="min-h-screen bg-hide text-bone">
-      <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:py-12">
-        <header className="flex items-baseline justify-between gap-4 border-b border-seam pb-5">
-          <div>
-            <h1 className="text-2xl font-semibold tracking-tight">Armor set builder</h1>
-            <p className="mt-1 text-sm text-moss">Monster Hunter: World</p>
-          </div>
-          <div className="flex items-baseline gap-5">
-            <SoundToggle />
-            <button
-              type="button"
-              onClick={() => setBuild(RESET)}
-              className="text-sm text-moss underline-offset-4 hover:text-bone hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brass"
-            >
-              Clear set
-            </button>
-          </div>
+    <main className="smithy min-h-screen text-bone">
+      {/* pb-20: the footer has to clear the floating SoundToggle */}
+      <div className="mx-auto max-w-6xl px-4 pt-8 pb-20 sm:px-6 lg:pt-12">
+        <header className="flex items-baseline justify-between gap-4 pb-4">
+          {/* the game titles a screen with its path: "Smithy ▸ Change Equipment" */}
+          <h1 className="font-serif text-2xl text-aqua text-shadow-glow sm:text-3xl">
+            <span className="block text-lg text-aqua/80 sm:inline sm:text-3xl">
+              Monster Hunter: World
+            </span>
+            <span aria-hidden className="mx-3 hidden text-xl text-aqua/80 sm:inline">
+              ▸
+            </span>
+            Armor set builder
+          </h1>
+          <button
+            type="button"
+            onClick={() => setBuild(RESET)}
+            className="shrink-0 text-sm text-moss underline-offset-4 hover:text-bone hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt"
+          >
+            Clear set
+          </button>
         </header>
 
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-14">
@@ -182,8 +186,13 @@ export function BuilderPage() {
             <Summary totals={computeTotals(build, catalog)} />
           </div>
         </div>
+
+        <footer className="pt-12 text-center text-xs text-moss">
+          Fan-made tool. Not affiliated with or endorsed by Capcom.
+        </footer>
       </div>
 
+      <SoundToggle />
       {renderPicker()}
     </main>
   );

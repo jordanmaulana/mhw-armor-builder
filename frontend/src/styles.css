@@ -1,23 +1,30 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "@fontsource-variable/geist";
+@import "@fontsource-variable/crimson-pro";
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --font-sans: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+  /* the game sets titles and section bands in a serif and every piece of data in the sans */
+  --font-serif: "Crimson Pro Variable", "Iowan Old Style", Palatino, Georgia, serif;
   --color-background: hsl(0 0% 100%);
   --color-foreground: hsl(0 0% 9%);
   --radius: 0.625rem;
 
-  /* armor builder: smithy-dark teal, bone lettering, brass for levels the set has earned */
-  --color-hide: #1b2a2c;
-  --color-plate: #233739;
-  --color-seam: #3a5352;
-  --color-bone: #ece6d6;
-  --color-moss: #9fb5ae;
-  --color-brass: #dcae4f;
-  --color-ember: #ea5a4e;
+  /* armor builder: read off the game's Smithy screens */
+  --color-hide: #05080c; /* page, input wells */
+  --color-plate: #1f221f; /* section band, hovered row */
+  --color-seam: #5f6560; /* dashed rules, panel frame, control borders */
+  --color-bone: #e6e8e4; /* names, values */
+  --color-moss: #a4a8a2; /* stat labels */
+  --color-brass: #d6bd4f; /* lit pips, earned tiers */
+  --color-ember: #e5525e; /* the game's #bb2133, lifted until it reads on black */
+  --color-aqua: #4fcada; /* panel titles */
+  --color-hunt: #6fd13f; /* selection cursor, focus ring */
+  --shadow-cursor: 0 0 0 1px #6fd13f, 0 0 10px rgb(111 209 63 / 0.6);
+  --text-shadow-glow: 0 0 14px rgb(79 202 218 / 0.55);
 }
 
 html, body, #root {
@@ -28,4 +35,60 @@ body {
   font-family: var(--font-sans);
   background: var(--color-background);
   color: var(--color-foreground);
+}
+
+/* The Smithy backdrop: the game's ornament tapestry, dimmed until text reads on it and lit from
+   two corners in the ornament's cobalt. It hangs on a fixed pseudo-element because iOS ignores
+   background-attachment: fixed and would stretch the image over the whole page.
+   The image is optional: without public/img/backdrop.webp that layer paints nothing.
+   The scrim is measured against this image's brightest patch; a brighter image needs more. */
+@utility smithy {
+  position: relative;
+  isolation: isolate;
+  background-color: var(--color-hide);
+
+  &::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background:
+      radial-gradient(60rem 40rem at 0% 0%, rgb(23 71 208 / 0.28), transparent 70%),
+      radial-gradient(50rem 40rem at 100% 100%, rgb(23 71 208 / 0.18), transparent 70%),
+      linear-gradient(rgb(5 8 12 / 0.8), rgb(5 8 12 / 0.8)),
+      url("/img/backdrop.webp") center / cover no-repeat;
+    pointer-events: none;
+  }
+}
+
+/* the page scrolls on the root, so the builder has to ask for dark scrollbars from there */
+:root:has(.smithy) {
+  color-scheme: dark;
+}
+
+/* A game panel: black between a lid bracket and a foot bracket. Opaque, unlike the game's glass:
+   the picker opens over the page and its text would read through. It sets no position, so the
+   caller adds `relative`. On a <dialog> that would unseat the modal: frame a child instead. */
+@utility frame {
+  background-color: #010306;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    height: 0.625rem;
+    border: 1px solid var(--color-seam);
+    pointer-events: none;
+  }
+
+  &::before {
+    top: 0;
+    border-bottom: 0;
+  }
+
+  &::after {
+    bottom: 0;
+    border-top: 0;
+  }
 }

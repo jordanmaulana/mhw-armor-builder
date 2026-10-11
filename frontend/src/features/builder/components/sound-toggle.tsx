@@ -21,18 +21,22 @@ export function SoundToggle() {
 
   return (
     <>
+      {/* floats bottom-left, over the equipment's label column: never on a tap target or the
+          Summary's numbers. Its own dark fill, like SlotButton: it sits bare on the backdrop */}
       <button
         type="button"
+        aria-label="Music"
         aria-pressed={on}
         onClick={() => setOn(!on)}
-        className="inline-flex items-center gap-1.5 text-sm text-moss hover:text-bone focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brass"
+        className={`fixed bottom-4 left-4 z-10 grid size-11 place-items-center rounded-sm border border-seam bg-hide hover:border-hunt focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt ${
+          on ? "text-brass" : "text-moss"
+        }`}
       >
         {on ? (
-          <Volume2 aria-hidden className="size-4" />
+          <Volume2 aria-hidden className="size-5" />
         ) : (
-          <VolumeX aria-hidden className="size-4" />
+          <VolumeX aria-hidden className="size-5" />
         )}
-        Music
       </button>
       <audio
         ref={audio}

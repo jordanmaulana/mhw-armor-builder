@@ -1,3 +1,6 @@
+import type { ReactNode } from "react";
+import { Shield } from "lucide-react";
+
 import dragon from "@/assets/elements/dragon.png";
 import fire from "@/assets/elements/fire.png";
 import ice from "@/assets/elements/ice.png";
@@ -14,36 +17,56 @@ const ELEMENT_STYLE: Record<Element, { label: string; icon: string }> = {
   dragon: { label: "Dragon", icon: dragon },
 };
 
-const signed = (n: number) => (n > 0 ? `+${n}` : `${n}`);
+// a section header the way the game draws one: serif, centred, on a grey band
+const BAND = "bg-plate py-1 text-center font-serif text-lg text-aqua/70";
+const RULE = "border-b border-dashed border-seam";
+
+function StatRow({ icon, label, value }: { icon: ReactNode; label: string; value: number }) {
+  return (
+    <div className={`flex items-center justify-between gap-3 py-1.5 ${RULE}`}>
+      <dt className="flex items-center gap-2 text-moss">
+        {icon}
+        {label}
+      </dt>
+      <dd className={`font-medium tabular-nums ${value < 0 ? "text-ember" : ""}`}>{value}</dd>
+    </div>
+  );
+}
 
 export function Summary({ totals }: { totals: Totals }) {
   return (
-    <section aria-label="Set totals" className="flex flex-col gap-6">
-      <div className="flex items-baseline justify-between border-b border-seam pb-3">
-        <h2 className="text-sm text-moss">Defense</h2>
-        <p className="text-3xl font-semibold tabular-nums">{totals.defense}</p>
-      </div>
-
-      <dl className="grid grid-cols-5 gap-2 text-center">
-        {ELEMENTS.map((element) => {
-          const { label, icon } = ELEMENT_STYLE[element];
-          const value = totals.resistances[element];
-          return (
-            <div key={element} className="flex flex-col items-center gap-1">
-              <dt className="flex flex-col items-center gap-1.5 text-xs text-moss">
-                <img src={icon} alt="" className="size-6" />
-                {label}
-              </dt>
-              <dd className={`font-medium tabular-nums ${value < 0 ? "text-ember" : ""}`}>
-                {signed(value)}
-              </dd>
-            </div>
-          );
-        })}
-      </dl>
+    <section
+      aria-labelledby="status-title"
+      className="frame relative flex flex-col gap-5 px-4 pt-5 pb-6"
+    >
+      <h2 id="status-title" className="text-center font-serif text-2xl text-aqua">
+        Status
+      </h2>
 
       <div>
-        <h2 className="border-b border-seam pb-2 text-sm text-moss">Skills</h2>
+        <h3 className={BAND}>Defense Status</h3>
+        <dl>
+          <StatRow
+            icon={<Shield aria-hidden className="size-5 text-brass" />}
+            label="Defense"
+            value={totals.defense}
+          />
+          {ELEMENTS.map((element) => {
+            const { label, icon } = ELEMENT_STYLE[element];
+            return (
+              <StatRow
+                key={element}
+                icon={<img src={icon} alt="" className="size-5" />}
+                label={`Vs. ${label}`}
+                value={totals.resistances[element]}
+              />
+            );
+          })}
+        </dl>
+      </div>
+
+      <div>
+        <h3 className={BAND}>Skills</h3>
         {totals.skills.length === 0 ? (
           <p className="pt-3 text-sm text-moss">
             No skills yet. Choose armor, decorations or a charm to build some.
@@ -54,26 +77,42 @@ export function Summary({ totals }: { totals: Totals }) {
               <li
                 key={skill.id}
                 title={skill.description}
-                className="flex flex-col gap-1.5 border-b border-seam/60 py-2.5 last:border-b-0"
+                className={`flex items-center gap-3 py-2 ${RULE}`}
               >
-                <span className="flex items-baseline justify-between gap-3">
+                <img
+                  src={skill.icon_url}
+                  alt=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer"
+                  // hotlinked from the wiki: if it fails, keep its box so the names stay aligned
+                  onError={(e) => {
+                    e.currentTarget.style.visibility = "hidden";
+                  }}
+                  className="size-8 shrink-0"
+                />
+                <span className="flex min-w-0 flex-1 flex-col gap-1">
                   <span className="font-medium">{skill.name}</span>
-                  <span className="shrink-0 text-sm text-moss tabular-nums">
-                    {level}/{skill.max_level}
+                  <span className="flex items-center gap-3">
+                    {/* the pips sit on a hairline that runs out to the level */}
+                    <span
+                      aria-hidden
+                      className="flex flex-1 items-center gap-[3px] after:h-px after:flex-1 after:bg-seam"
+                    >
+                      {Array.from({ length: skill.max_level }, (_, i) => (
+                        <span
+                          key={i}
+                          className={`size-2.5 ${i < level ? "bg-brass" : "border border-seam bg-plate"}`}
+                        />
+                      ))}
+                    </span>
+                    {points > level && (
+                      <span className="text-xs text-ember">{points - level} over the cap</span>
+                    )}
+                    <span className="shrink-0 text-sm tabular-nums">
+                      Level {level}
+                      <span className="sr-only"> of {skill.max_level}</span>
+                    </span>
                   </span>
-                </span>
-                <span className="flex items-center gap-3">
-                  <span aria-hidden className="flex gap-0.5">
-                    {Array.from({ length: skill.max_level }, (_, i) => (
-                      <span
-                        key={i}
-                        className={`h-3 w-2 ${i < level ? "bg-brass" : "border border-moss/50"}`}
-                      />
-                    ))}
-                  </span>
-                  {points > level && (
-                    <span className="text-xs text-ember">{points - level} over the cap</span>
-                  )}
                 </span>
               </li>
             ))}
@@ -83,13 +122,10 @@ export function Summary({ totals }: { totals: Totals }) {
 
       {totals.setBonuses.length > 0 && (
         <div>
-          <h2 className="border-b border-seam pb-2 text-sm text-moss">Set bonuses</h2>
+          <h3 className={BAND}>Set Bonus Skills</h3>
           <ul>
             {totals.setBonuses.map(({ bonus, pieces, tiers }) => (
-              <li
-                key={bonus.id}
-                className="flex flex-col gap-1.5 border-b border-seam/60 py-2.5 last:border-b-0"
-              >
+              <li key={bonus.id} className={`flex flex-col gap-1.5 py-2 ${RULE}`}>
                 <span className="flex items-baseline justify-between gap-3">
                   <span className="font-medium">{bonus.name}</span>
                   <span className="shrink-0 text-sm text-moss tabular-nums">
@@ -101,17 +137,21 @@ export function Summary({ totals }: { totals: Totals }) {
                     <li
                       key={tier.pieces}
                       title={tier.effect}
-                      className={`flex items-baseline justify-between gap-3 ${tier.active ? "" : "text-moss"}`}
+                      className={`flex items-center gap-1.5 ${tier.active ? "" : "text-moss/70"}`}
                     >
-                      <span className="flex items-center gap-2">
-                        <span
-                          aria-hidden
-                          className={`size-2 shrink-0 ${tier.active ? "bg-brass" : "border border-moss/50"}`}
-                        />
-                        {tier.skill}
+                      {/* the piece count that unlocks the tier, boxed as in the game */}
+                      <span
+                        aria-hidden
+                        className={`grid size-5 shrink-0 place-items-center border text-xs font-semibold tabular-nums ${
+                          tier.active ? "border-brass text-brass" : "border-seam"
+                        }`}
+                      >
+                        {tier.pieces}
                       </span>
-                      <span className="shrink-0 tabular-nums">
-                        {tier.active ? "Active" : `at ${tier.pieces} pieces`}
+                      <span aria-hidden>▸</span>
+                      {tier.skill}
+                      <span className="sr-only">
+                        , {tier.active ? "active" : "not active"}, needs {tier.pieces} pieces
                       </span>
                     </li>
                   ))}
