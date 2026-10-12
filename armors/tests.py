@@ -1,13 +1,18 @@
+import copy
 import json
 import tempfile
 from io import StringIO
 
 from django.core.management import call_command
 from django.core.management.base import CommandError
+from django.db.models import Count
 from django.test import TestCase
 
-from armors.models import Armor, ArmorSkill
+from armors.models import Armor, ArmorMaterial, ArmorSkill
+from items.models import Item
 from skills.models import SetBonus, Skill
+
+ITEMS = ["Lunastra Ticket", "Lunastra Mane"]
 
 DATA = {
     "type": "head",
@@ -22,6 +27,10 @@ DATA = {
             "slots": [1, 1, 1],
             "skills": [{"name": "Wide-Range", "url": "https://example.com/Wide-Range", "level": 2}],
             "resistances": {"fire": 3, "water": 1, "thunder": 1, "ice": -3, "dragon": 2},
+            "materials": [
+                {"name": "Lunastra Ticket", "quantity": 1},
+                {"name": "Lunastra Mane", "quantity": 2},
+            ],
         },
         {
             "name": "Ryu's Head",
@@ -33,12 +42,17 @@ DATA = {
             "slots": [],
             "skills": [{"name": "Guts", "url": "https://example.com/Guts", "level": 1}],
             "resistances": {"fire": 0, "water": 0, "thunder": 0, "ice": 0, "dragon": 0},
+            "materials": [],
         },
     ],
 }
 
 
 class LoadArmorsTests(TestCase):
+    def setUp(self):
+        for name in ITEMS:
+            Item.objects.create(name=name, rarity=7, sell_price=100)
+
     def load(self, data, stdout):
         with tempfile.NamedTemporaryFile("w", suffix=".json") as f:
             json.dump(data, f)
@@ -60,9 +74,14 @@ class LoadArmorsTests(TestCase):
 
         self.assertEqual(Armor.objects.count(), 2)
         self.assertEqual(ArmorSkill.objects.count(), 2)
-        self.assertIn("armors (head): 2 created, 0 updated; 2 skill links", first.getvalue())
+        self.assertEqual(ArmorMaterial.objects.count(), 2)
+        self.assertIn(
+            "armors (head): 2 created, 0 updated; 2 skill links; 2 materials", first.getvalue()
+        )
         self.assertIn("stubbed skills: Guts", first.getvalue())
-        self.assertIn("armors (head): 0 created, 2 updated; 2 skill links", second.getvalue())
+        self.assertIn(
+            "armors (head): 0 created, 2 updated; 2 skill links; 2 materials", second.getvalue()
+        )
         self.assertNotIn("stubbed", second.getvalue())
 
         crown = Armor.objects.get(name="Empress Crown Gamma")
@@ -77,12 +96,20 @@ class LoadArmorsTests(TestCase):
         )
         self.assertEqual(crown.armor_skills.get().level, 2)
         self.assertEqual(list(wide_range.armors.all()), [crown])
+        # in the file's order, which is not the names'
+        self.assertEqual(
+            list(crown.materials.values_list("item__name", "quantity")),
+            [("Lunastra Ticket", 1), ("Lunastra Mane", 2)],
+        )
+        mane = Item.objects.get(name="Lunastra Mane")
+        self.assertEqual(mane.armor_materials.get().armor, crown)
 
         ryu = Armor.objects.get(name="Ryu's Head")
         self.assertEqual(ryu.icon_url_male, "")
         self.assertEqual(ryu.icon_url_female, "")
         self.assertIsNone(ryu.rarity)
         self.assertEqual(ryu.slots, [])
+        self.assertFalse(ryu.materials.exists())
 
         # unknown skill is stubbed once, not once per run
         guts = Skill.objects.get(name="Guts")
@@ -90,20 +117,83 @@ class LoadArmorsTests(TestCase):
         self.assertEqual(list(ryu.skills.all()), [guts])
         self.assertEqual(Skill.objects.count(), 2)
 
+    def test_reload_replaces_a_recipe_and_empties_one_the_file_no_longer_has(self):
+        changed = copy.deepcopy(DATA)
+        changed["armors"][0]["materials"] = [{"name": "Lunastra Mane", "quantity": 5}]
+        emptied = copy.deepcopy(DATA)
+        emptied["armors"][0]["materials"] = []
+
+        self.load(DATA, StringIO())
+        self.load(changed, StringIO())
+
+        crown = Armor.objects.get(name="Empress Crown Gamma")
+        # the second file's lines only: the first run's were replaced, not added to
+        self.assertEqual(
+            list(crown.materials.values_list("item__name", "quantity")), [("Lunastra Mane", 5)]
+        )
+
+        self.load(emptied, StringIO())
+
+        self.assertEqual(ArmorMaterial.objects.count(), 0)
+
     def test_unknown_type_loads_nothing(self):
         with self.assertRaises(CommandError):
             self.load({**DATA, "type": "hat"}, StringIO())
 
         self.assertEqual(Armor.objects.count(), 0)
 
+    def test_unknown_item_loads_nothing_and_stubs_nothing(self):
+        unknown = copy.deepcopy(DATA)
+        unknown["armors"][0]["materials"][1]["name"] = "Lunastra Hair"
+
+        with self.assertRaises(CommandError):
+            self.load(unknown, StringIO())
+
+        self.assertEqual(Armor.objects.count(), 0)
+        self.assertEqual(ArmorMaterial.objects.count(), 0)
+        self.assertEqual(Item.objects.count(), len(ITEMS))
+        # the skill stubbed on the way was rolled back too
+        self.assertEqual(Skill.objects.count(), 0)
+
+    def test_row_missing_materials_loads_nothing(self):
+        no_materials = {k: v for k, v in DATA["armors"][1].items() if k != "materials"}
+
+        with self.assertRaises(CommandError):
+            self.load({**DATA, "armors": [DATA["armors"][0], no_materials]}, StringIO())
+
+        # the row before it was rolled back too
+        self.assertEqual(Armor.objects.count(), 0)
+        self.assertEqual(ArmorMaterial.objects.count(), 0)
+
     def test_default_loads_every_armor_type_from_the_dataset(self):
         out = StringIO()
         call_command("load_skills", stdout=StringIO())
+        call_command("load_items", stdout=StringIO())
         call_command("load_armors", stdout=out)
 
         self.assertEqual(set(Armor.objects.values_list("type", flat=True)), set(Armor.Type.values))
         # every skill an armor grants is a real one from skills.json
         self.assertNotIn("stubbed", out.getvalue())
+
+        # a recipe is one to four lines
+        lines = Armor.objects.annotate(lines=Count("materials"))
+        self.assertFalse(lines.filter(lines__gt=4).exists())
+        self.assertFalse(ArmorMaterial.objects.filter(quantity=0).exists())
+        # 14 handed out or forged for nothing, 33 the wiki lists and no source has a recipe for
+        self.assertEqual(lines.filter(lines=0).count(), 47)
+        self.assertEqual(
+            list(
+                Armor.objects.get(name="Rathalos Vambraces Beta").materials.values_list(
+                    "item__name", "quantity"
+                )
+            ),
+            [
+                ("Rathalos Carapace", 6),
+                ("Rathalos Wing", 2),
+                ("Inferno Sac", 2),
+                ("Rath Wingtalon", 6),
+            ],
+        )
 
 
 SETS = {
@@ -196,7 +286,7 @@ class LoadSetsTests(TestCase):
         self.assertEqual(Armor.objects.get(name="Rathalos Helm").set_bonus, power)
 
     def test_default_links_the_dataset(self):
-        for command in ("load_skills", "load_armors", "load_sets"):
+        for command in ("load_skills", "load_items", "load_armors", "load_sets"):
             call_command(command, stdout=StringIO())
 
         def bonus_of(name):

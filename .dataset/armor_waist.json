@@ -23,7 +23,21 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Machalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Alloy Coil Alpha",
@@ -51,7 +65,25 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Alloy Coil Beta",
@@ -76,7 +108,25 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Anja Coil",
@@ -99,7 +149,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Anjanath Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Pelt",
+          "quantity": 1
+        },
+        {
+          "name": "Anjanath Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Anja Coil+",
@@ -122,7 +190,8 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Anja Coil Alpha",
@@ -150,7 +219,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Anjanath Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Pelt+",
+          "quantity": 3
+        },
+        {
+          "name": "Anjanath Fang+",
+          "quantity": 3
+        },
+        {
+          "name": "Piercing Claw",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Anja Coil Beta",
@@ -175,7 +262,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Anjanath Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Pelt+",
+          "quantity": 3
+        },
+        {
+          "name": "Anjanath Fang+",
+          "quantity": 3
+        },
+        {
+          "name": "Piercing Claw",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Azure Starlord Tassets Alpha",
@@ -200,7 +305,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 3
-      }
+      },
+      "materials": [
+        {
+          "name": "Azure Stargem",
+          "quantity": 1
+        },
+        {
+          "name": "Azure Rathalos Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Azure Rathalos Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Azure Rathalos Tail",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Baan Coil",
@@ -223,7 +346,25 @@
         "thunder": 0,
         "ice": -1,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Radobaan Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Oilshell",
+          "quantity": 1
+        },
+        {
+          "name": "Sleep Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Baan Coil Alpha",
@@ -246,7 +387,25 @@
         "thunder": 0,
         "ice": -1,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Coma Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Bonemass",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Baan Coil Beta",
@@ -271,7 +430,25 @@
         "thunder": 0,
         "ice": -1,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Coma Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Bonemass",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Banbaro Coil+",
@@ -294,7 +471,8 @@
         "thunder": -3,
         "ice": 3,
         "dragon": -3
-      }
+      },
+      "materials": []
     },
     {
       "name": "Barroth Coil",
@@ -317,7 +495,21 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barroth Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Ridge",
+          "quantity": 1
+        },
+        {
+          "name": "Fertile Mud",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Barroth Coil Alpha",
@@ -345,7 +537,21 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barroth Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Barroth Ridge+",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Barroth Coil Beta",
@@ -370,7 +576,21 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barroth Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Barroth Ridge+",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Bazel Coil Alpha",
@@ -400,7 +620,25 @@
         "thunder": -4,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Bazelgeuse Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Fuse",
+          "quantity": 2
+        },
+        {
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Bazel Coil Beta",
@@ -425,7 +663,25 @@
         "thunder": -4,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Bazelgeuse Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Fuse",
+          "quantity": 2
+        },
+        {
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Beo Coil+",
@@ -448,7 +704,8 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 2
-      }
+      },
+      "materials": []
     },
     {
       "name": "Blossom Coat",
@@ -471,7 +728,17 @@
         "thunder": 4,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Spring Blossom Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Blossom Coat Alpha",
@@ -497,7 +764,17 @@
         "thunder": 4,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Spring Blossom Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Bone Coil",
@@ -520,7 +797,17 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 1
+        },
+        {
+          "name": "Kestodon Shell",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Bone Coil Alpha",
@@ -548,7 +835,21 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Quality Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Bone Coil Beta",
@@ -573,7 +874,21 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Quality Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Brigade Coil",
@@ -596,7 +911,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Pinnacle Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Brigade Coil Alpha",
@@ -624,7 +957,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hunter King Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Gama Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Brigade Coil Beta",
@@ -649,7 +1000,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hunter King Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Gama Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Butterfly Elytra",
@@ -672,7 +1041,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Fluid",
+          "quantity": 1
+        },
+        {
+          "name": "Electro Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Butterfly Elytra Alpha",
@@ -700,7 +1087,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Thunder Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Butterfly Elytra Beta",
@@ -726,7 +1131,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Thunder Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Chainmail Belt",
@@ -743,7 +1166,13 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Chainmail Belt Alpha",
@@ -766,7 +1195,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Chainmail Belt Beta",
@@ -785,7 +1224,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Commission Belt Alpha",
@@ -815,7 +1264,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Diablos Carapace",
+          "quantity": 8
+        },
+        {
+          "name": "Great Hornfly",
+          "quantity": 3
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Commission Belt Beta",
@@ -840,7 +1307,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Diablos Carapace",
+          "quantity": 8
+        },
+        {
+          "name": "Great Hornfly",
+          "quantity": 3
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Damascus Coil Alpha",
@@ -870,7 +1355,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Dodogama Jaw",
+          "quantity": 3
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Damascus Coil Beta",
@@ -897,7 +1400,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Dodogama Jaw",
+          "quantity": 3
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Dante's Belt Alpha",
@@ -927,7 +1448,25 @@
         "thunder": 3,
         "ice": -3,
         "dragon": 3
-      }
+      },
+      "materials": [
+        {
+          "name": "Red Orb",
+          "quantity": 1
+        },
+        {
+          "name": "Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Death Stench Bowels",
@@ -950,7 +1489,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Sinister Cloth",
+          "quantity": 1
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 1
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Fluid",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Death Stench Bowels Alpha",
@@ -978,7 +1535,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Death Stench Bowels Beta",
@@ -1004,7 +1579,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Diablos Coil",
@@ -1027,7 +1620,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Diablos Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Diablos Ridge",
+          "quantity": 1
+        },
+        {
+          "name": "Diablos Fang",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Diablos Coil Alpha",
@@ -1055,7 +1666,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Diablos Ridge+",
+          "quantity": 3
+        },
+        {
+          "name": "Diablos Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Kestodon Scalp",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Diablos Coil Beta",
@@ -1080,7 +1709,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Diablos Ridge+",
+          "quantity": 3
+        },
+        {
+          "name": "Diablos Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Kestodon Scalp",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Diablos Nero Coil Alpha",
@@ -1108,7 +1755,25 @@
         "thunder": 0,
         "ice": -4,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Black Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Black Diablos Ridge+",
+          "quantity": 3
+        },
+        {
+          "name": "Diablos Tailcase",
+          "quantity": 2
+        },
+        {
+          "name": "Gastodon Horn",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Diablos Nero Coil Beta",
@@ -1133,7 +1798,25 @@
         "thunder": 0,
         "ice": -4,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Black Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Black Diablos Ridge+",
+          "quantity": 3
+        },
+        {
+          "name": "Diablos Tailcase",
+          "quantity": 2
+        },
+        {
+          "name": "Gastodon Horn",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Direwolf Coil",
@@ -1156,7 +1839,8 @@
         "thunder": 0,
         "ice": 2,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Diver's Belt Alpha",
@@ -1179,7 +1863,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Summer Twilight Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Diver's Belt",
@@ -1202,7 +1900,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Summer Twilight Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Dober Coil Alpha",
@@ -1232,7 +1940,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Dober Coil Beta",
@@ -1257,7 +1983,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Dodogama Coil Alpha",
@@ -1285,7 +2029,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Dodogama Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Jaw",
+          "quantity": 1
+        },
+        {
+          "name": "Gastodon Carapace",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Dodogama Coil Beta",
@@ -1310,7 +2072,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Dodogama Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Jaw",
+          "quantity": 1
+        },
+        {
+          "name": "Gastodon Carapace",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Drachen Coil Alpha",
@@ -1340,7 +2120,25 @@
         "thunder": 3,
         "ice": -2,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Behemoth Mane",
+          "quantity": 1
+        },
+        {
+          "name": "Behemoth Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Behemoth Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Empress Coil Alpha",
@@ -1371,7 +2169,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lunastra Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Empress Coil Beta",
@@ -1397,7 +2213,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lunastra Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Empress Coil Gamma",
@@ -1427,7 +2261,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lunastra Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Lunastra Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Mane",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Gala Suit Tail Alpha",
@@ -1454,7 +2306,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Appreciation Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 1
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Gala Suit Tail",
@@ -1477,7 +2343,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Appreciation Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Girros Coil",
@@ -1500,7 +2376,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Girros Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Great Girros Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Great Girros Hood",
+          "quantity": 1
+        },
+        {
+          "name": "Girros Hide",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Girros Coil+",
@@ -1523,7 +2417,8 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": []
     },
     {
       "name": "Girros Coil Alpha",
@@ -1551,7 +2446,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Girros Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Great Girros Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Great Girros Hood+",
+          "quantity": 2
+        },
+        {
+          "name": "Girros Hide+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Girros Coil Beta",
@@ -1576,7 +2489,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Girros Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Great Girros Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Great Girros Hood+",
+          "quantity": 2
+        },
+        {
+          "name": "Girros Hide+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Golden Lunecoil Alpha+",
@@ -1607,7 +2538,25 @@
         "thunder": -4,
         "ice": 0,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Gold Rathian Surspike",
+          "quantity": 2
+        },
+        {
+          "name": "Guiding Wasteland Crystal",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Golden Lunecoil Beta+",
@@ -1632,7 +2581,25 @@
         "thunder": -4,
         "ice": 0,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Gold Rathian Surspike",
+          "quantity": 2
+        },
+        {
+          "name": "Guiding Wasteland Crystal",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Guild Cross Coil Alpha",
@@ -1662,7 +2629,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Ace Hunter Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Flying Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Pinnacle Coin",
+          "quantity": 3
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Guild Cross Coil Beta",
@@ -1687,7 +2672,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Ace Hunter Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Flying Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Pinnacle Coin",
+          "quantity": 3
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Guardian Coil Alpha+",
@@ -1715,7 +2718,8 @@
         "thunder": 0,
         "ice": 2,
         "dragon": 3
-      }
+      },
+      "materials": []
     },
     {
       "name": "Harvest Hoja",
@@ -1738,7 +2742,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Autumn Harvest Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Harvest Hoja Alpha",
@@ -1764,7 +2778,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Autumn Harvest Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "High Metal Coil",
@@ -1787,7 +2815,21 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "High Metal Coil Alpha",
@@ -1815,7 +2857,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Barnos Talon",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "High Metal Coil Beta",
@@ -1840,7 +2900,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Barnos Talon",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Hunter's Coil",
@@ -1863,7 +2941,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jagras Hide",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone S",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Hunter's Coil Alpha",
@@ -1891,7 +2979,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jagras Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Hunter's Coil Beta",
@@ -1914,7 +3012,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jagras Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Hornetaur Coil",
@@ -1937,7 +3045,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hornetaur Wing",
+          "quantity": 1
+        },
+        {
+          "name": "Hornetaur Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Hornetaur Coil Alpha",
@@ -1965,7 +3091,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hornetaur Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Hornetaur Innerwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Hornetaur Coil Beta",
@@ -1990,7 +3130,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hornetaur Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Hornetaur Innerwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Ingot Coil",
@@ -2013,7 +3167,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 1
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Ingot Coil Alpha",
@@ -2036,7 +3208,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Gastodon Carapace",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Ingot Coil Beta",
@@ -2061,7 +3251,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Gastodon Carapace",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Ingot Faulds",
@@ -2084,7 +3292,8 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Jagras Coil",
@@ -2107,7 +3316,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Jagras Hide",
+          "quantity": 1
+        },
+        {
+          "name": "Great Jagras Mane",
+          "quantity": 1
+        },
+        {
+          "name": "Great Jagras Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Sharp Claw",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Jagras Coil Alpha",
@@ -2135,7 +3362,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Jagras Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Great Jagras Mane",
+          "quantity": 3
+        },
+        {
+          "name": "Great Jagras Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Jagras Scale+",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Jagras Coil Beta",
@@ -2160,7 +3405,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Jagras Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Great Jagras Mane",
+          "quantity": 3
+        },
+        {
+          "name": "Great Jagras Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Jagras Scale+",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Jyura Coil",
@@ -2183,7 +3446,21 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jyuratodus Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Aqua Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Jyura Coil Alpha",
@@ -2206,7 +3483,21 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jyuratodus Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Torrent Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Jyura Coil Beta",
@@ -2231,7 +3522,21 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jyuratodus Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Torrent Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Kadachi Coil",
@@ -2254,7 +3559,21 @@
         "thunder": 3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Pelt",
+          "quantity": 1
+        },
+        {
+          "name": "Electro Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kadachi Coil Alpha",
@@ -2282,7 +3601,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Pelt+",
+          "quantity": 3
+        },
+        {
+          "name": "Thunder Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Wingdrake Hide+",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kadachi Coil Beta",
@@ -2308,7 +3645,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Pelt+",
+          "quantity": 3
+        },
+        {
+          "name": "Thunder Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Wingdrake Hide+",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kaiser Coil Alpha",
@@ -2336,7 +3691,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Mane",
+          "quantity": 1
+        },
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kaiser Coil Beta",
@@ -2361,7 +3734,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Mane",
+          "quantity": 1
+        },
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kaiser Coil Gamma",
@@ -2386,7 +3777,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Teostra Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Fire Dragon Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Teostra Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "King Beetle Elytra",
@@ -2409,7 +3818,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Fluid",
+          "quantity": 1
+        },
+        {
+          "name": "Electro Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "King Beetle Elytra Alpha",
@@ -2439,7 +3866,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Thunder Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "King Beetle Elytra Beta",
@@ -2465,7 +3910,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Thunder Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Kirin Hoop",
@@ -2488,7 +3951,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Kirin Thunderhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Kirin Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Electro Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kirin Hoop Alpha",
@@ -2516,7 +3997,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Mane",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kirin Hoop Beta",
@@ -2543,7 +4042,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Mane",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kirin Hoop Gamma",
@@ -2569,7 +4086,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Kirin Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kulu Coil",
@@ -2592,7 +4127,21 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak",
+          "quantity": 1
+        },
+        {
+          "name": "Wingdrake Hide",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Kulu Coil Alpha",
@@ -2615,7 +4164,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 2
+        },
+        {
+          "name": "Wingdrake Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Kulu Coil Beta",
@@ -2640,7 +4207,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 2
+        },
+        {
+          "name": "Wingdrake Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Kulve Taroth's Malice Alpha",
@@ -2670,7 +4255,25 @@
         "thunder": 3,
         "ice": -4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulve Taroth Golden Scale",
+          "quantity": 12
+        },
+        {
+          "name": "Kulve Taroth Golden Shell",
+          "quantity": 7
+        },
+        {
+          "name": "Kulve Taroth Golden Tailshell",
+          "quantity": 4
+        },
+        {
+          "name": "Kulve Taroth Golden Glimstone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kulve Taroth's Malice Beta",
@@ -2701,7 +4304,25 @@
         "thunder": 3,
         "ice": -4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulve Taroth Golden Scale",
+          "quantity": 12
+        },
+        {
+          "name": "Kulve Taroth Golden Shell",
+          "quantity": 7
+        },
+        {
+          "name": "Kulve Taroth Golden Tailshell",
+          "quantity": 4
+        },
+        {
+          "name": "Kulve Taroth Golden Glimstone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kulve Taroth's Malice Gamma",
@@ -2731,7 +4352,25 @@
         "thunder": 3,
         "ice": -4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulve Taroth Emperor Nugget",
+          "quantity": 7
+        },
+        {
+          "name": "Kulve Taroth Golden Scale",
+          "quantity": 15
+        },
+        {
+          "name": "Kulve Taroth Golden Shell",
+          "quantity": 12
+        },
+        {
+          "name": "Kulve Taroth Golden Tailshell",
+          "quantity": 8
+        }
+      ]
     },
     {
       "name": "Kushala Cocoon Alpha",
@@ -2759,7 +4398,25 @@
         "thunder": -3,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Horn+",
+          "quantity": 2
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Kushala Cocoon Beta",
@@ -2785,7 +4442,25 @@
         "thunder": -3,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Horn+",
+          "quantity": 2
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Kushala Cocoon Gamma",
@@ -2811,7 +4486,25 @@
         "thunder": -3,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kushala Daora Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Daora Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Webbing",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Lavasioth Coil Alpha",
@@ -2839,7 +4532,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lavasioth Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Lavasioth Fang+",
+          "quantity": 2
+        },
+        {
+          "name": "Grand Gajau Whisker",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Lavasioth Coil Beta",
@@ -2864,7 +4575,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lavasioth Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Lavasioth Fang+",
+          "quantity": 2
+        },
+        {
+          "name": "Grand Gajau Whisker",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Leather Belt",
@@ -2881,7 +4610,13 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Leather Belt Alpha",
@@ -2904,7 +4639,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "High-quality Pelt",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Leather Belt Beta",
@@ -2923,7 +4668,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "High-quality Pelt",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Legiana Coil",
@@ -2946,7 +4701,25 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Legiana Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Frost Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Shamos Hide",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Legiana Coil+",
@@ -2969,7 +4742,8 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Legiana Coil Alpha",
@@ -2997,7 +4771,25 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Legiana Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Freezer Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Legiana Coil Beta",
@@ -3022,7 +4814,25 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Legiana Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Freezer Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Lumu Coil",
@@ -3045,7 +4855,21 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Paolumu Pelt",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Scale",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Shell",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Lumu Coil Alpha",
@@ -3068,7 +4892,25 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 3
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Lumu Coil Beta",
@@ -3093,7 +4935,25 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 3
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Nergigante Coil Alpha",
@@ -3121,7 +4981,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Nergigante Coil Beta",
@@ -3146,7 +5024,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Nergigante Coil Gamma",
@@ -3177,7 +5073,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Nergigante Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 1
+        },
+        {
+          "name": "Nergigante Tail",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Odogaron Coil",
@@ -3200,7 +5114,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "name": "Odogaron Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Odogaron Coil Alpha",
@@ -3228,7 +5160,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Odogaron Sinew+",
+          "quantity": 6
+        },
+        {
+          "name": "Odogaron Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Odogaron Fang+",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Odogaron Coil Beta",
@@ -3253,7 +5203,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Odogaron Sinew+",
+          "quantity": 6
+        },
+        {
+          "name": "Odogaron Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Odogaron Fang+",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Orion Coat Alpha",
@@ -3276,7 +5244,21 @@
         "thunder": 1,
         "ice": 4,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Winter Star Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Origin Coil",
@@ -3293,7 +5275,8 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Pukei Coil",
@@ -3316,7 +5299,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Pukei-Pukei Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Pukei-Pukei Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Pukei Coil Alpha",
@@ -3339,7 +5340,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Pukei-Pukei Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Sac+",
+          "quantity": 2
+        },
+        {
+          "name": "Bird Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Pukei Coil Beta",
@@ -3364,7 +5383,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Pukei-Pukei Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Sac+",
+          "quantity": 2
+        },
+        {
+          "name": "Bird Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rath Heart Coil Alpha",
@@ -3392,7 +5429,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Pink Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rath Heart Coil Beta",
@@ -3417,7 +5472,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Pink Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rath Soul Coil Alpha",
@@ -3445,7 +5518,25 @@
         "thunder": 2,
         "ice": -3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Azure Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Rath Soul Coil Beta",
@@ -3470,7 +5561,25 @@
         "thunder": 2,
         "ice": -3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Azure Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Rathalos Coil",
@@ -3493,7 +5602,25 @@
         "thunder": -2,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathalos Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Webbing",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Rathalos Coil Alpha",
@@ -3521,7 +5648,25 @@
         "thunder": -2,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Tail",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rathalos Coil Beta",
@@ -3546,7 +5691,25 @@
         "thunder": -2,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Tail",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rathian Coil",
@@ -3569,7 +5732,25 @@
         "thunder": -2,
         "ice": 0,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathian Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Rathian Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Rath Wingtalon",
+          "quantity": 2
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rathian Coil Alpha",
@@ -3597,7 +5778,25 @@
         "thunder": -2,
         "ice": 0,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rathian Coil Beta",
@@ -3627,7 +5826,25 @@
         "thunder": -2,
         "ice": 0,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Ryu's Torso",
@@ -3650,7 +5867,25 @@
         "thunder": 5,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "SFV Ticket",
+          "quantity": 7
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 6
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 6
+        },
+        {
+          "name": "Barroth Shell",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Ryu's Torso Alpha",
@@ -3675,7 +5910,25 @@
         "thunder": 5,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "SFV Ticket III",
+          "quantity": 4
+        },
+        {
+          "name": "Hunter King Coin",
+          "quantity": 5
+        },
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Sakura's Skirt Alpha",
@@ -3700,7 +5953,25 @@
         "thunder": 0,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "SFV Ticket II",
+          "quantity": 4
+        },
+        {
+          "name": "Hunter King Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Tzitzi Coil",
@@ -3723,7 +5994,21 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Tzitzi Coil Alpha",
@@ -3751,7 +6036,25 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Tzitzi Coil Beta",
@@ -3776,7 +6079,25 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Uragaan Coil Alpha",
@@ -3807,7 +6128,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Uragaan Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Uragaan Coil Beta",
@@ -3833,7 +6172,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Uragaan Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Vangis Coil Alpha",
@@ -3863,7 +6220,25 @@
         "thunder": -3,
         "ice": 2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Deviljho Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Hide",
+          "quantity": 4
+        },
+        {
+          "name": "Deviljho Saliva",
+          "quantity": 2
+        },
+        {
+          "name": "Girros Scale+",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Vangis Coil Beta",
@@ -3889,7 +6264,25 @@
         "thunder": -3,
         "ice": 2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Deviljho Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Hide",
+          "quantity": 4
+        },
+        {
+          "name": "Deviljho Saliva",
+          "quantity": 2
+        },
+        {
+          "name": "Girros Scale+",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Vaal Hazak Coil Alpha",
@@ -3919,7 +6312,25 @@
         "thunder": 1,
         "ice": -1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Vaal Hazak Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Vaal Hazak Wing",
+          "quantity": 4
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 2
+        },
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Vaal Hazak Coil Beta",
@@ -3945,7 +6356,25 @@
         "thunder": 1,
         "ice": -1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Vaal Hazak Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Vaal Hazak Wing",
+          "quantity": 4
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 2
+        },
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Vaal Hazak Coil Gamma",
@@ -3977,7 +6406,25 @@
         "thunder": 1,
         "ice": -1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Vaal Hazak Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Vaal Hazak Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Vaal Hazak Wing",
+          "quantity": 4
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Vespoid Coil",
@@ -4000,7 +6447,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Vespoid Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Vespoid Coil Alpha",
@@ -4023,7 +6480,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Vespoid Coil Beta",
@@ -4048,7 +6519,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Xeno'jiiva Spine Alpha",
@@ -4078,7 +6563,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Xeno'jiiva Spine Beta",
@@ -4104,7 +6607,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Xeno'jiiva Spine Gamma",
@@ -4130,7 +6651,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Xeno'jiiva Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Xeno'jiiva Soulscale",
+          "quantity": 6
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Zorah Spine Alpha",
@@ -4158,7 +6697,25 @@
         "thunder": -1,
         "ice": -2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Zorah Magdaros Carapace",
+          "quantity": 8
+        },
+        {
+          "name": "Zorah Magdaros Heat Scale",
+          "quantity": 1
+        },
+        {
+          "name": "Zorah Magdaros Ridge",
+          "quantity": 3
+        },
+        {
+          "name": "Zorah Magdaros Magma",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Zorah Spine Beta",
@@ -4183,7 +6740,25 @@
         "thunder": -1,
         "ice": -2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Zorah Magdaros Carapace",
+          "quantity": 8
+        },
+        {
+          "name": "Zorah Magdaros Heat Scale",
+          "quantity": 1
+        },
+        {
+          "name": "Zorah Magdaros Ridge",
+          "quantity": 3
+        },
+        {
+          "name": "Zorah Magdaros Magma",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Zorah Spine Gamma",
@@ -4214,7 +6789,25 @@
         "thunder": -1,
         "ice": -2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Zorah Magdaros Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Zorah Magdaros Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Zorah Magdaros Pleura",
+          "quantity": 2
+        },
+        {
+          "name": "Zorah Magdaros Ridge",
+          "quantity": 1
+        }
+      ]
     }
   ]
 }

@@ -23,7 +23,21 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Machalite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Alloy Vambraces Alpha",
@@ -51,7 +65,25 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 4
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Alloy Vambraces Beta",
@@ -76,7 +108,25 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 4
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Anja Vambraces",
@@ -99,7 +149,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Anjanath Pelt",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Nosebone",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Anja Vambraces +",
@@ -122,7 +190,8 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Anja Vambraces Alpha",
@@ -150,7 +219,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Anjanath Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Nosebone+",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Anja Vambraces Beta",
@@ -175,7 +262,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Anjanath Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Nosebone+",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Azure Starlord Gauntlets Alpha",
@@ -200,7 +305,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 3
-      }
+      },
+      "materials": [
+        {
+          "name": "Azure Stargem",
+          "quantity": 1
+        },
+        {
+          "name": "Dodogama Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Dodogama Hide+",
+          "quantity": 6
+        },
+        {
+          "name": "Dodogama Talon",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Baan Vambraces",
@@ -223,7 +346,25 @@
         "thunder": 0,
         "ice": -1,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Radobaan Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Radobaan Oilshell",
+          "quantity": 1
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Baan Vambraces Alpha",
@@ -251,7 +392,25 @@
         "thunder": 0,
         "ice": -1,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Radobaan Oilshell",
+          "quantity": 2
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 8
+        }
+      ]
     },
     {
       "name": "Baan Vambraces Beta",
@@ -281,7 +440,25 @@
         "thunder": 0,
         "ice": -1,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Radobaan Oilshell",
+          "quantity": 2
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 8
+        }
+      ]
     },
     {
       "name": "Banbaro Vambraces +",
@@ -304,7 +481,8 @@
         "thunder": -1,
         "ice": 3,
         "dragon": -3
-      }
+      },
+      "materials": []
     },
     {
       "name": "Barroth Vambraces",
@@ -327,7 +505,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barroth Ridge",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Barroth Scalp",
+          "quantity": 1
+        },
+        {
+          "name": "Kestodon Scalp",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Barroth Vambraces Alpha",
@@ -355,7 +551,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barroth Ridge+",
+          "quantity": 4
+        },
+        {
+          "name": "Barroth Scalp",
+          "quantity": 2
+        },
+        {
+          "name": "Kestodon Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Barroth Vambraces Beta",
@@ -380,7 +594,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barroth Ridge+",
+          "quantity": 4
+        },
+        {
+          "name": "Barroth Scalp",
+          "quantity": 2
+        },
+        {
+          "name": "Kestodon Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Bazel Vambraces Alpha",
@@ -408,7 +640,25 @@
         "thunder": -4,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Bazelgeuse Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Bazelgeuse Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Bazel Vambraces Beta",
@@ -433,7 +683,25 @@
         "thunder": -4,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Bazelgeuse Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Bazelgeuse Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Beo Vambraces +",
@@ -456,7 +724,8 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 2
-      }
+      },
+      "materials": []
     },
     {
       "name": "Blossom Cuffs",
@@ -479,7 +748,17 @@
         "thunder": 4,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Spring Blossom Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Blossom Cuffs Alpha",
@@ -505,7 +784,17 @@
         "thunder": 4,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Spring Blossom Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Bone Vambraces",
@@ -528,7 +817,17 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 3
+        },
+        {
+          "name": "Kestodon Shell",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Bone Vambraces Alpha",
@@ -556,7 +855,21 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Bone Vambraces Beta",
@@ -579,7 +892,21 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Brigade Vambraces",
@@ -602,7 +929,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Pinnacle Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Brigade Vambraces Alpha",
@@ -630,7 +975,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hunter King Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Brigade Vambraces Beta",
@@ -655,7 +1018,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hunter King Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Butterfly Brachia",
@@ -678,7 +1059,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Aqua Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Butterfly Brachia Alpha",
@@ -706,7 +1105,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "name": "Torrent Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Butterfly Brachia Beta",
@@ -732,7 +1149,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "name": "Torrent Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Chainmail Gloves",
@@ -749,7 +1184,13 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Chainmail Gloves Alpha",
@@ -772,7 +1213,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Chainmail Gloves Beta",
@@ -791,7 +1242,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Commission Vambraces Alpha",
@@ -821,7 +1282,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Legiana Scale+",
+          "quantity": 8
+        },
+        {
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Commission Vambraces Beta",
@@ -846,7 +1325,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Legiana Scale+",
+          "quantity": 8
+        },
+        {
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Damascus Vambraces Alpha",
@@ -874,7 +1371,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Black Diablos Ridge+",
+          "quantity": 5
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Damascus Vambraces Beta",
@@ -899,7 +1414,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Black Diablos Ridge+",
+          "quantity": 5
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Dante's Gloves Alpha",
@@ -929,7 +1462,25 @@
         "thunder": 3,
         "ice": -3,
         "dragon": 3
-      }
+      },
+      "materials": [
+        {
+          "name": "Red Orb",
+          "quantity": 1
+        },
+        {
+          "name": "Anjanath Pelt+",
+          "quantity": 6
+        },
+        {
+          "name": "Anjanath Fang+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Death Stench Grip",
@@ -952,7 +1503,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Sinister Cloth",
+          "quantity": 1
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Death Stench Grip Alpha",
@@ -982,7 +1551,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 2
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Death Stench Grip Beta",
@@ -1008,7 +1595,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 2
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Diablos Nero Vambraces Alpha",
@@ -1036,7 +1641,25 @@
         "thunder": 0,
         "ice": -4,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Black Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "name": "Black Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Gastodon Carapace",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Diablos Nero Vambraces Beta",
@@ -1062,7 +1685,25 @@
         "thunder": 0,
         "ice": -4,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Black Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "name": "Black Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Gastodon Carapace",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Diablos Vambraces",
@@ -1085,7 +1726,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Diablos Ridge",
+          "quantity": 2
+        },
+        {
+          "name": "Diablos Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Diablos Tailcase",
+          "quantity": 1
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Diablos Vambraces Alpha",
@@ -1113,7 +1772,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "name": "Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Diablos Tailcase",
+          "quantity": 3
+        },
+        {
+          "name": "Kestodon Carapace",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Diablos Vambraces Beta",
@@ -1138,7 +1815,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "name": "Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Diablos Tailcase",
+          "quantity": 3
+        },
+        {
+          "name": "Kestodon Carapace",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Direwolf Vambraces",
@@ -1161,7 +1856,8 @@
         "thunder": 0,
         "ice": 2,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Diver’s Braces Alpha",
@@ -1186,7 +1882,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Summer Twilight Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Diver's Braces",
@@ -1209,7 +1919,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Summer Twilight Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Drachen Vambraces Alpha",
@@ -1240,7 +1960,25 @@
         "thunder": 3,
         "ice": -2,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Behemoth Mane",
+          "quantity": 3
+        },
+        {
+          "name": "Behemoth Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Behemoth Great Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Behemoth Tail",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Dober Vambraces Alpha",
@@ -1268,7 +2006,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Dober Vambraces Beta",
@@ -1294,7 +2050,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Dodogama Vambraces Alpha",
@@ -1317,7 +2091,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Dodogama Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Dodogama Vambraces Beta",
@@ -1342,7 +2134,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Dodogama Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Empress Vambraces Alpha",
@@ -1372,7 +2182,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lunastra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Empress Vambraces Beta",
@@ -1398,7 +2226,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lunastra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Empress Vambraces Gamma",
@@ -1429,7 +2275,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lunastra Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Tail",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Gala Suit Cuffs",
@@ -1452,7 +2316,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Appreciation Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Gala Suit Cuffs Alpha",
@@ -1478,7 +2352,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Appreciation Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 1
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Girros Vambraces",
@@ -1501,7 +2389,21 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Girros Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Great Girros Hide",
+          "quantity": 1
+        },
+        {
+          "name": "Girros Fang",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Girros Vambraces +",
@@ -1524,7 +2426,8 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": []
     },
     {
       "name": "Girros Vambraces Alpha",
@@ -1547,7 +2450,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Girros Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Great Girros Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Girros Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Girros Vambraces Beta",
@@ -1572,7 +2493,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Girros Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Great Girros Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Girros Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Golden Lunebraces Alpha +",
@@ -1602,7 +2541,25 @@
         "thunder": -4,
         "ice": 0,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 2
+        },
+        {
+          "name": "Rathian Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Golden Lunebraces Beta +",
@@ -1628,7 +2585,25 @@
         "thunder": -4,
         "ice": 0,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 2
+        },
+        {
+          "name": "Rathian Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Guild Cross Vambraces Alpha",
@@ -1658,7 +2633,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Ace Hunter Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Brute Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Hunter King Coin",
+          "quantity": 2
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Guild Cross Vambraces Beta",
@@ -1683,7 +2676,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Ace Hunter Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Brute Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Hunter King Coin",
+          "quantity": 2
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Guardian Vambraces Alpha +",
@@ -1711,7 +2722,8 @@
         "thunder": 0,
         "ice": 2,
         "dragon": 3
-      }
+      },
+      "materials": []
     },
     {
       "name": "Harvest Trama",
@@ -1728,7 +2740,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Autumn Harvest Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Harvest Trama Alpha",
@@ -1748,7 +2770,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Autumn Harvest Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "High Metal Braces",
@@ -1771,7 +2807,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Sharp Claw",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "High Metal Braces Alpha",
@@ -1799,7 +2853,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 4
+        },
+        {
+          "name": "Barnos Hide+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "High Metal Braces Beta",
@@ -1824,7 +2896,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 4
+        },
+        {
+          "name": "Barnos Hide+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Hunter's Vambraces",
@@ -1847,7 +2937,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jagras Hide",
+          "quantity": 1
+        },
+        {
+          "name": "Jagras Scale",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Hunter's Vambraces Alpha",
@@ -1870,7 +2970,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jagras Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Jagras Scale+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Hunter's Vambraces Beta",
@@ -1893,7 +3003,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jagras Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Jagras Scale+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Hornetaur Vambraces",
@@ -1916,7 +3036,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hornetaur Wing",
+          "quantity": 1
+        },
+        {
+          "name": "Hornetaur Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Hornetaur Vambraces Alpha",
@@ -1944,7 +3082,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hornetaur Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Hornetaur Innerwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Hornetaur Vambraces Beta",
@@ -1969,7 +3121,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hornetaur Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Hornetaur Innerwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Ingot Gloves",
@@ -1992,7 +3158,8 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Ingot Vambraces",
@@ -2015,7 +3182,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 1
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Ingot Vambraces Alpha",
@@ -2043,7 +3228,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Gastodon Horn",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Ingot Vambraces Beta",
@@ -2068,7 +3271,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Gastodon Horn",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Jagras Vambraces",
@@ -2091,7 +3312,21 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Jagras Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Hide",
+          "quantity": 1
+        },
+        {
+          "name": "Jagras Hide",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Jagras Vambraces Alpha",
@@ -2119,7 +3354,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Jagras Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Great Jagras Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        },
+        {
+          "name": "Jagras Hide+",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Jagras Vambraces Beta",
@@ -2144,7 +3397,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Jagras Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Great Jagras Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        },
+        {
+          "name": "Jagras Hide+",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Jyura Vambraces",
@@ -2167,7 +3438,21 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jyuratodus Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Fang",
+          "quantity": 1
+        },
+        {
+          "name": "Gajau Whisker",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Jyura Vambraces Alpha",
@@ -2195,7 +3480,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Jyuratodus Fang+",
+          "quantity": 3
+        },
+        {
+          "name": "Grand Gajau Whisker",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Jyura Vambraces Beta",
@@ -2220,7 +3523,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Jyuratodus Fang+",
+          "quantity": 3
+        },
+        {
+          "name": "Grand Gajau Whisker",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kadachi Vambraces",
@@ -2243,7 +3564,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Pelt",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Tobi-Kadachi Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Kadachi Vambraces Alpha",
@@ -2266,7 +3605,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Scale+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Kadachi Vambraces Beta",
@@ -2291,7 +3648,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Scale+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Kaiser Vambraces Alpha",
@@ -2316,7 +3691,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Kaiser Vambraces Beta",
@@ -2341,7 +3734,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Kaiser Vambraces Gamma",
@@ -2366,7 +3777,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Teostra Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Mane",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kestodon Guards",
@@ -2389,7 +3818,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Kestodon Shell",
+          "quantity": 6
+        },
+        {
+          "name": "Kestodon Scalp",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kestodon Guards Alpha",
@@ -2412,7 +3851,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Kestodon Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Kestodon Scalp",
+          "quantity": 3
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kestodon Guards Beta",
@@ -2437,7 +3890,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Kestodon Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Kestodon Scalp",
+          "quantity": 3
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "King Beetle Brachia",
@@ -2460,7 +3927,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Aqua Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "King Beetle Brachia Alpha",
@@ -2490,7 +3975,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "name": "Torrent Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "King Beetle Brachia Beta",
@@ -2516,7 +4019,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "name": "Torrent Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Kirin Longarms",
@@ -2539,7 +4060,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Hide",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kirin Longarms Alpha",
@@ -2567,7 +4106,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Mane",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Kirin Longarms Beta",
@@ -2593,7 +4150,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Mane",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Kirin Longarms Gamma",
@@ -2624,7 +4199,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Kirin Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Thundertail",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kulu Vambraces",
@@ -2647,7 +4240,21 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide",
+          "quantity": 1
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kulu Vambraces Alpha",
@@ -2675,7 +4282,21 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kulu Vambraces Beta",
@@ -2700,7 +4321,21 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kulve Taroth's Rage Alpha",
@@ -2730,7 +4365,25 @@
         "thunder": 3,
         "ice": -4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulve Taroth Golden Scale",
+          "quantity": 12
+        },
+        {
+          "name": "Kulve Taroth Golden Nugget",
+          "quantity": 18
+        },
+        {
+          "name": "Kulve Taroth Golden Spiralhorn",
+          "quantity": 6
+        },
+        {
+          "name": "Kulve Taroth Golden Glimstone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kulve Taroth's Rage Beta",
@@ -2761,7 +4414,25 @@
         "thunder": 3,
         "ice": -4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulve Taroth Golden Scale",
+          "quantity": 12
+        },
+        {
+          "name": "Kulve Taroth Golden Nugget",
+          "quantity": 18
+        },
+        {
+          "name": "Kulve Taroth Golden Spiralhorn",
+          "quantity": 6
+        },
+        {
+          "name": "Kulve Taroth Golden Glimstone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kulve Taroth’s Rage Gamma",
@@ -2791,7 +4462,25 @@
         "thunder": 3,
         "ice": -4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulve Taroth Emperor Nugget",
+          "quantity": 7
+        },
+        {
+          "name": "Kulve Taroth Golden Scale",
+          "quantity": 15
+        },
+        {
+          "name": "Kulve Taroth Golden Spiralhorn",
+          "quantity": 8
+        },
+        {
+          "name": "Kulve Taroth Golden Glimstone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kushala Grip Alpha",
@@ -2819,7 +4508,25 @@
         "thunder": -3,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Daora Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Horn+",
+          "quantity": 2
+        },
+        {
+          "name": "Daora Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kushala Grip Gamma",
@@ -2842,7 +4549,25 @@
         "thunder": -3,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kushala Daora Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Claw+",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Kushala Grip Beta",
@@ -2867,7 +4592,25 @@
         "thunder": -3,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Daora Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Horn+",
+          "quantity": 2
+        },
+        {
+          "name": "Daora Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Lavasioth Vambraces Alpha",
@@ -2897,7 +4640,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lavasioth Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Fang+",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Gajau Scale",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Lavasioth Vambraces Beta",
@@ -2922,7 +4683,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lavasioth Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Fang+",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Gajau Scale",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Leather Gloves",
@@ -2939,7 +4718,13 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Leather Gloves Alpha",
@@ -2962,7 +4747,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "High-quality Pelt",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Leather Gloves Beta",
@@ -2987,7 +4782,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "High-quality Pelt",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Legiana Vambraces",
@@ -3010,7 +4815,25 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Legiana Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Tail Webbing",
+          "quantity": 1
+        },
+        {
+          "name": "Frost Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Legiana Vambraces +",
@@ -3033,7 +4856,8 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Legiana Vambraces Alpha",
@@ -3061,7 +4885,25 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Legiana Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Legiana Tail Webbing",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Legiana Vambraces Beta",
@@ -3091,7 +4933,25 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Legiana Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Legiana Tail Webbing",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Lumu Vambraces",
@@ -3114,7 +4974,21 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Paolumu Pelt",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Scale",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Webbing",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Lumu Vambraces Alpha",
@@ -3137,7 +5011,25 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Lumu Vambraces Beta",
@@ -3162,7 +5054,25 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Nergigante Vambraces Alpha",
@@ -3190,7 +5100,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 1
+        },
+        {
+          "name": "Nergigante Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Nergigante Vambraces Beta",
@@ -3215,7 +5143,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 1
+        },
+        {
+          "name": "Nergigante Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Nergigante Vambraces Gamma",
@@ -3247,7 +5193,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Nergigante Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Odogaron Vambraces",
@@ -3270,7 +5234,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Hornetaur Wing",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Odogaron Vambraces Alpha",
@@ -3298,7 +5280,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Odogaron Sinew+",
+          "quantity": 4
+        },
+        {
+          "name": "Odogaron Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Odogaron Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Hornetaur Innerwing",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Odogaron Vambraces Beta",
@@ -3323,7 +5323,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Odogaron Sinew+",
+          "quantity": 4
+        },
+        {
+          "name": "Odogaron Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Odogaron Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Hornetaur Innerwing",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Orion Vambraces Alpha",
@@ -3346,7 +5364,21 @@
         "thunder": 1,
         "ice": 4,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Winter Star Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Origin Vambraces",
@@ -3363,7 +5395,8 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Pukei Vambraces",
@@ -3386,7 +5419,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Pukei-Pukei Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Pukei Vambraces Alpha",
@@ -3414,7 +5461,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Pukei-Pukei Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Pukei Vambraces Beta",
@@ -3437,7 +5498,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Pukei-Pukei Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rath Heart Vambraces Alpha",
@@ -3460,7 +5535,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Pink Rathian Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 2
+        },
+        {
+          "name": "Rathian Spike+",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Ruby",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rath Heart Vambraces Beta",
@@ -3485,7 +5578,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Pink Rathian Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 2
+        },
+        {
+          "name": "Rathian Spike+",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Ruby",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rath Soul Braces Alpha",
@@ -3515,7 +5626,25 @@
         "thunder": 2,
         "ice": -3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Azure Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Azure Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Azure Rathalos Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Barnos Talon",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Rath Soul Braces Beta",
@@ -3540,7 +5669,25 @@
         "thunder": 2,
         "ice": -3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Azure Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Azure Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Azure Rathalos Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Barnos Talon",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Rathalos Vambraces",
@@ -3563,7 +5710,25 @@
         "thunder": -2,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathalos Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Webbing",
+          "quantity": 1
+        },
+        {
+          "name": "Flame Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rathalos Vambraces Alpha",
@@ -3591,7 +5756,25 @@
         "thunder": -2,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Wingtalon",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Rathalos Vambraces Beta",
@@ -3616,7 +5799,25 @@
         "thunder": -2,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Wingtalon",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Rathian Vambraces",
@@ -3639,7 +5840,25 @@
         "thunder": -2,
         "ice": 0,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathian Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Rathian Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Rathian Spike",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rathian Vambraces Alpha",
@@ -3662,7 +5881,25 @@
         "thunder": -2,
         "ice": 0,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Spike+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Rathian Vambraces Beta",
@@ -3687,7 +5924,25 @@
         "thunder": -2,
         "ice": 0,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Spike+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Ryu's Arms",
@@ -3710,7 +5965,25 @@
         "thunder": 5,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "SFV Ticket",
+          "quantity": 7
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 6
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 6
+        },
+        {
+          "name": "Barroth Shell",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Ryu's Arms Alpha",
@@ -3735,7 +6008,25 @@
         "thunder": 5,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "SFV Ticket III",
+          "quantity": 4
+        },
+        {
+          "name": "Hunter King Coin",
+          "quantity": 5
+        },
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Sakura's Arms Alpha",
@@ -3760,7 +6051,25 @@
         "thunder": 0,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "SFV Ticket II",
+          "quantity": 4
+        },
+        {
+          "name": "Hunter King Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Tzitzi Vambraces",
@@ -3783,7 +6092,25 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photophore",
+          "quantity": 1
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Tzitzi Vambraces Alpha",
@@ -3811,7 +6138,25 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photophore+",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Tzitzi Vambraces Beta",
@@ -3836,7 +6181,25 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photophore+",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Uragaan Vambraces Alpha",
@@ -3866,7 +6229,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Uragaan Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        },
+        {
+          "name": "Lava Nugget",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Uragaan Vambraces Beta",
@@ -3891,7 +6272,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Uragaan Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        },
+        {
+          "name": "Lava Nugget",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Vaal Hazak Braces Alpha",
@@ -3921,7 +6320,25 @@
         "thunder": 1,
         "ice": -1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Vaal Hazak Fang+",
+          "quantity": 3
+        },
+        {
+          "name": "Deceased Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 2
+        },
+        {
+          "name": "Vaal Hazak Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Vaal Hazak Braces Beta",
@@ -3948,7 +6365,25 @@
         "thunder": 1,
         "ice": -1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Vaal Hazak Fang+",
+          "quantity": 3
+        },
+        {
+          "name": "Deceased Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 2
+        },
+        {
+          "name": "Vaal Hazak Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Vaal Hazak Vambraces Gamma",
@@ -3974,7 +6409,25 @@
         "thunder": 1,
         "ice": -1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Vaal Hazak Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Vaal Hazak Fang+",
+          "quantity": 3
+        },
+        {
+          "name": "Deceased Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Vaal Hazak Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Vangis Vambraces Alpha",
@@ -4002,7 +6455,25 @@
         "thunder": -3,
         "ice": 2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Deviljho Hide",
+          "quantity": 4
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Vangis Vambraces Beta",
@@ -4027,7 +6498,25 @@
         "thunder": -3,
         "ice": 2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Deviljho Hide",
+          "quantity": 4
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Vespoid Vambraces",
@@ -4050,7 +6539,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Vespoid Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Fluid",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Vespoid Vambraces Alpha",
@@ -4073,7 +6572,25 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Vespoid Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 3
+        },
+        {
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Vespoid Vambraces Beta",
@@ -4098,7 +6615,25 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Vespoid Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 3
+        },
+        {
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Xeno'jiiva Claws Alpha",
@@ -4128,7 +6663,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Claw",
+          "quantity": 3
+        },
+        {
+          "name": "Xeno'jiiva Veil",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Xeno'jiiva Claws Beta",
@@ -4153,7 +6706,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Claw",
+          "quantity": 3
+        },
+        {
+          "name": "Xeno'jiiva Veil",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Xeno'jiiva Claws Gamma",
@@ -4185,7 +6756,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Xeno'jiiva Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Xeno'jiiva Soulscale",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Veil",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Zorah Claws Alpha",
@@ -4213,7 +6802,25 @@
         "thunder": -1,
         "ice": -2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Zorah Magdaros Heat Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Zorah Magdaros Pleura",
+          "quantity": 3
+        },
+        {
+          "name": "Zorah Magdaros Magma",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 8
+        }
+      ]
     },
     {
       "name": "Zorah Claws Beta",
@@ -4238,7 +6845,25 @@
         "thunder": -1,
         "ice": -2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Zorah Magdaros Heat Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Zorah Magdaros Pleura",
+          "quantity": 3
+        },
+        {
+          "name": "Zorah Magdaros Magma",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 8
+        }
+      ]
     },
     {
       "name": "Zorah Claws Gamma",
@@ -4264,7 +6889,25 @@
         "thunder": -1,
         "ice": -2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Zorah Magdaros Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Zorah Magdaros Ridge",
+          "quantity": 1
+        },
+        {
+          "name": "Zorah Magdaros Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Zorah Magdaros Gem",
+          "quantity": 1
+        }
+      ]
     }
   ]
 }

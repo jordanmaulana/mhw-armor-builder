@@ -2,6 +2,12 @@
   "source": "https://monsterhunterworld.wiki.fextralife.com/Monsters",
   "items": [
     {
+      "name": "Ace Hunter Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ace_Hunter_Coin",
+      "rarity": 8,
+      "sell_price": 2000
+    },
+    {
       "name": "Acidic Glavenus Cortex",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Acidic_Glavenus_Cortex",
       "rarity": 10,
@@ -42,6 +48,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Aetheryte_Shard",
       "rarity": 7,
       "sell_price": 5000
+    },
+    {
+      "name": "Afflicted Frenzybone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Afflicted_Frenzybone",
+      "rarity": 10,
+      "sell_price": 1600
     },
     {
       "name": "Alatreon Diretail",
@@ -96,6 +108,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Ancient_Feystone",
       "rarity": 9,
       "sell_price": 25
+    },
+    {
+      "name": "Ancient Fragment",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Ancient_Fragment",
+      "rarity": 9,
+      "sell_price": 540
     },
     {
       "name": "Ancient Great Horn",
@@ -230,6 +248,12 @@
       "sell_price": 460
     },
     {
+      "name": "Appreciation Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Appreciation_Ticket",
+      "rarity": 4,
+      "sell_price": 200
+    },
+    {
       "name": "Aqua Sac",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Aqua_Sac",
       "rarity": 4,
@@ -246,6 +270,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Aurora_Crownhorn",
       "rarity": 11,
       "sell_price": 4000
+    },
+    {
+      "name": "Autumn Harvest Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Autumn_Harvest_Ticket",
+      "rarity": 4,
+      "sell_price": 200
     },
     {
       "name": "Azure Dragonsphire",
@@ -314,10 +344,22 @@
       "sell_price": 3500
     },
     {
+      "name": "Azure Stargem",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Azure_Stargem",
+      "rarity": 6,
+      "sell_price": 400
+    },
+    {
       "name": "Banbaro Chine",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Banbaro_Chine",
       "rarity": 9,
       "sell_price": 2240
+    },
+    {
+      "name": "Banbaro Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Banbaro_Coin",
+      "rarity": 9,
+      "sell_price": 1200
     },
     {
       "name": "Banbaro Cortex",
@@ -410,6 +452,12 @@
       "sell_price": 1670
     },
     {
+      "name": "Barroth Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Coin",
+      "rarity": 4,
+      "sell_price": 800
+    },
+    {
       "name": "Barroth Cortex",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Cortex",
       "rarity": 9,
@@ -462,6 +510,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth_Tail",
       "rarity": 4,
       "sell_price": 800
+    },
+    {
+      "name": "Bathycite Ore",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bathycite_Ore",
+      "rarity": 9,
+      "sell_price": 1620
     },
     {
       "name": "Bazelgeuse Carapace",
@@ -602,10 +656,28 @@
       "sell_price": 4000
     },
     {
+      "name": "Black Bandage",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Black_Bandage",
+      "rarity": 6,
+      "sell_price": 400
+    },
+    {
+      "name": "Black Belt Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Black_Belt_Coin",
+      "rarity": 9,
+      "sell_price": 1500
+    },
+    {
       "name": "Black Blood",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Black_Blood",
       "rarity": 11,
       "sell_price": 8840
+    },
+    {
+      "name": "Black Crystal Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Black_Crystal_Ticket",
+      "rarity": 6,
+      "sell_price": 400
     },
     {
       "name": "Black Diablos Carapace",
@@ -680,6 +752,24 @@
       "sell_price": 3040
     },
     {
+      "name": "Bluegleam",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bluegleam",
+      "rarity": 11,
+      "sell_price": 1000
+    },
+    {
+      "name": "Boaboa Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Boaboa_Ticket",
+      "rarity": 9,
+      "sell_price": 500
+    },
+    {
+      "name": "Boulder Bone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Boulder_Bone",
+      "rarity": 4,
+      "sell_price": 400
+    },
+    {
       "name": "Brach Obliterator",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Brach_Obliterator",
       "rarity": 11,
@@ -722,6 +812,18 @@
       "sell_price": 6100
     },
     {
+      "name": "Brutal Bone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brutal_Bone",
+      "rarity": 6,
+      "sell_price": 1200
+    },
+    {
+      "name": "Brute Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Brute_Coin",
+      "rarity": 4,
+      "sell_price": 1500
+    },
+    {
       "name": "Brute Tigrex Cortex",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Brute_Tigrex_Cortex",
       "rarity": 10,
@@ -744,6 +846,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Brute_Tigrex_Shard",
       "rarity": 10,
       "sell_price": 3640
+    },
+    {
+      "name": "Buff Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Buff_Ticket",
+      "rarity": 10,
+      "sell_price": 800
     },
     {
       "name": "Carbalite Ore",
@@ -770,6 +878,12 @@
       "sell_price": 500
     },
     {
+      "name": "Chocolate",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Chocolate",
+      "rarity": 10,
+      "sell_price": 800
+    },
+    {
       "name": "Coldblooded Icefang",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Coldblooded_Icefang",
       "rarity": 10,
@@ -788,10 +902,34 @@
       "sell_price": 1600
     },
     {
+      "name": "Commendation",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Commendation",
+      "rarity": 5,
+      "sell_price": 0
+    },
+    {
       "name": "Conflagrant Sac",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Conflagrant_Sac",
       "rarity": 9,
       "sell_price": 3400
+    },
+    {
+      "name": "Conqueror's Seal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Conqueror%27s_Seal",
+      "rarity": 9,
+      "sell_price": 0
+    },
+    {
+      "name": "Coral Bone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Coral_Bone",
+      "rarity": 4,
+      "sell_price": 800
+    },
+    {
+      "name": "Coral Crimsonbone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Coral_Crimsonbone",
+      "rarity": 9,
+      "sell_price": 1200
     },
     {
       "name": "Coral Crystal",
@@ -830,6 +968,12 @@
       "sell_price": 1450
     },
     {
+      "name": "Cracked Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Cracked_Crystal",
+      "rarity": 9,
+      "sell_price": 800
+    },
+    {
       "name": "Crackling Thunderpelt",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Crackling_Thunderpelt",
       "rarity": 10,
@@ -864,6 +1008,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Cursed_Bone",
       "rarity": 6,
       "sell_price": 2800
+    },
+    {
+      "name": "Daemon Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Daemon_Ticket",
+      "rarity": 12,
+      "sell_price": 1500
     },
     {
       "name": "Daora Carapace",
@@ -966,6 +1116,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Deathweaver_Membrane",
       "rarity": 11,
       "sell_price": 6740
+    },
+    {
+      "name": "Decayed Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Decayed_Crystal",
+      "rarity": 9,
+      "sell_price": 800
     },
     {
       "name": "Deceased Scale",
@@ -1130,6 +1286,12 @@
       "sell_price": 8920
     },
     {
+      "name": "Distorted Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Distorted_Crystal",
+      "rarity": 9,
+      "sell_price": 800
+    },
+    {
       "name": "Dodogama Hardclaw",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Dodogama_Hardclaw",
       "rarity": 9,
@@ -1244,6 +1406,12 @@
       "sell_price": 3000
     },
     {
+      "name": "Earth Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Earth_Crystal",
+      "rarity": 4,
+      "sell_price": 80
+    },
+    {
       "name": "Ebony Odogaron Hardclaw",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Ebony_Odogaron_Hardclaw",
       "rarity": 10,
@@ -1272,6 +1440,18 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Ebony_Odogaron_Shard",
       "rarity": 10,
       "sell_price": 3580
+    },
+    {
+      "name": "Effluvial Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvial_Crystal",
+      "rarity": 9,
+      "sell_price": 1200
+    },
+    {
+      "name": "Effluvial Frenzybone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Effluvial_Frenzybone",
+      "rarity": 9,
+      "sell_price": 1200
     },
     {
       "name": "Elder Dragon Blood",
@@ -1454,6 +1634,18 @@
       "sell_price": 3400
     },
     {
+      "name": "Flying Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Flying_Coin",
+      "rarity": 4,
+      "sell_price": 1500
+    },
+    {
+      "name": "Forest Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Forest_Crystal",
+      "rarity": 9,
+      "sell_price": 1200
+    },
+    {
       "name": "Fragrant Poison Sac",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Fragrant_Poison_Sac",
       "rarity": 9,
@@ -1470,6 +1662,18 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Frost_Sac",
       "rarity": 4,
       "sell_price": 1000
+    },
+    {
+      "name": "Frostfang Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Frostfang_Ticket",
+      "rarity": 11,
+      "sell_price": 1400
+    },
+    {
+      "name": "Frozen Bone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Frozen_Bone",
+      "rarity": 9,
+      "sell_price": 2400
     },
     {
       "name": "Fucium Ore",
@@ -1514,6 +1718,18 @@
       "sell_price": 4600
     },
     {
+      "name": "Full Bloom Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Full_Bloom_Ticket",
+      "rarity": 9,
+      "sell_price": 400
+    },
+    {
+      "name": "Fun Fright Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Fun_Fright_Ticket",
+      "rarity": 9,
+      "sell_price": 400
+    },
+    {
       "name": "Gajau Scale",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Gajau_Scale",
       "rarity": 6,
@@ -1536,6 +1752,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Gajau_Whisker",
       "rarity": 4,
       "sell_price": 270
+    },
+    {
+      "name": "Gama Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gama_Coin",
+      "rarity": 4,
+      "sell_price": 800
     },
     {
       "name": "Garuga Auricle",
@@ -1640,6 +1862,12 @@
       "sell_price": 1760
     },
     {
+      "name": "Glavenus Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Glavenus_Coin",
+      "rarity": 9,
+      "sell_price": 1200
+    },
+    {
       "name": "Glavenus Cortex",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Glavenus_Cortex",
       "rarity": 10,
@@ -1742,10 +1970,22 @@
       "sell_price": 750
     },
     {
+      "name": "Gracium",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gracium",
+      "rarity": 9,
+      "sell_price": 1540
+    },
+    {
       "name": "Grand Gajau Whisker",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Grand_Gajau_Whisker",
       "rarity": 6,
       "sell_price": 520
+    },
+    {
+      "name": "Gratitude Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gratitude_Ticket",
+      "rarity": 9,
+      "sell_price": 400
     },
     {
       "name": "Great Girros Fang",
@@ -1832,6 +2072,12 @@
       "sell_price": 1910
     },
     {
+      "name": "Great Hornfly",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Great_Hornfly",
+      "rarity": 5,
+      "sell_price": 200
+    },
+    {
       "name": "Great Jagras Claw",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Great_Jagras_Claw",
       "rarity": 4,
@@ -1904,6 +2150,30 @@
       "sell_price": 21000
     },
     {
+      "name": "Guiding Reef Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding_Reef_Crystal",
+      "rarity": 11,
+      "sell_price": 2000
+    },
+    {
+      "name": "Guiding Reef Dragonbone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding_Reef_Dragonbone",
+      "rarity": 11,
+      "sell_price": 2000
+    },
+    {
+      "name": "Guiding Wasteland Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding_Wasteland_Crystal",
+      "rarity": 11,
+      "sell_price": 2000
+    },
+    {
+      "name": "Guiding Wasteland Dragonbone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding_Wasteland_Dragonbone",
+      "rarity": 11,
+      "sell_price": 2000
+    },
+    {
       "name": "Gushing Dragonhold",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Gushing_Dragonhold",
       "rarity": 11,
@@ -1964,6 +2234,18 @@
       "sell_price": 4280
     },
     {
+      "name": "Hero King Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hero_King_Coin",
+      "rarity": 10,
+      "sell_price": 2000
+    },
+    {
+      "name": "High Commendation",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/High_Commendation",
+      "rarity": 7,
+      "sell_price": 0
+    },
+    {
       "name": "High-quality Pelt",
       "url": "https://monsterhunterworld.wiki.fextralife.com/High-Quality_Pelt",
       "rarity": 6,
@@ -2022,6 +2304,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur_Wing",
       "rarity": 4,
       "sell_price": 310
+    },
+    {
+      "name": "Hunter King Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hunter_King_Coin",
+      "rarity": 6,
+      "sell_price": 1200
     },
     {
       "name": "Hydrated Sac",
@@ -2106,6 +2394,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras_Shard",
       "rarity": 9,
       "sell_price": 960
+    },
+    {
+      "name": "Joyful Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Joyful_Ticket",
+      "rarity": 9,
+      "sell_price": 400
     },
     {
       "name": "Jyuratodus Carapace",
@@ -2282,6 +2576,18 @@
       "sell_price": 6600
     },
     {
+      "name": "Kirin Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin_Ticket",
+      "rarity": 8,
+      "sell_price": 800
+    },
+    {
+      "name": "Kulu Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu_Coin",
+      "rarity": 4,
+      "sell_price": 500
+    },
+    {
       "name": "Kulu-Ya-Ku Beak",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu-Ya-Ku_Beak",
       "rarity": 4,
@@ -2340,6 +2646,18 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu-Ya-Ku_Thickhide",
       "rarity": 9,
       "sell_price": 1950
+    },
+    {
+      "name": "Kulu-Ya-Ku Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu-Ya-Ku_Ticket",
+      "rarity": 6,
+      "sell_price": 400
+    },
+    {
+      "name": "Kulve Taroth Emperor Nugget",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth_Emperor_Nugget",
+      "rarity": 8,
+      "sell_price": 2000
     },
     {
       "name": "Kulve Taroth Golden Glimstone",
@@ -2406,6 +2724,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth_Golden_Tailshell_Plus",
       "rarity": 11,
       "sell_price": 15000
+    },
+    {
+      "name": "Kushala Daora Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala_Daora_Ticket",
+      "rarity": 8,
+      "sell_price": 800
     },
     {
       "name": "Large Beast Tear",
@@ -2738,6 +3062,12 @@
       "sell_price": 4900
     },
     {
+      "name": "Lunastra Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Lunastra_Ticket",
+      "rarity": 8,
+      "sell_price": 800
+    },
+    {
       "name": "Lunastra Wing",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Lunastra_Wing",
       "rarity": 7,
@@ -2772,6 +3102,18 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Majestic_Horn",
       "rarity": 6,
       "sell_price": 2980
+    },
+    {
+      "name": "Malformed Frenzybone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Malformed_Frenzybone",
+      "rarity": 9,
+      "sell_price": 800
+    },
+    {
+      "name": "Meldspar Ore",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Meldspar_Ore",
+      "rarity": 9,
+      "sell_price": 1920
     },
     {
       "name": "Metallic Scute",
@@ -2870,6 +3212,12 @@
       "sell_price": 200
     },
     {
+      "name": "Mossy Greatbone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Mossy_Greatbone",
+      "rarity": 9,
+      "sell_price": 800
+    },
+    {
       "name": "Muddy Crown",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Muddy_Crown",
       "rarity": 9,
@@ -2912,6 +3260,12 @@
       "sell_price": 9280
     },
     {
+      "name": "Namielle Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Namielle_Ticket",
+      "rarity": 12,
+      "sell_price": 1600
+    },
+    {
       "name": "Namielle Whisker",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Namielle_Whisker",
       "rarity": 11,
@@ -2922,6 +3276,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Nargacuga_Blackfur_Plus",
       "rarity": 10,
       "sell_price": 4440
+    },
+    {
+      "name": "Nargacuga Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nargacuga_Coin",
+      "rarity": 9,
+      "sell_price": 1200
     },
     {
       "name": "Nargacuga Cutwing+",
@@ -3014,6 +3374,12 @@
       "sell_price": 4500
     },
     {
+      "name": "Nergigante Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Ticket",
+      "rarity": 8,
+      "sell_price": 800
+    },
+    {
       "name": "Night Hood",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Night_Hood",
       "rarity": 9,
@@ -3078,6 +3444,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Claw_Plus",
       "rarity": 6,
       "sell_price": 2440
+    },
+    {
+      "name": "Odogaron Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron_Coin",
+      "rarity": 9,
+      "sell_price": 1200
     },
     {
       "name": "Odogaron Fang",
@@ -3176,10 +3548,22 @@
       "sell_price": 1600
     },
     {
+      "name": "Pale Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pale_Crystal",
+      "rarity": 9,
+      "sell_price": 800
+    },
+    {
       "name": "Paolumu Carapace+",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Paolumu_Carapace_Plus",
       "rarity": 6,
       "sell_price": 2140
+    },
+    {
+      "name": "Paolumu Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Paolumu_Coin",
+      "rarity": 9,
+      "sell_price": 1200
     },
     {
       "name": "Paolumu Cortex",
@@ -3254,6 +3638,18 @@
       "sell_price": 800
     },
     {
+      "name": "Pearlspring Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pearlspring_Ticket",
+      "rarity": 9,
+      "sell_price": 500
+    },
+    {
+      "name": "Penguin Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Penguin_Ticket",
+      "rarity": 10,
+      "sell_price": 800
+    },
+    {
       "name": "Piercing Claw",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Piercing_Claw",
       "rarity": 6,
@@ -3290,6 +3686,12 @@
       "sell_price": 2500
     },
     {
+      "name": "Pinnacle Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pinnacle_Coin",
+      "rarity": 4,
+      "sell_price": 800
+    },
+    {
       "name": "Poison Sac",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Poison_Sac",
       "rarity": 4,
@@ -3300,6 +3702,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Prized_Pelt",
       "rarity": 9,
       "sell_price": 1020
+    },
+    {
+      "name": "Pukei Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei_Coin",
+      "rarity": 4,
+      "sell_price": 500
     },
     {
       "name": "Pukei-Pukei Carapace",
@@ -3536,6 +3944,12 @@
       "sell_price": 1850
     },
     {
+      "name": "Rathalos Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Coin",
+      "rarity": 4,
+      "sell_price": 800
+    },
+    {
       "name": "Rathalos Cortex",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos_Cortex",
       "rarity": 10,
@@ -3632,6 +4046,12 @@
       "sell_price": 1560
     },
     {
+      "name": "Rathian Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Coin",
+      "rarity": 4,
+      "sell_price": 500
+    },
+    {
       "name": "Rathian Cortex",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian_Cortex",
       "rarity": 9,
@@ -3716,10 +4136,40 @@
       "sell_price": 5
     },
     {
+      "name": "Red Orb",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Red_Orb",
+      "rarity": 8,
+      "sell_price": 800
+    },
+    {
+      "name": "Reef Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Reef_Crystal",
+      "rarity": 9,
+      "sell_price": 1200
+    },
+    {
+      "name": "Research Commission Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Research_Commission_Ticket",
+      "rarity": 7,
+      "sell_price": 0
+    },
+    {
+      "name": "Research Commission Ticket+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Research_Commission_Ticket_Plus",
+      "rarity": 11,
+      "sell_price": 0
+    },
+    {
       "name": "Rich Mud",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Rich_Mud",
       "rarity": 9,
       "sell_price": 1610
+    },
+    {
+      "name": "Rime Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Rime_Crystal",
+      "rarity": 9,
+      "sell_price": 1200
     },
     {
       "name": "Rimed Hide",
@@ -3738,6 +4188,30 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Rugged_Mane",
       "rarity": 9,
       "sell_price": 2000
+    },
+    {
+      "name": "S.T.A.R.S. Badge",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/S.T.A.R.S._Badge",
+      "rarity": 12,
+      "sell_price": 1500
+    },
+    {
+      "name": "SFV Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/SFV_Ticket",
+      "rarity": 4,
+      "sell_price": 200
+    },
+    {
+      "name": "SFV Ticket II",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/SFV_Ticket_II",
+      "rarity": 6,
+      "sell_price": 400
+    },
+    {
+      "name": "SFV Ticket III",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/SFV_Ticket_III",
+      "rarity": 6,
+      "sell_price": 400
     },
     {
       "name": "Safi'jiiva Cortex",
@@ -3800,10 +4274,22 @@
       "sell_price": 15
     },
     {
+      "name": "Sealed Dragon Cloth",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Sealed_Dragon_Cloth",
+      "rarity": 10,
+      "sell_price": 800
+    },
+    {
       "name": "Sealed Feystone",
       "url": "",
       "rarity": 11,
       "sell_price": 25
+    },
+    {
+      "name": "Serene Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Serene_Crystal",
+      "rarity": 10,
+      "sell_price": 1600
     },
     {
       "name": "Shadowpierce Fang",
@@ -3932,10 +4418,22 @@
       "sell_price": 10300
     },
     {
+      "name": "Sinister Cloth",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Sinister_Cloth",
+      "rarity": 5,
+      "sell_price": 350
+    },
+    {
       "name": "Sinister Silverpelt",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Sinister_Silverpelt",
       "rarity": 10,
       "sell_price": 4500
+    },
+    {
+      "name": "Sizzling Spice Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Sizzling_Spice_Ticket",
+      "rarity": 9,
+      "sell_price": 400
     },
     {
       "name": "Skyswayer",
@@ -3980,6 +4478,12 @@
       "sell_price": 6000
     },
     {
+      "name": "Spiritvein Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Spiritvein_Crystal",
+      "rarity": 9,
+      "sell_price": 1280
+    },
+    {
       "name": "Spiritvein Gem",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Spiritvein_Gem",
       "rarity": 11,
@@ -4004,10 +4508,22 @@
       "sell_price": 4500
     },
     {
+      "name": "Spring Blossom Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Spring_Blossom_Ticket",
+      "rarity": 4,
+      "sell_price": 200
+    },
+    {
       "name": "Stark Wing",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Stark_Wing",
       "rarity": 10,
       "sell_price": 7420
+    },
+    {
+      "name": "Steam Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Steam_Ticket",
+      "rarity": 11,
+      "sell_price": 0
     },
     {
       "name": "Steel Gajau Whisker",
@@ -4082,6 +4598,18 @@
       "sell_price": 25
     },
     {
+      "name": "Summer Twilight Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Summer_Twilight_Ticket",
+      "rarity": 4,
+      "sell_price": 200
+    },
+    {
+      "name": "Tailraider Voucher",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tailraider_Voucher",
+      "rarity": 4,
+      "sell_price": 200
+    },
+    {
       "name": "Tempered Azure Horn",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Tempered_Azure_Horn",
       "rarity": 11,
@@ -4110,6 +4638,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Tempered_Cathode",
       "rarity": 9,
       "sell_price": 4000
+    },
+    {
+      "name": "Tempered Cragbone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tempered_Cragbone",
+      "rarity": 10,
+      "sell_price": 1600
     },
     {
       "name": "Tempered Crimson Mane",
@@ -4406,10 +4940,22 @@
       "sell_price": 4900
     },
     {
+      "name": "Teostra Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Teostra_Ticket",
+      "rarity": 8,
+      "sell_price": 800
+    },
+    {
       "name": "Teostra Webbing",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Teostra_Webbing",
       "rarity": 7,
       "sell_price": 4500
+    },
+    {
+      "name": "Thermae Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Thermae_Ticket",
+      "rarity": 9,
+      "sell_price": 0
     },
     {
       "name": "Thick Bone",
@@ -4422,6 +4968,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Thunder_Sac",
       "rarity": 6,
       "sell_price": 1600
+    },
+    {
+      "name": "Tigrex Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tigrex_Coin",
+      "rarity": 11,
+      "sell_price": 5000
     },
     {
       "name": "Tigrex Cortex",
@@ -4568,6 +5120,18 @@
       "sell_price": 1600
     },
     {
+      "name": "Tundra Icebone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tundra_Icebone",
+      "rarity": 9,
+      "sell_price": 1200
+    },
+    {
+      "name": "Twilight Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Twilight_Crystal",
+      "rarity": 10,
+      "sell_price": 1600
+    },
+    {
       "name": "Twilight Fang",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Twilight_Fang",
       "rarity": 11,
@@ -4596,6 +5160,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Twisted_Temperhorn",
       "rarity": 10,
       "sell_price": 5000
+    },
+    {
+      "name": "Tzitzi Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi_Coin",
+      "rarity": 4,
+      "sell_price": 800
     },
     {
       "name": "Tzitzi-Ya-Ku Claw",
@@ -4674,6 +5244,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Ultraplegia_Sac",
       "rarity": 9,
       "sell_price": 3400
+    },
+    {
+      "name": "Unknown Skull",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Unknown_Skull",
+      "rarity": 7,
+      "sell_price": 1800
     },
     {
       "name": "Uragaan Carapace",
@@ -4802,6 +5378,12 @@
       "sell_price": 4750
     },
     {
+      "name": "Vaal Hazak Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Ticket",
+      "rarity": 8,
+      "sell_price": 800
+    },
+    {
       "name": "Vaal Hazak Wing",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal_Hazak_Wing",
       "rarity": 7,
@@ -4842,6 +5424,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Velkhana_Lash",
       "rarity": 11,
       "sell_price": 9220
+    },
+    {
+      "name": "Velkhana Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Velkhana_Ticket",
+      "rarity": 12,
+      "sell_price": 1600
     },
     {
       "name": "Vespoid Carapace",
@@ -4910,6 +5498,12 @@
       "sell_price": 4570
     },
     {
+      "name": "Vivid Crimsonbone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vivid_Crimsonbone",
+      "rarity": 9,
+      "sell_price": 800
+    },
+    {
       "name": "Warm Pelt",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Warm_Pelt",
       "rarity": 4,
@@ -4928,10 +5522,34 @@
       "sell_price": 25
     },
     {
+      "name": "Wasteland Cragbone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Wasteland_Cragbone",
+      "rarity": 9,
+      "sell_price": 1200
+    },
+    {
+      "name": "Wasteland Crystal",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Wasteland_Crystal",
+      "rarity": 9,
+      "sell_price": 1200
+    },
+    {
+      "name": "Weathered Cragbone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Weathered_Cragbone",
+      "rarity": 9,
+      "sell_price": 800
+    },
+    {
       "name": "White Liver",
       "url": "https://monsterhunterworld.wiki.fextralife.com/White_Liver",
       "rarity": 2,
       "sell_price": 0
+    },
+    {
+      "name": "Wiggler Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Wiggler_Ticket",
+      "rarity": 6,
+      "sell_price": 400
     },
     {
       "name": "Wingdrake Finehide",
@@ -4952,6 +5570,18 @@
       "sell_price": 380
     },
     {
+      "name": "Winter Star Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Winter_Star_Ticket",
+      "rarity": 4,
+      "sell_price": 200
+    },
+    {
+      "name": "Woodland Greatbone",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Woodland_Greatbone",
+      "rarity": 9,
+      "sell_price": 1200
+    },
+    {
       "name": "Worn Feystone",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Worn_Feystone",
       "rarity": 6,
@@ -4962,6 +5592,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Wulg_Thickfur",
       "rarity": 9,
       "sell_price": 1240
+    },
+    {
+      "name": "Wyverian Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Wyverian_Ticket",
+      "rarity": 10,
+      "sell_price": 800
     },
     {
       "name": "Wyvern Bonemass",
@@ -5018,6 +5654,12 @@
       "sell_price": 6000
     },
     {
+      "name": "Xeno'jiiva Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Ticket",
+      "rarity": 8,
+      "sell_price": 800
+    },
+    {
       "name": "Xeno'jiiva Veil",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Veil",
       "rarity": 7,
@@ -5028,6 +5670,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno%27jiiva_Wing",
       "rarity": 7,
       "sell_price": 5000
+    },
+    {
+      "name": "Zinogre Coin",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zinogre_Coin",
+      "rarity": 9,
+      "sell_price": 1200
     },
     {
       "name": "Zinogre Cortex",
@@ -5112,6 +5760,12 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Magdaros_Ridge",
       "rarity": 6,
       "sell_price": 1400
+    },
+    {
+      "name": "Zorah Magdaros Ticket",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah_Magdaros_Ticket",
+      "rarity": 8,
+      "sell_price": 800
     }
   ]
 }

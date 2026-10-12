@@ -52,3 +52,22 @@ class ArmorSkill(BaseModel):
 
     def __str__(self):
         return f"{self.armor} - {self.skill} {self.level}"
+
+
+class ArmorMaterial(BaseModel):
+    # one line of the recipe that forges the piece. A piece with no lines is handed out, forged
+    # for nothing, or one no source has a recipe for. A full set (Ryu, Leon) is forged as one, so
+    # each of its pieces carries the set's recipe: paid once, not once per piece
+    # ponytail: lines read back in the game's order because BaseModel orders by id and the loader
+    # makes them in file order; add a position column if anything else ever writes them
+    armor = models.ForeignKey(Armor, on_delete=models.CASCADE, related_name="materials")
+    item = models.ForeignKey("items.Item", on_delete=models.CASCADE, related_name="armor_materials")
+    quantity = models.PositiveSmallIntegerField()
+
+    class Meta(BaseModel.Meta):
+        constraints = [
+            models.UniqueConstraint(fields=["armor", "item"], name="unique_armor_material")
+        ]
+
+    def __str__(self):
+        return f"{self.armor} - {self.item} x{self.quantity}"

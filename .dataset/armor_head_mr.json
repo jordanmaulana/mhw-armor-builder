@@ -30,7 +30,21 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Thick Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 1
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Bone Helm Beta +",
@@ -60,7 +74,21 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Thick Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 1
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Alloy Helm Alpha +",
@@ -90,7 +118,25 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Eltalite Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Spiritvein Crystal",
+          "quantity": 1
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Alloy Helm Beta +",
@@ -116,7 +162,25 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Eltalite Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Spiritvein Crystal",
+          "quantity": 1
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Direwolf Headgear",
@@ -139,7 +203,8 @@
         "thunder": 0,
         "ice": 2,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Vespoid Helm Alpha +",
@@ -169,7 +234,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Vespoid Razorwing",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Vespoid Helm Beta +",
@@ -195,7 +274,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Vespoid Razorwing",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Hornetaur Helm Alpha +",
@@ -225,7 +318,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hornetaur Razorwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Hornetaur Helm Beta +",
@@ -255,7 +362,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hornetaur Razorwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Shamos Goggles Alpha +",
@@ -286,7 +407,21 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Shamos Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Tough Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Shamos Goggles Beta +",
@@ -317,7 +452,21 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Shamos Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Tough Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Gastodon Horn Alpha +",
@@ -347,7 +496,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Gastodon Husk",
+          "quantity": 3
+        },
+        {
+          "name": "Prized Pelt",
+          "quantity": 1
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Gastodon Horn Beta +",
@@ -378,7 +541,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Gastodon Husk",
+          "quantity": 3
+        },
+        {
+          "name": "Prized Pelt",
+          "quantity": 1
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Wulg Scarf Alpha +",
@@ -409,7 +586,21 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Wulg Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Wingdrake Finehide",
+          "quantity": 1
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Wulg Scarf Beta +",
@@ -440,7 +631,21 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Wulg Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Wingdrake Finehide",
+          "quantity": 1
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Jagras Helm Alpha +",
@@ -470,7 +675,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Jagras Thickhide",
+          "quantity": 1
+        },
+        {
+          "name": "Great Jagras Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Jagras Helm Beta +",
@@ -501,7 +724,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Jagras Thickhide",
+          "quantity": 1
+        },
+        {
+          "name": "Great Jagras Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Tzitzi Headgear Alpha +",
@@ -532,7 +773,25 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photomembrane",
+          "quantity": 1
+        },
+        {
+          "name": "Shamos Shard",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Tzitzi Headgear Beta +",
@@ -558,7 +817,25 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photomembrane",
+          "quantity": 1
+        },
+        {
+          "name": "Shamos Shard",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Girros Headgear Alpha +",
@@ -588,7 +865,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Girros Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Great Girros Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Ultraplegia Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Girros Headgear Beta +",
@@ -613,7 +908,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Girros Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Great Girros Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Ultraplegia Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Dodogama Helm Alpha +",
@@ -643,7 +956,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Dodogama Mandible",
+          "quantity": 1
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Dodogama Helm Beta +",
@@ -668,7 +999,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Dodogama Mandible",
+          "quantity": 1
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kulu Headpiece Alpha +",
@@ -698,7 +1047,25 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 1
+        },
+        {
+          "name": "Jagras Shard",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Kulu Headpiece Beta +",
@@ -723,7 +1090,25 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 1
+        },
+        {
+          "name": "Jagras Shard",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Pukei Hat Alpha +",
@@ -754,7 +1139,21 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 1
+        },
+        {
+          "name": "Large Pukei-Pukei Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Pukei Hat Beta +",
@@ -781,7 +1180,21 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 1
+        },
+        {
+          "name": "Large Pukei-Pukei Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Pukei Lagoon Hat Alpha +",
@@ -811,7 +1224,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Coral Pukei-Pukei Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Coral Pukei-Pukei Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Large Coral Pukei-Pukei Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Flood Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Pukei Lagoon Hat Beta +",
@@ -841,7 +1272,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Coral Pukei-Pukei Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Coral Pukei-Pukei Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Large Coral Pukei-Pukei Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Flood Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Barroth Helm Alpha +",
@@ -871,7 +1320,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barroth Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 3
+        },
+        {
+          "name": "Rich Mud",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Barroth Helm Beta +",
@@ -897,7 +1364,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barroth Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 3
+        },
+        {
+          "name": "Rich Mud",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Jyura Helm Alpha +",
@@ -928,7 +1413,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jyuratodus Cortex",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Grandfin",
+          "quantity": 1
+        },
+        {
+          "name": "Steel Gajau Whisker",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Jyura Helm Beta +",
@@ -959,7 +1462,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jyuratodus Cortex",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Grandfin",
+          "quantity": 1
+        },
+        {
+          "name": "Steel Gajau Whisker",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Beo Helm Alpha +",
@@ -989,7 +1510,21 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Beotodus Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Beotodus Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Beotodus Grandfin",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Beo Helm Beta +",
@@ -1015,7 +1550,21 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Beotodus Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Beotodus Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Beotodus Grandfin",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kadachi Hat Alpha +",
@@ -1045,7 +1594,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Thickfur",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Cathode",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kadachi Hat Beta +",
@@ -1076,7 +1643,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Thickfur",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Cathode",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Viper Kadachi Hat Alpha +",
@@ -1106,7 +1691,25 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Viper Tobi-Kadachi Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Viper Tobi-Kadachi Thorn",
+          "quantity": 2
+        },
+        {
+          "name": "Viper Tobi-Kadachi Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Wulg Thickfur",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Viper Kadachi Hat Beta +",
@@ -1136,7 +1739,25 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Viper Tobi-Kadachi Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Viper Tobi-Kadachi Thorn",
+          "quantity": 2
+        },
+        {
+          "name": "Viper Tobi-Kadachi Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Wulg Thickfur",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "High Metal Helm Alpha +",
@@ -1166,7 +1787,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Bathycite Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Tough Claw",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "High Metal Helm Beta +",
@@ -1197,7 +1836,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Bathycite Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Tough Claw",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Banbaro Helm Alpha +",
@@ -1227,7 +1884,21 @@
         "thunder": -1,
         "ice": 3,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Banbaro Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Banbaro Great Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Anteka Antler",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Banbaro Helm Beta +",
@@ -1253,7 +1924,21 @@
         "thunder": -1,
         "ice": 3,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Banbaro Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Banbaro Great Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Anteka Antler",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Anja Helm Alpha +",
@@ -1283,7 +1968,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Anjanath Fur",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Conflagrant Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Anja Helm Beta +",
@@ -1308,7 +2011,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Anjanath Fur",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Conflagrant Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Fulgur Helm Alpha +",
@@ -1339,7 +2060,25 @@
         "thunder": 2,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fulgur Anjanath Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Fulgur Anjanath Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Fulgur Anjanath Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Lightning Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Fulgur Helm Beta +",
@@ -1365,7 +2104,25 @@
         "thunder": 2,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fulgur Anjanath Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Fulgur Anjanath Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Fulgur Anjanath Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Lightning Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Rathian Helm Alpha +",
@@ -1395,7 +2152,21 @@
         "thunder": -2,
         "ice": 0,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Rathian Weave",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rathian Helm Beta +",
@@ -1425,7 +2196,21 @@
         "thunder": -2,
         "ice": 0,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Rathian Weave",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rath Heart Helm Alpha +",
@@ -1455,7 +2240,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Pink Rathian Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Pink Rathian Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Rathian Weave",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rath Heart Helm Beta +",
@@ -1481,7 +2284,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Pink Rathian Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Pink Rathian Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Rathian Weave",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Lumu Hat Alpha +",
@@ -1511,7 +2332,21 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Lumu Hat Beta +",
@@ -1537,7 +2372,21 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Lumu Phantasm Hood Alpha +",
@@ -1568,7 +2417,21 @@
         "thunder": 2,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Lumu Phantasm Hood Beta +",
@@ -1593,7 +2456,21 @@
         "thunder": 2,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Baan Helm Alpha +",
@@ -1624,7 +2501,25 @@
         "thunder": 0,
         "ice": -1,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Bonemass",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Baan Helm Beta +",
@@ -1649,7 +2544,25 @@
         "thunder": 0,
         "ice": -1,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Bonemass",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Artian Helm Alpha +",
@@ -1679,7 +2592,25 @@
         "thunder": -2,
         "ice": 2,
         "dragon": 3
-      }
+      },
+      "materials": [
+        {
+          "name": "Ancient Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Deadly Poison Sac",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Artian Helm Beta +",
@@ -1710,7 +2641,25 @@
         "thunder": -2,
         "ice": 2,
         "dragon": 3
-      }
+      },
+      "materials": [
+        {
+          "name": "Ancient Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Deadly Poison Sac",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Clockwork Helm Alpha +",
@@ -1741,7 +2690,25 @@
         "thunder": 2,
         "ice": -1,
         "dragon": -1
-      }
+      },
+      "materials": [
+        {
+          "name": "Steam Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Clockwork Helm Beta +",
@@ -1772,7 +2739,25 @@
         "thunder": 2,
         "ice": -1,
         "dragon": -1
-      }
+      },
+      "materials": [
+        {
+          "name": "Steam Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Ingot Helm Alpha +",
@@ -1802,7 +2787,21 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Ingot Helm Beta +",
@@ -1828,7 +2827,21 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Barioth Helm Alpha +",
@@ -1859,7 +2872,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barioth Thickfur",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Barioth Greatspike",
+          "quantity": 3
+        },
+        {
+          "name": "Wulg Thickfur",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Barioth Helm Beta +",
@@ -1890,7 +2921,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barioth Thickfur",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Barioth Greatspike",
+          "quantity": 3
+        },
+        {
+          "name": "Wulg Thickfur",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rathalos Helm Alpha +",
@@ -1920,7 +2969,25 @@
         "thunder": -2,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Rath Wingtalon+",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rathalos Helm Beta +",
@@ -1946,7 +3013,25 @@
         "thunder": -2,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Rath Wingtalon+",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rath Soul Helm Alpha +",
@@ -1977,7 +3062,25 @@
         "thunder": 2,
         "ice": -3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Azure Rathalos Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Azure Rathalos Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Wingtalon+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Rath Soul Helm Beta +",
@@ -2002,7 +3105,25 @@
         "thunder": 2,
         "ice": -3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Azure Rathalos Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Azure Rathalos Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Wingtalon+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Diablos Helm Alpha +",
@@ -2032,7 +3153,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Diablos Cortex",
+          "quantity": 1
+        },
+        {
+          "name": "Twisted Stouthorn",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Diablos Helm Beta +",
@@ -2057,7 +3196,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Diablos Cortex",
+          "quantity": 1
+        },
+        {
+          "name": "Twisted Stouthorn",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Diablos Nero Helm Alpha +",
@@ -2088,7 +3245,25 @@
         "thunder": 0,
         "ice": -4,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Black Diablos Chine",
+          "quantity": 3
+        },
+        {
+          "name": "Black Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Blackcurl Stouthorn",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Diablos Nero Helm Beta +",
@@ -2114,7 +3289,25 @@
         "thunder": 0,
         "ice": -4,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Black Diablos Chine",
+          "quantity": 3
+        },
+        {
+          "name": "Black Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Blackcurl Stouthorn",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Legiana Helm Alpha +",
@@ -2144,7 +3337,25 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Legiana Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Fellwing",
+          "quantity": 1
+        },
+        {
+          "name": "Shamos Shard",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Legiana Helm Beta +",
@@ -2170,7 +3381,25 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Legiana Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Fellwing",
+          "quantity": 1
+        },
+        {
+          "name": "Shamos Shard",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Hoarcry Helm Alpha +",
@@ -2202,7 +3431,25 @@
         "thunder": -1,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Rimed Hide",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Obsidian Icetalon",
+          "quantity": 1
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Hoarcry Helm Beta +",
@@ -2228,7 +3475,25 @@
         "thunder": -1,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Rimed Hide",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Obsidian Icetalon",
+          "quantity": 1
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Odogaron Helm Alpha +",
@@ -2258,7 +3523,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Odogaron Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Odogaron Helm Beta +",
@@ -2288,7 +3571,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Odogaron Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Death Garon Helm Alpha +",
@@ -2318,7 +3619,25 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Hard Ebony Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "name": "Ebony Odogaron Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Ebony Odogaron Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Ebony Odogaron Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Death Garon Helm Beta +",
@@ -2344,7 +3663,25 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Hard Ebony Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "name": "Ebony Odogaron Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Ebony Odogaron Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Ebony Odogaron Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Lavasioth Helm Alpha +",
@@ -2375,7 +3712,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lavasioth Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Lavasioth Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Lavasioth Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Gastodon Husk",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Lavasioth Helm Beta +",
@@ -2406,7 +3761,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lavasioth Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Lavasioth Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Lavasioth Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Gastodon Husk",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Uragaan Helm Alpha +",
@@ -2437,7 +3810,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Uragaan Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Uragaan Scute+",
+          "quantity": 1
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Uragaan Helm Beta +",
@@ -2463,7 +3854,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Uragaan Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Uragaan Scute+",
+          "quantity": 1
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Nargacuga Helm Alpha +",
@@ -2494,7 +3903,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Nargacuga Blackfur+",
+          "quantity": 2
+        },
+        {
+          "name": "Nargacuga Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Nargacuga Tailspear",
+          "quantity": 2
+        },
+        {
+          "name": "Steel Gajau Whisker",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Nargacuga Helm Beta +",
@@ -2525,7 +3952,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Nargacuga Blackfur+",
+          "quantity": 2
+        },
+        {
+          "name": "Nargacuga Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Nargacuga Tailspear",
+          "quantity": 2
+        },
+        {
+          "name": "Steel Gajau Whisker",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Glavenus Helm Alpha +",
@@ -2555,7 +4000,25 @@
         "thunder": 1,
         "ice": -1,
         "dragon": -1
-      }
+      },
+      "materials": [
+        {
+          "name": "Glavenus Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Hellshell",
+          "quantity": 1
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Glavenus Helm Beta +",
@@ -2585,7 +4048,25 @@
         "thunder": 1,
         "ice": -1,
         "dragon": -1
-      }
+      },
+      "materials": [
+        {
+          "name": "Glavenus Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Hellshell",
+          "quantity": 1
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Acidic Glavenus Helm Alpha +",
@@ -2615,7 +4096,25 @@
         "thunder": -1,
         "ice": 2,
         "dragon": -1
-      }
+      },
+      "materials": [
+        {
+          "name": "Acidic Glavenus Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Acidic Glavenus Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 3
+        },
+        {
+          "name": "Honed Acidcryst",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Acidic Glavenus Helm Beta +",
@@ -2645,7 +4144,25 @@
         "thunder": -1,
         "ice": 2,
         "dragon": -1
-      }
+      },
+      "materials": [
+        {
+          "name": "Acidic Glavenus Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Acidic Glavenus Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 3
+        },
+        {
+          "name": "Honed Acidcryst",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Brachydios Helm Alpha +",
@@ -2675,7 +4192,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Fine Brachydios Ebonshell",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Cortex",
+          "quantity": 1
+        },
+        {
+          "name": "Brachydios Crown",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Pallium",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Brachydios Helm Beta +",
@@ -2701,7 +4236,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Fine Brachydios Ebonshell",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Cortex",
+          "quantity": 1
+        },
+        {
+          "name": "Brachydios Crown",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Pallium",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Tigrex Helm Alpha +",
@@ -2731,7 +4284,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Tigrex Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Tigrex Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Tigrex Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Tigrex Helm Beta +",
@@ -2761,7 +4332,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Tigrex Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Tigrex Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Tigrex Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Black Belt Helm Alpha +",
@@ -2791,7 +4380,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Black Belt Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Cortos Hardclaw",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Black Belt Helm Beta +",
@@ -2817,7 +4420,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Black Belt Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Cortos Hardclaw",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Dober Helm Alpha +",
@@ -2847,7 +4464,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Uragaan Scute+",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Dober Helm Beta +",
@@ -2872,7 +4507,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Uragaan Scute+",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Damascus Helm Alpha +",
@@ -2902,7 +4555,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "name": "Gracium",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Damascus Helm Beta +",
@@ -2929,7 +4600,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "name": "Gracium",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Pride Helm Alpha +",
@@ -2960,7 +4649,25 @@
         "thunder": -2,
         "ice": -4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Flickering Silvershell",
+          "quantity": 3
+        },
+        {
+          "name": "Distilled Blast Fluid",
+          "quantity": 2
+        },
+        {
+          "name": "Scorching Silverwing",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Pride Helm Beta +",
@@ -2991,7 +4698,25 @@
         "thunder": -2,
         "ice": -4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Flickering Silvershell",
+          "quantity": 3
+        },
+        {
+          "name": "Distilled Blast Fluid",
+          "quantity": 2
+        },
+        {
+          "name": "Scorching Silverwing",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Esurient Helm Alpha +",
@@ -3021,7 +4746,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Vile Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Ebony Odogaron Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Esurient Helm Beta +",
@@ -3047,7 +4790,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Vile Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Ebony Odogaron Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rimeguard Helm Alpha +",
@@ -3078,7 +4839,25 @@
         "thunder": -1,
         "ice": 4,
         "dragon": -1
-      }
+      },
+      "materials": [
+        {
+          "name": "Velkhana Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Crystal Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Velkhana Crownhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Rimeguard Helm Beta +",
@@ -3104,7 +4883,25 @@
         "thunder": -1,
         "ice": 4,
         "dragon": -1
-      }
+      },
+      "materials": [
+        {
+          "name": "Velkhana Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Crystal Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Velkhana Crownhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Fellshroud Helm Alpha +",
@@ -3134,7 +4931,25 @@
         "thunder": 1,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Vaal Hazak Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Shadowpierce Fang",
+          "quantity": 1
+        },
+        {
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Fellshroud Helm Beta +",
@@ -3160,7 +4975,25 @@
         "thunder": 1,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Vaal Hazak Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Shadowpierce Fang",
+          "quantity": 1
+        },
+        {
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kaiser Crown Alpha +",
@@ -3190,7 +5023,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Teostra Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Teostra Mane+",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kaiser Crown Beta +",
@@ -3220,7 +5071,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Teostra Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Teostra Mane+",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kushala Glare Alpha +",
@@ -3250,7 +5119,25 @@
         "thunder": -3,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Daora Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Daora Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kushala Glare Beta +",
@@ -3281,7 +5168,25 @@
         "thunder": -3,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Daora Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Daora Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kirin Horn Alpha +",
@@ -3312,7 +5217,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Finehide",
+          "quantity": 1
+        },
+        {
+          "name": "Kirin Azure Horn+",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kirin Horn Beta +",
@@ -3339,7 +5262,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Finehide",
+          "quantity": 1
+        },
+        {
+          "name": "Kirin Azure Horn+",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Tentacle Cowl Alpha +",
@@ -3369,7 +5310,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Namielle Finehide",
+          "quantity": 2
+        },
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Uragaan Pallium",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Tentacle Cowl Beta +",
@@ -3399,7 +5358,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Namielle Finehide",
+          "quantity": 2
+        },
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Uragaan Pallium",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Shara Ishvalda Helm Alpha +",
@@ -3430,7 +5407,25 @@
         "thunder": 3,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Shara Ishvalda Boulderplate",
+          "quantity": 4
+        },
+        {
+          "name": "Shara Ishvalda Tenderscale",
+          "quantity": 3
+        },
+        {
+          "name": "Shara Ishvalda Tenderplate",
+          "quantity": 1
+        },
+        {
+          "name": "Rathian Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Shara Ishvalda Helm Beta +",
@@ -3456,7 +5451,25 @@
         "thunder": 3,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Shara Ishvalda Boulderplate",
+          "quantity": 4
+        },
+        {
+          "name": "Shara Ishvalda Tenderscale",
+          "quantity": 3
+        },
+        {
+          "name": "Shara Ishvalda Tenderplate",
+          "quantity": 1
+        },
+        {
+          "name": "Rathian Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Zorah Headgear Alpha +",
@@ -3487,7 +5500,25 @@
         "thunder": -1,
         "ice": -2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Fierce Dragonvein Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Cracked Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Weathered Cragbone",
+          "quantity": 3
+        },
+        {
+          "name": "Conqueror's Seal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Zorah Headgear Beta +",
@@ -3514,7 +5545,25 @@
         "thunder": -1,
         "ice": -2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Fierce Dragonvein Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Cracked Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Weathered Cragbone",
+          "quantity": 3
+        },
+        {
+          "name": "Conqueror's Seal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Garuga Helm Alpha +",
@@ -3544,7 +5593,25 @@
         "thunder": 2,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Garuga Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Garuga Silverpelt",
+          "quantity": 2
+        },
+        {
+          "name": "Fancy Beak",
+          "quantity": 1
+        },
+        {
+          "name": "Decayed Crystal",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Garuga Helm Beta +",
@@ -3575,7 +5642,25 @@
         "thunder": 2,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Garuga Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Garuga Silverpelt",
+          "quantity": 2
+        },
+        {
+          "name": "Fancy Beak",
+          "quantity": 1
+        },
+        {
+          "name": "Decayed Crystal",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Zinogre Helm Alpha +",
@@ -3605,7 +5690,25 @@
         "thunder": 4,
         "ice": -4,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Zinogre Electrofur+",
+          "quantity": 3
+        },
+        {
+          "name": "Zinogre Deathly Shocker",
+          "quantity": 2
+        },
+        {
+          "name": "Zinogre Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Zinogre Skymerald",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Zinogre Helm Beta +",
@@ -3635,7 +5738,25 @@
         "thunder": 4,
         "ice": -4,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Zinogre Electrofur+",
+          "quantity": 3
+        },
+        {
+          "name": "Zinogre Deathly Shocker",
+          "quantity": 2
+        },
+        {
+          "name": "Zinogre Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Zinogre Skymerald",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Empress Crown Alpha +",
@@ -3665,7 +5786,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lunastra Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Mane+",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Empress Crown Beta +",
@@ -3691,7 +5830,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lunastra Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Mane+",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Guild Palace Helm Alpha +",
@@ -3721,7 +5878,25 @@
         "thunder": 2,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Hero King Coin",
+          "quantity": 1
+        },
+        {
+          "name": "Tigrex Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Black Belt Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Velkhana Crownhorn",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Guild Palace Helm Beta +",
@@ -3747,7 +5922,25 @@
         "thunder": 2,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Hero King Coin",
+          "quantity": 1
+        },
+        {
+          "name": "Tigrex Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Black Belt Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Velkhana Crownhorn",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Ruinous Helm Alpha +",
@@ -3778,7 +5971,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Nergigante Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Ruinous Helm Beta +",
@@ -3804,7 +6015,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Nergigante Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Silver Solhelm Alpha +",
@@ -3835,7 +6064,25 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 3
-      }
+      },
+      "materials": [
+        {
+          "name": "Silver Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Silver Rathalos Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Silver Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Silver Solhelm Beta +",
@@ -3861,7 +6108,25 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 3
-      }
+      },
+      "materials": [
+        {
+          "name": "Silver Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Silver Rathalos Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Silver Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Golden Lunehelm Beta+",
@@ -3887,7 +6152,25 @@
         "thunder": -4,
         "ice": 0,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Golden Lunehelm Alpha+",
@@ -3918,7 +6201,25 @@
         "thunder": -4,
         "ice": 0,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Golden Headdress Alpha +",
@@ -3946,7 +6247,25 @@
         "thunder": 3,
         "ice": -5,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Rajang Wildpelt",
+          "quantity": 4
+        },
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Rajang Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Golden Headdress Beta +",
@@ -3972,7 +6291,25 @@
         "thunder": 3,
         "ice": -5,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Rajang Wildpelt",
+          "quantity": 4
+        },
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Rajang Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Rex Roar Helm Alpha +",
@@ -4002,7 +6339,25 @@
         "thunder": -2,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Brute Tigrex Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Brute Tigrex Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Brute Tigrex Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Distorted Crystal",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Rex Roar Helm Beta +",
@@ -4032,7 +6387,25 @@
         "thunder": -2,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Brute Tigrex Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Brute Tigrex Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Brute Tigrex Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Distorted Crystal",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Guildwork Head Alpha +",
@@ -4063,7 +6436,25 @@
         "thunder": 1,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Research Commission Ticket+",
+          "quantity": 1
+        },
+        {
+          "name": "Forest Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Woodland Greatbone",
+          "quantity": 2
+        },
+        {
+          "name": "Steam Ticket",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Guildwork Head Beta +",
@@ -4094,7 +6485,25 @@
         "thunder": 1,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Research Commission Ticket+",
+          "quantity": 1
+        },
+        {
+          "name": "Forest Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Woodland Greatbone",
+          "quantity": 2
+        },
+        {
+          "name": "Steam Ticket",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Stygian Helm Alpha +",
@@ -4125,7 +6534,25 @@
         "thunder": -5,
         "ice": 0,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Stygian Zinogre Dragonlocks",
+          "quantity": 3
+        },
+        {
+          "name": "Stygian Zinogre Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Dracophage Bug",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Stygian Helm Beta +",
@@ -4156,7 +6583,25 @@
         "thunder": -5,
         "ice": 0,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Stygian Zinogre Dragonlocks",
+          "quantity": 3
+        },
+        {
+          "name": "Stygian Zinogre Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Dracophage Bug",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Claire's Head Alpha +",
@@ -4187,7 +6632,25 @@
         "thunder": 2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "S.T.A.R.S. Badge",
+          "quantity": 6
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Vaal Hazak Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Deathweaver Membrane",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Leon's Head Alpha +",
@@ -4218,7 +6681,25 @@
         "thunder": 2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "S.T.A.R.S. Badge",
+          "quantity": 6
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Shadowpierce Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Deathweaver Membrane",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Banuk Helm Alpha +",
@@ -4250,7 +6731,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Daemon Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Deviljho Blackpiel",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Shard",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Safi Crested Crown Alpha +",
@@ -4282,7 +6781,25 @@
         "thunder": 1,
         "ice": 1,
         "dragon": -1
-      }
+      },
+      "materials": [
+        {
+          "name": "Safi'jiiva Hardhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Safi'jiiva Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Safi'jiiva Fellwing",
+          "quantity": 6
+        },
+        {
+          "name": "Zionium Crystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Safi Crested Crown Beta +",
@@ -4314,7 +6831,25 @@
         "thunder": 1,
         "ice": 1,
         "dragon": -1
-      }
+      },
+      "materials": [
+        {
+          "name": "Safi'jiiva Hardhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Safi'jiiva Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Safi'jiiva Fellwing",
+          "quantity": 6
+        },
+        {
+          "name": "Zionium Crystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Oolong Hair Alpha +",
@@ -4339,7 +6874,17 @@
         "thunder": 1,
         "ice": 4,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Joyful Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Duffel Penguin Mask Alpha +",
@@ -4364,7 +6909,17 @@
         "thunder": 0,
         "ice": 4,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Penguin Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Sealed Dragon Cloth Alpha +",
@@ -4390,7 +6945,21 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 5
-      }
+      },
+      "materials": [
+        {
+          "name": "Sealed Dragon Cloth",
+          "quantity": 1
+        },
+        {
+          "name": "Deathweaver Membrane",
+          "quantity": 2
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Wyverian Ears Alpha +",
@@ -4420,7 +6989,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 5
-      }
+      },
+      "materials": [
+        {
+          "name": "Wyverian Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Astral Veil Alpha +",
@@ -4445,7 +7024,21 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Gratitude Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Gracium",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Showman Earrings Alpha +",
@@ -4472,7 +7065,8 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": []
     },
     {
       "name": "Acrobat Earrings Alpha +",
@@ -4499,7 +7093,8 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": []
     },
     {
       "name": "Brachydium Helm Alpha +",
@@ -4531,7 +7126,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Indestructible Ebonshell",
+          "quantity": 2
+        },
+        {
+          "name": "Brach Warhead",
+          "quantity": 1
+        },
+        {
+          "name": "Brach Obliterator",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Brachydium Helm Beta +",
@@ -4558,7 +7171,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Indestructible Ebonshell",
+          "quantity": 2
+        },
+        {
+          "name": "Brach Warhead",
+          "quantity": 1
+        },
+        {
+          "name": "Brach Obliterator",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Grand God's Peer Mask Alpha +",
@@ -4586,7 +7217,25 @@
         "thunder": 3,
         "ice": -5,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Rajang Apoplexy",
+          "quantity": 2
+        },
+        {
+          "name": "Ghoulish Gold Gorer",
+          "quantity": 1
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Heart",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Grand God's Peer Mask Beta +",
@@ -4616,7 +7265,25 @@
         "thunder": 3,
         "ice": -5,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Rajang Apoplexy",
+          "quantity": 2
+        },
+        {
+          "name": "Ghoulish Gold Gorer",
+          "quantity": 1
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Heart",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rose Headpiece Alpha +",
@@ -4643,7 +7310,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Full Bloom Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kulve Taroth's Fury Alpha +",
@@ -4671,7 +7348,25 @@
         "thunder": 3,
         "ice": -2,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulve Taroth Golden Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulve Taroth Golden Shell+",
+          "quantity": 2
+        },
+        {
+          "name": "Kulve Taroth Golden Spiralhorn+",
+          "quantity": 6
+        },
+        {
+          "name": "Golden Dragonsphire",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kulve Taroth's Fury Beta +",
@@ -4698,7 +7393,25 @@
         "thunder": 3,
         "ice": -2,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulve Taroth Golden Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulve Taroth Golden Shell+",
+          "quantity": 2
+        },
+        {
+          "name": "Kulve Taroth Golden Spiralhorn+",
+          "quantity": 6
+        },
+        {
+          "name": "Golden Dragonsphire",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Tentacle Cowl Gamma +",
@@ -4729,7 +7442,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Namielle Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Namielle Finehide",
+          "quantity": 5
+        },
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 6
+        },
+        {
+          "name": "Namielle Whisker",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Escadora Wisdom Alpha +",
@@ -4760,7 +7491,25 @@
         "thunder": 0,
         "ice": 3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Alatreon Pallium",
+          "quantity": 2
+        },
+        {
+          "name": "Alatreon Mantle",
+          "quantity": 2
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 2
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Escadora Wisdom Beta +",
@@ -4791,7 +7540,25 @@
         "thunder": 0,
         "ice": 3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Alatreon Pallium",
+          "quantity": 2
+        },
+        {
+          "name": "Alatreon Mantle",
+          "quantity": 2
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 2
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Frostfang Helm Alpha +",
@@ -4823,7 +7590,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Frostfang Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Cryo Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Frostfang Helm Beta +",
@@ -4850,7 +7635,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Frostfang Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Cryo Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Passionate Headdress Alpha +",
@@ -4875,7 +7678,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Sizzling Spice Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 1
+        },
+        {
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Dragonhead Alpha +",
@@ -4907,7 +7724,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Fatalis Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Skymerald",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Dragonhead Beta +",
@@ -4934,7 +7769,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Fatalis Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Skymerald",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Artemis Head Alpha +",
@@ -4965,7 +7818,13 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Chocolate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rimeguard Helm Gamma +",
@@ -4997,7 +7856,25 @@
         "thunder": -1,
         "ice": 4,
         "dragon": -1
-      }
+      },
+      "materials": [
+        {
+          "name": "Velkhana Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Velkhana Cortex",
+          "quantity": 5
+        },
+        {
+          "name": "Velkhana Crownhorn",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Demonlord Hair Alpha +",
@@ -5022,7 +7899,21 @@
         "thunder": 4,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Fun Fright Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 1
+        },
+        {
+          "name": "Shadowpierce Fang",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Shield-Weaver Head +",
@@ -5053,7 +7944,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Bluegleam",
+          "quantity": 3
+        },
+        {
+          "name": "Stygian Zinogre Cortex",
+          "quantity": 8
+        },
+        {
+          "name": "Stygian Zinogre Dragonhold",
+          "quantity": 5
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Pearlspring Alpha +",
@@ -5079,7 +7988,21 @@
         "thunder": 0,
         "ice": 5,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Pearlspring Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Prized Pelt",
+          "quantity": 2
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 2
+        }
+      ]
     }
   ]
 }

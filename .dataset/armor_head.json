@@ -23,7 +23,21 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Machalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Alloy Helm Alpha",
@@ -51,7 +65,25 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Alloy Helm Beta",
@@ -76,7 +108,25 @@
         "thunder": -2,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Anja Helm",
@@ -99,7 +149,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Anjanath Pelt",
+          "quantity": 3
+        },
+        {
+          "name": "Anjanath Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Anjanath Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Flame Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Anja Helm+",
@@ -122,7 +190,8 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Anja Helm Alpha",
@@ -150,7 +219,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Anjanath Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Anja Helm Beta",
@@ -175,7 +262,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Anjanath Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Azure Starlord Crown Alpha",
@@ -200,7 +305,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 3
-      }
+      },
+      "materials": [
+        {
+          "name": "Azure Stargem",
+          "quantity": 1
+        },
+        {
+          "name": "Dodogama Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Dodogama Hide+",
+          "quantity": 6
+        },
+        {
+          "name": "Dodogama Jaw",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Baan Helm",
@@ -223,7 +346,25 @@
         "thunder": 0,
         "ice": -1,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Radobaan Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Radobaan Oilshell",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Bonemass",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Marrow",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Baan Helm Alpha",
@@ -246,7 +387,25 @@
         "thunder": 0,
         "ice": -1,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Radobaan Medulla",
+          "quantity": 1
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Baan Helm Beta",
@@ -271,7 +430,25 @@
         "thunder": 0,
         "ice": -1,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Radobaan Medulla",
+          "quantity": 1
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Banbaro Helm+",
@@ -294,7 +471,8 @@
         "thunder": -1,
         "ice": 3,
         "dragon": -3
-      }
+      },
+      "materials": []
     },
     {
       "name": "Barroth Helm",
@@ -317,7 +495,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barroth Ridge",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Barroth Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Kestodon Shell",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Barroth Helm Alpha",
@@ -340,7 +536,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barroth Ridge+",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Claw+",
+          "quantity": 3
+        },
+        {
+          "name": "Kestodon Carapace",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Barroth Helm Beta",
@@ -365,7 +579,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Barroth Ridge+",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Claw+",
+          "quantity": 3
+        },
+        {
+          "name": "Kestodon Carapace",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Bazel Helm Alpha",
@@ -395,7 +627,25 @@
         "thunder": -4,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Bazelgeuse Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Bazelgeuse Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Bazelgeuse Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Bazel Helm Beta",
@@ -421,7 +671,25 @@
         "thunder": -4,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Bazelgeuse Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Bazelgeuse Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Bazelgeuse Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Beo Helm+",
@@ -444,7 +712,8 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 2
-      }
+      },
+      "materials": []
     },
     {
       "name": "Blossom Headgear",
@@ -467,7 +736,17 @@
         "thunder": 4,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Spring Blossom Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Blossom Headgear Alpha",
@@ -493,7 +772,17 @@
         "thunder": 4,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Spring Blossom Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Bone Helm",
@@ -516,7 +805,17 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 2
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Bone Helm Alpha",
@@ -544,7 +843,21 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Bone Helm Beta",
@@ -569,7 +882,21 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Brigade Lobos",
@@ -592,7 +919,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Pinnacle Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Brigade Lobos Alpha",
@@ -620,7 +965,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hunter King Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Gama Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Brigade Lobos Beta",
@@ -645,7 +1008,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hunter King Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Gama Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Butterfly Vertex",
@@ -668,7 +1049,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Flame Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Butterfly Vertex Alpha",
@@ -696,7 +1095,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Butterfly Vertex Beta",
@@ -721,7 +1138,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Chainmail Headgear",
@@ -744,7 +1179,13 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Chainmail Headgear Alpha",
@@ -772,7 +1213,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Chainmail Headgear Beta",
@@ -797,7 +1248,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Commission Gorget Alpha",
@@ -827,7 +1288,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Rathalos Scale+",
+          "quantity": 8
+        },
+        {
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Commission Gorget Beta",
@@ -852,7 +1331,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Rathalos Scale+",
+          "quantity": 8
+        },
+        {
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Damascus Helm Alpha",
@@ -882,7 +1379,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Great Girros Hood+",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Damascus Helm Beta",
@@ -907,7 +1422,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Great Girros Hood+",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Dante's Hair Alpha",
@@ -937,7 +1470,25 @@
         "thunder": 3,
         "ice": -3,
         "dragon": 3
-      }
+      },
+      "materials": [
+        {
+          "name": "Red Orb",
+          "quantity": 1
+        },
+        {
+          "name": "Rathalos Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Odogaron Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Anjanath Scale+",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Death Stench Brain",
@@ -960,7 +1511,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Sinister Cloth",
+          "quantity": 1
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Sharp Claw",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Death Stench Brain Alpha",
@@ -990,7 +1559,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 1
+        },
+        {
+          "name": "Piercing Claw",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Death Stench Brain Beta",
@@ -1015,7 +1602,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 1
+        },
+        {
+          "name": "Piercing Claw",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Diablos Helm",
@@ -1038,7 +1643,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Diablos Ridge",
+          "quantity": 3
+        },
+        {
+          "name": "Diablos Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Twisted Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Diablos Marrow",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Diablos Helm Alpha",
@@ -1066,7 +1689,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "name": "Diablos Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Majestic Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Diablos Helm Beta",
@@ -1091,7 +1732,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "name": "Diablos Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Majestic Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Diablos Nero Helm Alpha",
@@ -1116,7 +1775,25 @@
         "thunder": 0,
         "ice": -4,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Black Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "name": "Majestic Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Black Spiral Horn+",
+          "quantity": 1
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Diablos Nero Helm Beta",
@@ -1141,7 +1818,25 @@
         "thunder": 0,
         "ice": -4,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Black Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "name": "Majestic Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Black Spiral Horn+",
+          "quantity": 1
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Direwolf Headgear",
@@ -1164,7 +1859,8 @@
         "thunder": 0,
         "ice": 2,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Diver's Mask Alpha",
@@ -1189,7 +1885,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Summer Twilight Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Diver's Mask",
@@ -1212,7 +1922,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Summer Twilight Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Dober Helm Alpha",
@@ -1240,7 +1960,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Fuse",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Dober Helm Beta",
@@ -1265,7 +2003,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Fuse",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Dodogama Helm Alpha",
@@ -1288,7 +2044,25 @@
         "thunder": -3,
         "ice": 2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Dodogama Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Jaw",
+          "quantity": 1
+        },
+        {
+          "name": "Gastodon Horn",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Dodogama Helm Beta",
@@ -1313,7 +2087,25 @@
         "thunder": -3,
         "ice": 2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Dodogama Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Jaw",
+          "quantity": 1
+        },
+        {
+          "name": "Gastodon Horn",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Drachen Armet Alpha",
@@ -1344,7 +2136,25 @@
         "thunder": 3,
         "ice": -2,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Behemoth Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Behemoth Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Behemoth Great Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Aetheryte Shard",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Dragonking Eyepatch Alpha",
@@ -1369,7 +2179,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        },
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Dragonseal Earrings",
@@ -1392,7 +2216,8 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Empress Crown Alpha",
@@ -1423,7 +2248,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lunastra Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Empress Crown Beta",
@@ -1449,7 +2292,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lunastra Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Empress Crown Gamma",
@@ -1481,7 +2342,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lunastra Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Mane",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Faux Felyne Alpha Helm",
@@ -1504,7 +2383,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Tailraider Voucher",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 3
+        },
+        {
+          "name": "High-quality Pelt",
+          "quantity": 3
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Gala Suit Top Hat",
@@ -1527,7 +2424,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Appreciation Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Gala Suit Top Hat Alpha",
@@ -1554,7 +2461,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Appreciation Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Gastodon Horn Alpha",
@@ -1582,7 +2503,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Gastodon Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Gastodon Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Kestodon Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Gastodon Horn Beta",
@@ -1607,7 +2546,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Gastodon Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Gastodon Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Kestodon Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Girros Headgear+",
@@ -1630,7 +2587,8 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": []
     },
     {
       "name": "Girros Mask",
@@ -1653,7 +2611,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Girros Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Great Girros Hide",
+          "quantity": 1
+        },
+        {
+          "name": "Great Girros Hood",
+          "quantity": 1
+        },
+        {
+          "name": "Girros Scale",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Girros Mask Alpha",
@@ -1681,7 +2657,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Girros Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Great Girros Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Great Girros Hood+",
+          "quantity": 1
+        },
+        {
+          "name": "Girros Scale+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Girros Mask Beta",
@@ -1711,7 +2705,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Girros Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Great Girros Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Great Girros Hood+",
+          "quantity": 1
+        },
+        {
+          "name": "Girros Scale+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Golden Lunehelm Alpha+",
@@ -1742,7 +2754,25 @@
         "thunder": -4,
         "ice": 0,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Golden Lunehelm Beta+",
@@ -1773,7 +2803,25 @@
         "thunder": -4,
         "ice": 0,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 1
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Guild Cross Circlet Alpha",
@@ -1803,7 +2851,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Ace Hunter Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Flying Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Hunter King Coin",
+          "quantity": 2
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Guild Cross Circlet Beta",
@@ -1828,7 +2894,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Ace Hunter Coin",
+          "quantity": 3
+        },
+        {
+          "name": "Flying Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Hunter King Coin",
+          "quantity": 2
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Guardian Helm Alpha+",
@@ -1856,7 +2940,8 @@
         "thunder": 0,
         "ice": 2,
         "dragon": 3
-      }
+      },
+      "materials": []
     },
     {
       "name": "Harvest Flor",
@@ -1879,7 +2964,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Autumn Harvest Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Harvest Flor Alpha",
@@ -1905,7 +3000,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Autumn Harvest Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "High Metal Helm",
@@ -1928,7 +3037,21 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "High Metal Helm Alpha",
@@ -1956,7 +3079,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Barnos Hide+",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "High Metal Helm Beta",
@@ -1981,7 +3122,25 @@
         "thunder": -2,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Barnos Hide+",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Hornetaur Helm",
@@ -2004,7 +3163,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hornetaur Head",
+          "quantity": 1
+        },
+        {
+          "name": "Hornetaur Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Fluid",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Hornetaur Helm Alpha",
@@ -2032,7 +3209,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hornetaur Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Hornetaur Innerwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Hornetaur Helm Beta",
@@ -2062,7 +3253,21 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Hornetaur Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Hornetaur Innerwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Hunter's Headgear",
@@ -2085,7 +3290,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jagras Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Jagras Scale",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Hunter's Headgear Alpha",
@@ -2113,7 +3328,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jagras Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Jagras Scale+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Hunter's Headgear Beta",
@@ -2138,7 +3363,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jagras Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Jagras Scale+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Ingot Helm",
@@ -2161,7 +3396,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 1
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Ingot Helm Alpha",
@@ -2184,7 +3437,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Gastodon Horn",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Ingot Helm Beta",
@@ -2209,7 +3480,25 @@
         "thunder": 3,
         "ice": -1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Gastodon Horn",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Jagras Helm",
@@ -2232,7 +3521,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Jagras Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Jagras Helm Alpha",
@@ -2255,7 +3562,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Jagras Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Great Jagras Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Piercing Claw",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Jagras Helm Beta",
@@ -2280,7 +3605,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Jagras Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Great Jagras Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Piercing Claw",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Jyura Helm",
@@ -2303,7 +3646,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jyuratodus Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Fin",
+          "quantity": 1
+        },
+        {
+          "name": "Gajau Skin",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Jyura Helm Alpha",
@@ -2326,7 +3687,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jyuratodus Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 2
+        },
+        {
+          "name": "Gajau Scale",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Jyura Helm Beta",
@@ -2351,7 +3730,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Jyuratodus Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 2
+        },
+        {
+          "name": "Gajau Scale",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Kadachi Helm",
@@ -2374,7 +3771,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Pelt",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Electrode",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Electro Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kadachi Helm Alpha",
@@ -2397,7 +3812,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Electrode+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kadachi Helm Beta",
@@ -2422,7 +3855,25 @@
         "thunder": 3,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Electrode+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kaiser Crown Alpha",
@@ -2445,7 +3896,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Teostra Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kaiser Crown Beta",
@@ -2470,7 +3939,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Teostra Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kaiser Crown Gamma",
@@ -2496,7 +3983,25 @@
         "thunder": 1,
         "ice": -3,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Teostra Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Teostra Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Teostra Webbing",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Powder",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "King Beetle Vertex",
@@ -2519,7 +4024,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Flame Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "King Beetle Vertex Alpha",
@@ -2547,7 +4070,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "King Beetle Vertex Beta",
@@ -2572,7 +4113,25 @@
         "thunder": 2,
         "ice": 0,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Kirin Horn",
@@ -2595,7 +4154,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Kirin Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Kirin Thunderhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kirin Horn Alpha",
@@ -2623,7 +4200,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Shamos Scale+",
+          "quantity": 2
+        },
+        {
+          "name": "Thunder Sac",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Kirin Horn Beta",
@@ -2648,7 +4243,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Shamos Scale+",
+          "quantity": 2
+        },
+        {
+          "name": "Thunder Sac",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Kirin Horn Gamma",
@@ -2678,7 +4291,25 @@
         "thunder": 4,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kirin Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Kirin Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Kirin Thundertail",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Kulu Headpiece",
@@ -2701,7 +4332,21 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide",
+          "quantity": 1
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kulu Headpiece Alpha",
@@ -2729,7 +4374,21 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume+",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Kulu Headpiece Beta",
@@ -2755,7 +4414,21 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume+",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Kulu-Ya-Ku Head Alpha",
@@ -2781,7 +4454,25 @@
         "thunder": 2,
         "ice": 3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 1
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide+",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Kulve Taroth's Fury Alpha",
@@ -2811,7 +4502,25 @@
         "thunder": 3,
         "ice": -4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulve Taroth Golden Scale",
+          "quantity": 12
+        },
+        {
+          "name": "Kulve Taroth Golden Shell",
+          "quantity": 7
+        },
+        {
+          "name": "Kulve Taroth Golden Spiralhorn",
+          "quantity": 6
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kulve Taroth's Fury Beta",
@@ -2842,7 +4551,25 @@
         "thunder": 3,
         "ice": -4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulve Taroth Golden Scale",
+          "quantity": 12
+        },
+        {
+          "name": "Kulve Taroth Golden Shell",
+          "quantity": 7
+        },
+        {
+          "name": "Kulve Taroth Golden Spiralhorn",
+          "quantity": 6
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Kulve Taroth's Fury Gamma",
@@ -2874,7 +4601,25 @@
         "thunder": 3,
         "ice": -4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kulve Taroth Emperor Nugget",
+          "quantity": 7
+        },
+        {
+          "name": "Kulve Taroth Golden Scale",
+          "quantity": 15
+        },
+        {
+          "name": "Kulve Taroth Golden Shell",
+          "quantity": 12
+        },
+        {
+          "name": "Kulve Taroth Golden Spiralhorn",
+          "quantity": 8
+        }
+      ]
     },
     {
       "name": "Kushala Glare Alpha",
@@ -2902,7 +4647,25 @@
         "thunder": -3,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Kushala Glare Beta",
@@ -2929,7 +4692,25 @@
         "thunder": -3,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Kushala Glare Gamma",
@@ -2954,7 +4735,25 @@
         "thunder": -3,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Kushala Daora Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Daora Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Daora Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Lavasioth Helm Alpha",
@@ -2982,7 +4781,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lavasioth Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Lavasioth Fin+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Lavasioth Helm Beta",
@@ -3008,7 +4825,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Lavasioth Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Lavasioth Fin+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Leather Headgear",
@@ -3031,7 +4866,13 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Leather Headgear Alpha",
@@ -3054,7 +4895,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "High-quality Pelt",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Leather Headgear Beta",
@@ -3079,7 +4930,17 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "High-quality Pelt",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Legiana Helm",
@@ -3102,7 +4963,25 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Legiana Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Hide",
+          "quantity": 1
+        },
+        {
+          "name": "Legiana Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Shamos Scale",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Legiana Helm+",
@@ -3125,7 +5004,8 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Legiana Helm Alpha",
@@ -3153,7 +5033,25 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Legiana Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Freezer Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Scale+",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Legiana Helm Beta",
@@ -3178,7 +5076,25 @@
         "thunder": -3,
         "ice": 3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Legiana Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Freezer Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Scale+",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Lumu Hat",
@@ -3201,7 +5117,25 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Paolumu Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Lumu Hat Alpha",
@@ -3224,7 +5158,25 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 2
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Lumu Hat Beta",
@@ -3249,7 +5201,25 @@
         "thunder": 0,
         "ice": 1,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 2
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Mosswine Mask Alpha",
@@ -3272,7 +5242,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Mosswine Hide",
+          "quantity": 3
+        },
+        {
+          "name": "Anjanath Nosebone+",
+          "quantity": 1
+        },
+        {
+          "name": "Great Girros Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Nergigante Helm Alpha",
@@ -3300,7 +5288,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 2
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Nergigante Helm Beta",
@@ -3326,7 +5332,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 2
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Nergigante Helm Gamma",
@@ -3357,7 +5381,25 @@
         "thunder": -3,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Nergigante Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Odogaron Helm",
@@ -3380,7 +5422,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Odogaron Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Sinew",
+          "quantity": 1
+        },
+        {
+          "name": "Odogaron Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Odogaron Helm Alpha",
@@ -3408,7 +5468,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Odogaron Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Odogaron Sinew+",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Odogaron Helm Beta",
@@ -3433,7 +5511,25 @@
         "thunder": -2,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Odogaron Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Odogaron Sinew+",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Orion Cap Alpha",
@@ -3456,7 +5552,21 @@
         "thunder": 1,
         "ice": 4,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Winter Star Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Origin Helm",
@@ -3473,7 +5583,8 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Pukei Hood",
@@ -3496,7 +5607,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Pukei-Pukei Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Pukei-Pukei Quill",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Pukei Hood Alpha",
@@ -3519,7 +5648,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Pukei-Pukei Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Pukei Hood Beta",
@@ -3545,7 +5692,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": 1
-      }
+      },
+      "materials": [
+        {
+          "name": "Pukei-Pukei Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Pulverizing Feather",
@@ -3568,7 +5733,8 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 0
-      }
+      },
+      "materials": []
     },
     {
       "name": "Rath Heart Helm Alpha",
@@ -3596,7 +5762,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Shamos Scale+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Rath Heart Helm Beta",
@@ -3621,7 +5805,25 @@
         "thunder": -3,
         "ice": 0,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Shamos Scale+",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Rath Soul Helm Alpha",
@@ -3649,7 +5851,25 @@
         "thunder": 2,
         "ice": -3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Azure Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Ruby",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rath Soul Helm Beta",
@@ -3675,7 +5895,25 @@
         "thunder": 2,
         "ice": -3,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Azure Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Ruby",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rathalos Helm",
@@ -3698,7 +5936,25 @@
         "thunder": -2,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathalos Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Wingtalon",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Marrow",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rathalos Helm Alpha",
@@ -3726,7 +5982,25 @@
         "thunder": -2,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rathalos Helm Beta",
@@ -3751,7 +6025,25 @@
         "thunder": -2,
         "ice": 1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rathian Helm",
@@ -3774,7 +6066,25 @@
         "thunder": -2,
         "ice": 0,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathian Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Rathian Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Flame Sac",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Rathian Helm Alpha",
@@ -3802,7 +6112,25 @@
         "thunder": -2,
         "ice": 0,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Rathian Helm Beta",
@@ -3832,7 +6160,25 @@
         "thunder": -2,
         "ice": 0,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Ryu's Head",
@@ -3855,7 +6201,25 @@
         "thunder": 5,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "SFV Ticket",
+          "quantity": 7
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 6
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 6
+        },
+        {
+          "name": "Barroth Shell",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Ryu's Head Alpha",
@@ -3886,7 +6250,25 @@
         "thunder": 5,
         "ice": -3,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "SFV Ticket III",
+          "quantity": 4
+        },
+        {
+          "name": "Hunter King Coin",
+          "quantity": 5
+        },
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Sakura's Head Alpha",
@@ -3917,7 +6299,25 @@
         "thunder": 0,
         "ice": 4,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "SFV Ticket II",
+          "quantity": 4
+        },
+        {
+          "name": "Hunter King Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Sealed Eyepatch Alpha",
@@ -3943,7 +6343,25 @@
         "thunder": 0,
         "ice": 2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Black Bandage",
+          "quantity": 2
+        },
+        {
+          "name": "Shamos Scale+",
+          "quantity": 7
+        },
+        {
+          "name": "Shamos Hide+",
+          "quantity": 5
+        },
+        {
+          "name": "Piercing Claw",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Shadow Shades Alpha",
@@ -3970,7 +6388,25 @@
         "thunder": 4,
         "ice": 2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Black Crystal Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Shamos Goggles",
@@ -3993,7 +6429,25 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Shamos Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Shamos Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 1
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Shamos Goggles Alpha",
@@ -4021,7 +6475,21 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Shamos Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Shamos Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Shamos Goggles Beta",
@@ -4046,7 +6514,21 @@
         "thunder": 0,
         "ice": -3,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Shamos Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Shamos Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Skull Mask Alpha",
@@ -4071,7 +6553,25 @@
         "thunder": -1,
         "ice": -1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Unknown Skull",
+          "quantity": 1
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Strategist Spectacles Alpha",
@@ -4096,7 +6596,21 @@
         "thunder": 2,
         "ice": 2,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Firecell Stone",
+          "quantity": 2
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 6
+        }
+      ]
     },
     {
       "name": "Tzitzi Headgear",
@@ -4119,7 +6633,25 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Scale",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Hide",
+          "quantity": 1
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photophore",
+          "quantity": 1
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Tzitzi Headgear Alpha",
@@ -4147,7 +6679,25 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photophore+",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Tzitzi Headgear Beta",
@@ -4172,7 +6722,25 @@
         "thunder": -3,
         "ice": -2,
         "dragon": 0
-      }
+      },
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Hide+",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photophore+",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 5
+        }
+      ]
     },
     {
       "name": "Uragaan Helm Alpha",
@@ -4197,7 +6765,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Uragaan Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Lava Nugget",
+          "quantity": 4
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Uragaan Helm Beta",
@@ -4223,7 +6809,25 @@
         "thunder": 1,
         "ice": -2,
         "dragon": -2
-      }
+      },
+      "materials": [
+        {
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Uragaan Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Lava Nugget",
+          "quantity": 4
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Vaal Hazak Helm Alpha",
@@ -4251,7 +6855,25 @@
         "thunder": 1,
         "ice": -1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Deceased Scale",
+          "quantity": 5
+        },
+        {
+          "name": "Vaal Hazak Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Vaal Hazak Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Vaal Hazak Helm Beta",
@@ -4276,7 +6898,25 @@
         "thunder": 1,
         "ice": -1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Deceased Scale",
+          "quantity": 5
+        },
+        {
+          "name": "Vaal Hazak Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Vaal Hazak Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Vaal Hazak Helm Gamma",
@@ -4306,7 +6946,25 @@
         "thunder": 1,
         "ice": -1,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Vaal Hazak Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Deceased Scale",
+          "quantity": 5
+        },
+        {
+          "name": "Vaal Hazak Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Vaal Hazak Talon",
+          "quantity": 4
+        }
+      ]
     },
     {
       "name": "Vangis Helm Alpha",
@@ -4336,7 +6994,25 @@
         "thunder": -3,
         "ice": 2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Deviljho Hide",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Scalp",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Vangis Helm Beta",
@@ -4362,7 +7038,25 @@
         "thunder": -3,
         "ice": 2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Deviljho Hide",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Scalp",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Gem",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Vespoid Helm",
@@ -4385,7 +7079,17 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Vespoid Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Vespoid Helm Alpha",
@@ -4413,7 +7117,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Vespoid Helm Beta",
@@ -4438,7 +7156,21 @@
         "thunder": 1,
         "ice": 1,
         "dragon": 2
-      }
+      },
+      "materials": [
+        {
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Wiggler Head Alpha",
@@ -4464,7 +7196,25 @@
         "thunder": 0,
         "ice": 0,
         "dragon": 4
-      }
+      },
+      "materials": [
+        {
+          "name": "Wiggler Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Shamos Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Gajau Scale",
+          "quantity": 4
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 3
+        }
+      ]
     },
     {
       "name": "Xeno'jiiva Headgear Alpha",
@@ -4494,7 +7244,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Xeno'jiiva Soulscale",
+          "quantity": 5
+        },
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Xeno'jiiva Headgear Beta",
@@ -4519,7 +7287,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Xeno'jiiva Soulscale",
+          "quantity": 5
+        },
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Plate",
+          "quantity": 1
+        }
+      ]
     },
     {
       "name": "Xeno'jiiva Headgear Gamma",
@@ -4551,7 +7337,25 @@
         "thunder": 2,
         "ice": 2,
         "dragon": -4
-      }
+      },
+      "materials": [
+        {
+          "name": "Xeno'jiiva Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Xeno'jiiva Tail",
+          "quantity": 2
+        }
+      ]
     },
     {
       "name": "Zorah Headgear Alpha",
@@ -4579,7 +7383,25 @@
         "thunder": -1,
         "ice": -2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Zorah Magdaros Heat Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Zorah Magdaros Ridge",
+          "quantity": 2
+        },
+        {
+          "name": "Zorah Magdaros Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 8
+        }
+      ]
     },
     {
       "name": "Zorah Headgear Beta",
@@ -4604,7 +7426,25 @@
         "thunder": -1,
         "ice": -2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Zorah Magdaros Heat Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Zorah Magdaros Ridge",
+          "quantity": 2
+        },
+        {
+          "name": "Zorah Magdaros Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 8
+        }
+      ]
     },
     {
       "name": "Zorah Headgear Gamma",
@@ -4634,7 +7474,25 @@
         "thunder": -1,
         "ice": -2,
         "dragon": -3
-      }
+      },
+      "materials": [
+        {
+          "name": "Zorah Magdaros Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Zorah Magdaros Heat Scale",
+          "quantity": 5
+        },
+        {
+          "name": "Zorah Magdaros Pleura",
+          "quantity": 2
+        },
+        {
+          "name": "Zorah Magdaros Magma",
+          "quantity": 3
+        }
+      ]
     }
   ]
 }

@@ -5,14 +5,16 @@ from django.conf import settings
 from django.core.management.base import BaseCommand, CommandError
 from django.db import transaction
 
-from armors.models import Armor, ArmorSkill
+from armors.models import Armor, ArmorMaterial, ArmorSkill
+from items.models import Item
 from skills.models import Skill
 
 
 class Command(BaseCommand):
     help = (
         "Load armors from scraped dataset files (default: every .dataset/armor_*.json); each "
-        "file's type key says which part (head, chest, ...). Safe to re-run: upserts on name."
+        "file's type key says which part (head, chest, ...). Safe to re-run: upserts on name. "
+        "Run load_items first: a recipe line naming an item that isn't loaded is an error."
     )
 
     def add_arguments(self, parser):
@@ -25,11 +27,12 @@ class Command(BaseCommand):
     @transaction.atomic
     def handle(self, *args, **options):
         skills = Skill.objects.in_bulk(field_name="name")
+        items = Item.objects.in_bulk(field_name="name")
 
         messages = []
         for path in options["paths"]:
             try:
-                messages.append(self.load_file(path, skills))
+                messages.append(self.load_file(path, skills, items))
             except (KeyError, ValueError) as e:
                 raise CommandError(f"{path}: {e!r}") from e
 
@@ -37,12 +40,13 @@ class Command(BaseCommand):
         for message in messages:
             self.stdout.write(self.style.SUCCESS(message))
 
-    def load_file(self, path, skills):
+    def load_file(self, path, skills, items):
         data = json.loads(Path(path).read_text(encoding="utf-8"))
         armor_type = Armor.Type(data["type"])  # ValueError on a part we don't know
 
         armors_created = 0
         links = []
+        materials = []
         stubbed = []
         for row in data["armors"]:
             armor, created = Armor.objects.update_or_create(
@@ -60,6 +64,7 @@ class Command(BaseCommand):
             )
             armors_created += created
             armor.armor_skills.all().delete()
+            armor.materials.all().delete()
 
             for granted in row["skills"]:
                 name = granted["name"]
@@ -77,12 +82,19 @@ class Command(BaseCommand):
                     stubbed.append(name)
                 links.append(ArmorSkill(armor=armor, skill=skills[name], level=granted["level"]))
 
+            for line in row["materials"]:
+                # no stub for an item we don't have, unlike a skill: see load_monsters
+                materials.append(
+                    ArmorMaterial(armor=armor, item=items[line["name"]], quantity=line["quantity"])
+                )
+
         ArmorSkill.objects.bulk_create(links)
+        ArmorMaterial.objects.bulk_create(materials)
 
         message = (
             f"armors ({armor_type}): {armors_created} created, "
             f"{len(data['armors']) - armors_created} updated; "
-            f"{len(links)} skill links"
+            f"{len(links)} skill links; {len(materials)} materials"
         )
         if stubbed:
             message += f"; stubbed skills: {', '.join(stubbed)}"
