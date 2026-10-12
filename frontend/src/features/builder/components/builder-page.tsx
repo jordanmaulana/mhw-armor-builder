@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { useAtom } from "jotai";
 import { RESET } from "jotai/utils";
+import { Heart } from "lucide-react";
 
+import { LoadingScreen } from "@/components/loading-screen";
 import {
   EquipRow,
   SlotButton,
@@ -29,6 +31,8 @@ const LABELS: Record<ArmorType, string> = {
   legs: "Legs",
 };
 
+const KOFI_URL = "https://ko-fi.com/jordanmaulana";
+
 const slotTotal = (armor: Armor) =>
   armor.slots.reduce((sum, level) => sum + level, 0);
 
@@ -54,13 +58,11 @@ export function BuilderPage() {
 
   if (!catalog) {
     return (
-      <main className="smithy grid min-h-screen place-items-center px-4 text-moss">
-        <p role="status">
-          {isError
-            ? "Couldn't load the armor list. Check your connection, then reload the page."
-            : "Loading the armor list…"}
-        </p>
-      </main>
+      <LoadingScreen>
+        {isError
+          ? "Couldn't load the armor list. Check your connection, then reload the page."
+          : "Loading the armor list…"}
+      </LoadingScreen>
     );
   }
 
@@ -180,13 +182,28 @@ export function BuilderPage() {
             </span>
             Armor set builder
           </h1>
-          <button
-            type="button"
-            onClick={() => setBuild(RESET)}
-            className="shrink-0 text-sm text-moss underline-offset-4 hover:text-bone hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt"
-          >
-            Clear set
-          </button>
+          <div className="flex shrink-0 items-baseline gap-4">
+            {/* the word only from md: the title holds one line beside it from 740px up.
+                -m-2 p-2 is the tap area, kept off "Clear set", which has no undo */}
+            <a
+              href={KOFI_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Support this tool on Ko-fi (opens in a new tab)"
+              className="-m-2 flex items-baseline gap-1.5 p-2 text-sm text-moss underline-offset-4 hover:text-bone hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt"
+            >
+              {/* brass, not ember: alone on a phone, it has to hold 3:1 on the backdrop */}
+              <Heart aria-hidden className="size-4 translate-y-0.5 text-brass" />
+              <span className="hidden md:inline">Support</span>
+            </a>
+            <button
+              type="button"
+              onClick={() => setBuild(RESET)}
+              className="text-sm text-moss underline-offset-4 hover:text-bone hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt"
+            >
+              Clear set
+            </button>
+          </div>
         </header>
 
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-14 xl:grid-cols-[24rem_minmax(0,1fr)_20rem] xl:gap-10">

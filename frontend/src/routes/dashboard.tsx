@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useAtom } from "jotai";
 
+import { PageTitle } from "@/components/page-title";
 import { userAtom } from "@/features/auth/state";
 
 export const Route = createFileRoute("/dashboard")({
@@ -11,6 +12,7 @@ function DashboardPage() {
   const [user] = useAtom(userAtom);
   return (
     <div>
+      <PageTitle>Dashboard</PageTitle>
       <h1 className="text-2xl font-semibold">Dashboard</h1>
       <p className="mt-2 text-sm text-slate-600">
         Signed in as {user?.email ?? "—"}.

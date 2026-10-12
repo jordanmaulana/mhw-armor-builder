@@ -71,8 +71,13 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
   );
   // What the search may pick from. Deferred like the list, so a tap in the monster picker
   // repaints before the search it sets off. Totals still read the whole catalog.
-  const pool = useDeferredValue(useMemo(() => narrow(catalog, unslain), [catalog, unslain]));
+  const narrowed = useMemo(() => narrow(catalog, unslain), [catalog, unslain]);
+  const pool = useDeferredValue(narrowed);
   const leftOut = catalog.armors.size - pool.armors.size;
+  // The search runs a beat behind what was asked, by the two deferrals above, and until it
+  // lands the sets on screen answer the old question. Never with an empty list: the first
+  // render always starts from NONE, and nothing is on its way.
+  const searching = wanted.length > 0 && (searched !== wanted || pool !== narrowed);
 
   const sets = useMemo(
     () =>
@@ -204,6 +209,16 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
             )}
           </div>
 
+          {/* Both signs of a search wait 200ms before they show: most searches are done by
+              then, and a sign that comes and goes in a frame is a flicker, not a message. */}
+          {sets.length === 0 && searching && (
+            <p
+              role="status"
+              className="animate-in px-4 pt-1 pb-3 text-sm text-moss delay-200 duration-200 fill-mode-backwards fade-in"
+            >
+              Searching for sets…
+            </p>
+          )}
           {sets.length > 0 && (
             <>
               <h3 id="sets-title" className={`${BAND} mt-2`}>
@@ -215,7 +230,12 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
                   `Not counting ${leftOut} ${leftOut === 1 ? "piece" : "pieces"} of monsters not yet slain. `}
                 Choosing a set replaces the current one.
               </p>
-              <ol aria-labelledby="sets-title">
+              {/* dimmed while they are the old answer; back at once when the new one lands */}
+              <ol
+                aria-labelledby="sets-title"
+                aria-busy={searching}
+                className={searching ? "opacity-60 transition-opacity delay-200 duration-200" : ""}
+              >
                 {sets.map(({ set, key, defense, short, jewels, names }, n) => (
                   <li key={n} className="flex border-t border-dashed border-seam/60 even:bg-plate/40">
                     <span aria-hidden className={`${GUTTER} pt-2.5`}>

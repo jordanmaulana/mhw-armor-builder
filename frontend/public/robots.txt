@@ -1,0 +1,9 @@
+# /api/ is left open on purpose: the page is drawn from /api/v1/, and a crawler that cannot
+# fetch it sees only the loading screen.
+User-agent: *
+Disallow: /admin/
+Disallow: /login
+Disallow: /dashboard
+Disallow: /onboarding
+
+Sitemap: https://mhwbuilder.com/sitemap.xml

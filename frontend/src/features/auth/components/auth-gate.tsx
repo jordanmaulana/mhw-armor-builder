@@ -15,7 +15,16 @@ export function AuthGate() {
   const [user, setUser] = useAtom(userAtom);
   const navigate = useNavigate();
   const pathname = useRouterState({ select: (s) => s.location.pathname });
+  // An address no route answers. It is nobody's private page, so it is never sent to /login:
+  // the root route's not-found page is drawn for it, signed in or not.
+  const notFound = useRouterState({ select: (s) => s.matches.some((m) => m.globalNotFound) });
   const sessionExpiredFiredRef = useRef(false);
+
+  // index.html's loading screen covers the page until the router has drawn something of its
+  // own, and this component mounting is that moment
+  useEffect(() => {
+    document.getElementById("boot")?.remove();
+  }, []);
 
   useEffect(() => {
     if (!token || user) return;
@@ -38,6 +47,7 @@ export function AuthGate() {
   }, [token, user, setToken, setUser]);
 
   useEffect(() => {
+    if (notFound) return;
     if (!token) {
       if (!PUBLIC_PATHS.has(pathname)) navigate({ to: "/login" });
       return;
@@ -53,9 +63,9 @@ export function AuthGate() {
     if (user.onboarded && (pathname === "/login" || pathname === "/onboarding")) {
       navigate({ to: "/dashboard" });
     }
-  }, [token, user, pathname, navigate]);
+  }, [notFound, token, user, pathname, navigate]);
 
-  if (!token || !user || FULL_BLEED_PATHS.has(pathname)) {
+  if (notFound || !token || !user || FULL_BLEED_PATHS.has(pathname)) {
     return <Outlet />;
   }
   return <AppShell />;

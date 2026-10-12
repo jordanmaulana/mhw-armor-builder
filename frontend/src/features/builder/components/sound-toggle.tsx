@@ -9,6 +9,9 @@ export function SoundToggle() {
   const audio = useRef<HTMLAudioElement>(null);
   const [on, setOn] = useState(false);
   const [track, setTrack] = useState(0);
+  // sound is coming out. A track is megabytes and none of it is fetched before the first tap,
+  // so "on" alone would say so seconds early: until then the icon pulses
+  const [playing, setPlaying] = useState(false);
 
   // also runs when a track ends: a new src stays silent until play() is called again
   useEffect(() => {
@@ -28,13 +31,14 @@ export function SoundToggle() {
         type="button"
         aria-label="Music"
         aria-pressed={on}
+        aria-busy={on && !playing}
         onClick={() => setOn(!on)}
         className={`fixed bottom-4 left-4 z-10 grid size-11 place-items-center rounded-sm border border-seam bg-hide hover:border-hunt focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt ${
           on ? "text-brass" : "text-moss"
         }`}
       >
         {on ? (
-          <Volume2 aria-hidden className="size-5" />
+          <Volume2 aria-hidden className={`size-5 ${playing ? "" : "animate-pulse"}`} />
         ) : (
           <VolumeX aria-hidden className="size-5" />
         )}
@@ -43,7 +47,14 @@ export function SoundToggle() {
         ref={audio}
         src={TRACKS[track]}
         preload="none"
-        onEnded={() => setTrack((track + 1) % TRACKS.length)}
+        onPlaying={() => setPlaying(true)}
+        onWaiting={() => setPlaying(false)}
+        onPause={() => setPlaying(false)}
+        // no pause event comes with the end of a track, and the next one has to load
+        onEnded={() => {
+          setPlaying(false);
+          setTrack((track + 1) % TRACKS.length);
+        }}
       />
     </>
   );

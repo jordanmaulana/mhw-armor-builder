@@ -5,10 +5,44 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MHW Armor Set Builder</title>
+    <meta
+      name="description"
+      content="A fan-made armor set builder for Monster Hunter: World and Iceborne. Name the skills you want and it finds the best armor, decorations and charm. No login."
+    />
+    <!-- What a shared link previews with. The URLs are absolute because several crawlers take
+         no other kind; the image is a screenshot of og.html. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MHW Armor Set Builder" />
+    <meta property="og:title" content="MHW Armor Set Builder" />
+    <meta
+      property="og:description"
+      content="A fan-made armor set builder for Monster Hunter: World and Iceborne. Name the skills you want and it finds the best armor, decorations and charm. No login."
+    />
+    <meta property="og:url" content="https://mhwbuilder.com/" />
+    <meta property="og:image" content="https://mhwbuilder.com/og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="The armor set builder with a recommended set: five armor pieces and their decoration slots, and the skills Critical Eye, Attack Boost and Weakness Exploit at the levels asked for."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
     <script src="https://accounts.google.com/gsi/client" async defer></script>
   </head>
   <body>
     <div id="root"></div>
+    <!-- What is on screen until the app has drawn something: its LoadingScreen, in inline styles
+         because nothing else has loaded yet. Without it the first paint is a white page. It lies
+         over #root, not in it: React empties #root on its first commit, which comes a frame
+         before the router has anything to show. AuthGate removes it. -->
+    <p
+      id="boot"
+      role="status"
+      style="position: fixed; inset: 0; margin: 0; display: grid; place-items: center; background: #05080c; color: #a4a8a2; font: 1rem/1.5 ui-sans-serif, system-ui, sans-serif"
+    >
+      Loading…
+    </p>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

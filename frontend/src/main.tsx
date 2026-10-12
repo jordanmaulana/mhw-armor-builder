@@ -8,9 +8,17 @@ import "react-toastify/dist/ReactToastify.css";
 
 import { routeTree } from "./routeTree.gen";
 import { queryClient } from "@/app/query-client";
+import { LoadingScreen } from "@/components/loading-screen";
 import "./styles.css";
 
-const router = createRouter({ routeTree, context: { queryClient } });
+const router = createRouter({
+  routeTree,
+  context: { queryClient },
+  // What stands in while a route's chunk loads. At once, not after the router's default
+  // second: until it shows the page is blank, 0.6s of white on a slow connection.
+  defaultPendingComponent: LoadingScreen,
+  defaultPendingMs: 0,
+});
 
 declare module "@tanstack/react-router" {
   interface Register {
