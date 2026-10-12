@@ -1,7 +1,7 @@
 // Self-check for recommend, run by `pnpm test` with plain node like totals.test.ts.
 // computeTotals is the referee: the levels a recommended build really has are counted by code
 // the solver doesn't share.
-import { recommend } from "./recommend.ts";
+import { recommend, type Locked } from "./recommend.ts";
 import { computeTotals } from "./totals.ts";
 import {
   ARMOR_TYPES,
@@ -202,6 +202,84 @@ const want = (...targets: [string, number][]): GrantedSkill[] =>
   check("a weapon the catalog lost is no weapon", held(want(["attack", 1]), "gone"), null);
 }
 
+{
+  const cat = catalog(
+    [
+      armor("attack-helm", "head", {
+        defense: 50,
+        slots: [1],
+        skills: [{ skill: "attack", level: 2 }],
+      }),
+      armor("plain-helm", "head", { defense: 10, slots: [3, 1] }),
+      armor("mail", "chest", { slots: [1] }),
+      armor("plate", "chest", { defense: 60 }),
+    ],
+    [jewel("attack", 1), jewel("guard", 3)],
+    [
+      charm("attack-charm", [{ skill: "attack", level: 1 }]),
+      charm("eye-charm", [{ skill: "eye", level: 3 }]),
+    ],
+    [weapon("blade", [3, 1])],
+  );
+  const plain = (...decoIds: (string | null)[]): Locked => ({
+    pieces: { head: { armorId: "plain-helm", decoIds } },
+  });
+  check(
+    "a locked piece is in every set, though another is better",
+    recommend(want(["attack", 7]), cat, 10, null, plain(null, null)).map(
+      (set) => set.pieces.head?.armorId,
+    ),
+    ["plain-helm", "plain-helm"],
+  );
+  check(
+    "the jewels on it stay where they are, and the search fills the slots still empty",
+    recommend(want(["attack", 7]), cat, 10, null, plain("guard-jewel", null))[0].pieces.head,
+    { armorId: "plain-helm", decoIds: ["guard-jewel", "attack-jewel"] },
+  );
+  // unlocked, the blade's big slot would take the guard jewel the helm already holds
+  check(
+    "a jewel on a locked piece counts: the target it meets takes no second one",
+    recommend(want(["guard", 1]), cat, 10, "blade", plain("guard-jewel", null))[0].weapon,
+    { weaponId: "blade", decoIds: [null, null] },
+  );
+  check(
+    "a locked charm stays, though it grants nothing wanted",
+    recommend(want(["attack", 7]), cat, 10, null, { charmId: "eye-charm" })[0].charmId,
+    "eye-charm",
+  );
+  // guard has to go to the helm: the blade's big slot is taken, by a jewel that fits a small one
+  check(
+    "a locked weapon keeps the jewel on it, in the slot it is in",
+    recommend(want(["guard", 1], ["attack", 2]), cat, 10, "blade", {
+      weapon: { weaponId: "blade", decoIds: ["attack-jewel", null] },
+    })[0],
+    {
+      pieces: {
+        head: { armorId: "plain-helm", decoIds: ["guard-jewel", null] },
+        chest: { armorId: "plate", decoIds: [] },
+        arms: null,
+        waist: null,
+        legs: null,
+      },
+      charmId: "attack-charm",
+      weapon: { weaponId: "blade", decoIds: ["attack-jewel", null] },
+    },
+  );
+  // the build and the locks are saved in the browser and can outlive a reload of the dataset
+  check(
+    "a locked piece the catalog lost is no lock",
+    recommend(want(["attack", 7]), cat, 10, null, {
+      pieces: { head: { armorId: "gone", decoIds: [] } },
+    })[0].pieces.head?.armorId,
+    "attack-helm",
+  );
+  check(
+    "a jewel the catalog lost is an empty slot",
+    recommend(want(["attack", 7]), cat, 10, null, plain("gone", null))[0].pieces.head?.decoIds,
+    ["attack-jewel", "attack-jewel"],
+  );
+}
+
 check(
   "a small jewel leaves the big slot to the jewel that needs it",
   recommend(
@@ -294,60 +372,126 @@ for (let seed = 1; seed <= 40; seed++) {
     seed % 4 ? weapon("blade", Array.from({ length: int(3) }, () => 1 + int(3))) : undefined;
   const cat = catalog(armors, jewels, charms, blade ? [blade] : []);
 
-  const best = [-1, -1]; // rank, defense
-  const types = ARMOR_TYPES.map((type) => armors.filter((a) => a.type === type));
-  const sizes = wanted.map((w) => jewels.find((j) => j.skills[0].skill === w.skill)!.slot);
-  const each = (chosen: Armor[]) => {
-    if (chosen.length < types.length) {
-      for (const next of types[chosen.length]) each([...chosen, next]);
-      return;
-    }
-    const defense = chosen.reduce((sum, a) => sum + a.defense, 0);
-    const slots = [...chosen.flatMap((a) => a.slots), ...(blade?.slots ?? [])];
-    for (const worn of [undefined, ...charms]) {
-      const granted = [...chosen, ...(worn ? [worn] : [])].flatMap((item) => item.skills);
-      const points = wanted.map((w) =>
-        granted.reduce((sum, g) => sum + (g.skill === w.skill ? g.level : 0), 0),
-      );
-      const fill = (k: number, levels: number[]) => {
-        if (k === slots.length) {
-          const r = rank(levels.map((level, i) => Math.min(level, wanted[i].level)));
-          if (r > best[0] || (r === best[0] && defense > best[1])) [best[0], best[1]] = [r, defense];
-          return;
-        }
-        // a point never hurts, so a slot only stays empty when no wanted jewel fits it
-        const fits = sizes.flatMap((size, i) => (size <= slots[k] ? [i] : []));
-        if (fits.length === 0) fill(k + 1, levels);
-        for (const i of fits) fill(k + 1, levels.with(i, levels[i] + 1));
-      };
-      fill(0, points);
-    }
-  };
-  each([]);
+  // Each catalog is searched twice: with nothing locked, then with a piece locked, a jewel on
+  // some of its slots, and on a coin toss a charm and the blade as well. The locks are drawn
+  // last, as the blade was, so a seed's catalog is what it was before there were any.
+  const pin = (slots: number[]) =>
+    slots.map((level) => {
+      const fits = jewels.filter((j) => j.slot <= level);
+      return int(2) ? fits[int(fits.length)].id : null;
+    });
+  const piece = armors[int(armors.length)];
+  const locks: Locked = { pieces: { [piece.type]: { armorId: piece.id, decoIds: pin(piece.slots) } } };
+  if (int(2)) locks.charmId = charms[int(charms.length)].id;
+  if (blade && int(2)) locks.weapon = { weaponId: blade.id, decoIds: pin(blade.slots) };
 
-  // odd seeds ask for a single result: the shorter the list, the harder the search cuts
-  const [top] = recommend(wanted, cat, seed % 2 ? 1 : 10, blade?.id);
-  check(`seed ${seed}: the set holds the weapon in hand`, top.weapon?.weaponId, blade?.id);
-  check(
-    `seed ${seed}: every jewel on the weapon sits in a slot it fits`,
-    blade?.slots.map((level, i) => (cat.decorations.get(top.weapon?.decoIds[i] ?? "")?.slot ?? 0) <= level),
-    blade?.slots.map(() => true),
-  );
-  for (const type of ARMOR_TYPES) {
-    const piece = top.pieces[type]!;
-    const worn = cat.armors.get(piece.armorId)!;
-    check(`seed ${seed}: the ${type} slot holds a ${type} piece`, worn.type, type);
-    check(
-      `seed ${seed}: every jewel on ${worn.id} sits in a slot it fits`,
-      worn.slots.map((level, i) => (cat.decorations.get(piece.decoIds[i] ?? "")?.slot ?? 0) <= level),
-      worn.slots.map(() => true),
+  for (const locked of [{}, locks] as Locked[]) {
+    const tag = `seed ${seed}${locked === locks ? ", locked" : ""}`;
+
+    const best = [-1, -1]; // rank, defense
+    const types = ARMOR_TYPES.map((type) =>
+      armors.filter((a) => a.type === type && a.id === (locked.pieces?.[type]?.armorId ?? a.id)),
     );
+    const sizes = wanted.map((w) => jewels.find((j) => j.skills[0].skill === w.skill)!.slot);
+    const each = (chosen: Armor[]) => {
+      if (chosen.length < types.length) {
+        for (const next of types[chosen.length]) each([...chosen, next]);
+        return;
+      }
+      const defense = chosen.reduce((sum, a) => sum + a.defense, 0);
+      // each row's slots beside the jewels a lock holds there: those are points in hand, and
+      // only the slots left are to fill
+      const rows = [
+        ...chosen.map((a) => [a.slots, locked.pieces?.[a.type]?.decoIds ?? []] as const),
+        [blade?.slots ?? [], locked.weapon?.decoIds ?? []] as const,
+      ];
+      const slots = rows.flatMap(([levels, on]) => levels.filter((_, at) => !on[at]));
+      const fixed = rows.flatMap(([, on]) =>
+        on.flatMap((id) => cat.decorations.get(id ?? "")?.skills ?? []),
+      );
+      const worn = charms.find((c) => c.id === locked.charmId);
+      for (const charmed of worn ? [worn] : [undefined, ...charms]) {
+        const granted = [
+          ...[...chosen, ...(charmed ? [charmed] : [])].flatMap((item) => item.skills),
+          ...fixed,
+        ];
+        const points = wanted.map((w) =>
+          granted.reduce((sum, g) => sum + (g.skill === w.skill ? g.level : 0), 0),
+        );
+        const fill = (k: number, levels: number[]) => {
+          if (k === slots.length) {
+            const r = rank(levels.map((level, i) => Math.min(level, wanted[i].level)));
+            if (r > best[0] || (r === best[0] && defense > best[1])) [best[0], best[1]] = [r, defense];
+            return;
+          }
+          // a point never hurts, so a slot only stays empty when no wanted jewel fits it
+          const fits = sizes.flatMap((size, i) => (size <= slots[k] ? [i] : []));
+          if (fits.length === 0) fill(k + 1, levels);
+          for (const i of fits) fill(k + 1, levels.with(i, levels[i] + 1));
+        };
+        fill(0, points);
+      }
+    };
+    each([]);
+
+    // odd seeds ask for a single result: the shorter the list, the harder the search cuts
+    const limit = seed % 2 ? 1 : 10;
+    const sets = recommend(wanted, cat, limit, blade?.id, locked);
+    const [top] = sets;
+    check(`${tag}: the set holds the weapon in hand`, top.weapon?.weaponId, blade?.id);
+    check(
+      `${tag}: every jewel on the weapon sits in a slot it fits`,
+      blade?.slots.map((level, i) => (cat.decorations.get(top.weapon?.decoIds[i] ?? "")?.slot ?? 0) <= level),
+      blade?.slots.map(() => true),
+    );
+    for (const type of ARMOR_TYPES) {
+      const piece = top.pieces[type]!;
+      const worn = cat.armors.get(piece.armorId)!;
+      check(`${tag}: the ${type} slot holds a ${type} piece`, worn.type, type);
+      check(
+        `${tag}: every jewel on ${worn.id} sits in a slot it fits`,
+        worn.slots.map((level, i) => (cat.decorations.get(piece.decoIds[i] ?? "")?.slot ?? 0) <= level),
+        worn.slots.map(() => true),
+      );
+    }
+    check(
+      `${tag}: the first result is the best of every combination`,
+      [rank(reached(top, cat, wanted)), computeTotals(top, cat).defense],
+      best,
+    );
+
+    // what is locked is in every set, each of its jewels in the slot it was in
+    const kept = (now: (string | null)[] = [], then: (string | null)[] = []) =>
+      then.every((id, at) => id === null || now[at] === id);
+    for (const set of sets) {
+      for (const type of ARMOR_TYPES) {
+        const lock = locked.pieces?.[type];
+        if (!lock) continue;
+        check(`${tag}: the locked ${type} piece is in the set`, set.pieces[type]?.armorId, lock.armorId);
+        check(`${tag}: with its jewels`, kept(set.pieces[type]?.decoIds, lock.decoIds), true);
+      }
+      if (locked.charmId) check(`${tag}: the locked charm is in the set`, set.charmId, locked.charmId);
+      check(`${tag}: the locked weapon keeps its jewels`, kept(set.weapon?.decoIds, locked.weapon?.decoIds), true);
+
+      // Choosing a set makes the jewels it put on a locked row part of the lock, and the page
+      // searches again. The set has to come back as it was, or the page loses track of which
+      // one is worn.
+      const chosen: Locked = {
+        pieces: Object.fromEntries(
+          ARMOR_TYPES.flatMap((type) => (locked.pieces?.[type] ? [[type, set.pieces[type]]] : [])),
+        ),
+        charmId: locked.charmId,
+        weapon: locked.weapon && set.weapon,
+      };
+      check(
+        `${tag}: a set chosen is found again by the search it sets off`,
+        recommend(wanted, cat, limit, blade?.id, chosen).some(
+          (again) => JSON.stringify(again) === JSON.stringify(set),
+        ),
+        true,
+      );
+    }
   }
-  check(
-    `seed ${seed}: the first result is the best of every combination`,
-    [rank(reached(top, cat, wanted)), computeTotals(top, cat).defense],
-    best,
-  );
 }
 
 console.log("recommend ok");

@@ -14,7 +14,7 @@ import { SetSearch } from "@/features/builder/components/set-search";
 import { SoundToggle } from "@/features/builder/components/sound-toggle";
 import { Summary } from "@/features/builder/components/summary";
 import { useCatalog } from "@/features/builder/hooks";
-import { buildAtom } from "@/features/builder/state";
+import { buildAtom, lockedAtom } from "@/features/builder/state";
 import { computeTotals, describeWeapon } from "@/features/builder/totals";
 import {
   ARMOR_TYPES,
@@ -22,6 +22,7 @@ import {
   type Armor,
   type ArmorType,
   type EquippedWeapon,
+  type Lockable,
   type Piece,
   type Weapon,
   type WeaponType,
@@ -93,6 +94,8 @@ type Picking =
 export function BuilderPage() {
   const { data: catalog, isError } = useCatalog();
   const [build, setBuild] = useAtom(buildAtom);
+  // the rows the set search keeps as they are; only the search minds, every row still edits
+  const [locked, setLocked] = useAtom(lockedAtom);
   const [picking, setPicking] = useState<Picking | null>(null);
   // held here, not in Picker: the picker unmounts on close, and the choice should outlive it
   const [armorSort, setArmorSort] = useState("Defense");
@@ -115,6 +118,15 @@ export function BuilderPage() {
     setBuild({ ...build, pieces: { ...build.pieces, [type]: piece } });
   const setWeapon = (weapon: EquippedWeapon | null) =>
     setBuild({ ...build, weapon });
+  // Both go by the setter's own list, as the unslain monsters do: two taps landing before a
+  // repaint both count. The lock is the row's: a piece swapped by hand is locked in its turn.
+  const toggleLock = (row: Lockable) =>
+    setLocked((rows) =>
+      rows.includes(row) ? rows.filter((other) => other !== row) : [...rows, row],
+    );
+  // an emptied row has nothing to lock, and what is put there next is not to arrive locked
+  const unlock = (row: Lockable) =>
+    setLocked((rows) => rows.filter((other) => other !== row));
   // `?.` on build.weapon throughout: a build saved before weapons has no such key
   const held = catalog.weapons.get(build.weapon?.weaponId ?? "");
 
@@ -153,6 +165,7 @@ export function BuilderPage() {
           onClose={close}
           onPick={(charm) => {
             setBuild({ ...build, charmId: charm?.id ?? null });
+            if (!charm) unlock("charm");
             close();
           }}
         />
@@ -203,6 +216,7 @@ export function BuilderPage() {
                 },
               );
             }
+            if (!weapon) unlock("weapon");
             close();
           }}
         />
@@ -263,6 +277,7 @@ export function BuilderPage() {
                 },
               );
             }
+            if (!armor) unlock(type);
             close();
           }}
         />
@@ -320,7 +335,10 @@ export function BuilderPage() {
             </a>
             <button
               type="button"
-              onClick={() => setBuild(RESET)}
+              onClick={() => {
+                setBuild(RESET);
+                setLocked(RESET);
+              }}
               className="text-sm text-moss underline-offset-4 hover:text-bone hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt"
             >
               Clear set
@@ -344,6 +362,8 @@ export function BuilderPage() {
                 detail={held && describeWeapon(held)}
                 skills={catalog.skills}
                 onChoose={() => setPicking({ kind: "weapon" })}
+                locked={locked.includes("weapon")}
+                onLock={() => toggleLock("weapon")}
               >
                 {held?.slots.length
                   ? held.slots.map((level, index) => (
@@ -378,6 +398,8 @@ export function BuilderPage() {
                     meta={armor && `Defense ${armor.defense}`}
                     skills={catalog.skills}
                     onChoose={() => setPicking({ kind: "armor", type })}
+                    locked={locked.includes(type)}
+                    onLock={() => toggleLock(type)}
                   >
                     {armor?.slots.length
                       ? armor.slots.map((level, index) => (
@@ -404,6 +426,8 @@ export function BuilderPage() {
                 icon={charm?.icon_url}
                 skills={catalog.skills}
                 onChoose={() => setPicking({ kind: "charm" })}
+                locked={locked.includes("charm")}
+                onLock={() => toggleLock("charm")}
               />
             </ul>
           </div>

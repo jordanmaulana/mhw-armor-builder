@@ -120,6 +120,9 @@ export interface EquippedWeapon {
   decoIds: (string | null)[]; // one entry per weapon slot, null = empty
 }
 
+// a row of the equipment list, which is what a lock is put on
+export type Lockable = "weapon" | ArmorType | "charm";
+
 export interface Build {
   pieces: Record<ArmorType, Piece | null>;
   charmId: string | null;

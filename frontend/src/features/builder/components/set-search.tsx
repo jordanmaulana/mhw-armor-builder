@@ -1,11 +1,11 @@
 import { useDeferredValue, useMemo, useState } from "react";
-import { useAtom } from "jotai";
+import { useAtom, useAtomValue } from "jotai";
 import { ChevronDown, ChevronUp, X } from "lucide-react";
 
 import { Picker } from "@/features/builder/components/picker";
 import { narrow } from "@/features/builder/hunts";
-import { MAX_WANTED, recommend } from "@/features/builder/recommend";
-import { unslainAtom, wantedAtom } from "@/features/builder/state";
+import { MAX_WANTED, recommend, type Locked } from "@/features/builder/recommend";
+import { lockedAtom, unslainAtom, wantedAtom } from "@/features/builder/state";
 import { computeTotals } from "@/features/builder/totals";
 import {
   ARMOR_TYPES,
@@ -46,10 +46,12 @@ interface SetSearchProps {
 }
 
 // The skills to aim for, most important first, and under them the sets `recommend` finds
-// among the armor that can be forged without the monsters marked as not yet slain.
+// among the armor that can be forged without the monsters marked as not yet slain. A locked
+// row of the equipment list is in every one of them, as it is.
 export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
   const [saved, setSaved] = useAtom(wantedAtom);
   const [savedUnslain, setSavedUnslain] = useAtom(unslainAtom);
+  const lockedRows = useAtomValue(lockedAtom);
   const [adding, setAdding] = useState(false);
   const [marking, setMarking] = useState(false);
 
@@ -74,9 +76,40 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
     () => new Set(savedUnslain.filter((id) => catalog.monsters.has(id))),
     [savedUnslain, catalog],
   );
+  // What is locked, as the search takes it: the rows themselves, with the jewels on them. A
+  // row the catalog lost locks nothing. It goes through a string because the search goes by
+  // identity and `build` is a new object on every edit: this way only a change to a locked
+  // row is a change, and choosing a set that leaves them alone sets off no search.
+  const lockedKey = JSON.stringify({
+    pieces: Object.fromEntries(
+      ARMOR_TYPES.flatMap((type) => {
+        const piece = build.pieces[type];
+        return lockedRows.includes(type) && piece && catalog.armors.has(piece.armorId)
+          ? [[type, piece]]
+          : [];
+      }),
+    ),
+    charmId:
+      lockedRows.includes("charm") && catalog.charms.has(build.charmId ?? "")
+        ? build.charmId
+        : null,
+    weapon:
+      lockedRows.includes("weapon") && catalog.weapons.has(build.weapon?.weaponId ?? "")
+        ? build.weapon
+        : null,
+  } satisfies Locked);
+  const held = useMemo(() => JSON.parse(lockedKey) as Locked, [lockedKey]);
+  const searchedHeld = useDeferredValue(held);
+  const locks =
+    Object.keys(held.pieces ?? {}).length + (held.charmId ? 1 : 0) + (held.weapon ? 1 : 0);
+  // A locked piece is worn, so it stays in the pool whatever monster it is made of.
+  const keep = useMemo(
+    () => new Set(Object.values(held.pieces ?? {}).flatMap((piece) => piece?.armorId ?? [])),
+    [held],
+  );
   // What the search may pick from. Deferred like the list, so a tap in the monster picker
   // repaints before the search it sets off. Totals still read the whole catalog.
-  const narrowed = useMemo(() => narrow(catalog, unslain), [catalog, unslain]);
+  const narrowed = useMemo(() => narrow(catalog, unslain, keep), [catalog, unslain, keep]);
   const pool = useDeferredValue(narrowed);
   const leftOut = catalog.armors.size - pool.armors.size;
   // The weapon in hand is the search's too: its slots are filled with the armor's. Only the
@@ -84,16 +117,19 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
   // for the reason the pool is: the weapon picker should close before the search starts.
   const weaponId = build.weapon?.weaponId ?? null;
   const searchedWeapon = useDeferredValue(weaponId);
-  // The search runs a beat behind what was asked, by the three deferrals above, and until it
+  // The search runs a beat behind what was asked, by the four deferrals above, and until it
   // lands the sets on screen answer the old question. Never with an empty list: the first
   // render always starts from NONE, and nothing is on its way.
   const searching =
     wanted.length > 0 &&
-    (searched !== wanted || pool !== narrowed || searchedWeapon !== weaponId);
+    (searched !== wanted ||
+      pool !== narrowed ||
+      searchedWeapon !== weaponId ||
+      searchedHeld !== held);
 
   const sets = useMemo(
     () =>
-      recommend(searched, pool, 10, searchedWeapon).map((set) => {
+      recommend(searched, pool, 10, searchedWeapon, searchedHeld).map((set) => {
         const totals = computeTotals(set, catalog);
         const levels = new Map(totals.skills.map(({ skill, level }) => [skill.id, level]));
         return {
@@ -113,9 +149,19 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
           ].filter(Boolean),
         };
       }),
-    [searched, pool, searchedWeapon, catalog],
+    [searched, pool, searchedWeapon, searchedHeld, catalog],
   );
   const equipped = keyOf(build);
+  // A set found a beat ago, for another weapon or other locks, keeps what is in hand now: its
+  // armor still stands, but the old weapon is not to come back, nor is a row locked since.
+  const pick = (set: Build): Build =>
+    searchedHeld === held && (set.weapon?.weaponId ?? null) === weaponId
+      ? set
+      : {
+          pieces: { ...set.pieces, ...held.pieces },
+          charmId: held.charmId ?? set.charmId,
+          weapon: build.weapon ?? null,
+        };
 
   return (
     <>
@@ -241,7 +287,7 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
                 {sets[0].short.length > 0 && "No set reaches every target. Closest first. "}
                 {leftOut > 0 &&
                   `Not counting ${leftOut} ${leftOut === 1 ? "piece" : "pieces"} of monsters not yet slain. `}
-                Choosing a set replaces the current one.
+                Choosing a set replaces the current one{locks > 0 && ", except what is locked"}.
               </p>
               {/* dimmed while they are the old answer; back at once when the new one lands */}
               <ol
@@ -257,15 +303,7 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
                     {/* the set the armor rows are showing wears the game's green selection band */}
                     <button
                       type="button"
-                      // A set found for the weapon held a beat ago keeps the one in hand now:
-                      // its armor still stands, and the old weapon is not to come back.
-                      onClick={() =>
-                        onUse(
-                          (set.weapon?.weaponId ?? null) === weaponId
-                            ? set
-                            : { ...set, weapon: build.weapon ?? null },
-                        )
-                      }
+                      onClick={() => onUse(pick(set))}
                       aria-current={key === equipped || undefined}
                       className="flex min-w-0 flex-1 flex-col gap-1 border-l-2 border-transparent py-2.5 pr-4 pl-2 text-left hover:bg-plate focus-visible:bg-plate focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-hunt aria-[current]:border-hunt aria-[current]:bg-linear-to-r aria-[current]:from-hunt/30 aria-[current]:to-transparent"
                     >

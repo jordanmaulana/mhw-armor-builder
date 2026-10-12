@@ -1,6 +1,6 @@
 import { atomWithStorage } from "jotai/utils";
 
-import type { Build, GrantedSkill } from "@/features/builder/types";
+import type { Build, GrantedSkill, Lockable } from "@/features/builder/types";
 
 const EMPTY_BUILD: Build = {
   pieces: { head: null, chest: null, arms: null, waist: null, legs: null },
@@ -20,5 +20,10 @@ export const wantedAtom = atomWithStorage<GrantedSkill[]>("wanted", [], undefine
 
 // monsters (ids) not slain yet: the set search leaves out the armor that needs their materials
 export const unslainAtom = atomWithStorage<string[]>("unslain", [], undefined, {
+  getOnInit: true,
+});
+
+// the rows the set search has to keep as they are: the piece, and the jewels on it
+export const lockedAtom = atomWithStorage<Lockable[]>("locked", [], undefined, {
   getOnInit: true,
 });

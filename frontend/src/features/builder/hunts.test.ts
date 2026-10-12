@@ -98,6 +98,18 @@ check(
 
   check("with the monster slain the search takes its piece", head(catalog), "rath-helm");
   check("and with it unslain the best of what is left", head(left), "alloy-helm");
+
+  // a locked piece is the hunter's own word that they have it
+  check(
+    "a piece to keep stays, whatever it is made of",
+    [...narrow(catalog, unslain("rathalos"), new Set(["rath-helm"])).armors.keys()],
+    ["rath-helm", "alloy-helm"],
+  );
+  check(
+    "nothing unslain is still the catalog itself, with pieces to keep or without",
+    narrow(catalog, unslain(), new Set(["rath-helm"])) === catalog,
+    true,
+  );
 }
 
 console.log("hunts ok");

@@ -1,4 +1,5 @@
 import { useState, type ReactNode } from "react";
+import { Lock, LockOpen } from "lucide-react";
 
 import { describeSkills } from "@/features/builder/totals";
 import type { Decoration, GrantedSkill, Skill } from "@/features/builder/types";
@@ -122,6 +123,8 @@ interface EquipRowProps {
   detail?: string; // the line under the name, for an item that grants no skills
   skills: Map<string, Skill>;
   onChoose: () => void;
+  locked?: boolean; // the set search keeps the row as it is, jewels and all
+  onLock?: () => void;
   children?: ReactNode; // decoration slots
 }
 
@@ -135,8 +138,11 @@ export function EquipRow({
   detail,
   skills,
   onChoose,
+  locked = false,
+  onLock,
   children,
 }: EquipRowProps) {
+  const lockable = item && onLock;
   return (
     <li className="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-4 gap-y-3 border-b border-dashed border-seam py-4 last:border-b-0">
       <span className="pt-3 text-sm text-moss">{label}</span>
@@ -144,7 +150,7 @@ export function EquipRow({
         type="button"
         onClick={onChoose}
         aria-label={item ? `${label}: ${item.name}. Change` : emptyText}
-        className={`group -m-1.5 flex items-center gap-3 rounded-sm p-1.5 text-left hover:bg-plate ${FOCUS}`}
+        className={`group col-start-2 row-start-1 -m-1.5 flex items-center gap-3 rounded-sm p-1.5 text-left hover:bg-plate ${FOCUS}`}
       >
         <Icon key={icon} src={icon} rarity={item?.rarity} glyph={item && glyph} />
         {item ? (
@@ -153,7 +159,8 @@ export function EquipRow({
               <span className="truncate font-medium">{item.name}</span>
               {meta && <span className="shrink-0 text-sm text-moss tabular-nums">{meta}</span>}
             </span>
-            <span className="text-sm text-moss">
+            {/* pr-6: the lock stands on this line's last 1.5rem */}
+            <span className={`text-sm text-moss ${lockable ? "pr-6" : ""}`}>
               {detail ?? (describeSkills(item.skills ?? [], skills) || "No skills")}
             </span>
           </span>
@@ -163,7 +170,33 @@ export function EquipRow({
           </span>
         )}
       </button>
-      {children && <div className="col-start-2 flex flex-wrap gap-2">{children}</div>}
+      {/* In the choose button's own cell, over the corner of its last line. Not beside the
+          name: on a phone that is the room the name ends in, and a piece's name ends in what
+          tells it from its twin ("Alpha +", "Beta +"). Not in the label column: SoundToggle
+          floats over that. The nudges put it flush in the corner of the hover plate, its icon
+          under the right edge of the number above. */}
+      {lockable && (
+        <button
+          type="button"
+          onClick={onLock}
+          aria-pressed={locked}
+          aria-label={`Lock ${label.toLowerCase()}`}
+          title={
+            locked
+              ? "Locked: recommended sets keep this, with the jewels on it"
+              : "Lock, so recommended sets keep this, with the jewels on it"
+          }
+          // brass, not the green of a row switched on: a green edge here reads as the focus ring
+          className={`col-start-2 row-start-1 grid size-7 translate-x-1.5 translate-y-1.5 place-items-center self-end justify-self-end rounded-sm text-moss hover:bg-seam/40 hover:text-bone aria-pressed:text-brass ${FOCUS}`}
+        >
+          {locked ? (
+            <Lock aria-hidden className="size-4" />
+          ) : (
+            <LockOpen aria-hidden className="size-4" />
+          )}
+        </button>
+      )}
+      {children && <div className="col-start-2 row-start-2 flex flex-wrap gap-2">{children}</div>}
     </li>
   );
 }

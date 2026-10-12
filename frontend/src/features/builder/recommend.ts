@@ -1,4 +1,13 @@
-import { ARMOR_TYPES, type Build, type Catalog, type Decoration, type GrantedSkill } from "./types.ts";
+import {
+  ARMOR_TYPES,
+  type Armor,
+  type Build,
+  type Catalog,
+  type Charm,
+  type Decoration,
+  type EquippedWeapon,
+  type GrantedSkill,
+} from "./types.ts";
 
 // ponytail: the search runs on the main thread, on every change to the wanted list, and grows
 // with it. The slowest list found at this size (twelve damage skills, all at their cap) takes
@@ -15,15 +24,25 @@ interface Row {
   def: number;
 }
 
+// The rows the search has to keep. Each is in every build with the jewels on it where they
+// are: only its empty slots are the search's to fill.
+export interface Locked {
+  pieces?: Partial<Build["pieces"]>;
+  charmId?: string | null;
+  weapon?: EquippedWeapon | null; // the weapon in hand, or it locks nothing
+}
+
 // Full builds for a list of skill targets, best first. `wanted` is in priority order: builds are
 // compared by the level they reach of each skill (never more than its target), first skill
 // first, and by defense when those are equal. The weapon is a given, not something searched
-// for: every build holds it, and its slots are filled along with the armor's.
+// for: every build holds it, and its slots are filled along with the armor's. So is a locked
+// row, and the jewels on one are a given too.
 export function recommend(
   wanted: GrantedSkill[],
   catalog: Catalog,
   limit = 10,
   weaponId: string | null = null,
+  locked: Locked = {},
 ): Build[] {
   // the list is read back from localStorage: drop skills the catalog lost, hold levels to the cap
   const targets = wanted
@@ -115,22 +134,41 @@ export function recommend(
         ),
     );
 
+  // The jewels a locked row holds, slot by slot, and null where the slot is the search's to
+  // fill: an empty one, or one whose jewel the catalog lost. Every slot, when the row is not
+  // locked. The skills of those jewels are points in hand, and only the slots left count.
+  const seated = (slots: number[], decoIds: (string | null)[] = []) =>
+    slots.map((_, at) => catalog.decorations.get(decoIds[at] ?? "")?.id ?? null);
+  const granted = (decoIds: (string | null)[]) =>
+    decoIds.flatMap((id) => catalog.decorations.get(id ?? "")?.skills ?? []);
+  const open = (slots: number[], decoIds: (string | null)[]) =>
+    slots.filter((_, at) => !decoIds[at]);
+
   // The blank goes first so a charm with none of the wanted skills loses to wearing no charm,
   // rather than one being picked at random. For armor it only survives a slot with no pieces.
   const blank: Row = { id: null, v: points([]), c: usable([]), def: 0 };
+  const charmRow = (charm: Charm): Row => ({ ...blank, id: charm.id, v: points(charm.skills) });
+  const armorRow = (armor: Armor, decoIds: (string | null)[] = []): Row => ({
+    id: armor.id,
+    v: points([...armor.skills, ...granted(decoIds)]),
+    c: usable(open(armor.slots, decoIds)),
+    def: armor.defense,
+  });
+  // A locked row is a group of one. Not even the blank stands beside it: a locked charm with
+  // none of the wanted skills is the blank's equal, and of two equal rows the earlier stays.
+  const lockedCharm = catalog.charms.get(locked.charmId ?? "");
   const groups = [
-    [...catalog.charms.values()].map((charm) => ({ ...blank, id: charm.id, v: points(charm.skills) })),
-    ...ARMOR_TYPES.map((type) =>
-      [...catalog.armors.values()]
-        .filter((armor) => armor.type === type)
-        .map((armor) => ({
-          id: armor.id,
-          v: points(armor.skills),
-          c: usable(armor.slots),
-          def: armor.defense,
-        })),
-    ),
-  ].map((rows) => prune([blank, ...rows]));
+    lockedCharm
+      ? [charmRow(lockedCharm)]
+      : prune([blank, ...[...catalog.charms.values()].map(charmRow)]),
+    ...ARMOR_TYPES.map((type) => {
+      const lock = locked.pieces?.[type];
+      const armor = catalog.armors.get(lock?.armorId ?? "");
+      if (lock && armor) return [armorRow(armor, seated(armor.slots, lock.decoIds))];
+      const rows = [...catalog.armors.values()].filter((piece) => piece.type === type);
+      return prune([blank, ...rows.map((piece) => armorRow(piece))]);
+    }),
+  ];
   // strongest first, so good builds turn up early and the bound below has something to cut with
   for (const rows of groups) rows.sort((a, b) => fill(b.v, b.c) - fill(a.v, a.c) || b.def - a.def);
 
@@ -189,10 +227,15 @@ export function recommend(
       );
     }
   };
-  // The weapon's slots are there before a piece is chosen. That is all the search knows of it:
-  // the bounds add what lies ahead to the slots in hand, whichever these are.
+  // The weapon's slots are there before a piece is chosen, and so are the points of the jewels
+  // on it when it is locked. That is all the search knows of it: the bounds add what lies ahead
+  // to the points and slots in hand, whichever these are.
   const weapon = catalog.weapons.get(weaponId ?? "");
-  search(0, blank.v, usable(weapon?.slots ?? []), 0);
+  const onWeapon = seated(
+    weapon?.slots ?? [],
+    locked.weapon?.weaponId === weapon?.id ? locked.weapon?.decoIds : undefined,
+  );
+  search(0, points(granted(onWeapon)), usable(open(weapon?.slots ?? [], onWeapon)), 0);
 
   // the same fill once more, this time onto the real slots of the pieces that won
   return kept.map(({ ids: [charmId, ...armorIds], v }) => {
@@ -201,16 +244,22 @@ export function recommend(
     ARMOR_TYPES.forEach((type, i) => {
       const armor = catalog.armors.get(armorIds[i] ?? "");
       if (!armor) return;
-      const decoIds = armor.slots.map((): string | null => null);
+      // a locked piece comes back with its jewels in place, and only its other slots are free
+      const lock = locked.pieces?.[type];
+      const decoIds = seated(armor.slots, lock?.armorId === armor.id ? lock.decoIds : undefined);
       pieces[type] = { armorId: armor.id, decoIds };
-      armor.slots.forEach((level, at) => free.push({ decoIds, at, level }));
+      armor.slots.forEach((level, at) => {
+        if (!decoIds[at]) free.push({ decoIds, at, level });
+      });
     });
     // After the armor's, and the sort is stable: of two slots alike the armor's is filled
     // first, so a jewel is not on the weapon when one of the pieces could hold it.
     let held: Build["weapon"] = null;
     if (weapon) {
-      held = { weaponId: weapon.id, decoIds: weapon.slots.map(() => null) };
-      for (const [at, level] of weapon.slots.entries()) free.push({ decoIds: held.decoIds, at, level });
+      held = { weaponId: weapon.id, decoIds: onWeapon.slice() };
+      for (const [at, level] of weapon.slots.entries()) {
+        if (!onWeapon[at]) free.push({ decoIds: held.decoIds, at, level });
+      }
     }
     free.sort((a, b) => a.level - b.level);
 
