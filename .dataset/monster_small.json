@@ -1,0 +1,1900 @@
+{
+  "source": "https://monsterhunterworld.wiki.fextralife.com/Monsters",
+  "type": "small",
+  "monsters": [
+    {
+      "name": "Apceros",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Apceros",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/1/12/Apceros-mhw-icon_small.png",
+      "species": "herbivore",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 100
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 100
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aptonoth",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Aptonoth",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/46/Aptonoth-mhw-icon_small.png",
+      "species": "herbivore",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 100
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 100
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Barnos",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Barnos",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/c0/Barnos-mhw-icon-small.png",
+      "species": "wingdrake",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Wingdrake Hide",
+              "quantity": 1,
+              "chance": 100
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Barnos Hide+",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Barnos Talon",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Barnos Hide+",
+              "quantity": 1,
+              "chance": 40
+            },
+            {
+              "name": "Barnos Talon",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Sturdy Bone",
+              "quantity": 2,
+              "chance": 16
+            },
+            {
+              "name": "Dragonvein Crystal",
+              "quantity": 1,
+              "chance": 14
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Barnos Hardclaw",
+              "quantity": 1,
+              "chance": 65
+            },
+            {
+              "name": "Wingdrake Finehide",
+              "quantity": 1,
+              "chance": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gajau",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gajau",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/83/Gajau-mhw-icon_small.png",
+      "species": "fish",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Gajau Skin",
+              "quantity": 1,
+              "chance": 75
+            },
+            {
+              "name": "Gajau Whisker",
+              "quantity": 1,
+              "chance": 25
+            }
+          ]
+        },
+        {
+          "rank": "low",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Gajau Skin",
+              "quantity": 1,
+              "chance": 40
+            },
+            {
+              "name": "Gajau Whisker",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Iron Ore",
+              "quantity": 2,
+              "chance": 16
+            },
+            {
+              "name": "Machalite Ore",
+              "quantity": 1,
+              "chance": 14
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Gajau Scale",
+              "quantity": 1,
+              "chance": 75
+            },
+            {
+              "name": "Grand Gajau Whisker",
+              "quantity": 1,
+              "chance": 25
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Gajau Scale",
+              "quantity": 1,
+              "chance": 40
+            },
+            {
+              "name": "Grand Gajau Whisker",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Machalite Ore",
+              "quantity": 2,
+              "chance": 16
+            },
+            {
+              "name": "Dragonite Ore",
+              "quantity": 1,
+              "chance": 14
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Gajau Thickhide",
+              "quantity": 1,
+              "chance": 65
+            },
+            {
+              "name": "Steel Gajau Whisker",
+              "quantity": 1,
+              "chance": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Girros",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Girros",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/66/Girros-mhw-icon_small.png",
+      "species": "fanged_wyvern",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Girros Hide",
+              "quantity": 1,
+              "chance": 50
+            },
+            {
+              "name": "Girros Scale",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Girros Fang",
+              "quantity": 1,
+              "chance": 20
+            }
+          ]
+        },
+        {
+          "rank": "low",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Girros Hide",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Girros Scale",
+              "quantity": 1,
+              "chance": 25
+            },
+            {
+              "name": "Girros Fang",
+              "quantity": 1,
+              "chance": 21
+            },
+            {
+              "name": "Sharp Claw",
+              "quantity": 2,
+              "chance": 12
+            },
+            {
+              "name": "Sturdy Bone",
+              "quantity": 1,
+              "chance": 12
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Girros Hide+",
+              "quantity": 1,
+              "chance": 50
+            },
+            {
+              "name": "Girros Scale+",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Girros Fang",
+              "quantity": 1,
+              "chance": 20
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Girros Hide+",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Girros Scale+",
+              "quantity": 1,
+              "chance": 25
+            },
+            {
+              "name": "Girros Fang",
+              "quantity": 2,
+              "chance": 21
+            },
+            {
+              "name": "Piercing Claw",
+              "quantity": 2,
+              "chance": 12
+            },
+            {
+              "name": "Quality Bone",
+              "quantity": 1,
+              "chance": 12
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Girros Shard",
+              "quantity": 1,
+              "chance": 65
+            },
+            {
+              "name": "Tough Claw",
+              "quantity": 1,
+              "chance": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hornetaur",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hornetaur",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/a7/Hornetaur-mhw-icon_small.png",
+      "species": "neopteron",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Hornetaur Shell",
+              "quantity": 1,
+              "chance": 40
+            },
+            {
+              "name": "Hornetaur Wing",
+              "quantity": 1,
+              "chance": 32
+            },
+            {
+              "name": "Monster Fluid",
+              "quantity": 1,
+              "chance": 20
+            },
+            {
+              "name": "Hornetaur Head",
+              "quantity": 1,
+              "chance": 8
+            }
+          ]
+        },
+        {
+          "rank": "low",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Hornetaur Shell",
+              "quantity": 1,
+              "chance": 38
+            },
+            {
+              "name": "Hornetaur Wing",
+              "quantity": 1,
+              "chance": 28
+            },
+            {
+              "name": "Monster Fluid",
+              "quantity": 1,
+              "chance": 22
+            },
+            {
+              "name": "Hornetaur Head",
+              "quantity": 1,
+              "chance": 12
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Hornetaur Carapace",
+              "quantity": 1,
+              "chance": 40
+            },
+            {
+              "name": "Hornetaur Innerwing",
+              "quantity": 1,
+              "chance": 32
+            },
+            {
+              "name": "Monster Broth",
+              "quantity": 1,
+              "chance": 20
+            },
+            {
+              "name": "Hornetaur Head",
+              "quantity": 1,
+              "chance": 8
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Hornetaur Carapace",
+              "quantity": 1,
+              "chance": 38
+            },
+            {
+              "name": "Hornetaur Innerwing",
+              "quantity": 1,
+              "chance": 28
+            },
+            {
+              "name": "Monster Broth",
+              "quantity": 1,
+              "chance": 22
+            },
+            {
+              "name": "Hornetaur Head",
+              "quantity": 1,
+              "chance": 12
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Hornetaur Razorwing",
+              "quantity": 1,
+              "chance": 65
+            },
+            {
+              "name": "Monster Essence",
+              "quantity": 1,
+              "chance": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jagras",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Jagras",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/de/Jagras-mhw-icon_small.png",
+      "species": "fanged_wyvern",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Jagras Hide",
+              "quantity": 1,
+              "chance": 50
+            },
+            {
+              "name": "Jagras Scale",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Sharp Claw",
+              "quantity": 1,
+              "chance": 20
+            }
+          ]
+        },
+        {
+          "rank": "low",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Jagras Hide",
+              "quantity": 1,
+              "chance": 35
+            },
+            {
+              "name": "Jagras Scale",
+              "quantity": 1,
+              "chance": 26
+            },
+            {
+              "name": "Sharp Claw",
+              "quantity": 1,
+              "chance": 25
+            },
+            {
+              "name": "Monster Bone S",
+              "quantity": 2,
+              "chance": 14
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Jagras Hide+",
+              "quantity": 1,
+              "chance": 50
+            },
+            {
+              "name": "Jagras Scale+",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Piercing Claw",
+              "quantity": 1,
+              "chance": 20
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Jagras Hide+",
+              "quantity": 1,
+              "chance": 35
+            },
+            {
+              "name": "Jagras Scale+",
+              "quantity": 1,
+              "chance": 26
+            },
+            {
+              "name": "Piercing Claw",
+              "quantity": 1,
+              "chance": 25
+            },
+            {
+              "name": "Sturdy Bone",
+              "quantity": 2,
+              "chance": 14
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Jagras Shard",
+              "quantity": 1,
+              "chance": 65
+            },
+            {
+              "name": "Tough Claw",
+              "quantity": 1,
+              "chance": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelbi",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kelbi",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/87/Kelbi-mhw-icon_small.png",
+      "species": "herbivore",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Warm Pelt",
+              "quantity": 1,
+              "chance": 60
+            },
+            {
+              "name": "White Liver",
+              "quantity": 1,
+              "chance": 25
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 15
+            }
+          ]
+        },
+        {
+          "rank": "low",
+          "method": "shiny_drop",
+          "part": "",
+          "items": [
+            {
+              "name": "Kelbi Horn",
+              "quantity": 1,
+              "chance": 100
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "High-quality Pelt",
+              "quantity": 1,
+              "chance": 60
+            },
+            {
+              "name": "White Liver",
+              "quantity": 1,
+              "chance": 25
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 15
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "shiny_drop",
+          "part": "",
+          "items": [
+            {
+              "name": "Kelbi Horn",
+              "quantity": 1,
+              "chance": 100
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Prized Pelt",
+              "quantity": 1,
+              "chance": 60
+            },
+            {
+              "name": "White Liver",
+              "quantity": 1,
+              "chance": 25
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kestodon (Male)",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kestodon",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/de/Kestodon-mhw-icon_small.png",
+      "species": "herbivore",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Kestodon Shell",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Kestodon Scalp",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        },
+        {
+          "rank": "low",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Kestodon Shell",
+              "quantity": 1,
+              "chance": 44
+            },
+            {
+              "name": "Kestodon Scalp",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Monster Bone S",
+              "quantity": 2,
+              "chance": 26
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Kestodon Carapace",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Kestodon Scalp",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Kestodon Carapace",
+              "quantity": 1,
+              "chance": 44
+            },
+            {
+              "name": "Kestodon Scalp",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Sturdy Bone",
+              "quantity": 1,
+              "chance": 26
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Kestodon Husk",
+              "quantity": 1,
+              "chance": 65
+            },
+            {
+              "name": "Kestodon Scalp",
+              "quantity": 1,
+              "chance": 35
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Kestodon Scalp",
+              "quantity": 1,
+              "chance": 35
+            },
+            {
+              "name": "Kestodon Husk",
+              "quantity": 1,
+              "chance": 26
+            },
+            {
+              "name": "Quality Bone",
+              "quantity": 1,
+              "chance": 25
+            },
+            {
+              "name": "Ancient Bone",
+              "quantity": 2,
+              "chance": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kestodon (Female)",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Kestodon",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/de/Kestodon-mhw-icon_small.png",
+      "species": "herbivore",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Kestodon Shell",
+              "quantity": 1,
+              "chance": 80
+            },
+            {
+              "name": "Kestodon Scalp",
+              "quantity": 1,
+              "chance": 20
+            }
+          ]
+        },
+        {
+          "rank": "low",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Kestodon Shell",
+              "quantity": 1,
+              "chance": 44
+            },
+            {
+              "name": "Kestodon Scalp",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Monster Bone S",
+              "quantity": 2,
+              "chance": 26
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Kestodon Carapace",
+              "quantity": 1,
+              "chance": 80
+            },
+            {
+              "name": "Kestodon Scalp",
+              "quantity": 1,
+              "chance": 20
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Kestodon Carapace",
+              "quantity": 1,
+              "chance": 44
+            },
+            {
+              "name": "Kestodon Scalp",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Sturdy Bone",
+              "quantity": 1,
+              "chance": 26
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Kestodon Husk",
+              "quantity": 1,
+              "chance": 80
+            },
+            {
+              "name": "Kestodon Scalp",
+              "quantity": 1,
+              "chance": 20
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Kestodon Scalp",
+              "quantity": 1,
+              "chance": 35
+            },
+            {
+              "name": "Kestodon Husk",
+              "quantity": 1,
+              "chance": 26
+            },
+            {
+              "name": "Quality Bone",
+              "quantity": 1,
+              "chance": 25
+            },
+            {
+              "name": "Ancient Bone",
+              "quantity": 2,
+              "chance": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mernos",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Mernos",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/00/Mernos-mhw-icon_small.png",
+      "species": "wingdrake",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Wingdrake Hide",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        },
+        {
+          "rank": "low",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Wingdrake Hide",
+              "quantity": 1,
+              "chance": 32
+            },
+            {
+              "name": "Monster Bone S",
+              "quantity": 1,
+              "chance": 28
+            },
+            {
+              "name": "Warm Pelt",
+              "quantity": 1,
+              "chance": 22
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 2,
+              "chance": 18
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Wingdrake Hide+",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Wingdrake Hide+",
+              "quantity": 1,
+              "chance": 32
+            },
+            {
+              "name": "Sturdy Bone",
+              "quantity": 1,
+              "chance": 28
+            },
+            {
+              "name": "High-quality Pelt",
+              "quantity": 1,
+              "chance": 22
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 4,
+              "chance": 18
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Wingdrake Finehide",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mosswine",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Mosswine",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/38/Mosswine-mhw-icon_small.png",
+      "species": "herbivore",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Mosswine Hide",
+              "quantity": 1,
+              "chance": 100
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Mosswine Hide",
+              "quantity": 1,
+              "chance": 100
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Mosswine Hide",
+              "quantity": 1,
+              "chance": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Noios",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Noios",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/76/Noios-mhw-icon_small.png",
+      "species": "wingdrake",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Screamer Sac",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Wingdrake Hide",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        },
+        {
+          "rank": "low",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Screamer Sac",
+              "quantity": 2,
+              "chance": 32
+            },
+            {
+              "name": "Wingdrake Hide",
+              "quantity": 1,
+              "chance": 26
+            },
+            {
+              "name": "Monster Bone S",
+              "quantity": 1,
+              "chance": 24
+            },
+            {
+              "name": "Warm Pelt",
+              "quantity": 1,
+              "chance": 18
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Screamer Sac",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Wingdrake Hide+",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Screamer Sac",
+              "quantity": 2,
+              "chance": 32
+            },
+            {
+              "name": "Wingdrake Hide",
+              "quantity": 1,
+              "chance": 26
+            },
+            {
+              "name": "Monster Bone S",
+              "quantity": 1,
+              "chance": 24
+            },
+            {
+              "name": "High-quality Pelt",
+              "quantity": 1,
+              "chance": 18
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Screamer Sac",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Wingdrake Finehide",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Raphinos",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Raphinos",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b9/Raphinos-mhw-icon_small.png",
+      "species": "wingdrake",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Wingdrake Hide",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        },
+        {
+          "rank": "low",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Wingdrake Hide",
+              "quantity": 1,
+              "chance": 28
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 24
+            },
+            {
+              "name": "Nulberry",
+              "quantity": 3,
+              "chance": 16
+            },
+            {
+              "name": "Monster Bone S",
+              "quantity": 2,
+              "chance": 12
+            },
+            {
+              "name": "Sturdy Bone",
+              "quantity": 1,
+              "chance": 12
+            },
+            {
+              "name": "Warped Bone",
+              "quantity": 1,
+              "chance": 8
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Wingdrake Hide+",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Wingdrake Hide+",
+              "quantity": 1,
+              "chance": 28
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 24
+            },
+            {
+              "name": "Nulberry",
+              "quantity": 3,
+              "chance": 16
+            },
+            {
+              "name": "Quality Bone",
+              "quantity": 1,
+              "chance": 12
+            },
+            {
+              "name": "Sturdy Bone",
+              "quantity": 2,
+              "chance": 12
+            },
+            {
+              "name": "Warped Bone",
+              "quantity": 1,
+              "chance": 8
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Wingdrake Finehide",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shamos",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Shamos",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/d/d0/Shamos-mhw-icon_small.png",
+      "species": "fanged_wyvern",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Shamos Hide",
+              "quantity": 1,
+              "chance": 50
+            },
+            {
+              "name": "Shamos Scale",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Sharp Claw",
+              "quantity": 1,
+              "chance": 20
+            }
+          ]
+        },
+        {
+          "rank": "low",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Shamos Hide",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Sharp Claw",
+              "quantity": 1,
+              "chance": 24
+            },
+            {
+              "name": "Shamos Scale",
+              "quantity": 1,
+              "chance": 22
+            },
+            {
+              "name": "Coral Crystal",
+              "quantity": 1,
+              "chance": 12
+            },
+            {
+              "name": "Sturdy Bone",
+              "quantity": 1,
+              "chance": 12
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Shamos Hide+",
+              "quantity": 1,
+              "chance": 50
+            },
+            {
+              "name": "Shamos Scale+",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Piercing Claw",
+              "quantity": 1,
+              "chance": 20
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Shamos Hide+",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Piercing Claw",
+              "quantity": 1,
+              "chance": 24
+            },
+            {
+              "name": "Shamos Scale+",
+              "quantity": 1,
+              "chance": 22
+            },
+            {
+              "name": "Coral Crystal",
+              "quantity": 2,
+              "chance": 12
+            },
+            {
+              "name": "Quality Bone",
+              "quantity": 1,
+              "chance": 12
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Shamos Shard",
+              "quantity": 1,
+              "chance": 65
+            },
+            {
+              "name": "Tough Claw",
+              "quantity": 1,
+              "chance": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vespoid",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Vespoid",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/a/ad/Vespoid-mhw-icon_small.png",
+      "species": "neopteron",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "low",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Vespoid Shell",
+              "quantity": 1,
+              "chance": 42
+            },
+            {
+              "name": "Vespoid Wing",
+              "quantity": 1,
+              "chance": 35
+            },
+            {
+              "name": "Monster Fluid",
+              "quantity": 1,
+              "chance": 23
+            }
+          ]
+        },
+        {
+          "rank": "low",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Vespoid Wing",
+              "quantity": 1,
+              "chance": 32
+            },
+            {
+              "name": "Vespoid Shell",
+              "quantity": 1,
+              "chance": 30
+            },
+            {
+              "name": "Monster Fluid",
+              "quantity": 1,
+              "chance": 24
+            },
+            {
+              "name": "Honey",
+              "quantity": 3,
+              "chance": 14
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Vespoid Carapace",
+              "quantity": 1,
+              "chance": 42
+            },
+            {
+              "name": "Vespoid Innerwing",
+              "quantity": 1,
+              "chance": 35
+            },
+            {
+              "name": "Monster Broth",
+              "quantity": 1,
+              "chance": 23
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Vespoid Carapace",
+              "quantity": 1,
+              "chance": 28
+            },
+            {
+              "name": "Vespoid Innerwing",
+              "quantity": 1,
+              "chance": 24
+            },
+            {
+              "name": "Monster Broth",
+              "quantity": 1,
+              "chance": 22
+            },
+            {
+              "name": "Honey",
+              "quantity": 6,
+              "chance": 14
+            },
+            {
+              "name": "Monster Fluid",
+              "quantity": 2,
+              "chance": 12
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Vespoid Razorwing",
+              "quantity": 1,
+              "chance": 65
+            },
+            {
+              "name": "Monster Essence",
+              "quantity": 1,
+              "chance": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gastodon",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gastodon",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5a/Gastodon-mhw-icon-small.png",
+      "species": "herbivore",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "high",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Gastodon Carapace",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Gastodon Horn",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        },
+        {
+          "rank": "high",
+          "method": "quest_reward",
+          "part": "",
+          "items": [
+            {
+              "name": "Gastodon Carapace",
+              "quantity": 1,
+              "chance": 45
+            },
+            {
+              "name": "Gastodon Horn",
+              "quantity": 1,
+              "chance": 35
+            },
+            {
+              "name": "Quality Bone",
+              "quantity": 1,
+              "chance": 20
+            }
+          ]
+        },
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Gastodon Husk",
+              "quantity": 1,
+              "chance": 65
+            },
+            {
+              "name": "Gastodon Horn",
+              "quantity": 1,
+              "chance": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gajalaka",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Gajalaka",
+      "icon_url": "",
+      "species": "lynian",
+      "weaknesses": [],
+      "drops": []
+    },
+    {
+      "name": "Boaboa",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Boaboa",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f9/Mhwi-boaboa_icon.png",
+      "species": "lynian",
+      "weaknesses": [],
+      "drops": []
+    },
+    {
+      "name": "Wulg",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Wulg",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7c/Mhwi-wulg_icon.png",
+      "species": "fanged_wyvern",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Wulg Thickfur",
+              "quantity": 1,
+              "chance": 65
+            },
+            {
+              "name": "Tough Claw",
+              "quantity": 1,
+              "chance": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anteka",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Anteka",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/c/cc/Mhwi-anteka_icon.png",
+      "species": "herbivore",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Anteka Antler",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Prized Pelt",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Popo",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Popo",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/8f/Mhwi-popo_icon.png",
+      "species": "herbivore",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Raw Meat",
+              "quantity": 1,
+              "chance": 70
+            },
+            {
+              "name": "Prized Pelt",
+              "quantity": 1,
+              "chance": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cortos",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Cortos",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/9/9f/Mhwi-cortos_icon.png",
+      "species": "wingdrake",
+      "weaknesses": [],
+      "drops": [
+        {
+          "rank": "master",
+          "method": "carve",
+          "part": "",
+          "items": [
+            {
+              "name": "Cortos Hardclaw",
+              "quantity": 1,
+              "chance": 65
+            },
+            {
+              "name": "Wingdrake Finehide",
+              "quantity": 1,
+              "chance": 35
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,7 +10,8 @@ class Charm(BaseModel):
     rarity = models.PositiveSmallIntegerField(null=True, blank=True)
     zenny = models.PositiveIntegerField(null=True, blank=True)
     obtained = models.TextField(blank=True)  # how to get it when it can't be crafted
-    # ponytail: JSON list of {name, url, quantity}; make a Material table if crafting needs querying
+    # ponytail: JSON list of {name, url, quantity}; link them to items.Item if crafting needs
+    # querying. The names are the wiki's, and not all of them are an item's name
     materials = models.JSONField(default=list, blank=True)
     skills = models.ManyToManyField("skills.Skill", through="CharmSkill", related_name="charms")
 

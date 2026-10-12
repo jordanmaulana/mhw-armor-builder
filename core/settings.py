@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     "decorations",
     "armors",
     "weapons",
+    "items",
+    "monsters",
 ]
 
 REST_FRAMEWORK = {
