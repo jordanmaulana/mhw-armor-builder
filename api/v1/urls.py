@@ -7,6 +7,7 @@ from api.v1.decorations_api import DecorationAPI
 from api.v1.monsters_api import MonsterAPI
 from api.v1.set_bonuses_api import SetBonusAPI
 from api.v1.skills_api import SkillAPI
+from api.v1.weapons_api import WeaponAPI
 
 urlpatterns = [
     path("auth/google/", auth_api.google, name="api-v1-auth-google"),
@@ -21,4 +22,5 @@ urlpatterns = [
     path("decorations/", DecorationAPI.as_view(), name="api-v1-decorations"),
     path("charms/", CharmAPI.as_view(), name="api-v1-charms"),
     path("monsters/", MonsterAPI.as_view(), name="api-v1-monsters"),
+    path("weapons/", WeaponAPI.as_view(), name="api-v1-weapons"),
 ]

@@ -26,7 +26,16 @@ const RARITY_COLOR: Record<number, string> = {
 // is missing or the host refuses it. Give it key={src} so a new icon gets a fresh try.
 // The plate is light because the wiki's armor renders are near-black.
 // Inside a `group` it lights up with the game's green cursor.
-function Icon({ src, rarity }: { src?: string; rarity?: number | null }) {
+// `glyph` stands on the plate of an item the dataset has no icon for at all.
+function Icon({
+  src,
+  rarity,
+  glyph,
+}: {
+  src?: string;
+  rarity?: number | null;
+  glyph?: ReactNode;
+}) {
   const [failed, setFailed] = useState(false);
   return (
     <span
@@ -45,6 +54,7 @@ function Icon({ src, rarity }: { src?: string; rarity?: number | null }) {
           className="size-9 object-contain"
         />
       )}
+      {!src && glyph}
     </span>
   );
 }
@@ -105,9 +115,11 @@ export function SlotButton({ level, decoration, skills, onClick }: SlotButtonPro
 interface EquipRowProps {
   label: string;
   emptyText: string;
-  item?: { name: string; rarity: number | null; skills: GrantedSkill[] };
+  item?: { name: string; rarity: number | null; skills?: GrantedSkill[] };
   icon?: string;
+  glyph?: ReactNode; // on the icon plate, for an item with no icon
   meta?: ReactNode;
+  detail?: string; // the line under the name, for an item that grants no skills
   skills: Map<string, Skill>;
   onChoose: () => void;
   children?: ReactNode; // decoration slots
@@ -118,7 +130,9 @@ export function EquipRow({
   emptyText,
   item,
   icon,
+  glyph,
   meta,
+  detail,
   skills,
   onChoose,
   children,
@@ -132,7 +146,7 @@ export function EquipRow({
         aria-label={item ? `${label}: ${item.name}. Change` : emptyText}
         className={`group -m-1.5 flex items-center gap-3 rounded-sm p-1.5 text-left hover:bg-plate ${FOCUS}`}
       >
-        <Icon key={icon} src={icon} rarity={item?.rarity} />
+        <Icon key={icon} src={icon} rarity={item?.rarity} glyph={item && glyph} />
         {item ? (
           <span className="flex min-w-0 flex-1 flex-col gap-0.5">
             <span className="flex items-baseline justify-between gap-4">
@@ -140,7 +154,7 @@ export function EquipRow({
               {meta && <span className="shrink-0 text-sm text-moss tabular-nums">{meta}</span>}
             </span>
             <span className="text-sm text-moss">
-              {describeSkills(item.skills, skills) || "No skills"}
+              {detail ?? (describeSkills(item.skills ?? [], skills) || "No skills")}
             </span>
           </span>
         ) : (

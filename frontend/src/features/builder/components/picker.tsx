@@ -15,6 +15,14 @@ const SEARCH = {
   hint: "Try part of a name or a skill, like “attack”.",
 };
 
+// `Kjárr Slicer "Blast"` is found by "kjarr slicer blast": the game's names keep their accents
+// and their quotes, and nobody types either
+const fold = (text: string) =>
+  text
+    .normalize("NFD")
+    .replace(/\p{M}|"/gu, "")
+    .toLowerCase();
+
 interface PickerProps<T extends Pickable> {
   title: string;
   // a line under the title, for a list whose choice does something the title doesn't say
@@ -28,6 +36,13 @@ interface PickerProps<T extends Pickable> {
   search?: typeof SEARCH;
   // the caller orders `items`; this only draws the choice
   sort?: { options: string[]; value: string; onChange: (value: string) => void };
+  // the same for a list shown one kind at a time: the caller filters `items`
+  filter?: {
+    label: string;
+    options: { value: string; label: string }[];
+    value: string;
+    onChange: (value: string) => void;
+  };
   meta?: (item: T) => ReactNode;
   // the line under the name, for items that don't grant skills; it is searched too
   detail?: (item: T) => string;
@@ -45,6 +60,7 @@ export function Picker<T extends Pickable>({
   chosen,
   search = SEARCH,
   sort,
+  filter,
   meta,
   detail,
   onPick,
@@ -63,11 +79,11 @@ export function Picker<T extends Pickable>({
     () =>
       items.map((item) => {
         const granted = detail ? detail(item) : describeSkills(item.skills ?? [], skills);
-        return { item, granted, haystack: `${item.name} ${granted}`.toLowerCase() };
+        return { item, granted, haystack: fold(`${item.name} ${granted}`) };
       }),
     [items, skills, detail],
   );
-  const needle = query.trim().toLowerCase();
+  const needle = fold(query.trim());
   // ponytail: plain substring scan and no list virtualization; fine for the ~400 rows a picker
   // holds at most, revisit both if a list reaches the thousands
   const shown = needle ? rows.filter((row) => row.haystack.includes(needle)) : rows;
@@ -120,24 +136,42 @@ export function Picker<T extends Pickable>({
               Close
             </button>
           </div>
-          {/* right-aligned: it sits over the columns it sorts */}
-          {sort && (
-            <div role="group" aria-label="Sort by" className="flex justify-end gap-4 text-sm">
-              <span aria-hidden className="text-moss">
-                Sort by
-              </span>
-              {/* underline means "active" here, so unlike Close these don't underline on hover */}
-              {sort.options.map((option) => (
-                <button
-                  key={option}
-                  type="button"
-                  aria-pressed={option === sort.value}
-                  onClick={() => sort.onChange(option)}
-                  className="text-moss decoration-hunt underline-offset-4 hover:text-bone focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt aria-pressed:text-bone aria-pressed:underline"
+          {(filter || sort) && (
+            <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 text-sm">
+              {filter && (
+                <select
+                  aria-label={filter.label}
+                  value={filter.value}
+                  onChange={(e) => filter.onChange(e.target.value)}
+                  className="rounded-sm border border-seam bg-hide px-2 py-1 focus-visible:outline-2 focus-visible:outline-hunt"
                 >
-                  {option}
-                </button>
-              ))}
+                  {filter.options.map((option) => (
+                    <option key={option.value} value={option.value}>
+                      {option.label}
+                    </option>
+                  ))}
+                </select>
+              )}
+              {/* right-aligned: it sits over the columns it sorts */}
+              {sort && (
+                <div role="group" aria-label="Sort by" className="ml-auto flex gap-4">
+                  <span aria-hidden className="text-moss">
+                    Sort by
+                  </span>
+                  {/* underline means "active" here, so unlike Close these don't underline on hover */}
+                  {sort.options.map((option) => (
+                    <button
+                      key={option}
+                      type="button"
+                      aria-pressed={option === sort.value}
+                      onClick={() => sort.onChange(option)}
+                      className="text-moss decoration-hunt underline-offset-4 hover:text-bone focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt aria-pressed:text-bone aria-pressed:underline"
+                    >
+                      {option}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -147,8 +181,11 @@ export function Picker<T extends Pickable>({
             Nothing matches “{query.trim()}”. {search.hint}
           </p>
         ) : (
-          // keyed on the sort so a new order remounts the list and starts from the top
-          <ul key={sort?.value} className="flex-1 overflow-y-auto overscroll-contain">
+          // keyed on the sort and the filter so a new list remounts and starts from the top
+          <ul
+            key={`${filter?.value} ${sort?.value}`}
+            className="flex-1 overflow-y-auto overscroll-contain"
+          >
             {shown.map(({ item, granted }) => (
               <li
                 key={item.id}

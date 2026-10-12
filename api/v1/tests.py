@@ -6,6 +6,7 @@ from decorations.models import Decoration, DecorationSkill
 from items.models import Item
 from monsters.models import Monster, MonsterDrop
 from skills.models import SetBonus, Skill
+from weapons.models import Weapon
 
 # every catalog list and the queries it takes, however many rows it has: one for a plain list,
 # one more for the skills its rows grant, and two more for the hunts the armors' recipes ask for
@@ -13,6 +14,7 @@ CATALOG_QUERIES = {
     "/api/v1/skills/": 1,
     "/api/v1/set-bonuses/": 1,
     "/api/v1/monsters/": 1,
+    "/api/v1/weapons/": 1,
     "/api/v1/armors/": 4,
     "/api/v1/decorations/": 2,
     "/api/v1/charms/": 2,
@@ -81,6 +83,21 @@ class CatalogAPITests(TestCase):
             rarity=7,
         )
         CharmSkill.objects.create(charm=cls.charm, skill=cls.skill, level=3)
+        cls.weapon = Weapon.objects.create(
+            name='Kjárr Slicer "Blast"',
+            type=Weapon.Type.SWORD_AND_SHIELD,
+            url="https://example.com/Kjarr_Slicer_Blast",
+            rarity=12,
+            attack=378,
+            affinity=10,
+            defense=20,
+            slots=[1],
+            elements=[{"type": "blast", "damage": 450}],
+            elderseal="",
+            sharpness=[110, 30, 60, 80, 40, 80, 0],
+            sharpness_max=[110, 30, 60, 80, 40, 80, 0],
+            skill="Critical Status",
+        )
 
     def test_anonymous_visitor_lists_skills(self):
         response = self.client.get("/api/v1/skills/")
@@ -143,6 +160,30 @@ class CatalogAPITests(TestCase):
                     "name": "Lunastra",
                     "type": "large",
                     "species": "elder_dragon",
+                }
+            ],
+        )
+
+    def test_anonymous_visitor_lists_weapons(self):
+        response = self.client.get("/api/v1/weapons/")
+
+        self.assertEqual(response.status_code, 200)
+        # what the builder draws and no more: no url, elderseal or sharpness
+        self.assertEqual(
+            response.json(),
+            [
+                {
+                    "id": self.weapon.id,
+                    "name": 'Kjárr Slicer "Blast"',
+                    "type": "sword_and_shield",
+                    "rarity": 12,
+                    "attack": 378,
+                    "affinity": 10,
+                    "defense": 20,
+                    "slots": [1],
+                    "elements": [{"type": "blast", "damage": 450}],
+                    "element_hidden": False,
+                    "skill": "Critical Status",
                 }
             ],
         )

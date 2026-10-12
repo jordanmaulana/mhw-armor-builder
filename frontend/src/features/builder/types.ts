@@ -59,6 +59,40 @@ export interface Charm {
   skills: GrantedSkill[];
 }
 
+// in the order the game lists them
+export const WEAPON_TYPES = [
+  "great_sword",
+  "long_sword",
+  "sword_and_shield",
+  "dual_blades",
+  "hammer",
+  "hunting_horn",
+  "lance",
+  "gunlance",
+  "switch_axe",
+  "charge_blade",
+  "insect_glaive",
+  "light_bowgun",
+  "heavy_bowgun",
+  "bow",
+] as const;
+export type WeaponType = (typeof WEAPON_TYPES)[number];
+
+export interface Weapon {
+  id: string;
+  name: string;
+  type: WeaponType;
+  rarity: number;
+  attack: number; // the number the game shows, not true raw
+  affinity: number; // percent, can be negative
+  defense: number; // the bonus some weapons carry, 0 for most
+  slots: number[];
+  elements: { type: string; damage: number }[]; // a few dual blades have two
+  element_hidden: boolean; // needs Free Elem/Ammo Up
+  // a name, not an id: a skill, a set bonus or a set-bonus skill, whichever the weapon carries
+  skill: string;
+}
+
 export interface Monster {
   id: string;
   name: string;
@@ -73,6 +107,7 @@ export interface Catalog {
   decorations: Map<string, Decoration>;
   charms: Map<string, Charm>;
   monsters: Map<string, Monster>;
+  weapons: Map<string, Weapon>;
 }
 
 export interface Piece {
@@ -80,7 +115,15 @@ export interface Piece {
   decoIds: (string | null)[]; // one entry per armor slot, null = empty
 }
 
+export interface EquippedWeapon {
+  weaponId: string;
+  decoIds: (string | null)[]; // one entry per weapon slot, null = empty
+}
+
 export interface Build {
   pieces: Record<ArmorType, Piece | null>;
   charmId: string | null;
+  // A build saved before weapons were here has no such key, and it is read back as it was
+  // saved: read this with `?.`, never as if null were the only way to have none.
+  weapon: EquippedWeapon | null;
 }

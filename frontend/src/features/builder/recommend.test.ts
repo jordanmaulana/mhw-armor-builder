@@ -12,6 +12,7 @@ import {
   type Decoration,
   type GrantedSkill,
   type Skill,
+  type Weapon,
 } from "./types.ts";
 
 function check(what: string, actual: unknown, expected: unknown) {
@@ -64,13 +65,33 @@ const charm = (id: string, skills: GrantedSkill[]): Charm => ({
   icon_url: "",
   skills,
 });
-const catalog = (armors: Armor[], decorations: Decoration[] = [], charms: Charm[] = []): Catalog => ({
+// no defense bonus: the armor's defense is what the brute force below ranks by
+const weapon = (id: string, slots: number[]): Weapon => ({
+  id,
+  name: id,
+  type: "great_sword",
+  rarity: 12,
+  attack: 1000,
+  affinity: 0,
+  defense: 0,
+  slots,
+  elements: [],
+  element_hidden: false,
+  skill: "",
+});
+const catalog = (
+  armors: Armor[],
+  decorations: Decoration[] = [],
+  charms: Charm[] = [],
+  weapons: Weapon[] = [],
+): Catalog => ({
   skills: byId(SKILLS),
   setBonuses: new Map(),
   armors: byId(armors),
   decorations: byId(decorations),
   charms: byId(charms),
   monsters: new Map(),
+  weapons: byId(weapons),
 });
 const want = (...targets: [string, number][]): GrantedSkill[] =>
   targets.map(([id, level]) => ({ skill: id, level }));
@@ -104,6 +125,7 @@ const want = (...targets: [string, number][]): GrantedSkill[] =>
         legs: null,
       },
       charmId: "attack-charm",
+      weapon: null,
     },
   );
   check(
@@ -118,6 +140,7 @@ const want = (...targets: [string, number][]): GrantedSkill[] =>
         legs: null,
       },
       charmId: null,
+      weapon: null,
     },
   );
   check("no more results than asked for", recommend(want(["attack", 4]), cat, 1).length, 1);
@@ -140,6 +163,43 @@ const want = (...targets: [string, number][]): GrantedSkill[] =>
   check("and the other one does when the list is reversed", slotted(want(["eye", 1], ["attack", 1])), [
     "eye-jewel",
   ]);
+}
+
+{
+  const cat = catalog(
+    [armor("helm", "head", { slots: [1] })],
+    [jewel("attack", 1), jewel("guard", 3)],
+    [],
+    [weapon("blade", [3, 1]), weapon("club", [])],
+  );
+  const held = (wanted: GrantedSkill[], weaponId?: string) =>
+    recommend(wanted, cat, 10, weaponId)[0].weapon;
+  check(
+    "the weapon in hand is part of the set, and its slots are filled with the armor's",
+    recommend(want(["guard", 1], ["attack", 2]), cat, 10, "blade")[0],
+    {
+      pieces: {
+        head: { armorId: "helm", decoIds: ["attack-jewel"] },
+        chest: null,
+        arms: null,
+        waist: null,
+        legs: null,
+      },
+      charmId: null,
+      weapon: { weaponId: "blade", decoIds: ["guard-jewel", "attack-jewel"] },
+    },
+  );
+  check("the armor's slots fill first: a jewel there outlives a change of weapon", held(want(["attack", 1]), "blade"), {
+    weaponId: "blade",
+    decoIds: [null, null],
+  });
+  check("a weapon with no slots is still the set's weapon", held(want(["attack", 1]), "club"), {
+    weaponId: "club",
+    decoIds: [],
+  });
+  check("no weapon in hand, none in the set", held(want(["attack", 1])), null);
+  // the build is saved in the browser and can outlive a reload of the dataset
+  check("a weapon the catalog lost is no weapon", held(want(["attack", 1]), "gone"), null);
 }
 
 check(
@@ -227,8 +287,12 @@ for (let seed = 1; seed <= 40; seed++) {
   );
   const jewels = [jewel("attack", 1), jewel("eye", 2), jewel("guard", 3)];
   const charms = [charm("charm0", grants()), charm("charm1", grants())];
-  const cat = catalog(armors, jewels, charms);
   const wanted = ids.map((_, i) => ({ skill: ids[(i + seed) % ids.length], level: 1 + int(5) }));
+  // three seeds in four hold a weapon, with up to two slots of its own. It is drawn last, so
+  // the armor, charms and targets of a seed are what they were before weapons were in.
+  const blade =
+    seed % 4 ? weapon("blade", Array.from({ length: int(3) }, () => 1 + int(3))) : undefined;
+  const cat = catalog(armors, jewels, charms, blade ? [blade] : []);
 
   const best = [-1, -1]; // rank, defense
   const types = ARMOR_TYPES.map((type) => armors.filter((a) => a.type === type));
@@ -239,7 +303,7 @@ for (let seed = 1; seed <= 40; seed++) {
       return;
     }
     const defense = chosen.reduce((sum, a) => sum + a.defense, 0);
-    const slots = chosen.flatMap((a) => a.slots);
+    const slots = [...chosen.flatMap((a) => a.slots), ...(blade?.slots ?? [])];
     for (const worn of [undefined, ...charms]) {
       const granted = [...chosen, ...(worn ? [worn] : [])].flatMap((item) => item.skills);
       const points = wanted.map((w) =>
@@ -262,7 +326,13 @@ for (let seed = 1; seed <= 40; seed++) {
   each([]);
 
   // odd seeds ask for a single result: the shorter the list, the harder the search cuts
-  const [top] = recommend(wanted, cat, seed % 2 ? 1 : 10);
+  const [top] = recommend(wanted, cat, seed % 2 ? 1 : 10, blade?.id);
+  check(`seed ${seed}: the set holds the weapon in hand`, top.weapon?.weaponId, blade?.id);
+  check(
+    `seed ${seed}: every jewel on the weapon sits in a slot it fits`,
+    blade?.slots.map((level, i) => (cat.decorations.get(top.weapon?.decoIds[i] ?? "")?.slot ?? 0) <= level),
+    blade?.slots.map(() => true),
+  );
   for (const type of ARMOR_TYPES) {
     const piece = top.pieces[type]!;
     const worn = cat.armors.get(piece.armorId)!;

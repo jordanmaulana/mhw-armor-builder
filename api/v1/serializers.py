@@ -11,6 +11,7 @@ from charms.models import Charm
 from decorations.models import Decoration
 from monsters.models import Monster
 from skills.models import SetBonus, Skill
+from weapons.models import Weapon
 
 User = get_user_model()
 
@@ -87,6 +88,26 @@ class MonsterSerializer(serializers.ModelSerializer):
     class Meta:
         model = Monster
         fields = ["id", "name", "type", "species"]
+
+
+class WeaponSerializer(serializers.ModelSerializer):
+    # what the builder draws and no more: the url, elderseal and both sharpness bars are left
+    # out, which takes the list of 1,792 from 690 KB to 400 KB
+    class Meta:
+        model = Weapon
+        fields = [
+            "id",
+            "name",
+            "type",
+            "rarity",
+            "attack",
+            "affinity",
+            "defense",
+            "slots",
+            "elements",
+            "element_hidden",
+            "skill",
+        ]
 
 
 class UserSerializer(serializers.Serializer):

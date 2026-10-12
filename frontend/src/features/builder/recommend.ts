@@ -17,8 +17,14 @@ interface Row {
 
 // Full builds for a list of skill targets, best first. `wanted` is in priority order: builds are
 // compared by the level they reach of each skill (never more than its target), first skill
-// first, and by defense when those are equal.
-export function recommend(wanted: GrantedSkill[], catalog: Catalog, limit = 10): Build[] {
+// first, and by defense when those are equal. The weapon is a given, not something searched
+// for: every build holds it, and its slots are filled along with the armor's.
+export function recommend(
+  wanted: GrantedSkill[],
+  catalog: Catalog,
+  limit = 10,
+  weaponId: string | null = null,
+): Build[] {
   // the list is read back from localStorage: drop skills the catalog lost, hold levels to the cap
   const targets = wanted
     .flatMap(({ skill, level }) => {
@@ -183,7 +189,10 @@ export function recommend(wanted: GrantedSkill[], catalog: Catalog, limit = 10):
       );
     }
   };
-  search(0, blank.v, blank.c, 0);
+  // The weapon's slots are there before a piece is chosen. That is all the search knows of it:
+  // the bounds add what lies ahead to the slots in hand, whichever these are.
+  const weapon = catalog.weapons.get(weaponId ?? "");
+  search(0, blank.v, usable(weapon?.slots ?? []), 0);
 
   // the same fill once more, this time onto the real slots of the pieces that won
   return kept.map(({ ids: [charmId, ...armorIds], v }) => {
@@ -196,6 +205,13 @@ export function recommend(wanted: GrantedSkill[], catalog: Catalog, limit = 10):
       pieces[type] = { armorId: armor.id, decoIds };
       armor.slots.forEach((level, at) => free.push({ decoIds, at, level }));
     });
+    // After the armor's, and the sort is stable: of two slots alike the armor's is filled
+    // first, so a jewel is not on the weapon when one of the pieces could hold it.
+    let held: Build["weapon"] = null;
+    if (weapon) {
+      held = { weaponId: weapon.id, decoIds: weapon.slots.map(() => null) };
+      for (const [at, level] of weapon.slots.entries()) free.push({ decoIds: held.decoIds, at, level });
+    }
     free.sort((a, b) => a.level - b.level);
 
     const have = v.slice();
@@ -209,6 +225,6 @@ export function recommend(wanted: GrantedSkill[], catalog: Catalog, limit = 10):
         have[i] += jewel.skills[0].level;
       }
     });
-    return { pieces, charmId };
+    return { pieces, charmId, weapon: held };
   });
 }

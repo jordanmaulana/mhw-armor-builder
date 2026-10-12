@@ -1,4 +1,4 @@
-import type { Build, Catalog, GrantedSkill, SetBonus, Skill } from "./types.ts";
+import type { Build, Catalog, GrantedSkill, SetBonus, Skill, Weapon } from "./types.ts";
 
 export const ELEMENTS = ["fire", "water", "thunder", "ice", "dragon"] as const;
 export type Element = (typeof ELEMENTS)[number];
@@ -29,6 +29,26 @@ export function describeSkills(granted: GrantedSkill[], skills: Map<string, Skil
     .join(", ");
 }
 
+// "(Blast 450) · Affinity +10% · Defense +20 · Critical Status": what a weapon is, on the line
+// where armor says its skills. The parentheses are the game's own for an element that stays
+// hidden without Free Elem/Ammo Up. Affinity is always there, so the line is never empty.
+export function describeWeapon(weapon: Weapon): string {
+  const elements = weapon.elements.map(({ type, damage }) => {
+    const element = `${type[0].toUpperCase()}${type.slice(1)} ${damage}`;
+    return weapon.element_hidden ? `(${element})` : element;
+  });
+  return [
+    ...elements,
+    `Affinity ${weapon.affinity > 0 ? "+" : ""}${weapon.affinity}%`,
+    weapon.defense > 0 && `Defense +${weapon.defense}`,
+    // ponytail: a name and no more. It is a skill, a set bonus or a set-bonus skill, and none
+    // of the three is counted in the totals below
+    weapon.skill,
+  ]
+    .filter(Boolean)
+    .join(" · ");
+}
+
 export function computeTotals(build: Build, catalog: Catalog): Totals {
   let defense = 0;
   const resistances = { fire: 0, water: 0, thunder: 0, ice: 0, dragon: 0 };
@@ -49,6 +69,13 @@ export function computeTotals(build: Build, catalog: Catalog): Totals {
     for (const id of piece.decoIds) grant(id ? catalog.decorations.get(id)?.skills : undefined);
   }
   grant(build.charmId ? catalog.charms.get(build.charmId)?.skills : undefined);
+  // a build saved before weapons were here has no such key: `held` can be undefined, not just null
+  const held = build.weapon;
+  const weapon = held && catalog.weapons.get(held.weaponId);
+  if (held && weapon) {
+    defense += weapon.defense;
+    for (const id of held.decoIds) grant(id ? catalog.decorations.get(id)?.skills : undefined);
+  }
 
   const skills: SkillTotal[] = [];
   for (const [id, total] of points) {

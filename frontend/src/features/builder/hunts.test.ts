@@ -80,6 +80,7 @@ check(
     decorations: new Map(),
     charms: new Map(),
     monsters: new Map(),
+    weapons: new Map(),
   };
   const head = (from: Catalog) =>
     recommend([{ skill: "attack", level: 2 }], from)[0].pieces.head?.armorId;

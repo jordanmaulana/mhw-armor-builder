@@ -1,7 +1,7 @@
 // Self-check for computeTotals. No test runner: `pnpm test` runs this file with node, which
 // strips the types itself. A failed check throws, so the exit code is non-zero.
-import { computeTotals } from "./totals.ts";
-import type { Armor, Build, Catalog } from "./types.ts";
+import { computeTotals, describeWeapon } from "./totals.ts";
+import type { Armor, Build, Catalog, Weapon } from "./types.ts";
 
 function check(what: string, actual: unknown, expected: unknown) {
   const [a, e] = [JSON.stringify(actual), JSON.stringify(expected)];
@@ -27,6 +27,21 @@ const armor = (id: string, type: Armor["type"], over: Partial<Armor>): Armor => 
   skills: [],
   set_bonus: null,
   hunts: [],
+  ...over,
+});
+
+const weapon = (id: string, over: Partial<Weapon> = {}): Weapon => ({
+  id,
+  name: id,
+  type: "great_sword",
+  rarity: 12,
+  attack: 1000,
+  affinity: 0,
+  defense: 0,
+  slots: [],
+  elements: [],
+  element_hidden: false,
+  skill: "",
   ...over,
 });
 
@@ -84,11 +99,13 @@ const catalog: Catalog = {
     { id: "attack-charm", name: "Attack Charm III", rarity: 7, icon_url: "", skills: [{ skill: "attack", level: 3 }] },
   ]),
   monsters: new Map(),
+  weapons: byId([weapon("blade", { defense: 20, slots: [1, 1] })]),
 };
 
 const empty: Build = {
   pieces: { head: null, chest: null, arms: null, waist: null, legs: null },
   charmId: null,
+  weapon: null,
 };
 
 check("empty build", computeTotals(empty, catalog), {
@@ -106,6 +123,7 @@ const full = computeTotals(
       chest: { armorId: "mail", decoIds: ["guts-jewel"] },
     },
     charmId: "attack-charm",
+    weapon: null,
   },
   catalog,
 );
@@ -139,16 +157,70 @@ check(
         legs: { armorId: "gone-greaves", decoIds: ["attack-jewel"] },
       },
       charmId: "gone-charm",
+      weapon: null,
     },
     catalog,
   ).skills,
   [{ skill: attack, points: 2, level: 2 }],
 );
 
+const wielding = (held: Build["weapon"]) => {
+  const { defense, skills } = computeTotals({ ...empty, weapon: held }, catalog);
+  return { defense, skills };
+};
+check(
+  "a weapon adds its defense bonus and the jewels in its slots",
+  wielding({ weaponId: "blade", decoIds: ["attack-jewel", null] }),
+  { defense: 20, skills: [{ skill: attack, points: 1, level: 1 }] },
+);
+check(
+  "a weapon the catalog lost is skipped, its jewels with it",
+  wielding({ weaponId: "gone-blade", decoIds: ["attack-jewel"] }),
+  { defense: 0, skills: [] },
+);
+// what localStorage hands back for a build saved before weapons were here
+check(
+  "a build with no weapon key totals like one with no weapon",
+  computeTotals({ pieces: empty.pieces, charmId: null } as Build, catalog),
+  computeTotals(empty, catalog),
+);
+
+check("a weapon with nothing to it still says its affinity", describeWeapon(weapon("iron")), "Affinity 0%");
+check(
+  "element first, then affinity with its sign",
+  describeWeapon(weapon("fatalis", { affinity: -30, elements: [{ type: "dragon", damage: 180 }] })),
+  "Dragon 180 · Affinity -30%",
+);
+check(
+  "a hidden element in parentheses, then the defense bonus and the skill",
+  describeWeapon(
+    weapon("kjarr", {
+      affinity: 10,
+      defense: 20,
+      elements: [{ type: "blast", damage: 450 }],
+      element_hidden: true,
+      skill: "Critical Status",
+    }),
+  ),
+  "(Blast 450) · Affinity +10% · Defense +20 · Critical Status",
+);
+check(
+  "both elements of dual blades that carry two",
+  describeWeapon(
+    weapon("twins", {
+      elements: [
+        { type: "fire", damage: 240 },
+        { type: "ice", damage: 240 },
+      ],
+    }),
+  ),
+  "Fire 240 · Ice 240 · Affinity 0%",
+);
+
 check("armor without a set bonus shows none", full.setBonuses, []);
 
 const wearing = (pieces: Partial<Build["pieces"]>) =>
-  computeTotals({ pieces: { ...empty.pieces, ...pieces }, charmId: null }, catalog).setBonuses;
+  computeTotals({ ...empty, pieces: { ...empty.pieces, ...pieces } }, catalog).setBonuses;
 const piece = (armorId: string) => ({ armorId, decoIds: [] });
 
 check("one piece shows the bonus it is working toward, nothing active", wearing({ head: piece("anja-helm") }), [

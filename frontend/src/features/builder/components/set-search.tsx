@@ -26,6 +26,11 @@ const GUTTER = "w-12 shrink-0 pl-4 text-sm text-moss tabular-nums";
 
 const NONE: GrantedSkill[] = [];
 
+// What makes two builds the same set. Spelt out, not the whole build as it was saved: one
+// from before weapons has no weapon key, and would never equal a set that says `weapon: null`.
+const keyOf = (build: Build) =>
+  JSON.stringify([build.pieces, build.charmId, build.weapon ?? null]);
+
 const MONSTER_SEARCH = {
   label: "Search by name or species",
   hint: "Try part of a name or a species, like “elder”.",
@@ -74,35 +79,43 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
   const narrowed = useMemo(() => narrow(catalog, unslain), [catalog, unslain]);
   const pool = useDeferredValue(narrowed);
   const leftOut = catalog.armors.size - pool.armors.size;
-  // The search runs a beat behind what was asked, by the two deferrals above, and until it
+  // The weapon in hand is the search's too: its slots are filled with the armor's. Only the
+  // weapon, not the jewels on it, so choosing a set never sets off another search. Deferred
+  // for the reason the pool is: the weapon picker should close before the search starts.
+  const weaponId = build.weapon?.weaponId ?? null;
+  const searchedWeapon = useDeferredValue(weaponId);
+  // The search runs a beat behind what was asked, by the three deferrals above, and until it
   // lands the sets on screen answer the old question. Never with an empty list: the first
   // render always starts from NONE, and nothing is on its way.
-  const searching = wanted.length > 0 && (searched !== wanted || pool !== narrowed);
+  const searching =
+    wanted.length > 0 &&
+    (searched !== wanted || pool !== narrowed || searchedWeapon !== weaponId);
 
   const sets = useMemo(
     () =>
-      recommend(searched, pool).map((set) => {
+      recommend(searched, pool, 10, searchedWeapon).map((set) => {
         const totals = computeTotals(set, catalog);
         const levels = new Map(totals.skills.map(({ skill, level }) => [skill.id, level]));
         return {
           set,
-          key: JSON.stringify(set),
+          key: keyOf(set),
           defense: totals.defense,
           short: searched.flatMap(({ skill, level: target }) => {
             const level = levels.get(skill) ?? 0;
             return level < target ? [{ skill, level, target }] : [];
           }),
-          jewels: Object.values(set.pieces).flatMap((piece) => piece?.decoIds.filter(Boolean) ?? [])
-            .length,
+          jewels: [...Object.values(set.pieces), set.weapon].flatMap(
+            (piece) => piece?.decoIds.filter(Boolean) ?? [],
+          ).length,
           names: [
             ...ARMOR_TYPES.map((type) => catalog.armors.get(set.pieces[type]?.armorId ?? "")?.name),
             catalog.charms.get(set.charmId ?? "")?.name,
           ].filter(Boolean),
         };
       }),
-    [searched, pool, catalog],
+    [searched, pool, searchedWeapon, catalog],
   );
-  const equipped = JSON.stringify(build);
+  const equipped = keyOf(build);
 
   return (
     <>
@@ -244,7 +257,15 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
                     {/* the set the armor rows are showing wears the game's green selection band */}
                     <button
                       type="button"
-                      onClick={() => onUse(set)}
+                      // A set found for the weapon held a beat ago keeps the one in hand now:
+                      // its armor still stands, and the old weapon is not to come back.
+                      onClick={() =>
+                        onUse(
+                          (set.weapon?.weaponId ?? null) === weaponId
+                            ? set
+                            : { ...set, weapon: build.weapon ?? null },
+                        )
+                      }
                       aria-current={key === equipped || undefined}
                       className="flex min-w-0 flex-1 flex-col gap-1 border-l-2 border-transparent py-2.5 pr-4 pl-2 text-left hover:bg-plate focus-visible:bg-plate focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-hunt aria-[current]:border-hunt aria-[current]:bg-linear-to-r aria-[current]:from-hunt/30 aria-[current]:to-transparent"
                     >
