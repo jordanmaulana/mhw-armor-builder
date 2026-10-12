@@ -1,18 +1,22 @@
 from django.test import TestCase
 
-from armors.models import Armor, ArmorSkill
+from armors.models import Armor, ArmorMaterial, ArmorSkill
 from charms.models import Charm, CharmSkill
 from decorations.models import Decoration, DecorationSkill
+from items.models import Item
+from monsters.models import Monster, MonsterDrop
 from skills.models import SetBonus, Skill
 
-# the two plain lists first, then the three that prefetch the skills they grant
-CATALOG_URLS = [
-    "/api/v1/skills/",
-    "/api/v1/set-bonuses/",
-    "/api/v1/armors/",
-    "/api/v1/decorations/",
-    "/api/v1/charms/",
-]
+# every catalog list and the queries it takes, however many rows it has: one for a plain list,
+# one more for the skills its rows grant, and two more for the hunts the armors' recipes ask for
+CATALOG_QUERIES = {
+    "/api/v1/skills/": 1,
+    "/api/v1/set-bonuses/": 1,
+    "/api/v1/monsters/": 1,
+    "/api/v1/armors/": 4,
+    "/api/v1/decorations/": 2,
+    "/api/v1/charms/": 2,
+}
 
 
 class CatalogAPITests(TestCase):
@@ -50,6 +54,24 @@ class CatalogAPITests(TestCase):
                 set_bonus=cls.bonus if name == "Empress Crown Gamma" else None,
             )
             ArmorSkill.objects.create(armor=armor, skill=cls.skill, level=2)
+        cls.monster = Monster.objects.create(
+            name="Lunastra",
+            type=Monster.Type.LARGE,
+            species=Monster.Species.ELDER_DRAGON,
+            url="https://example.com/Lunastra",
+            icon_url="https://example.com/lunastra.png",
+        )
+        mane = Item.objects.create(name="Lunastra Mane", rarity=8, sell_price=4000)
+        MonsterDrop.objects.create(
+            monster=cls.monster,
+            item=mane,
+            rank=MonsterDrop.Rank.HIGH,
+            method=MonsterDrop.Method.CARVE,
+            quantity=1,
+            chance=30,
+        )
+        crown = Armor.objects.get(name="Empress Crown Gamma")
+        ArmorMaterial.objects.create(armor=crown, item=mane, quantity=2)
         cls.decoration = Decoration.objects.create(name="Friendship Jewel 1", slot=1, rarity=6)
         DecorationSkill.objects.create(decoration=cls.decoration, skill=cls.skill, level=1)
         cls.charm = Charm.objects.create(
@@ -102,9 +124,28 @@ class CatalogAPITests(TestCase):
                 "icon_url_female": "",
                 "skills": [{"skill": self.skill.id, "level": 2}],
                 "set_bonus": self.bonus.id,
+                "hunts": [[self.monster.id]],
             },
         )
         self.assertIsNone(kulu["set_bonus"])
+        # no recipe line names a monster's drop
+        self.assertEqual(kulu["hunts"], [])
+
+    def test_anonymous_visitor_lists_monsters(self):
+        response = self.client.get("/api/v1/monsters/")
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(
+            response.json(),
+            [
+                {
+                    "id": self.monster.id,
+                    "name": "Lunastra",
+                    "type": "large",
+                    "species": "elder_dragon",
+                }
+            ],
+        )
 
     def test_anonymous_visitor_lists_set_bonuses_with_their_tiers(self):
         response = self.client.get("/api/v1/set-bonuses/")
@@ -159,12 +200,12 @@ class CatalogAPITests(TestCase):
 
     def test_stale_token_does_not_lock_a_visitor_out_of_the_catalog(self):
         # the SPA keeps an expired token in localStorage; TokenAuthentication would 401 on it
-        for url in CATALOG_URLS:
+        for url in CATALOG_QUERIES:
             with self.subTest(url=url):
                 response = self.client.get(url, HTTP_AUTHORIZATION="Token expired-or-bogus")
                 self.assertEqual(response.status_code, 200)
 
     def test_listing_does_not_query_once_per_row(self):
-        for url in CATALOG_URLS[2:]:
-            with self.subTest(url=url), self.assertNumQueries(2):
+        for url, queries in CATALOG_QUERIES.items():
+            with self.subTest(url=url), self.assertNumQueries(queries):
                 self.client.get(url)

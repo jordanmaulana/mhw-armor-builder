@@ -9,6 +9,7 @@ from rest_framework import serializers
 from armors.models import Armor
 from charms.models import Charm
 from decorations.models import Decoration
+from monsters.models import Monster
 from skills.models import SetBonus, Skill
 
 User = get_user_model()
@@ -37,6 +38,9 @@ class ArmorSerializer(serializers.ModelSerializer):
     skills = GrantedSkillSerializer(source="armor_skills", many=True)
     # the id only, same reason as GrantedSkillSerializer: it is on the row, so no join
     set_bonus = serializers.CharField(source="set_bonus_id", allow_null=True)
+    # what the recipe comes down to for the builder, which gets no recipe: the monsters to have
+    # slain, one of each list. The view works all of them out at once and hands them in
+    hunts = serializers.SerializerMethodField()
 
     class Meta:
         model = Armor
@@ -56,7 +60,11 @@ class ArmorSerializer(serializers.ModelSerializer):
             "icon_url_female",
             "skills",
             "set_bonus",
+            "hunts",
         ]
+
+    def get_hunts(self, obj):
+        return self.context["hunts"].get(obj.id, [])
 
 
 class DecorationSerializer(serializers.ModelSerializer):
@@ -73,6 +81,12 @@ class CharmSerializer(serializers.ModelSerializer):
     class Meta:
         model = Charm
         fields = ["id", "name", "rarity", "icon_url", "skills"]
+
+
+class MonsterSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Monster
+        fields = ["id", "name", "type", "species"]
 
 
 class UserSerializer(serializers.Serializer):

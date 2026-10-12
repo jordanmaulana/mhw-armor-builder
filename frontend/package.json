@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "test": "node src/features/builder/totals.test.ts && node src/features/builder/recommend.test.ts",
+    "test": "node src/features/builder/totals.test.ts && node src/features/builder/recommend.test.ts && node src/features/builder/hunts.test.ts",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -16,3 +16,8 @@ export const buildAtom = atomWithStorage<Build>("build", EMPTY_BUILD, undefined,
 export const wantedAtom = atomWithStorage<GrantedSkill[]>("wanted", [], undefined, {
   getOnInit: true,
 });
+
+// monsters (ids) not slain yet: the set search leaves out the armor that needs their materials
+export const unslainAtom = atomWithStorage<string[]>("unslain", [], undefined, {
+  getOnInit: true,
+});

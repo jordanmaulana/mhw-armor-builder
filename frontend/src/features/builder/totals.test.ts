@@ -26,6 +26,7 @@ const armor = (id: string, type: Armor["type"], over: Partial<Armor>): Armor => 
   icon_url_female: "",
   skills: [],
   set_bonus: null,
+  hunts: [],
   ...over,
 });
 
@@ -82,6 +83,7 @@ const catalog: Catalog = {
   charms: byId([
     { id: "attack-charm", name: "Attack Charm III", rarity: 7, icon_url: "", skills: [{ skill: "attack", level: 3 }] },
   ]),
+  monsters: new Map(),
 };
 
 const empty: Build = {

@@ -1,6 +1,7 @@
 import copy
 import json
 import tempfile
+from collections import Counter
 from io import StringIO
 
 from django.core.management import call_command
@@ -8,8 +9,10 @@ from django.core.management.base import CommandError
 from django.db.models import Count
 from django.test import TestCase
 
+from armors.hunts import hunts_by_armor
 from armors.models import Armor, ArmorMaterial, ArmorSkill
 from items.models import Item
+from monsters.models import Monster, MonsterDrop
 from skills.models import SetBonus, Skill
 
 ITEMS = ["Lunastra Ticket", "Lunastra Mane"]
@@ -194,6 +197,126 @@ class LoadArmorsTests(TestCase):
                 ("Rath Wingtalon", 6),
             ],
         )
+
+
+class HuntsTests(TestCase):
+    def item(self, name, **fields):
+        return Item.objects.create(name=name, rarity=7, sell_price=100, **fields)
+
+    def monster(self, name, *drops, rank=MonsterDrop.Rank.HIGH):
+        monster, _ = Monster.objects.get_or_create(
+            name=name,
+            defaults={
+                "type": Monster.Type.LARGE,
+                "species": Monster.Species.FLYING_WYVERN,
+                "url": "https://example.com/monster",
+            },
+        )
+        for item in drops:
+            MonsterDrop.objects.create(
+                monster=monster,
+                item=item,
+                rank=rank,
+                method=MonsterDrop.Method.CARVE,
+                quantity=1,
+                chance=50,
+            )
+        return monster
+
+    def armor(self, name, *materials):
+        armor = Armor.objects.create(
+            name=name,
+            type=Armor.Type.HEAD,
+            url="https://example.com/armor",
+            defense=1,
+            fire_res=0,
+            water_res=0,
+            thunder_res=0,
+            ice_res=0,
+            dragon_res=0,
+        )
+        for item in materials:
+            ArmorMaterial.objects.create(armor=armor, item=item, quantity=1)
+        return armor
+
+    def test_materials_of_one_monster_are_one_hunt_of_it(self):
+        scale, wing = self.item("Rathalos Scale"), self.item("Rathalos Wing")
+        rathalos = self.monster("Rathalos", scale, wing)
+        helm = self.armor("Rathalos Helm", scale, wing)
+
+        self.assertEqual(hunts_by_armor(), {helm.id: [[rathalos.id]]})
+
+    def test_a_material_two_monsters_drop_can_come_from_either(self):
+        talon = self.item("Rath Wingtalon")
+        rathalos, rathian = self.monster("Rathalos", talon), self.monster("Rathian", talon)
+        helm = self.armor("Rath Helm", talon)
+
+        self.assertEqual(hunts_by_armor(), {helm.id: [sorted([rathalos.id, rathian.id])]})
+
+    def test_a_monster_that_drops_a_material_at_two_ranks_is_named_once(self):
+        medulla = self.item("Rathalos Medulla")
+        rathalos = self.monster("Rathalos", medulla)
+        self.monster("Rathalos", medulla, rank=MonsterDrop.Rank.MASTER)
+        helm = self.armor("Rathalos Helm", medulla)
+
+        self.assertEqual(hunts_by_armor(), {helm.id: [[rathalos.id]]})
+
+    def test_each_material_of_another_monster_is_another_hunt(self):
+        scale, sac = self.item("Rathalos Scale"), self.item("Paralysis Sac")
+        rathalos, girros = self.monster("Rathalos", scale), self.monster("Great Girros", sac)
+        helm = self.armor("Odd Helm", scale, sac)
+
+        self.assertEqual(hunts_by_armor(), {helm.id: sorted([[rathalos.id], [girros.id]])})
+
+    def test_a_gathered_material_asks_for_no_hunt_though_a_monster_drops_it(self):
+        ore = self.item("Carbalite Ore", gathered=True)
+        self.monster("Uragaan", ore)
+        self.armor("Alloy Helm", ore)
+
+        self.assertEqual(hunts_by_armor(), {})
+
+    def test_a_material_no_monster_drops_asks_for_no_hunt(self):
+        self.armor("Ticket Helm", self.item("Teostra Ticket"))
+
+        self.assertEqual(hunts_by_armor(), {})
+
+    def test_a_shared_material_adds_nothing_once_one_of_its_monsters_is_needed_alone(self):
+        scale, talon = self.item("Rathalos Scale"), self.item("Rath Wingtalon")
+        rathalos = self.monster("Rathalos", scale, talon)
+        self.monster("Rathian", talon)
+        helm = self.armor("Rathalos Helm", scale, talon)
+
+        # whoever has slain Rathalos has the talon too: Rathian changes nothing
+        self.assertEqual(hunts_by_armor(), {helm.id: [[rathalos.id]]})
+
+    def test_the_dataset_ties_a_piece_to_its_monster_and_not_to_the_ore_in_it(self):
+        for command in ("load_skills", "load_items", "load_armors", "load_monsters"):
+            call_command(command, stdout=StringIO())
+
+        hunts = hunts_by_armor()
+        names = dict(Monster.objects.values_list("id", "name"))
+
+        def named(armor):
+            return [[names[m] for m in group] for group in hunts.get(armor.id, [])]
+
+        # ore and crystal only, though Uragaan's and Gajau's tables name them
+        self.assertEqual(named(Armor.objects.get(name="Alloy Helm Alpha")), [])
+        # its Inferno Sac and Rath Wingtalon come from Rathalos too
+        self.assertEqual(named(Armor.objects.get(name="Rathalos Vambraces Beta")), [["Rathalos"]])
+        # Lava Nugget is Uragaan's own; the Firecell Stone beside it is mined
+        self.assertEqual(named(Armor.objects.get(name="Uragaan Helm Alpha")), [["Uragaan"]])
+        # a small monster's whisker is a hunt like any other
+        self.assertEqual(
+            sorted(named(Armor.objects.get(name="Nargacuga Helm Alpha +"))),
+            [["Gajau"], ["Nargacuga"]],
+        )
+
+        # what catches a generic material nobody flagged: it would tie every piece made of it
+        # to the one monster whose table names it (Carbalite Ore gave Uragaan 175 pieces)
+        large = set(Monster.objects.filter(type=Monster.Type.LARGE).values_list("id", flat=True))
+        alone = Counter(g[0] for groups in hunts.values() for g in groups if len(g) == 1)
+        most = max((n, names[m]) for m, n in alone.items() if m in large)
+        self.assertEqual(most, (38, "Great Girros"))
 
 
 SETS = {

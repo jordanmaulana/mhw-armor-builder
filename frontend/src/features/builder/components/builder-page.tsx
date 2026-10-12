@@ -2,7 +2,11 @@ import { useState } from "react";
 import { useAtom } from "jotai";
 import { RESET } from "jotai/utils";
 
-import { EquipRow, SlotButton, SlotGem } from "@/features/builder/components/equip-row";
+import {
+  EquipRow,
+  SlotButton,
+  SlotGem,
+} from "@/features/builder/components/equip-row";
 import { Picker } from "@/features/builder/components/picker";
 import { SetSearch } from "@/features/builder/components/set-search";
 import { SoundToggle } from "@/features/builder/components/sound-toggle";
@@ -10,7 +14,12 @@ import { Summary } from "@/features/builder/components/summary";
 import { useCatalog } from "@/features/builder/hooks";
 import { buildAtom } from "@/features/builder/state";
 import { computeTotals } from "@/features/builder/totals";
-import { ARMOR_TYPES, type Armor, type ArmorType, type Piece } from "@/features/builder/types";
+import {
+  ARMOR_TYPES,
+  type Armor,
+  type ArmorType,
+  type Piece,
+} from "@/features/builder/types";
 
 const LABELS: Record<ArmorType, string> = {
   head: "Head",
@@ -20,13 +29,15 @@ const LABELS: Record<ArmorType, string> = {
   legs: "Legs",
 };
 
-const slotTotal = (armor: Armor) => armor.slots.reduce((sum, level) => sum + level, 0);
+const slotTotal = (armor: Armor) =>
+  armor.slots.reduce((sum, level) => sum + level, 0);
 
 // The catalog arrives name-ordered and sort is stable, so ties stay alphabetical.
 const ARMOR_SORTS: Record<string, (a: Armor, b: Armor) => number> = {
   Defense: (a, b) => b.defense - a.defense,
   // most slots first, then the bigger ones: [3, 2] before [1, 1]
-  Slots: (a, b) => b.slots.length - a.slots.length || slotTotal(b) - slotTotal(a),
+  Slots: (a, b) =>
+    b.slots.length - a.slots.length || slotTotal(b) - slotTotal(a),
 };
 
 type Picking =
@@ -89,7 +100,11 @@ export function BuilderPage() {
           items={armors}
           skills={catalog.skills}
           selectedId={piece?.armorId}
-          sort={{ options: Object.keys(ARMOR_SORTS), value: armorSort, onChange: setArmorSort }}
+          sort={{
+            options: Object.keys(ARMOR_SORTS),
+            value: armorSort,
+            onChange: setArmorSort,
+          }}
           onClose={close}
           meta={(armor) => (
             <span className="flex items-baseline gap-0.5 tabular-nums">
@@ -102,7 +117,13 @@ export function BuilderPage() {
           onPick={(armor) => {
             // a different piece has different slots, so its decorations can't carry over
             if (armor?.id !== piece?.armorId) {
-              setPiece(type, armor && { armorId: armor.id, decoIds: armor.slots.map(() => null) });
+              setPiece(
+                type,
+                armor && {
+                  armorId: armor.id,
+                  decoIds: armor.slots.map(() => null),
+                },
+              );
             }
             close();
           }}
@@ -110,11 +131,14 @@ export function BuilderPage() {
       );
     }
 
-    const level = (piece && catalog.armors.get(piece.armorId)?.slots[picking.index]) ?? 0;
+    const level =
+      (piece && catalog.armors.get(piece.armorId)?.slots[picking.index]) ?? 0;
     return (
       <Picker
         title={`Choose a decoration for the level ${level} slot`}
-        items={[...catalog.decorations.values()].filter((decoration) => decoration.slot <= level)}
+        items={[...catalog.decorations.values()].filter(
+          (decoration) => decoration.slot <= level,
+        )}
         skills={catalog.skills}
         selectedId={piece?.decoIds[picking.index]}
         onClose={close}
@@ -123,7 +147,10 @@ export function BuilderPage() {
           if (piece) {
             setPiece(type, {
               ...piece,
-              decoIds: piece.decoIds.with(picking.index, decoration?.id ?? null),
+              decoIds: piece.decoIds.with(
+                picking.index,
+                decoration?.id ?? null,
+              ),
             });
           }
           close();
@@ -138,14 +165,17 @@ export function BuilderPage() {
     <main className="smithy min-h-screen text-bone">
       {/* pb-20: the footer has to clear the floating SoundToggle */}
       {/* wider at xl, where the set search takes a column of its own */}
-      <div className="mx-auto max-w-6xl px-4 pt-8 pb-20 sm:px-6 lg:pt-12 xl:max-w-[90rem]">
+      <div className="mx-auto max-w-6xl px-4 pt-8 pb-20 sm:px-6 lg:pt-12 xl:max-w-360">
         <header className="flex items-baseline justify-between gap-4 pb-4">
           {/* the game titles a screen with its path: "Smithy ▸ Change Equipment" */}
           <h1 className="font-serif text-2xl text-aqua text-shadow-glow sm:text-3xl">
             <span className="block text-lg text-aqua/80 sm:inline sm:text-3xl">
               Monster Hunter: World
             </span>
-            <span aria-hidden className="mx-3 hidden text-xl text-aqua/80 sm:inline">
+            <span
+              aria-hidden
+              className="mx-3 hidden text-xl text-aqua/80 sm:inline"
+            >
               ▸
             </span>
             Armor set builder
@@ -166,14 +196,18 @@ export function BuilderPage() {
             <ul aria-label="Equipment">
               {ARMOR_TYPES.map((type) => {
                 const piece = build.pieces[type];
-                const armor = piece ? catalog.armors.get(piece.armorId) : undefined;
+                const armor = piece
+                  ? catalog.armors.get(piece.armorId)
+                  : undefined;
                 return (
                   <EquipRow
                     key={type}
                     label={LABELS[type]}
                     emptyText={`Choose ${type} armor`}
                     item={armor}
-                    icon={armor && (armor.icon_url_male || armor.icon_url_female)}
+                    icon={
+                      armor && (armor.icon_url_male || armor.icon_url_female)
+                    }
                     meta={armor && `Defense ${armor.defense}`}
                     skills={catalog.skills}
                     onChoose={() => setPicking({ kind: "armor", type })}
@@ -183,9 +217,13 @@ export function BuilderPage() {
                           <SlotButton
                             key={index}
                             level={level}
-                            decoration={catalog.decorations.get(piece?.decoIds[index] ?? "")}
+                            decoration={catalog.decorations.get(
+                              piece?.decoIds[index] ?? "",
+                            )}
                             skills={catalog.skills}
-                            onClick={() => setPicking({ kind: "slot", type, index })}
+                            onClick={() =>
+                              setPicking({ kind: "slot", type, index })
+                            }
                           />
                         ))
                       : null}

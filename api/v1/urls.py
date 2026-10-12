@@ -4,6 +4,7 @@ from api.v1 import auth_api, payments_api
 from api.v1.armors_api import ArmorAPI
 from api.v1.charms_api import CharmAPI
 from api.v1.decorations_api import DecorationAPI
+from api.v1.monsters_api import MonsterAPI
 from api.v1.set_bonuses_api import SetBonusAPI
 from api.v1.skills_api import SkillAPI
 
@@ -19,4 +20,5 @@ urlpatterns = [
     path("armors/", ArmorAPI.as_view(), name="api-v1-armors"),
     path("decorations/", DecorationAPI.as_view(), name="api-v1-decorations"),
     path("charms/", CharmAPI.as_view(), name="api-v1-charms"),
+    path("monsters/", MonsterAPI.as_view(), name="api-v1-monsters"),
 ]

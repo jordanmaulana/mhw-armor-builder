@@ -3,13 +3,21 @@ import { useAtom } from "jotai";
 import { ChevronDown, ChevronUp, X } from "lucide-react";
 
 import { Picker } from "@/features/builder/components/picker";
+import { narrow } from "@/features/builder/hunts";
 import { MAX_WANTED, recommend } from "@/features/builder/recommend";
-import { wantedAtom } from "@/features/builder/state";
+import { unslainAtom, wantedAtom } from "@/features/builder/state";
 import { computeTotals } from "@/features/builder/totals";
-import { ARMOR_TYPES, type Build, type Catalog, type GrantedSkill } from "@/features/builder/types";
+import {
+  ARMOR_TYPES,
+  type Build,
+  type Catalog,
+  type GrantedSkill,
+  type Monster,
+} from "@/features/builder/types";
 
 const FOCUS = "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt";
 const BAND = "mx-4 bg-plate py-1 text-center font-serif text-lg text-aqua/70";
+const BUTTON = `rounded-sm border border-seam bg-hide px-3 py-1 hover:border-hunt disabled:opacity-40 disabled:hover:border-seam ${FOCUS}`;
 const NUDGE = `grid size-7 shrink-0 place-items-center rounded-sm text-moss hover:bg-plate hover:text-bone disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-moss ${FOCUS}`;
 // Every row opens with this column: the priority in the wanted list, the rank in the sets. It
 // is the armor rows' label column again, and for the same reason: SoundToggle floats over the
@@ -18,16 +26,27 @@ const GUTTER = "w-12 shrink-0 pl-4 text-sm text-moss tabular-nums";
 
 const NONE: GrantedSkill[] = [];
 
+const MONSTER_SEARCH = {
+  label: "Search by name or species",
+  hint: "Try part of a name or a species, like “elder”.",
+};
+// "elder_dragon" as the game writes a species: Elder Dragon
+const species = (monster: Monster) =>
+  monster.species.replace(/_/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+
 interface SetSearchProps {
   catalog: Catalog;
   build: Build; // what is equipped, to mark the set it came from
   onUse: (build: Build) => void;
 }
 
-// The skills to aim for, most important first, and under them the sets `recommend` finds.
+// The skills to aim for, most important first, and under them the sets `recommend` finds
+// among the armor that can be forged without the monsters marked as not yet slain.
 export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
   const [saved, setSaved] = useAtom(wantedAtom);
+  const [savedUnslain, setSavedUnslain] = useAtom(unslainAtom);
   const [adding, setAdding] = useState(false);
+  const [marking, setMarking] = useState(false);
 
   // A list saved before the dataset was reloaded can name skills that are gone. Memoized
   // because useDeferredValue goes by identity: a new array each render never settles.
@@ -38,9 +57,26 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
   // The list repaints at once and the search follows it, so a control never waits on the
   // search. NONE is what the first render searches for: the page paints before any of it runs.
   const searched = useDeferredValue(wanted, NONE);
+
+  // Only a large monster can be marked: the small ones are slain on the way to anything.
+  const monsters = useMemo(
+    () => [...catalog.monsters.values()].filter((monster) => monster.type === "large"),
+    [catalog],
+  );
+  // The saved ids get the same two cares as the saved skills: one may be gone from the dataset,
+  // and the set is memoized because the pool, and so the search, goes by identity.
+  const unslain = useMemo(
+    () => new Set(savedUnslain.filter((id) => catalog.monsters.has(id))),
+    [savedUnslain, catalog],
+  );
+  // What the search may pick from. Deferred like the list, so a tap in the monster picker
+  // repaints before the search it sets off. Totals still read the whole catalog.
+  const pool = useDeferredValue(useMemo(() => narrow(catalog, unslain), [catalog, unslain]));
+  const leftOut = catalog.armors.size - pool.armors.size;
+
   const sets = useMemo(
     () =>
-      recommend(searched, catalog).map((set) => {
+      recommend(searched, pool).map((set) => {
         const totals = computeTotals(set, catalog);
         const levels = new Map(totals.skills.map(({ skill, level }) => [skill.id, level]));
         return {
@@ -59,7 +95,7 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
           ].filter(Boolean),
         };
       }),
-    [searched, catalog],
+    [searched, pool, catalog],
   );
   const equipped = JSON.stringify(build);
 
@@ -155,9 +191,13 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
               type="button"
               disabled={wanted.length >= MAX_WANTED}
               onClick={() => setAdding(true)}
-              className={`rounded-sm border border-seam bg-hide px-3 py-1 hover:border-hunt disabled:opacity-40 disabled:hover:border-seam ${FOCUS}`}
+              className={BUTTON}
             >
               Add skill
+            </button>
+            <button type="button" onClick={() => setMarking(true)} className={BUTTON}>
+              Unslain monsters
+              {unslain.size > 0 && <span className="tabular-nums"> ({unslain.size})</span>}
             </button>
             {wanted.length >= MAX_WANTED && (
               <span className="text-moss">{MAX_WANTED} is the most one search takes.</span>
@@ -171,6 +211,8 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
               </h3>
               <p className="px-4 py-3 text-sm text-moss">
                 {sets[0].short.length > 0 && "No set reaches every target. Closest first. "}
+                {leftOut > 0 &&
+                  `Not counting ${leftOut} ${leftOut === 1 ? "piece" : "pieces"} of monsters not yet slain. `}
                 Choosing a set replaces the current one.
               </p>
               <ol aria-labelledby="sets-title">
@@ -244,6 +286,29 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
             if (skill) setSaved([...wanted, { skill: skill.id, level: skill.max_level }]);
             setAdding(false);
           }}
+        />
+      )}
+
+      {marking && (
+        <Picker
+          title="Monsters not yet slain"
+          note="Armor forged from a marked monster’s materials is left out of the recommended sets."
+          items={monsters}
+          skills={catalog.skills}
+          chosen={unslain}
+          search={MONSTER_SEARCH}
+          detail={species}
+          onClose={() => setMarking(false)}
+          // It stays open: a hunter early in the game has many to mark. null is Clear. The
+          // list is taken from the setter, not from this render, so two taps landing before a
+          // repaint both count.
+          onPick={(monster) =>
+            setSavedUnslain((ids) => {
+              if (!monster) return [];
+              const rest = ids.filter((id) => id !== monster.id);
+              return rest.length < ids.length ? rest : [...ids, monster.id];
+            })
+          }
         />
       )}
     </>

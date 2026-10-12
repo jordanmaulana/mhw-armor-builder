@@ -8,7 +8,7 @@ from django.db import transaction
 from items.models import Item
 
 # a dataset row's keys, which are the model's fields
-FIELDS = ("url", "rarity", "sell_price")
+FIELDS = ("url", "rarity", "sell_price", "gathered")
 
 
 class Command(BaseCommand):

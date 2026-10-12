@@ -16,8 +16,15 @@ DATA = {
             "url": "https://example.com/Rathalos_Ruby",
             "rarity": 7,
             "sell_price": 7200,
+            "gathered": False,
         },
-        {"name": "Carved Feystone", "url": "", "rarity": 10, "sell_price": 0},
+        {
+            "name": "Carbalite Ore",
+            "url": "",
+            "rarity": 6,
+            "sell_price": 0,
+            "gathered": True,
+        },
     ]
 }
 
@@ -43,17 +50,20 @@ class LoadItemsTests(TestCase):
         self.assertEqual((ruby.rarity, ruby.sell_price), (7, 9000))
         self.assertEqual(ruby.url, "https://example.com/Rathalos_Ruby")
 
-        feystone = Item.objects.get(name="Carved Feystone")
-        self.assertEqual((feystone.url, feystone.rarity, feystone.sell_price), ("", 10, 0))
+        ore = Item.objects.get(name="Carbalite Ore")
+        self.assertEqual((ore.url, ore.rarity, ore.sell_price), ("", 6, 0))
+        self.assertEqual((ruby.gathered, ore.gathered), (False, True))
 
     def test_row_missing_a_field_loads_nothing(self):
-        no_rarity = {k: v for k, v in DATA["items"][1].items() if k != "rarity"}
+        for field in ("rarity", "gathered"):
+            with self.subTest(field=field):
+                short = {k: v for k, v in DATA["items"][1].items() if k != field}
 
-        with self.assertRaises(CommandError):
-            self.load({"items": [DATA["items"][0], no_rarity]}, StringIO())
+                with self.assertRaises(CommandError):
+                    self.load({"items": [DATA["items"][0], short]}, StringIO())
 
-        # the row before it was rolled back too
-        self.assertEqual(Item.objects.count(), 0)
+                # the row before it was rolled back too
+                self.assertEqual(Item.objects.count(), 0)
 
     def test_default_loads_the_dataset_under_the_games_names(self):
         call_command("load_items", stdout=StringIO())
@@ -66,3 +76,15 @@ class LoadItemsTests(TestCase):
         # the wiki's Rathalos page calls it Rathalos Wingtalon+
         self.assertTrue(Item.objects.filter(name="Rath Wingtalon+").exists())
         self.assertFalse(Item.objects.filter(name__startswith="Rathalos Wingtalon").exists())
+
+        gathered = set(Item.objects.filter(gathered=True).values_list("name", flat=True))
+        self.assertEqual(len(gathered), 67)
+        # mined, picked from a bonepile, dug up in the Guiding Lands
+        self.assertLessEqual({"Carbalite Ore", "Thick Bone", "Guiding Reef Crystal"}, gathered)
+        # paid by quests whatever their target, though only Tigrex's table names it
+        self.assertIn("Monster Slogbone", gathered)
+        # in Uragaan's mining table like the ores, but found nowhere else
+        self.assertNotIn("Lava Nugget", gathered)
+        # no monster's body gives a sac either, but only its own monsters' quests pay one
+        self.assertNotIn("Flame Sac", gathered)
+        self.assertNotIn("Monster Hardbone", gathered)

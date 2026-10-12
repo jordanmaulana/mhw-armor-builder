@@ -5,6 +5,6 @@ from items.models import Item
 
 @admin.register(Item)
 class ItemAdmin(admin.ModelAdmin):
-    list_display = ("name", "rarity", "sell_price")
-    list_filter = ("rarity",)
+    list_display = ("name", "rarity", "sell_price", "gathered")
+    list_filter = ("rarity", "gathered")
     search_fields = ("name",)

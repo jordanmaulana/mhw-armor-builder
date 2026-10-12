@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from api.v1.serializers import ArmorSerializer
+from armors.hunts import hunts_by_armor
 from armors.models import Armor
 
 
@@ -13,4 +14,5 @@ class ArmorAPI(APIView):
 
     def get(self, request):
         armors = Armor.objects.prefetch_related("armor_skills")
-        return Response(ArmorSerializer(armors, many=True).data)
+        context = {"hunts": hunts_by_armor()}
+        return Response(ArmorSerializer(armors, many=True, context=context).data)

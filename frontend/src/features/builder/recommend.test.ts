@@ -46,6 +46,7 @@ const armor = (id: string, type: Armor["type"], over: Partial<Armor>): Armor => 
   icon_url_female: "",
   skills: [],
   set_bonus: null,
+  hunts: [],
   ...over,
 });
 // "attack-jewel": one point of the skill, for a slot of that level or bigger
@@ -69,6 +70,7 @@ const catalog = (armors: Armor[], decorations: Decoration[] = [], charms: Charm[
   armors: byId(armors),
   decorations: byId(decorations),
   charms: byId(charms),
+  monsters: new Map(),
 });
 const want = (...targets: [string, number][]): GrantedSkill[] =>
   targets.map(([id, level]) => ({ skill: id, level }));

@@ -4,6 +4,7 @@ import type {
   Catalog,
   Charm,
   Decoration,
+  Monster,
   SetBonus,
   Skill,
 } from "@/features/builder/types";
@@ -13,12 +14,13 @@ const list = <T>(path: string) => api<T[]>(path, { skipAuth: true });
 const byId = <T extends { id: string }>(rows: T[]) => new Map(rows.map((row) => [row.id, row]));
 
 export async function fetchCatalog(): Promise<Catalog> {
-  const [skills, setBonuses, armors, decorations, charms] = await Promise.all([
+  const [skills, setBonuses, armors, decorations, charms, monsters] = await Promise.all([
     list<Skill>("/skills/"),
     list<SetBonus>("/set-bonuses/"),
     list<Armor>("/armors/"),
     list<Decoration>("/decorations/"),
     list<Charm>("/charms/"),
+    list<Monster>("/monsters/"),
   ]);
   return {
     skills: byId(skills),
@@ -26,5 +28,6 @@ export async function fetchCatalog(): Promise<Catalog> {
     armors: byId(armors),
     decorations: byId(decorations),
     charms: byId(charms),
+    monsters: byId(monsters),
   };
 }

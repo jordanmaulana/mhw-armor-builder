@@ -38,6 +38,9 @@ export interface Armor {
   icon_url_female: string;
   skills: GrantedSkill[];
   set_bonus: string | null; // SetBonus id
+  // what its recipe asks to have slain: one list per material, the ids of the monsters that
+  // drop it. One of each list is enough; [] is a piece forged from ore, bone or a ticket
+  hunts: string[][];
 }
 
 export interface Decoration {
@@ -56,12 +59,20 @@ export interface Charm {
   skills: GrantedSkill[];
 }
 
+export interface Monster {
+  id: string;
+  name: string;
+  type: "large" | "small";
+  species: string; // as the API spells it: "elder_dragon"
+}
+
 export interface Catalog {
   skills: Map<string, Skill>;
   setBonuses: Map<string, SetBonus>;
   armors: Map<string, Armor>;
   decorations: Map<string, Decoration>;
   charms: Map<string, Charm>;
+  monsters: Map<string, Monster>;
 }
 
 export interface Piece {
