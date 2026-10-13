@@ -29,6 +29,20 @@ export function describeSkills(granted: GrantedSkill[], skills: Map<string, Skil
     .join(", ");
 }
 
+// "Affinity +15%": what a skill does at that level, in the game's words. Empty for a skill the
+// dataset has no lines for (one a loader stubbed from an armor's skill list).
+export function effectAt(skill: Skill, level: number): string {
+  return skill.levels.find((row) => row.level === level)?.effect ?? "";
+}
+
+// The lines a build can reach, lowest level first: a skill with a secret has lines past its cap
+// (Agitator's 6 and 7), and the totals below stop at max_level.
+export function levelLines(skill: Skill): Skill["levels"] {
+  return skill.levels
+    .filter((row) => row.level <= skill.max_level)
+    .sort((a, b) => a.level - b.level);
+}
+
 // "(Blast 450) · Affinity +10% · Defense +20 · Critical Status": what a weapon is, on the line
 // where armor says its skills. The parentheses are the game's own for an element that stays
 // hidden without Free Elem/Ammo Up. Affinity is always there, so the line is never empty.

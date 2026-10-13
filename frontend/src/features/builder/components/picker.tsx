@@ -1,4 +1,5 @@
 import { useEffect, useId, useMemo, useRef, useState, type ReactNode } from "react";
+import { X } from "lucide-react";
 
 import { describeSkills } from "@/features/builder/totals";
 import type { GrantedSkill, Skill } from "@/features/builder/types";
@@ -47,6 +48,9 @@ interface PickerProps<T extends Pickable> {
   // the line under the name, for items that don't grant skills; it is searched too
   detail?: (item: T) => string;
   onPick: (item: T | null) => void; // null = remove what's equipped, or clear what's chosen
+  // for a list whose rows are the user's own and can be deleted for good: each row ends in a
+  // button that asks twice. The header's Remove is then not drawn: nothing here is equipped
+  onDelete?: (item: T) => void;
   onClose: () => void;
 }
 
@@ -64,11 +68,14 @@ export function Picker<T extends Pickable>({
   meta,
   detail,
   onPick,
+  onDelete,
   onClose,
 }: PickerProps<T>) {
   const ref = useRef<HTMLDialogElement>(null);
   const noteId = useId();
   const [query, setQuery] = useState("");
+  // the row whose delete button has been pressed once
+  const [armed, setArmed] = useState<string | null>(null);
 
   useEffect(() => {
     // StrictMode runs this twice; showModal() on an open dialog throws in older browsers
@@ -119,7 +126,7 @@ export function Picker<T extends Pickable>({
               aria-label={search.label}
               className="min-w-0 flex-1 rounded-sm border border-seam bg-hide px-3 py-2 placeholder:text-moss focus-visible:outline-2 focus-visible:outline-hunt"
             />
-            {(chosen ? chosen.size > 0 : selectedId) && (
+            {!onDelete && (chosen ? chosen.size > 0 : selectedId) && (
               <button
                 type="button"
                 onClick={() => onPick(null)}
@@ -189,7 +196,7 @@ export function Picker<T extends Pickable>({
             {shown.map(({ item, granted }) => (
               <li
                 key={item.id}
-                className="border-b border-dashed border-seam/60 last:border-b-0 even:bg-plate/40"
+                className="flex border-b border-dashed border-seam/60 last:border-b-0 even:bg-plate/40"
               >
                 {/* what's equipped, or switched on, wears the game's green selection band */}
                 <button
@@ -197,7 +204,7 @@ export function Picker<T extends Pickable>({
                   onClick={() => onPick(item)}
                   aria-current={item.id === selectedId || undefined}
                   aria-pressed={chosen?.has(item.id)}
-                  className="flex w-full flex-col gap-0.5 border-l-2 border-transparent px-4 py-2.5 text-left hover:bg-plate focus-visible:bg-plate focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-hunt aria-pressed:border-hunt aria-pressed:bg-linear-to-r aria-pressed:from-hunt/30 aria-pressed:to-transparent aria-[current]:border-hunt aria-[current]:bg-linear-to-r aria-[current]:from-hunt/30 aria-[current]:to-transparent"
+                  className="flex min-w-0 flex-1 flex-col gap-0.5 border-l-2 border-transparent px-4 py-2.5 text-left hover:bg-plate focus-visible:bg-plate focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-hunt aria-pressed:border-hunt aria-pressed:bg-linear-to-r aria-pressed:from-hunt/30 aria-pressed:to-transparent aria-[current]:border-hunt aria-[current]:bg-linear-to-r aria-[current]:from-hunt/30 aria-[current]:to-transparent"
                 >
                   <span className="flex items-baseline justify-between gap-4">
                     <span className="font-medium">{item.name}</span>
@@ -207,6 +214,34 @@ export function Picker<T extends Pickable>({
                     {granted || (detail ? "" : "No skills")}
                   </span>
                 </button>
+                {/* Beside the row's button, not in it. The first press arms it and the second
+                    deletes; it takes the focus itself because Safari gives a clicked button
+                    none, and losing the focus is what disarms it. */}
+                {onDelete && (
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      if (armed !== item.id) {
+                        e.currentTarget.focus();
+                        setArmed(item.id);
+                        return;
+                      }
+                      setArmed(null);
+                      onDelete(item);
+                    }}
+                    onBlur={() => setArmed(null)}
+                    aria-label={
+                      armed === item.id
+                        ? `Delete ${item.name}? Press again to confirm`
+                        : `Delete ${item.name}`
+                    }
+                    className={`mr-2 grid h-7 min-w-7 shrink-0 place-items-center self-center rounded-sm px-1.5 text-sm hover:bg-plate hover:text-ember focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt ${
+                      armed === item.id ? "text-ember" : "text-moss"
+                    }`}
+                  >
+                    {armed === item.id ? "Delete?" : <X aria-hidden className="size-4" />}
+                  </button>
+                )}
               </li>
             ))}
           </ul>

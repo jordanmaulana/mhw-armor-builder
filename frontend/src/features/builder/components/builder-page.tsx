@@ -10,6 +10,7 @@ import {
   SlotGem,
 } from "@/features/builder/components/equip-row";
 import { Picker } from "@/features/builder/components/picker";
+import { SavedSets } from "@/features/builder/components/saved-sets";
 import { SetSearch } from "@/features/builder/components/set-search";
 import { SoundToggle } from "@/features/builder/components/sound-toggle";
 import { Summary } from "@/features/builder/components/summary";
@@ -21,6 +22,7 @@ import {
   WEAPON_TYPES,
   type Armor,
   type ArmorType,
+  type Build,
   type EquippedWeapon,
   type Lockable,
   type Piece,
@@ -127,6 +129,21 @@ export function BuilderPage() {
   // an emptied row has nothing to lock, and what is put there next is not to arrive locked
   const unlock = (row: Lockable) =>
     setLocked((rows) => rows.filter((other) => other !== row));
+  // A saved set replaces the whole of this one, locked rows too: it is the hunter's own
+  // choice, not the search's. The locks stay on their rows, as when a piece is swapped by
+  // hand, but for a row the set leaves empty.
+  const load = (saved: Build) => {
+    setBuild(saved);
+    setLocked((rows) =>
+      rows.filter((row) =>
+        row === "weapon"
+          ? saved.weapon
+          : row === "charm"
+            ? saved.charmId
+            : saved.pieces[row],
+      ),
+    );
+  };
   // `?.` on build.weapon throughout: a build saved before weapons has no such key
   const held = catalog.weapons.get(build.weapon?.weaponId ?? "");
 
@@ -350,86 +367,91 @@ export function BuilderPage() {
           {/* one stacked column until xl, where its two children become grid columns of their own */}
           <div className="flex min-w-0 flex-col gap-6 xl:contents">
             <SetSearch catalog={catalog} build={build} onUse={setBuild} />
-            <ul aria-label="Equipment">
-              {/* first, as on the game's equipment screen */}
-              <EquipRow
-                label="Weapon"
-                emptyText="Choose a weapon"
-                item={held}
-                // the dataset has no weapon icons
-                glyph={<Sword aria-hidden className="size-6 text-moss" />}
-                meta={held && `Attack ${held.attack}`}
-                detail={held && describeWeapon(held)}
-                skills={catalog.skills}
-                onChoose={() => setPicking({ kind: "weapon" })}
-                locked={locked.includes("weapon")}
-                onLock={() => toggleLock("weapon")}
-              >
-                {held?.slots.length
-                  ? held.slots.map((level, index) => (
-                      <SlotButton
-                        key={index}
-                        level={level}
-                        decoration={catalog.decorations.get(
-                          build.weapon?.decoIds[index] ?? "",
-                        )}
-                        skills={catalog.skills}
-                        onClick={() =>
-                          setPicking({ kind: "weapon-slot", index })
-                        }
-                      />
-                    ))
-                  : null}
-              </EquipRow>
-              {ARMOR_TYPES.map((type) => {
-                const piece = build.pieces[type];
-                const armor = piece
-                  ? catalog.armors.get(piece.armorId)
-                  : undefined;
-                return (
-                  <EquipRow
-                    key={type}
-                    label={LABELS[type]}
-                    emptyText={`Choose ${type} armor`}
-                    item={armor}
-                    icon={
-                      armor && (armor.icon_url_male || armor.icon_url_female)
-                    }
-                    meta={armor && `Defense ${armor.defense}`}
-                    skills={catalog.skills}
-                    onChoose={() => setPicking({ kind: "armor", type })}
-                    locked={locked.includes(type)}
-                    onLock={() => toggleLock(type)}
-                  >
-                    {armor?.slots.length
-                      ? armor.slots.map((level, index) => (
-                          <SlotButton
-                            key={index}
-                            level={level}
-                            decoration={catalog.decorations.get(
-                              piece?.decoIds[index] ?? "",
-                            )}
-                            skills={catalog.skills}
-                            onClick={() =>
-                              setPicking({ kind: "slot", type, index })
-                            }
-                          />
-                        ))
-                      : null}
-                  </EquipRow>
-                );
-              })}
-              <EquipRow
-                label="Charm"
-                emptyText="Choose a charm"
-                item={charm}
-                icon={charm?.icon_url}
-                skills={catalog.skills}
-                onChoose={() => setPicking({ kind: "charm" })}
-                locked={locked.includes("charm")}
-                onLock={() => toggleLock("charm")}
-              />
-            </ul>
+            {/* One grid item for the two: the wrapper above is `contents` at xl, where a
+                child of its own would be a column of its own and push Status down a row. */}
+            <div>
+              <ul aria-label="Equipment">
+                {/* first, as on the game's equipment screen */}
+                <EquipRow
+                  label="Weapon"
+                  emptyText="Choose a weapon"
+                  item={held}
+                  // the dataset has no weapon icons
+                  glyph={<Sword aria-hidden className="size-6 text-moss" />}
+                  meta={held && `Attack ${held.attack}`}
+                  detail={held && describeWeapon(held)}
+                  skills={catalog.skills}
+                  onChoose={() => setPicking({ kind: "weapon" })}
+                  locked={locked.includes("weapon")}
+                  onLock={() => toggleLock("weapon")}
+                >
+                  {held?.slots.length
+                    ? held.slots.map((level, index) => (
+                        <SlotButton
+                          key={index}
+                          level={level}
+                          decoration={catalog.decorations.get(
+                            build.weapon?.decoIds[index] ?? "",
+                          )}
+                          skills={catalog.skills}
+                          onClick={() =>
+                            setPicking({ kind: "weapon-slot", index })
+                          }
+                        />
+                      ))
+                    : null}
+                </EquipRow>
+                {ARMOR_TYPES.map((type) => {
+                  const piece = build.pieces[type];
+                  const armor = piece
+                    ? catalog.armors.get(piece.armorId)
+                    : undefined;
+                  return (
+                    <EquipRow
+                      key={type}
+                      label={LABELS[type]}
+                      emptyText={`Choose ${type} armor`}
+                      item={armor}
+                      icon={
+                        armor && (armor.icon_url_male || armor.icon_url_female)
+                      }
+                      meta={armor && `Defense ${armor.defense}`}
+                      skills={catalog.skills}
+                      onChoose={() => setPicking({ kind: "armor", type })}
+                      locked={locked.includes(type)}
+                      onLock={() => toggleLock(type)}
+                    >
+                      {armor?.slots.length
+                        ? armor.slots.map((level, index) => (
+                            <SlotButton
+                              key={index}
+                              level={level}
+                              decoration={catalog.decorations.get(
+                                piece?.decoIds[index] ?? "",
+                              )}
+                              skills={catalog.skills}
+                              onClick={() =>
+                                setPicking({ kind: "slot", type, index })
+                              }
+                            />
+                          ))
+                        : null}
+                    </EquipRow>
+                  );
+                })}
+                <EquipRow
+                  label="Charm"
+                  emptyText="Choose a charm"
+                  item={charm}
+                  icon={charm?.icon_url}
+                  skills={catalog.skills}
+                  onChoose={() => setPicking({ kind: "charm" })}
+                  locked={locked.includes("charm")}
+                  onLock={() => toggleLock("charm")}
+                />
+              </ul>
+              <SavedSets catalog={catalog} build={build} onLoad={load} />
+            </div>
           </div>
 
           <div className="pt-4 lg:sticky lg:top-8 lg:self-start">

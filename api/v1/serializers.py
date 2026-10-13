@@ -19,7 +19,7 @@ User = get_user_model()
 class SkillSerializer(serializers.ModelSerializer):
     class Meta:
         model = Skill
-        fields = ["id", "name", "icon_url", "description", "max_level"]
+        fields = ["id", "name", "icon_url", "description", "max_level", "levels"]
 
 
 class SetBonusSerializer(serializers.ModelSerializer):

@@ -65,7 +65,14 @@ check(
 );
 
 {
-  const attack = { id: "attack", name: "Attack Boost", icon_url: "", description: "", max_level: 7 };
+  const attack = {
+    id: "attack",
+    name: "Attack Boost",
+    icon_url: "",
+    description: "",
+    max_level: 7,
+    levels: [],
+  };
   const catalog: Catalog = {
     skills: byId([attack]),
     setBonuses: new Map(),

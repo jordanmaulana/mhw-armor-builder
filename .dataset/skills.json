@@ -8,7 +8,12 @@
       "description": "Sliding increases your affinity for a short time.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases affinity by 30% for a short time after sliding."
+        }
+      ]
     },
     {
       "name": "Agitator",
@@ -20,7 +25,36 @@
         "name": "Agitator Secret",
         "max_level": 7
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "While active, grants attack +4 and increases affinity by 5%."
+        },
+        {
+          "level": 2,
+          "effect": "While active, grants attack +8 and increases affinity by 5%."
+        },
+        {
+          "level": 3,
+          "effect": "While active, grants attack +12 and increases affinity by 7%."
+        },
+        {
+          "level": 4,
+          "effect": "While active, grants attack +16 and increases affinity by 7%."
+        },
+        {
+          "level": 5,
+          "effect": "While active, grants attack +20 and increases affinity by 10%."
+        },
+        {
+          "level": 6,
+          "effect": "While active, grants attack +24 and increases affinity by 15%."
+        },
+        {
+          "level": 7,
+          "effect": "While active, grants attack +28 and increases affinity by 20%."
+        }
+      ]
     },
     {
       "name": "Airborne",
@@ -29,7 +63,12 @@
       "description": "Increases the damage caused by jumping attacks.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Jumping attack power +30%"
+        }
+      ]
     },
     {
       "name": "Aquatic/Polar Mobility (Aquatic Expert)",
@@ -38,7 +77,20 @@
       "description": "Lets you move more freely in water. Also prevents you from being slowed down by terrain effects, such as deep snow.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Prevents lowered movement speed."
+        },
+        {
+          "level": 2,
+          "effect": "Increases your evade window and prevents lowered movement speed."
+        },
+        {
+          "level": 3,
+          "effect": "Greatly increases evade window and prevents lowered movement speed."
+        }
+      ]
     },
     {
       "name": "Artillery",
@@ -50,7 +102,28 @@
         "name": "Artillery Secret",
         "max_level": 5
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases power of each attack by 10% and reduces Wyvern's Fire cooldown by 15%."
+        },
+        {
+          "level": 2,
+          "effect": "Increases power of each attack by 20% and reduces Wyvern's Fire cooldown by 30%."
+        },
+        {
+          "level": 3,
+          "effect": "Increases power of each attack by 30% and reduces Wyvern's Fire cooldown by 50%."
+        },
+        {
+          "level": 4,
+          "effect": "Increases power of each attack by 40% and reduces Wyvern's Fire cooldown by 60%."
+        },
+        {
+          "level": 5,
+          "effect": "Increases power of each attack by 50% and reduces Wyvern's Fire cooldown by 70%."
+        }
+      ]
     },
     {
       "name": "Attack Boost",
@@ -59,7 +132,36 @@
       "description": "Increases attack power. Also increases affinity at higher levels.",
       "max_level": 7,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Attack +3"
+        },
+        {
+          "level": 2,
+          "effect": "Attack +6"
+        },
+        {
+          "level": 3,
+          "effect": "Attack +9"
+        },
+        {
+          "level": 4,
+          "effect": "Attack +12 Affinity +5%"
+        },
+        {
+          "level": 5,
+          "effect": "Attack +15 Affinity +5%"
+        },
+        {
+          "level": 6,
+          "effect": "Attack +18 Affinity +5%"
+        },
+        {
+          "level": 7,
+          "effect": "Attack +21 Affinity +5%"
+        }
+      ]
     },
     {
       "name": "BBQ Master",
@@ -68,7 +170,12 @@
       "description": "Improves your skill at cooking meat.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Makes it easier to cook well-done steaks."
+        }
+      ]
     },
     {
       "name": "Blast Attack",
@@ -77,7 +184,24 @@
       "description": "Increases the rate of blast buildup. (Elemental buildup has a maximum limit)",
       "max_level": 4,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Blast buildup +5% Bonus: +10"
+        },
+        {
+          "level": 2,
+          "effect": "Blast buildup +10% Bonus: +10"
+        },
+        {
+          "level": 3,
+          "effect": "Blast buildup +20% Bonus: +10"
+        },
+        {
+          "level": 4,
+          "effect": "Blast buildup +30% Bonus: +10"
+        }
+      ]
     },
     {
       "name": "Blast Resistance",
@@ -86,7 +210,20 @@
       "description": "Grants protection against Blastblight.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Delays blastblight and reduces blast damage."
+        },
+        {
+          "level": 2,
+          "effect": "Greatly delays blastblight and greatly reduces blast damage."
+        },
+        {
+          "level": 3,
+          "effect": "Prevents blastblight."
+        }
+      ]
     },
     {
       "name": "Bleeding Resistance",
@@ -95,7 +232,20 @@
       "description": "Grants protection against bleeding.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Reduces damage while bleeding."
+        },
+        {
+          "level": 2,
+          "effect": "Greatly reduces damage while bleeding."
+        },
+        {
+          "level": 3,
+          "effect": "Prevents bleeding."
+        }
+      ]
     },
     {
       "name": "Blight Resistance",
@@ -104,7 +254,20 @@
       "description": "Grants protection against all elemental blights.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Reduces the duration of all elemental blights by 50%."
+        },
+        {
+          "level": 2,
+          "effect": "Reduces the duration of all elemental blights by 75%."
+        },
+        {
+          "level": 3,
+          "effect": "Nullifies all elemental blights."
+        }
+      ]
     },
     {
       "name": "Blindsider",
@@ -113,7 +276,12 @@
       "description": "Increases the effective range of flash attacks",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases the range of Flash Pods."
+        }
+      ]
     },
     {
       "name": "Bombardier",
@@ -125,7 +293,28 @@
         "name": "Bombardier Secret",
         "max_level": 5
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Explosive power +10%"
+        },
+        {
+          "level": 2,
+          "effect": "Explosive power +20%"
+        },
+        {
+          "level": 3,
+          "effect": "Explosive power +30%"
+        },
+        {
+          "level": 4,
+          "effect": "Explosive power +40%"
+        },
+        {
+          "level": 5,
+          "effect": "Explosive power +50%"
+        }
+      ]
     },
     {
       "name": "Botanist",
@@ -134,7 +323,24 @@
       "description": "Increases the quantity of herbs and other consumable items you gather.",
       "max_level": 4,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "One extra consumable herb item per gather."
+        },
+        {
+          "level": 2,
+          "effect": "One extra consumable herb, fruit, nut, or seed item per gather."
+        },
+        {
+          "level": 3,
+          "effect": "One extra consumable herb, fruit, nut, seed, or insect item per gather."
+        },
+        {
+          "level": 4,
+          "effect": "One extra consumable herb, fruit, nut, seed, insect, or mushroom item per gather."
+        }
+      ]
     },
     {
       "name": "Capacity Boost",
@@ -143,7 +349,12 @@
       "description": "Increases the gunlance's shell capacity and charge blade's phial capacity.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Loading capacity +1"
+        }
+      ]
     },
     {
       "name": "Carving Pro",
@@ -152,7 +363,12 @@
       "description": "Prevents knockback from attacks while carving.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Prevents knockback while carving."
+        }
+      ]
     },
     {
       "name": "Cliffhanger",
@@ -161,7 +377,12 @@
       "description": "Decrease stamina consumption when evading while clinging to walls or ivy.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Reduces stamina depletion while climbing by 50%."
+        }
+      ]
     },
     {
       "name": "Constitution",
@@ -170,7 +391,28 @@
       "description": "Reduces Stamina depletion when performing stamina-draining moves such as evading, etc.",
       "max_level": 5,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Reduces fixed stamina depletion by 10%."
+        },
+        {
+          "level": 2,
+          "effect": "Reduces fixed stamina depletion by 20%."
+        },
+        {
+          "level": 3,
+          "effect": "Reduces fixed stamina depletion by 30%."
+        },
+        {
+          "level": 4,
+          "effect": "Reduces fixed stamina depletion by 40%."
+        },
+        {
+          "level": 5,
+          "effect": "Reduces fixed stamina depletion by 50%."
+        }
+      ]
     },
     {
       "name": "Critical Boost",
@@ -179,7 +421,20 @@
       "description": "Increases the damage of critical hits.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases damage dealt by critical hits to 30%."
+        },
+        {
+          "level": 2,
+          "effect": "Increases damage dealt by critical hits to 35%."
+        },
+        {
+          "level": 3,
+          "effect": "Increases damage dealt by critical hits to 40%."
+        }
+      ]
     },
     {
       "name": "Critical Draw",
@@ -188,7 +443,20 @@
       "description": "Increases affinity when performing draw attacks.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Draw attack affinity +30%"
+        },
+        {
+          "level": 2,
+          "effect": "Draw attack affinity +60%"
+        },
+        {
+          "level": 3,
+          "effect": "Draw attack affinity +100%"
+        }
+      ]
     },
     {
       "name": "Critical Eye",
@@ -197,7 +465,36 @@
       "description": "Increases Affinity.",
       "max_level": 7,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Affinity +5%"
+        },
+        {
+          "level": 2,
+          "effect": "Affinity +10%"
+        },
+        {
+          "level": 3,
+          "effect": "Affinity +15%"
+        },
+        {
+          "level": 4,
+          "effect": "Affinity +20%"
+        },
+        {
+          "level": 5,
+          "effect": "Affinity +25%"
+        },
+        {
+          "level": 6,
+          "effect": "Affinity +30%"
+        },
+        {
+          "level": 7,
+          "effect": "Affinity +40%"
+        }
+      ]
     },
     {
       "name": "Defense Boost",
@@ -206,7 +503,36 @@
       "description": "Increases Defense. Also increases Elemental Resistances at higher levels.",
       "max_level": 7,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Defense +5"
+        },
+        {
+          "level": 2,
+          "effect": "Defense +10"
+        },
+        {
+          "level": 3,
+          "effect": "Defense +5% Bonus: +10"
+        },
+        {
+          "level": 4,
+          "effect": "Defense +5% Bonus: +20 All Elemental Resistances +3"
+        },
+        {
+          "level": 5,
+          "effect": "Defense +8% Bonus: +20 All Elemental Resistances +3"
+        },
+        {
+          "level": 6,
+          "effect": "Defense +8% Bonus: +35 All Elemental Resistances +5"
+        },
+        {
+          "level": 7,
+          "effect": "Defense +10% Bonus: +35 All Elemental Resistances +5"
+        }
+      ]
     },
     {
       "name": "Detector",
@@ -215,7 +541,12 @@
       "description": "Shows rare gathering points on the Wildlife Map.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Marks rare sites on the wildlife map."
+        }
+      ]
     },
     {
       "name": "Divine Blessing",
@@ -227,7 +558,28 @@
         "name": "Divine Blessing Secret",
         "max_level": 5
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "While active, reduces damage taken by 15%."
+        },
+        {
+          "level": 2,
+          "effect": "While active, reduces damage taken by 30%."
+        },
+        {
+          "level": 3,
+          "effect": "While active, reduces damage taken by 50%."
+        },
+        {
+          "level": 4,
+          "effect": "While active, reduces damage taken by 60%."
+        },
+        {
+          "level": 5,
+          "effect": "While active, reduces damage taken by 60%. Skill becomes easier to activate as well."
+        }
+      ]
     },
     {
       "name": "Dragon Attack",
@@ -236,7 +588,32 @@
       "description": "Increases the power of Dragon Attacks.",
       "max_level": 6,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Dragon attack +30"
+        },
+        {
+          "level": 2,
+          "effect": "Dragon attack +60"
+        },
+        {
+          "level": 3,
+          "effect": "Dragon attack +100"
+        },
+        {
+          "level": 4,
+          "effect": "Dragon attack +5% Bonus: +100"
+        },
+        {
+          "level": 5,
+          "effect": "Dragon attack +10% Bonus: +100"
+        },
+        {
+          "level": 6,
+          "effect": "Dragon attack +20% Bonus: +100"
+        }
+      ]
     },
     {
       "name": "Dragon Resistance",
@@ -245,7 +622,20 @@
       "description": "Increases Dragon Resistance Also improves Defense at higher levels.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Dragon resistance +6"
+        },
+        {
+          "level": 2,
+          "effect": "Dragon resistance +12"
+        },
+        {
+          "level": 3,
+          "effect": "Dragon resistance +20 Defense +10"
+        }
+      ]
     },
     {
       "name": "Dungmaster",
@@ -254,7 +644,12 @@
       "description": "Makes monster hit with slinger dung pods more likely to run.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Makes slinger dung pods more effective at making monsters run away."
+        }
+      ]
     },
     {
       "name": "Earplugs",
@@ -263,7 +658,28 @@
       "description": "Grants protection from Large_Monsters' roars.",
       "max_level": 5,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Slightly reduces the effects of weak monster roars."
+        },
+        {
+          "level": 2,
+          "effect": "Reduces the effects of weak monster roars."
+        },
+        {
+          "level": 3,
+          "effect": "Nullifies weak monster roars."
+        },
+        {
+          "level": 4,
+          "effect": "Nullifies weak monster roars and reduces the effects of strong monster roars."
+        },
+        {
+          "level": 5,
+          "effect": "Nullifies weak and strong monster roars."
+        }
+      ]
     },
     {
       "name": "Effluvia Resistance",
@@ -272,7 +688,20 @@
       "description": "Gain a resistance to effluvial buildup.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Reduces effluvial buildup."
+        },
+        {
+          "level": 2,
+          "effect": "Greatly reduces effluvial buildup."
+        },
+        {
+          "level": 3,
+          "effect": "Prevents effluvial buildup."
+        }
+      ]
     },
     {
       "name": "Effluvial Expert",
@@ -281,7 +710,12 @@
       "description": "Effluvial Expert nullifies or reduces environmental damage in the Rotten Vale.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Nullifies damage from effluvia and reduces damage from acids."
+        }
+      ]
     },
     {
       "name": "Elderseal Boost",
@@ -290,7 +724,12 @@
       "description": "Increases the Elderseal of weapons and dragon ammo. This skill can be obtained from the Dragonseal Jewel 3 decoration.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Boosts Elderseal one level."
+        }
+      ]
     },
     {
       "name": "Evade Window",
@@ -299,7 +738,28 @@
       "description": "Extends the invulnerability period while evading.",
       "max_level": 5,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Very slightly increases invulnerability window."
+        },
+        {
+          "level": 2,
+          "effect": "Slightly increases invulnerability window."
+        },
+        {
+          "level": 3,
+          "effect": "Increases invulnerability window."
+        },
+        {
+          "level": 4,
+          "effect": "Greatly increases invulnerability window."
+        },
+        {
+          "level": 5,
+          "effect": "Massively increases invulnerability window."
+        }
+      ]
     },
     {
       "name": "Entomologist",
@@ -308,7 +768,20 @@
       "description": "When slaying small insects, it will become easier to carve materials from them.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases the chances of a corpse being left behind."
+        },
+        {
+          "level": 2,
+          "effect": "Greatly increases the chances of a corpse being left behind."
+        },
+        {
+          "level": 3,
+          "effect": "Makes it so corpses will always be left behind."
+        }
+      ]
     },
     {
       "name": "Evade Extender",
@@ -317,7 +790,20 @@
       "description": "Increase evade distance.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Slightly extends evasion distance."
+        },
+        {
+          "level": 2,
+          "effect": "Extends evasion distance."
+        },
+        {
+          "level": 3,
+          "effect": "Greatly extends evasion distance."
+        }
+      ]
     },
     {
       "name": "Fire Attack",
@@ -326,7 +812,32 @@
       "description": "Increases the power of Fire Attacks.",
       "max_level": 6,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Fire attack +30"
+        },
+        {
+          "level": 2,
+          "effect": "Fire attack +60"
+        },
+        {
+          "level": 3,
+          "effect": "Fire attack +100"
+        },
+        {
+          "level": 4,
+          "effect": "Fire attack +5% Bonus: +100"
+        },
+        {
+          "level": 5,
+          "effect": "Fire attack +10% Bonus: +100"
+        },
+        {
+          "level": 6,
+          "effect": "Fire attack +20% Bonus: +100"
+        }
+      ]
     },
     {
       "name": "Fire Resistance",
@@ -335,7 +846,20 @@
       "description": "Increases Fire Resistance Also improves Defense at higher levels.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Fire resistance +6"
+        },
+        {
+          "level": 2,
+          "effect": "Fire resistance +12"
+        },
+        {
+          "level": 3,
+          "effect": "Fire resistance +20 Defense +10"
+        }
+      ]
     },
     {
       "name": "Flinch Free",
@@ -344,7 +868,20 @@
       "description": "Prevents knockbacks and other reactions to small damage",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Prevents knockbacks. Increases some Kinsect extract effects."
+        },
+        {
+          "level": 2,
+          "effect": "Prevents knockbacks. Tripping is reduced to a knockback. Increases some Kinsect extract effects."
+        },
+        {
+          "level": 3,
+          "effect": "Prevents knockbacks and tripping. Increases some Kinsect extract effects."
+        }
+      ]
     },
     {
       "name": "Focus",
@@ -353,7 +890,20 @@
       "description": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases gauge fill rate by 5% and reduces charge times by 5%."
+        },
+        {
+          "level": 2,
+          "effect": "Increases gauge fill rate by 10% and reduces charge times by 10%."
+        },
+        {
+          "level": 3,
+          "effect": "Increases gauge fill rate by 20% and reduces charge times by 15%."
+        }
+      ]
     },
     {
       "name": "Forager's Luck",
@@ -362,7 +912,12 @@
       "description": "Increases the chance of finding rare gathering points.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases the likelihood of rare gathering points respawning."
+        }
+      ]
     },
     {
       "name": "Fortify",
@@ -371,7 +926,12 @@
       "description": "Increases your attack and defense every time you fall in battle, up to two times.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases attack by 10% and defense by 15% with each use."
+        }
+      ]
     },
     {
       "name": "Free Elem/Ammo Up",
@@ -380,7 +940,20 @@
       "description": "Unlocks your weapon's hidden element. Also increases bowgun loading capacity (there's a cap to loading capacity)",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Draws out 33% of hidden element and expands clip size for some ammo."
+        },
+        {
+          "level": 2,
+          "effect": "Draws out 66% of hidden element and expands clip size for many ammo."
+        },
+        {
+          "level": 3,
+          "effect": "Draws out 100% of hidden element and expands clip size for most ammo."
+        }
+      ]
     },
     {
       "name": "Free Meal",
@@ -392,7 +965,20 @@
         "name": "Free Meal Secret",
         "max_level": 3
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Activates 25% of the time."
+        },
+        {
+          "level": 2,
+          "effect": "Activates 50% of the time."
+        },
+        {
+          "level": 3,
+          "effect": "Activates 75% of the time."
+        }
+      ]
     },
     {
       "name": "Geologist",
@@ -401,7 +987,20 @@
       "description": "Increases the number of times you can use a gathering point.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Allows you to gather one extra time from bonepiles."
+        },
+        {
+          "level": 2,
+          "effect": "Allows you to gather one extra time from bonepiles and special item gathering points."
+        },
+        {
+          "level": 3,
+          "effect": "Allows you to gather one extra time from bonepiles, gathering points, and mining outcrops."
+        }
+      ]
     },
     {
       "name": "Guard",
@@ -410,7 +1009,28 @@
       "description": "Reduces knockbacks and stamina depletion when guarding.",
       "max_level": 5,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Very slightly decreases the impact of attacks."
+        },
+        {
+          "level": 2,
+          "effect": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%."
+        },
+        {
+          "level": 3,
+          "effect": "Greatly decreases the impact of attacks and reduces stamina depletion by 15%."
+        },
+        {
+          "level": 4,
+          "effect": "Greatly decreases the impact of attacks and reduces stamina depletion by 30%."
+        },
+        {
+          "level": 5,
+          "effect": "Massively decreases the impact of attacks and reduces stamina depletion by 50%."
+        }
+      ]
     },
     {
       "name": "Handicraft",
@@ -419,7 +1039,28 @@
       "description": "Extends the weapon sharpness gauge. However, it will not increase the gauge past its maximum.",
       "max_level": 5,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Weapon sharpness +10"
+        },
+        {
+          "level": 2,
+          "effect": "Weapon sharpness +20"
+        },
+        {
+          "level": 3,
+          "effect": "Weapon sharpness +30"
+        },
+        {
+          "level": 4,
+          "effect": "Weapon sharpness +40"
+        },
+        {
+          "level": 5,
+          "effect": "Weapon sharpness +50"
+        }
+      ]
     },
     {
       "name": "Health Boost",
@@ -428,7 +1069,20 @@
       "description": "Increases health.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Health +15"
+        },
+        {
+          "level": 2,
+          "effect": "Health +30"
+        },
+        {
+          "level": 3,
+          "effect": "Health +50"
+        }
+      ]
     },
     {
       "name": "Heat Guard",
@@ -437,7 +1091,12 @@
       "description": "Nullifies damage from heat.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Nullifies heat damage."
+        }
+      ]
     },
     {
       "name": "Heavy Artillery",
@@ -446,7 +1105,16 @@
       "description": "Increase the firepower of ballistae and cannons.",
       "max_level": 2,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Firepower +50%"
+        },
+        {
+          "level": 2,
+          "effect": "Firepower +100%"
+        }
+      ]
     },
     {
       "name": "Heroics",
@@ -458,7 +1126,36 @@
         "name": "Heroics Secret",
         "max_level": 7
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "While active, increases defense by 50 points."
+        },
+        {
+          "level": 2,
+          "effect": "While active, increases attack power by 5% and increases defense by 50 points."
+        },
+        {
+          "level": 3,
+          "effect": "While active, increases attack power by 5% and increases defense by 100 points."
+        },
+        {
+          "level": 4,
+          "effect": "While active, increases attack power by 10% and increases defense by 100 points."
+        },
+        {
+          "level": 5,
+          "effect": "While active, increases attack power by 15% and increases defense by 100 points."
+        },
+        {
+          "level": 6,
+          "effect": "While active, increases attack power by 25% and increases defense by 150 points."
+        },
+        {
+          "level": 7,
+          "effect": "While active, increases attack power by 40% and increases defense by 150 points."
+        }
+      ]
     },
     {
       "name": "Honey Hunter",
@@ -467,7 +1164,12 @@
       "description": "Increases the quantity of honey you receive when gathering in the field.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "One extra honey per gather."
+        }
+      ]
     },
     {
       "name": "Horn Maestro",
@@ -476,7 +1178,16 @@
       "description": "Increases the effect duration of hunting horn melodies.",
       "max_level": 2,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Extends melody effect duration and increases health recovery."
+        },
+        {
+          "level": 2,
+          "effect": "Greatly increases the effect duration of hunting horn melodies."
+        }
+      ]
     },
     {
       "name": "Hunger Resistance",
@@ -485,7 +1196,20 @@
       "description": "Reduces maximum stamina depletion over time.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Extends the time until your stamina cap decreases by 50%."
+        },
+        {
+          "level": 2,
+          "effect": "Extends the time until your stamina cap decreases by 100%."
+        },
+        {
+          "level": 3,
+          "effect": "Prevents your stamina cap from decreasing."
+        }
+      ]
     },
     {
       "name": "Ice Attack",
@@ -494,7 +1218,32 @@
       "description": "Increases the power of Ice Attacks.",
       "max_level": 6,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Ice attack +30"
+        },
+        {
+          "level": 2,
+          "effect": "Ice attack +60"
+        },
+        {
+          "level": 3,
+          "effect": "Ice attack +100"
+        },
+        {
+          "level": 4,
+          "effect": "Ice attack +5% Bonus: +100"
+        },
+        {
+          "level": 5,
+          "effect": "Ice attack +10% Bonus: +100"
+        },
+        {
+          "level": 6,
+          "effect": "Ice attack +20% Bonus: +100"
+        }
+      ]
     },
     {
       "name": "Ice Resistance",
@@ -503,7 +1252,20 @@
       "description": "Increases Ice Resistance Also improves Defense at higher levels.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Ice resistance +6"
+        },
+        {
+          "level": 2,
+          "effect": "Ice resistance +12"
+        },
+        {
+          "level": 3,
+          "effect": "Ice resistance +20 Defense +10"
+        }
+      ]
     },
     {
       "name": "Intimidator",
@@ -512,7 +1274,20 @@
       "description": "Reduces the chances small monsters will attack after spotting you.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Discourages monsters from engaging you even if you've been spotted."
+        },
+        {
+          "level": 2,
+          "effect": "Highly discourages monsters from engaging you even if you've been spotted."
+        },
+        {
+          "level": 3,
+          "effect": "Prevents monsters from engaging you even if you've been spotted."
+        }
+      ]
     },
     {
       "name": "Iron Skin",
@@ -521,7 +1296,20 @@
       "description": "Grants protection against Defense Down.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Reduces the duration of Defense Down by 50%."
+        },
+        {
+          "level": 2,
+          "effect": "Reduces the duration of Defense Down by 75%."
+        },
+        {
+          "level": 3,
+          "effect": "Prevents Defense Down."
+        }
+      ]
     },
     {
       "name": "Item Prolonger",
@@ -530,7 +1318,20 @@
       "description": "Extends the duration of some item effects.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Item effect duration +10%"
+        },
+        {
+          "level": 2,
+          "effect": "Item effect duration +25%"
+        },
+        {
+          "level": 3,
+          "effect": "Item effect duration +50%"
+        }
+      ]
     },
     {
       "name": "Jump Master",
@@ -539,7 +1340,12 @@
       "description": "Prevents attacks from knocking you back during a jump.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Negates knockback during jumps."
+        }
+      ]
     },
     {
       "name": "Latent Power",
@@ -551,7 +1357,36 @@
         "name": "Latent Power Secret",
         "max_level": 7
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "While active, increases affinity by 10% and reduces stamina depletion by 30%."
+        },
+        {
+          "level": 2,
+          "effect": "While active, increases affinity by 20% and reduces stamina depletion by 30%."
+        },
+        {
+          "level": 3,
+          "effect": "While active, increases affinity by 30% and reduces stamina depletion by 50%."
+        },
+        {
+          "level": 4,
+          "effect": "While active, increases affinity by 40% and reduces stamina depletion by 50%."
+        },
+        {
+          "level": 5,
+          "effect": "While active, increases affinity by 50% and reduces stamina depletion by 50%."
+        },
+        {
+          "level": 6,
+          "effect": "While active, increases affinity by 50%, reduces stamina depletion by 50%. Triggers easier."
+        },
+        {
+          "level": 7,
+          "effect": "While active, increases affinity by 60%, reduces stamina depletion by 50%. Triggers easier."
+        }
+      ]
     },
     {
       "name": "Leap of Faith",
@@ -560,7 +1395,12 @@
       "description": "Allows you to do a dive-evade when facing towards Large_Monsters, and extends the dive-evade distance",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Enables Leap of Faith."
+        }
+      ]
     },
     {
       "name": "Marathon Runner",
@@ -569,7 +1409,20 @@
       "description": "Slows down stamina depletion for actions which continuously drain stamina (such as dashing).",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Reduces continuous stamina depletion by 15%."
+        },
+        {
+          "level": 2,
+          "effect": "Reduces continuous stamina depletion by 30%."
+        },
+        {
+          "level": 3,
+          "effect": "Reduces continuous stamina depletion by 50%."
+        }
+      ]
     },
     {
       "name": "Master Fisher",
@@ -578,7 +1431,12 @@
       "description": "Improves your skill at fishing.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases the time window for reeling in fish, and makes it easier to catch large fish."
+        }
+      ]
     },
     {
       "name": "Master Gatherer",
@@ -587,7 +1445,12 @@
       "description": "Allows you to gather more quickly, and also prevents attacks from knocking you back while gathering.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Speeds up gathering and prevents knockbacks while gathering."
+        }
+      ]
     },
     {
       "name": "Master Mounter",
@@ -596,7 +1459,12 @@
       "description": "Makes it easier to mount Monsters.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Makes it easier to mount monsters and down mounted monsters."
+        }
+      ]
     },
     {
       "name": "Maximum Might",
@@ -608,7 +1476,28 @@
         "name": "Maximum Might Secret",
         "max_level": 5
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "While active, increases affinity by 10%."
+        },
+        {
+          "level": 2,
+          "effect": "While active, increases affinity by 20%."
+        },
+        {
+          "level": 3,
+          "effect": "While active, increases affinity by 30%."
+        },
+        {
+          "level": 4,
+          "effect": "While active, increases affinity by 40%."
+        },
+        {
+          "level": 5,
+          "effect": "Increases affinity by 40% as soon as the stamina gauge is full."
+        }
+      ]
     },
     {
       "name": "Muck Resistance",
@@ -617,7 +1506,12 @@
       "description": "Reduces impairments to mobility while stuck in monster muck.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Reduces limits on movement speed and evasion."
+        }
+      ]
     },
     {
       "name": "Mushroomancer",
@@ -626,7 +1520,20 @@
       "description": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Lets you digest blue mushrooms and toadstools."
+        },
+        {
+          "level": 2,
+          "effect": "Additionally lets you digest nitroshrooms and parashrooms."
+        },
+        {
+          "level": 3,
+          "effect": "Additionally lets you digest mandragoras, devil's blight, and exciteshrooms."
+        }
+      ]
     },
     {
       "name": "Normal Shots",
@@ -635,7 +1542,16 @@
       "description": "Increases the attack power of normal ammo and normal arrows.",
       "max_level": 2,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases the power of normal ammo and normal arrows."
+        },
+        {
+          "level": 2,
+          "effect": "Greatly increases the power of normal ammo and normal arrows."
+        }
+      ]
     },
     {
       "name": "Palico Rally",
@@ -644,7 +1560,28 @@
       "description": "Powers up Palicoes.",
       "max_level": 5,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases Palico attack power and defense by 5%."
+        },
+        {
+          "level": 2,
+          "effect": "Increases Palico attack power and defense by 10%."
+        },
+        {
+          "level": 3,
+          "effect": "Increases Palico attack power and defense by 15%."
+        },
+        {
+          "level": 4,
+          "effect": "Increases Palico attack power and defense by 20%."
+        },
+        {
+          "level": 5,
+          "effect": "Increases Palico attack power and defense by 25%."
+        }
+      ]
     },
     {
       "name": "Paralysis Attack",
@@ -653,7 +1590,24 @@
       "description": "Increase the rate of paralysis buildup.",
       "max_level": 4,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Paralysis buildup +5% Bonus: +10"
+        },
+        {
+          "level": 2,
+          "effect": "Paralysis buildup +10% Bonus: +10"
+        },
+        {
+          "level": 3,
+          "effect": "Paralysis buildup +20% Bonus: +10"
+        },
+        {
+          "level": 4,
+          "effect": "Paralysis buildup +30% Bonus: +10"
+        }
+      ]
     },
     {
       "name": "Paralysis Resistance",
@@ -662,7 +1616,20 @@
       "description": "Reduce the duration of Paralysis.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Reduces the duration of paralysis by 30%."
+        },
+        {
+          "level": 2,
+          "effect": "Reduces the duration of paralysis by 60%."
+        },
+        {
+          "level": 3,
+          "effect": "Prevents paralysis."
+        }
+      ]
     },
     {
       "name": "Partbreaker",
@@ -671,7 +1638,20 @@
       "description": "Makes it easier to break or sever parts of Large_Monsters.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Part damage +10%"
+        },
+        {
+          "level": 2,
+          "effect": "Part damage +20%"
+        },
+        {
+          "level": 3,
+          "effect": "Part damage +30%"
+        }
+      ]
     },
     {
       "name": "Peak Performance",
@@ -680,7 +1660,20 @@
       "description": "Increases attack when your health is full.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "While active, grants attack +5."
+        },
+        {
+          "level": 2,
+          "effect": "While active, grants attack +10."
+        },
+        {
+          "level": 3,
+          "effect": "While active, grants attack +20."
+        }
+      ]
     },
     {
       "name": "Piercing Shots",
@@ -689,7 +1682,16 @@
       "description": "Increases the attack power of piercing ammo and Dragon Piercer.",
       "max_level": 2,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases the power of piercing ammo and Dragon Piercer."
+        },
+        {
+          "level": 2,
+          "effect": "Greatly increases the power of piercing ammo and Dragon Piercer."
+        }
+      ]
     },
     {
       "name": "Poison Attack",
@@ -698,7 +1700,24 @@
       "description": "Increase the rate of poison buildup.",
       "max_level": 4,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Poison buildup +5% Bonus: +10"
+        },
+        {
+          "level": 2,
+          "effect": "Poison buildup +10% Bonus: +10"
+        },
+        {
+          "level": 3,
+          "effect": "Poison buildup +20% Bonus: +10"
+        },
+        {
+          "level": 4,
+          "effect": "Poison buildup +30% Bonus: +10"
+        }
+      ]
     },
     {
       "name": "Poison Resistance",
@@ -707,7 +1726,20 @@
       "description": "Grants protection against the effects of poison.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Reduces the number of times you take poison damage."
+        },
+        {
+          "level": 2,
+          "effect": "Greatly reduces the number of times you take poison damage."
+        },
+        {
+          "level": 3,
+          "effect": "Prevents poison."
+        }
+      ]
     },
     {
       "name": "Power Prolonger",
@@ -716,7 +1748,20 @@
       "description": "Allows long swords, dual blades, insect glaives, switch axes and charge blades to stay powered up longer.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Slightly increases the duration weapons are powered up."
+        },
+        {
+          "level": 2,
+          "effect": "Increases the duration weapons are powered up."
+        },
+        {
+          "level": 3,
+          "effect": "Greatly increases the duration weapons are powered up."
+        }
+      ]
     },
     {
       "name": "Pro Transporter",
@@ -725,7 +1770,12 @@
       "description": "Increases your speed while transporting items and decreases the likelihood of dropping them.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases movement speed while transporting and reduces downtime on landings."
+        }
+      ]
     },
     {
       "name": "Quick Sheath",
@@ -734,7 +1784,20 @@
       "description": "Speeds up weapon sheathing.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Slightly increases sheathing speed."
+        },
+        {
+          "level": 2,
+          "effect": "Moderately increases sheathing speed."
+        },
+        {
+          "level": 3,
+          "effect": "Greatly increases sheathing speed."
+        }
+      ]
     },
     {
       "name": "Recovery Speed",
@@ -743,7 +1806,20 @@
       "description": "Speeds recovery for temporary damage (the red portion of the health gauge).",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Doubles the speed at which you heal recoverable damage."
+        },
+        {
+          "level": 2,
+          "effect": "Triples the speed at which you heal recoverable damage."
+        },
+        {
+          "level": 3,
+          "effect": "Quadruples the speed at which you heal recoverable damage."
+        }
+      ]
     },
     {
       "name": "Recovery Up",
@@ -752,7 +1828,20 @@
       "description": "Increases the amount restored when restoring Health.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Recovery +10%"
+        },
+        {
+          "level": 2,
+          "effect": "Recovery +20%"
+        },
+        {
+          "level": 3,
+          "effect": "Recovery +30%"
+        }
+      ]
     },
     {
       "name": "Resentment",
@@ -761,7 +1850,28 @@
       "description": "Increases attack when you have recoverable damage (the red portion of your health gauge).",
       "max_level": 5,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "While active, grants attack +5."
+        },
+        {
+          "level": 2,
+          "effect": "While active, grants attack +10."
+        },
+        {
+          "level": 3,
+          "effect": "While active, grants attack +15."
+        },
+        {
+          "level": 4,
+          "effect": "While active, grants attack +20."
+        },
+        {
+          "level": 5,
+          "effect": "While active, grants attack +25."
+        }
+      ]
     },
     {
       "name": "Resuscitate",
@@ -770,7 +1880,12 @@
       "description": "Improves evasion and reduces stamina depletion when afflicted with abnormal status effects.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "While active, greatly improves evasion invulnerability time and reduces stamina depletion."
+        }
+      ]
     },
     {
       "name": "Scenthound",
@@ -779,7 +1894,12 @@
       "description": "Increases your scoutflies' gauge fill rate when you find tracks and other traces left by monsters.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases gauge fill rate by 50%."
+        }
+      ]
     },
     {
       "name": "Scholar",
@@ -788,7 +1908,12 @@
       "description": "Speeds up progress on research levels and special investigations. (Effect is applied at the quest results screen).",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Speeds up progress on research levels and special investigations."
+        }
+      ]
     },
     {
       "name": "Scoutfly Range Up",
@@ -797,7 +1922,12 @@
       "description": "Expands your scoutflies' detection range.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Expands your scoutflies' detection range."
+        }
+      ]
     },
     {
       "name": "Sleep Attack",
@@ -806,7 +1936,24 @@
       "description": "Increases the rate of sleep buildup. (Elemental buildup has a maximum limit)",
       "max_level": 4,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Sleep buildup +5% Bonus: +10"
+        },
+        {
+          "level": 2,
+          "effect": "Sleep buildup +10% Bonus: +10"
+        },
+        {
+          "level": 3,
+          "effect": "Sleep buildup +20% Bonus: +10"
+        },
+        {
+          "level": 4,
+          "effect": "Sleep buildup +30% Bonus: +10"
+        }
+      ]
     },
     {
       "name": "Sleep Resistance",
@@ -815,7 +1962,20 @@
       "description": "Reduces the duration of sleep.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Reduces the duration of sleep by 30%."
+        },
+        {
+          "level": 2,
+          "effect": "Reduces the duration of sleep by 60%."
+        },
+        {
+          "level": 3,
+          "effect": "Prevents sleep."
+        }
+      ]
     },
     {
       "name": "Slinger Capacity",
@@ -827,7 +1987,28 @@
         "name": "Slinger Ammo Secret",
         "max_level": 5
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases the loading capacity for slinger ammo collected from the ground or plants."
+        },
+        {
+          "level": 2,
+          "effect": "In addition, increases the loading capacity for some slinger ammo dropped by monsters."
+        },
+        {
+          "level": 3,
+          "effect": "In addition, increases the loading capacity for all slinger ammo dropped by monsters."
+        },
+        {
+          "level": 4,
+          "effect": "Increases the loading capacity for slinger ammo collected from the ground or plants even more."
+        },
+        {
+          "level": 5,
+          "effect": "Increases the loading capacity for all slinger ammo."
+        }
+      ]
     },
     {
       "name": "Slugger",
@@ -839,7 +2020,28 @@
         "name": "Slugger Secret",
         "max_level": 5
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Stun power +20%"
+        },
+        {
+          "level": 2,
+          "effect": "Stun power +30%"
+        },
+        {
+          "level": 3,
+          "effect": "Stun power +40%"
+        },
+        {
+          "level": 4,
+          "effect": "Stun power +50%"
+        },
+        {
+          "level": 5,
+          "effect": "Stun power +60%"
+        }
+      ]
     },
     {
       "name": "Special Ammo Boost",
@@ -848,7 +2050,16 @@
       "description": "Increases the power of bowgun special ammo and Dragon Piercer.",
       "max_level": 2,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases the power of bowgun special ammo, Dragon Piercer, and Thousand Dragons by 10%."
+        },
+        {
+          "level": 2,
+          "effect": "Increases the power of bowgun special ammo, Dragon Piercer, and Thousand Dragons by 20%."
+        }
+      ]
     },
     {
       "name": "Speed Crawler",
@@ -857,7 +2068,12 @@
       "description": "Increases movement speed while crouching.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases movement speed while crouching."
+        }
+      ]
     },
     {
       "name": "Speed Eating",
@@ -866,7 +2082,20 @@
       "description": "Increases meat-eating and item consumption speed.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Slightly increases item use speed."
+        },
+        {
+          "level": 2,
+          "effect": "Moderately increases item use speed."
+        },
+        {
+          "level": 3,
+          "effect": "Greatly increases item use speed."
+        }
+      ]
     },
     {
       "name": "Speed Sharpening",
@@ -875,7 +2104,20 @@
       "description": "Speeds up weapon sharpening when using a whetstone.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Removes one cycle from the sharpening process."
+        },
+        {
+          "level": 2,
+          "effect": "Removes two cycles from the sharpening process."
+        },
+        {
+          "level": 3,
+          "effect": "Removes three cycles from the sharpening process."
+        }
+      ]
     },
     {
       "name": "Survival Expert(Sporepuff Expert)",
@@ -884,7 +2126,20 @@
       "description": "Extra health is recovered from environmental interactable like sporepuffs or wiggly litchi.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Interactables restore an additional 50 health."
+        },
+        {
+          "level": 2,
+          "effect": "Interactables restore an additional 80 health."
+        },
+        {
+          "level": 3,
+          "effect": "Interactables restore an additional 100 health."
+        }
+      ]
     },
     {
       "name": "Spread/Power Shots",
@@ -893,7 +2148,16 @@
       "description": "Increases the attack power of spread ammo and power shot arrows.",
       "max_level": 2,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases the power of spread ammo, power shot arrows, and Thousand Dragons."
+        },
+        {
+          "level": 2,
+          "effect": "Greatly increases the power of spread ammo, power shot arrows, and Thousand Dragons."
+        }
+      ]
     },
     {
       "name": "Stamina Surge",
@@ -902,7 +2166,20 @@
       "description": "Speeds up stamina recovery.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Stamina recovery speed +10%"
+        },
+        {
+          "level": 2,
+          "effect": "Stamina recovery speed +20%"
+        },
+        {
+          "level": 3,
+          "effect": "Stamina recovery speed +30%"
+        }
+      ]
     },
     {
       "name": "Stamina Thief",
@@ -914,7 +2191,28 @@
         "name": "Stamina Thief Secret",
         "max_level": 5
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Exhaust power +20%"
+        },
+        {
+          "level": 2,
+          "effect": "Exhaust power +30%"
+        },
+        {
+          "level": 3,
+          "effect": "Exhaust power +40%"
+        },
+        {
+          "level": 4,
+          "effect": "Exhaust power +50%"
+        },
+        {
+          "level": 5,
+          "effect": "Exhaust power +60%"
+        }
+      ]
     },
     {
       "name": "Stealth",
@@ -923,7 +2221,20 @@
       "description": "Makes it easier for monsters to lose sight of you.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Makes it slightly easier for monsters to lose sight of you."
+        },
+        {
+          "level": 2,
+          "effect": "Makes it moderately easier for monsters to lose sight of you."
+        },
+        {
+          "level": 3,
+          "effect": "Makes it much easier for monsters to lose sight of you."
+        }
+      ]
     },
     {
       "name": "Stun Resistance",
@@ -932,7 +2243,20 @@
       "description": "Reduces stun duration.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Reduces the duration of stun by 60%."
+        },
+        {
+          "level": 2,
+          "effect": "Reduces the duration of stun by 90%."
+        },
+        {
+          "level": 3,
+          "effect": "Prevents stun."
+        }
+      ]
     },
     {
       "name": "Thunder Attack",
@@ -941,7 +2265,32 @@
       "description": "Increases the power of Thunder Attacks.",
       "max_level": 6,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Thunder attack +30"
+        },
+        {
+          "level": 2,
+          "effect": "Thunder attack +60"
+        },
+        {
+          "level": 3,
+          "effect": "Thunder attack +100"
+        },
+        {
+          "level": 4,
+          "effect": "Thunder attack +5% Bonus: +100"
+        },
+        {
+          "level": 5,
+          "effect": "Thunder attack +10% Bonus: +100"
+        },
+        {
+          "level": 6,
+          "effect": "Thunder attack +20% Bonus: +100"
+        }
+      ]
     },
     {
       "name": "Thunder Resistance",
@@ -950,7 +2299,20 @@
       "description": "Increases Thunder Resistance Also improves Defense at higher levels.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Thunder resistance +6"
+        },
+        {
+          "level": 2,
+          "effect": "Thunder resistance +12"
+        },
+        {
+          "level": 3,
+          "effect": "Thunder resistance +20 Defense +10"
+        }
+      ]
     },
     {
       "name": "Tool Specialist",
@@ -962,7 +2324,28 @@
         "name": "Tool Specialist Secret",
         "max_level": 5
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Shortens time until reuse by 10%."
+        },
+        {
+          "level": 2,
+          "effect": "Shortens time until reuse by 20%."
+        },
+        {
+          "level": 3,
+          "effect": "Shortens time until reuse by 30%."
+        },
+        {
+          "level": 4,
+          "effect": "Shortens time until reuse by 40%."
+        },
+        {
+          "level": 5,
+          "effect": "Shortens time until reuse by 50%."
+        }
+      ]
     },
     {
       "name": "Tremor Resistance",
@@ -971,7 +2354,20 @@
       "description": "Grants protection against ground tremors.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Nullifies minor ground tremors."
+        },
+        {
+          "level": 2,
+          "effect": "Nullifies minor ground tremors and reduces the effects of major ground tremors."
+        },
+        {
+          "level": 3,
+          "effect": "Nullifies minor and major ground tremors."
+        }
+      ]
     },
     {
       "name": "Water Attack",
@@ -980,7 +2376,32 @@
       "description": "Increases the power of Water Attacks.",
       "max_level": 6,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Water attack +30"
+        },
+        {
+          "level": 2,
+          "effect": "Water attack +60"
+        },
+        {
+          "level": 3,
+          "effect": "Water attack +100"
+        },
+        {
+          "level": 4,
+          "effect": "Water attack +5% Bonus: +100"
+        },
+        {
+          "level": 5,
+          "effect": "Water attack +10% Bonus: +100"
+        },
+        {
+          "level": 6,
+          "effect": "Water attack +20% Bonus: +100"
+        }
+      ]
     },
     {
       "name": "Water Resistance",
@@ -989,7 +2410,20 @@
       "description": "Increases Water Resistance Also improves Defense at higher levels.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Water resistance +6"
+        },
+        {
+          "level": 2,
+          "effect": "Water resistance +12"
+        },
+        {
+          "level": 3,
+          "effect": "Water resistance +20 Defense +10"
+        }
+      ]
     },
     {
       "name": "Weakness Exploit",
@@ -1031,7 +2465,7 @@
         },
         {
           "level": 3,
-          "effect": "Items affect nearby allies in a wider radius with 66% of their efficacy."
+          "effect": "Items affect nearby allies in a wider radius at 66% of their efficacy."
         },
         {
           "level": 4,
@@ -1039,7 +2473,7 @@
         },
         {
           "level": 5,
-          "effect": "Items affect nearby allies in a wider radius with full efficacy."
+          "effect": "Items affect nearby allies in a much wider radius with full efficacy."
         }
       ]
     },
@@ -1050,7 +2484,28 @@
       "description": "Grants protection against wind pressure.",
       "max_level": 5,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Slightly reduces the effects of minor wind pressure."
+        },
+        {
+          "level": 2,
+          "effect": "Reduces the effects of minor wind pressure."
+        },
+        {
+          "level": 3,
+          "effect": "Negates minor wind pressure."
+        },
+        {
+          "level": 4,
+          "effect": "Negates minor wind pressure and reduces the effects of major wind pressure."
+        },
+        {
+          "level": 5,
+          "effect": "Negates minor and major wind pressure."
+        }
+      ]
     },
     {
       "name": "Critical Element",
@@ -1059,7 +2514,12 @@
       "description": "Increases Elemental Damage when landing critical hits",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits."
+        }
+      ]
     },
     {
       "name": "Offensive Guard",
@@ -1068,7 +2528,20 @@
       "description": "Temporarily increases attack power after executing a perfectly-timed guard.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "While active, increases attack power by 5%."
+        },
+        {
+          "level": 2,
+          "effect": "While active, increases attack power by 10%."
+        },
+        {
+          "level": 3,
+          "effect": "While active, increases attack power by 15%."
+        }
+      ]
     },
     {
       "name": "Critical Status",
@@ -1077,7 +2550,12 @@
       "description": "Increases abnormal status effect damage when landing critical hits",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits."
+        }
+      ]
     },
     {
       "name": "Non-elemental Boost",
@@ -1086,7 +2564,12 @@
       "description": "Powers up non-elemental weapons you have equipped.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Raises base attack for non-elemental weapons."
+        }
+      ]
     },
     {
       "name": "Coalescence",
@@ -1095,7 +2578,20 @@
       "description": "Temporarily enhances attacks after recovering from blights or abnormal statuses.",
       "max_level": 3,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "While active, grants attack +12, element attack power +30, and status buildup +5%."
+        },
+        {
+          "level": 2,
+          "effect": "While active, grants attack +15, element attack power +60, and status buildup +10%."
+        },
+        {
+          "level": 3,
+          "effect": "While active, grants attack +18, element attack power +90, and status buildup +15%."
+        }
+      ]
     },
     {
       "name": "Provoker",
@@ -1104,7 +2600,12 @@
       "description": "Increases the chance that a monster will target you (instead of a teammate) by 20%.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases the attention drawn when attacking a monster."
+        }
+      ]
     },
     {
       "name": "Blast Functionality",
@@ -1113,7 +2614,12 @@
       "description": "Allows you to apply blast coatings.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Lets you use blast coating."
+        }
+      ]
     },
     {
       "name": "Paralysis Functionality",
@@ -1122,7 +2628,12 @@
       "description": "Allows you to apply paralysis coatings.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Lets you use paralysis coating."
+        }
+      ]
     },
     {
       "name": "Poison Functionality",
@@ -1131,7 +2642,12 @@
       "description": "Allows you to apply poison coatings",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Lets you use poison coating."
+        }
+      ]
     },
     {
       "name": "Sleep Functionality",
@@ -1140,7 +2656,12 @@
       "description": "Allows you to apply sleep coatings.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Lets you use sleep coating."
+        }
+      ]
     },
     {
       "name": "Safe Landing",
@@ -1149,7 +2670,12 @@
       "description": "Allows you to quickly recover from heavy attacks that blow you back when you have your weapon unsheathed.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Allows you to quickly recover from heavy attacks that blow you back when you have your weapon unsheathed."
+        }
+      ]
     },
     {
       "name": "Bow Charge Plus",
@@ -1158,7 +2684,12 @@
       "description": "Increases max bow charge by one.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Increases max bow charge level by one."
+        }
+      ]
     },
     {
       "name": "Coldproof",
@@ -1167,7 +2698,12 @@
       "description": "Nullifies the effects of cold weather.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Nullifies the effects of cold weather."
+        }
+      ]
     },
     {
       "name": "Clutch Claw Boost",
@@ -1176,7 +2712,12 @@
       "description": "Makes light weapons wound with one clutch claw attack and makes heavy weapons drop slinger ammo after a clutch claw attack.",
       "max_level": 1,
       "secret": null,
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "effect": "Clutch claw weapon attacks wound monsters easier, and have a better chance of dropping slinger ammo."
+        }
+      ]
     }
   ],
   "set_bonuses": [

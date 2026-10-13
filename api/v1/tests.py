@@ -30,6 +30,9 @@ class CatalogAPITests(TestCase):
             icon_url="https://example.com/wide-range.png",
             description="Allows the effects of certain items to also affect nearby allies.",
             max_level=5,
+            levels=[
+                {"level": 1, "effect": "Items affect nearby allies with 33% of their efficacy."}
+            ],
         )
         cls.bonus = SetBonus.objects.create(
             name="Lunastra Favor",
@@ -114,6 +117,12 @@ class CatalogAPITests(TestCase):
                         "Allows the effects of certain items to also affect nearby allies."
                     ),
                     "max_level": 5,
+                    "levels": [
+                        {
+                            "level": 1,
+                            "effect": "Items affect nearby allies with 33% of their efficacy.",
+                        }
+                    ],
                 }
             ],
         )

@@ -6,6 +6,7 @@ import fire from "@/assets/elements/fire.png";
 import ice from "@/assets/elements/ice.png";
 import thunder from "@/assets/elements/thunder.png";
 import water from "@/assets/elements/water.png";
+import { SkillInfo } from "@/features/builder/components/skill-info";
 import { ELEMENTS, type Element, type Totals } from "@/features/builder/totals";
 
 // the game's own element icons, so the row reads without its labels
@@ -74,11 +75,7 @@ export function Summary({ totals }: { totals: Totals }) {
         ) : (
           <ul>
             {totals.skills.map(({ skill, points, level }) => (
-              <li
-                key={skill.id}
-                title={skill.description}
-                className={`flex items-center gap-3 py-2 ${RULE}`}
-              >
+              <li key={skill.id} className={`flex items-center gap-3 py-2 ${RULE}`}>
                 <img
                   src={skill.icon_url}
                   alt=""
@@ -90,8 +87,13 @@ export function Summary({ totals }: { totals: Totals }) {
                   }}
                   className="size-8 shrink-0"
                 />
-                <span className="flex min-w-0 flex-1 flex-col gap-1">
-                  <span className="font-medium">{skill.name}</span>
+                <div className="flex min-w-0 flex-1 flex-col gap-1">
+                  {/* what each level does is behind the icon, not on the row: one line a skill
+                      made the list three times as long */}
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="min-w-0 font-medium">{skill.name}</span>
+                    <SkillInfo skill={skill} level={level} />
+                  </div>
                   <span className="flex items-center gap-3">
                     {/* the pips sit on a hairline that runs out to the level */}
                     <span
@@ -113,7 +115,7 @@ export function Summary({ totals }: { totals: Totals }) {
                       <span className="sr-only"> of {skill.max_level}</span>
                     </span>
                   </span>
-                </span>
+                </div>
               </li>
             ))}
           </ul>

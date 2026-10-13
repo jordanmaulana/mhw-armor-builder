@@ -1,7 +1,7 @@
 // Self-check for computeTotals. No test runner: `pnpm test` runs this file with node, which
 // strips the types itself. A failed check throws, so the exit code is non-zero.
-import { computeTotals, describeWeapon } from "./totals.ts";
-import type { Armor, Build, Catalog, Weapon } from "./types.ts";
+import { computeTotals, describeWeapon, effectAt, levelLines } from "./totals.ts";
+import type { Armor, Build, Catalog, Skill, Weapon } from "./types.ts";
 
 function check(what: string, actual: unknown, expected: unknown) {
   const [a, e] = [JSON.stringify(actual), JSON.stringify(expected)];
@@ -45,9 +45,22 @@ const weapon = (id: string, over: Partial<Weapon> = {}): Weapon => ({
   ...over,
 });
 
-const attack = { id: "attack", name: "Attack Boost", icon_url: "", description: "", max_level: 7 };
-const guts = { id: "guts", name: "Guts", icon_url: "", description: "", max_level: 1 };
-const eye = { id: "eye", name: "Critical Eye", icon_url: "", description: "", max_level: 7 };
+const skill = (id: string, name: string, max_level: number, levels: Skill["levels"] = []): Skill => ({
+  id,
+  name,
+  icon_url: "",
+  description: "",
+  max_level,
+  levels,
+});
+const attack = skill("attack", "Attack Boost", 7);
+const guts = skill("guts", "Guts", 1);
+// its lines out of order and one past the cap, as a secret level is
+const eye = skill("eye", "Critical Eye", 7, [
+  { level: 2, effect: "Affinity +10%" },
+  { level: 1, effect: "Affinity +5%" },
+  { level: 8, effect: "Affinity +45%" },
+]);
 
 const will = {
   id: "will",
@@ -267,5 +280,15 @@ check(
     },
   ],
 );
+
+check("a level's line is found by its number, not its place", effectAt(eye, 1), "Affinity +5%");
+check("a secret level has its line too", effectAt(eye, 8), "Affinity +45%");
+check("no line for a level the skill lacks", effectAt(eye, 4), "");
+check("no line for a skill the dataset has none for", effectAt(attack, 1), "");
+check("the lines to list stop at the cap, lowest level first", levelLines(eye), [
+  { level: 1, effect: "Affinity +5%" },
+  { level: 2, effect: "Affinity +10%" },
+]);
+check("nothing to list for a skill the dataset has no lines for", levelLines(attack), []);
 
 console.log("totals ok");

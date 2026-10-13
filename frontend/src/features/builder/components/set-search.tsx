@@ -5,8 +5,9 @@ import { ChevronDown, ChevronUp, X } from "lucide-react";
 import { Picker } from "@/features/builder/components/picker";
 import { narrow } from "@/features/builder/hunts";
 import { MAX_WANTED, recommend, type Locked } from "@/features/builder/recommend";
+import { keyOf } from "@/features/builder/saved";
 import { lockedAtom, unslainAtom, wantedAtom } from "@/features/builder/state";
-import { computeTotals } from "@/features/builder/totals";
+import { computeTotals, effectAt } from "@/features/builder/totals";
 import {
   ARMOR_TYPES,
   type Build,
@@ -25,11 +26,6 @@ const NUDGE = `grid size-7 shrink-0 place-items-center rounded-sm text-moss hove
 const GUTTER = "w-12 shrink-0 pl-4 text-sm text-moss tabular-nums";
 
 const NONE: GrantedSkill[] = [];
-
-// What makes two builds the same set. Spelt out, not the whole build as it was saved: one
-// from before weapons has no weapon key, and would never equal a set that says `weapon: null`.
-const keyOf = (build: Build) =>
-  JSON.stringify([build.pieces, build.charmId, build.weapon ?? null]);
 
 const MONSTER_SEARCH = {
   label: "Search by name or species",
@@ -189,6 +185,15 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
               {wanted.map((target, i) => {
                 const skill = catalog.skills.get(target.skill);
                 if (!skill) return null;
+                const level = Math.min(target.level, skill.max_level);
+                const effect = effectAt(skill, level);
+                // The target's own line, under the description unless it only says the same
+                // again (Coldproof). In the tooltip, not on the row: the row is sized to stay
+                // one line.
+                const hint =
+                  effect && effect !== skill.description
+                    ? `${skill.description}\nLevel ${level}: ${effect}`
+                    : skill.description;
                 return (
                   // One line down to a 22rem panel, which the column beside the armor clears. On a
                   // smaller phone the name takes the first line whole and the controls wrap under
@@ -202,14 +207,14 @@ export function SetSearch({ catalog, build, onUse }: SetSearchProps) {
                       {i + 1}
                     </span>
                     <span
-                      title={skill.description}
+                      title={hint}
                       className="min-w-0 flex-1 basis-[calc(100%-3.25rem)] truncate font-medium @[22rem]:basis-0"
                     >
                       {skill.name}
                     </span>
                     <select
                       aria-label={`${skill.name} target level`}
-                      value={Math.min(target.level, skill.max_level)}
+                      value={level}
                       onChange={(e) =>
                         setSaved(wanted.with(i, { ...target, level: Number(e.target.value) }))
                       }

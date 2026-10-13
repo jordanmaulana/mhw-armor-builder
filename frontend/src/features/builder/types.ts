@@ -12,6 +12,7 @@ export interface Skill {
   icon_url: string;
   description: string;
   max_level: number;
+  levels: { level: number; effect: string }[]; // the game's line per level, secret levels too
 }
 
 export interface SetBonus {
@@ -129,4 +130,11 @@ export interface Build {
   // A build saved before weapons were here has no such key, and it is read back as it was
   // saved: read this with `?.`, never as if null were the only way to have none.
   weapon: EquippedWeapon | null;
+}
+
+// A set kept under a name, in this browser only. The name is its identity: no two alike,
+// whatever their case.
+export interface SavedSet {
+  name: string;
+  build: Build;
 }

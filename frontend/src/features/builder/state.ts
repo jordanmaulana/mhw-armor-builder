@@ -1,6 +1,6 @@
 import { atomWithStorage } from "jotai/utils";
 
-import type { Build, GrantedSkill, Lockable } from "@/features/builder/types";
+import type { Build, GrantedSkill, Lockable, SavedSet } from "@/features/builder/types";
 
 const EMPTY_BUILD: Build = {
   pieces: { head: null, chest: null, arms: null, waist: null, legs: null },
@@ -25,5 +25,10 @@ export const unslainAtom = atomWithStorage<string[]>("unslain", [], undefined, {
 
 // the rows the set search has to keep as they are: the piece, and the jewels on it
 export const lockedAtom = atomWithStorage<Lockable[]>("locked", [], undefined, {
+  getOnInit: true,
+});
+
+// the sets kept under a name, newest first: this browser's only, like everything here
+export const savedSetsAtom = atomWithStorage<SavedSet[]>("sets", [], undefined, {
   getOnInit: true,
 });
