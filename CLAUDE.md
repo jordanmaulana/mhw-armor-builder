@@ -128,7 +128,7 @@ Three services in `docker-compose.yml`, all driven by `.env.docker` (`make dock`
 
 - `postgres` — 16-alpine, `pgdata` volume. Its `POSTGRES_*` vars use `${VAR:?...}`, so a bare `docker compose up` **aborts** instead of initdb'ing a cluster with throwaway credentials the backend can't log into. `initdb` runs once on an empty data dir and `down` keeps the volume, so that mistake is not fixable by restarting — only `ALTER ROLE` or `down -v`.
 - `backend` — `Dockerfile.backend`, gunicorn on :8000, **not published**. Non-root (uid 10001), venv on `PATH` so the runtime command is bare `gunicorn` / `python manage.py` (no `uv` in the image). Its `node:20-alpine AS tw` stage is **not** the SPA build — it compiles Tailwind for Django's own `templates/` from the **root** `package.json`.
-- `frontend` — `frontend/Dockerfile` (pnpm build → `nginx:alpine`), published on **`127.0.0.1:$FRONTEND_PORT`** (8080) only. Put a reverse proxy / tunnel on the host in front of it.
+- `frontend` — `frontend/Dockerfile` (pnpm build → `nginx:alpine`), published on **`127.0.0.1:$FRONTEND_PORT`** (8014) only. Put a reverse proxy / tunnel on the host in front of it.
 
 **The two are ONE origin.** `frontend/nginx.conf` proxies `/api/`, `/admin/` and `/static/` to `backend:8000`; everything else falls through to the SPA. So:
 

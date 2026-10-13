@@ -76,7 +76,7 @@ services:
     logging: *logging
     # Loopback only — put a reverse proxy or tunnel on the host in front of this.
     ports:
-      - "127.0.0.1:${FRONTEND_PORT:-8080}:80"
+      - "127.0.0.1:${FRONTEND_PORT:-8014}:80"
     # nginx resolves the literal `backend` hostname at config load and refuses to
     # start if it isn't up yet.
     depends_on:

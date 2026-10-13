@@ -148,7 +148,7 @@ anywhere, the small rooms included.
 1. **The site is live at `https://mhwbuilder.com`.**
    - An A record for the apex, and `www` redirecting to it. The share tags, `robots.txt` and
      `sitemap.xml` all name the apex.
-   - A reverse proxy with TLS on the host, in front of `127.0.0.1:8080`. The frontend container
+   - A reverse proxy with TLS on the host, in front of `127.0.0.1:8014`. The frontend container
      publishes nothing else.
    - In `.env.docker`: `DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1,mhwbuilder.com` and
      `DJANGO_CORS_ALLOWED_ORIGINS=https://mhwbuilder.com`. The first two hosts are the
