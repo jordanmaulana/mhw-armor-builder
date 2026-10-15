@@ -4,8 +4,8 @@
 [x] 2. sitemap.xml
 [x] 3. loading states
 [x] 4. compressed images
-[] 5. analytics installed
-[] 6. favicon set
+[x] 5. analytics installed
+[x] 6. favicon set
 [x] 7. meta title per page
 [x] 8. meta description per page (N/A: SPA, only / indexable — static index.html one covers it)
 [] 9. CTA above fold

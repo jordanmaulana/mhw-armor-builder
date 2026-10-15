@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useAtom } from "jotai";
 import { RESET } from "jotai/utils";
-import { Heart, Sword } from "lucide-react";
+import { Sword } from "lucide-react";
 
 import { LoadingScreen } from "@/components/loading-screen";
 import {
@@ -14,6 +14,7 @@ import { SavedSets } from "@/features/builder/components/saved-sets";
 import { SetSearch } from "@/features/builder/components/set-search";
 import { SoundToggle } from "@/features/builder/components/sound-toggle";
 import { Summary } from "@/features/builder/components/summary";
+import { Support } from "@/features/builder/components/support";
 import { useCatalog } from "@/features/builder/hooks";
 import { buildAtom, lockedAtom } from "@/features/builder/state";
 import { computeTotals, describeWeapon } from "@/features/builder/totals";
@@ -65,8 +66,6 @@ const WEAPON_SEARCH = {
   label: "Name, element or skill",
   hint: "Try part of a name or an element, like “dragon”.",
 };
-
-const KOFI_URL = "https://ko-fi.com/jordanmaulana";
 
 const slotTotal = (slots: number[]) =>
   slots.reduce((sum, level) => sum + level, 0);
@@ -337,19 +336,7 @@ export function BuilderPage() {
             Armor set builder
           </h1>
           <div className="flex shrink-0 items-baseline gap-4">
-            {/* the word only from md: the title holds one line beside it from 740px up.
-                -m-2 p-2 is the tap area, kept off "Clear set", which has no undo */}
-            <a
-              href={KOFI_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Support this tool on Ko-fi (opens in a new tab)"
-              className="-m-2 flex items-baseline gap-1.5 p-2 text-sm text-moss underline-offset-4 hover:text-bone hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-hunt"
-            >
-              {/* brass, not ember: alone on a phone, it has to hold 3:1 on the backdrop */}
-              <Heart aria-hidden className="size-4 translate-y-0.5 text-brass" />
-              <span className="hidden md:inline">Support</span>
-            </a>
+            <Support />
             <button
               type="button"
               onClick={() => {
