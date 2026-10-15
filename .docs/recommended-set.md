@@ -3,7 +3,9 @@
 The logic behind the Set Search panel's "Recommended Sets": the function `recommend` in
 `frontend/src/features/builder/recommend.ts`. Line numbers and measurements are as of commit
 `9351ab7`, with the Master Rank armor loaded (1,670 armor pieces, 314 charms, 404 decorations,
-130 skills).
+130 skills). Since then the search has learnt the weapon, locked rows and level 4 jewels. Section
+4.9 and the cost table in section 8 cover level 4 jewels. The rest is as it was at that commit,
+line numbers and counts included.
 
 ## 1. The short version
 
@@ -15,8 +17,9 @@ Three ideas carry it:
 
 1. **"Best" follows your list order.** A build is judged on the first skill, then the second, and
    so on. Defense only breaks ties.
-2. **Jewels never need searching.** Putting them in by priority, each into the smallest slot it
-   fits, is always the best way to fill a given set of slots.
+2. **Small jewels never need searching.** Putting them in by priority, each into the smallest slot
+   it fits, is always the best way to fill a given set of slots. Only the level 4 jewels ("+" and
+   combo jewels) are searched, and only over the level 4 slots of a finished set (section 4.9).
 3. **Most of the catalog is never tried.** Pieces that another piece beats outright are dropped
    before the search, and a half-built set is abandoned the moment it can no longer reach the
    top ten.
@@ -88,8 +91,14 @@ first 12 (`MAX_WANTED`) are searched. An empty list returns nothing.
 ### 4.2 Pick one jewel per skill (lines 44-51)
 
 For each wanted skill the solver chooses one decoration: the one with the smallest slot size among
-those that grant that skill and nothing else. Attack Boost gets Attack Jewel 1, not Attack Jewel+ 4.
-Earplugs gets Earplug Jewel 3.
+those that grant that skill and nothing else. Attack Boost gets Attack Jewel 1, Earplugs gets
+Earplug Jewel 3. Every slot can take one of these.
+
+Beside them it lists the level 4 jewels that can do more in a level 4 slot, `fours`: a "+" jewel
+of a wanted skill (Attack Jewel+ 4 is two levels of Attack Boost) and a combo of two wanted skills
+(Guardian/Attack 4 is a level of Offensive Guard and one of Attack Boost). Points past a target
+count for nothing, so a jewel is listed only while two of its points count. Section 4.9 is how
+they are placed.
 
 25 of the 130 skills have no such jewel. Those can only come from armor and the charm.
 
@@ -236,6 +245,50 @@ smallest free slot it fits, stopping at the target. Slots nobody needs stay empt
 What comes back is a `Build`, the same shape as the builder's own state, so choosing a
 recommended set is one `setBuild`.
 
+### 4.9 Level 4 jewels
+
+Half the Master Rank pieces and some 300 weapons have a level 4 slot, and the jewels only that
+slot takes are the strongest: Attack Jewel+ 4 is two levels where Attack Jewel 1 is one, and a
+combo is a level each of two skills. They change the picture of 4.4, where every jewel is one
+point: whether a level 4 slot holds a "+" jewel, a combo or a small jewel depends on everything
+else the set needs.
+
+**The exact score, `best`.** For a finished set the solver tries every set of `fours` jewels its
+level 4 slots can hold, with `fill` for every slot left over. It never adds a jewel that brings no
+point still needed, or one point that a small jewel in the same slot would bring as well. It stops
+a branch when a bound shows it cannot beat what was found. Of two choices that score alike, it
+keeps the one with the fewest of the first jewel in `fours`, then of the second, and so on.
+Placing no big jewel at all wins every tie. With Attack Boost 1 wanted, a level 4 slot gets Attack
+Jewel 1. That rule also survives taking one of the jewels out. Choose a set, lock a row and
+the search runs again with that row's jewels seated: the choice for what is left is the rest of
+the same choice, so the set comes back as it was and keeps its selection band.
+
+**The bounds.** The search of 4.7 needs to know, for a half-built set, the most it could still
+reach, and with big jewels a level 4 slot can be worth one point or four. Three new pieces keep
+that bound both safe and tight:
+
+- `bound` treats the level 4 slots as one budget. A point drawn on it costs a fraction of a slot:
+  a half for a skill whose best big jewel holds two points, a whole slot for a skill no big
+  jewel brings. Each skill, first first, takes the most that still fits. The cheaper `rough`,
+  which counts every level 4 slot as two (or as many as a big jewel can hold) ordinary slots,
+  is tried first.
+- `whole` joins the two look-ahead bounds of 4.6. For each group it takes the most one piece brings
+  with its slots too, all of it loose. With level 4 slots worth two points, a group's best slots
+  and its best points are seldom the same piece's, and adding the two up was far too generous:
+  the twelve damage skills of section 6 went from 0.4 million calls to 6.8 million before this
+  bound, and take 0.24 million with it.
+- Where points are loose, a skill no jewel brings is held to what the pieces still to come carry.
+
+**Races on defense.** Big jewels let many more sets meet every target, and once the tenth set
+kept meets every target only defense can beat it. Two things make that race short:
+
+- A branch that can at best tie the tenth set on skills has to be tougher. Each group still to
+  come can then only use pieces tough enough to leave the others room, and the look-ahead is
+  taken over those pieces alone (`toughest`).
+- The search makes two passes. The first keeps only sets that meet every target, and cuts every
+  branch that cannot meet them all. If it finds ten, that is the answer. If it finds fewer, it has
+  found every one there is, and a second, ordinary pass fills the list.
+
 ## 5. Worked example: six skills
 
 Every figure here is what `recommend` returned on the current catalog.
@@ -315,8 +368,9 @@ each set, the first two skills it falls short on.
   differs from a listed one only by a beaten or twin piece is never shown, even where it would
   score the same. For the six-skill list, Frostfang Helm Beta + can never appear.
 - **It is tested against brute force.** `recommend.test.ts`, run by `pnpm test`, builds 40 small
-  random catalogs, tries every combination of pieces and charm with every way to fill the slots,
-  and requires the solver's first result to match the best of them in both score and defense.
+  random catalogs, tries every combination of pieces and charm with every jewel in every slot
+  (level 4 jewels, "+" and combo, included), and requires the solver's first result to match the
+  best of them in both score and defense.
   Half the runs ask for a single result, which makes the bounds cut their hardest. The levels are
   counted by `computeTotals`, code the solver does not share. The test does not pin results two
   to ten, or the speed on the real catalog.
@@ -324,17 +378,15 @@ each set, the first two skills it falls short on.
 ## 8. What it does not consider
 
 - **Set bonuses.** They play no part in the ranking.
-- **Level 4 jewels.** Combination jewels and "+" jewels are never used, so a level 4 slot gets a
-  smaller jewel and the rest of it is wasted. 432 of the 863 pieces of rarity 9 and up have a
-  level 4 slot, so a hand-made build can reach more than the first result does.
 - **Secret skill caps.** Targets stop at the skill's `max_level`.
 - **What you own.** Every piece, charm and jewel in the catalog is assumed to be available, in
   any quantity.
 - **Resistances.** Only defense breaks a tie; elemental resistances are not looked at.
 - **Variety.** Near-twins fill the list, as section 5 shows.
 
-**Cost.** The search runs on the main thread on every change to the list. Measured with Node 25
-on an Apple M4:
+**Cost.** The search runs on every change to the list, in a Web Worker since level 4 jewels
+made the slowest lists take seconds: the page stays usable, but the sets wait. Measured with Node 25
+on an Apple M4, before level 4 jewels:
 
 | Wanted list                                    | Time           |
 |------------------------------------------------|----------------|
@@ -352,14 +404,35 @@ at defense 652 to 702 where five pieces could reach 900. That fits the code: whe
 all tie on skills, only the defense half of the bound is left to cut with, and it assumes the
 toughest piece in every slot. In development React's StrictMode runs the search twice.
 
+Measured again with Node 22 on an Apple M1, the search before level 4 jewels and the one after
+on the same run:
+
+| Wanted list                                    | Before   | After    |
+|------------------------------------------------|----------|----------|
+| 300 random lists of 1 to 12 skills, median     | 2 ms     | 2 ms     |
+| the same, 90th and 99th percentile             | 48, 604 ms | 13, 133 ms |
+| Six skills (section 5)                         | 23 ms    | 20-60 ms |
+| Twelve damage skills at cap (section 6)        | 0.47 s   | 0.46 s   |
+| the same, with a weapon of two level 4 slots   | 0.47 s   | 0.87 s   |
+| Twelve cheap skills, all met (above)           | 2.5 s    | 0.62 s   |
+| Slowest found: eleven skills, all met          | 7.8 s    | 8.1 s    |
+
+The sets are better too: the damage list reaches Resentment 5 and Handicraft 3 where it reached 4
+and 0, the six skills defense 900 where 896, the cheap list 760 where 702. The slowest list on
+that run is Partbreaker 1, Speed Crawler 1, Stamina Surge 2, Handicraft 3, Latent Power 2,
+Bombardier 3, Maximum Might 3, Free Elem/Ammo Up 2, Cliffhanger 1, Blast Functionality 1,
+BBQ Master 1. It takes 15 million calls, nearly all of them one piece short of a set, where the
+bounds cannot tell a set that meets every target from one that falls a level short.
+
 ## 9. What the panel does with it
 
 In `frontend/src/features/builder/components/set-search.tsx`:
 
 - The wanted list is `wantedAtom`, saved in localStorage under `wanted`. A new skill is added at
   its cap. The up and down buttons change the order, which is the priority.
-- The search reruns on every change, behind `useDeferredValue`: the list repaints first and the
-  results follow. The first render searches an empty list, so the page paints before any search.
+- The search reruns on every change, in a Web Worker (`recommend.worker.ts`, driven by
+  `use-sets.ts`), so the page never waits on it. A change while a search is still running ends
+  that search, and the sets on screen stay, dimmed, until the new answer lands.
 - Each build goes through `computeTotals`, the same function that feeds the Status panel, for its
   defense and for the targets it misses. The solver's own score is never shown.
 - Choosing a set calls `setBuild` with it and replaces the current build. The set equal to the

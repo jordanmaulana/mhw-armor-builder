@@ -59,6 +59,14 @@ const jewel = (of: string, slot: number): Decoration => ({
   rarity: 6,
   skills: [{ skill: of, level: 1 }],
 });
+// a level 4 jewel: "attack-plus" two points of attack, "attack-guard" one each of two skills
+const big = (id: string, ...skills: [string, number][]): Decoration => ({
+  id,
+  name: id,
+  slot: 4,
+  rarity: 10,
+  skills: skills.map(([skill, level]) => ({ skill, level })),
+});
 const charm = (id: string, skills: GrantedSkill[]): Charm => ({
   id,
   name: id,
@@ -299,6 +307,117 @@ check(
   ["attack-jewel", "attack-jewel", null],
 );
 
+{
+  const cat = catalog(
+    [armor("helm", "head", { slots: [4, 1, 1] })],
+    [
+      jewel("attack", 1),
+      jewel("guard", 3),
+      big("attack-plus", ["attack", 2]),
+      big("attack-guard", ["attack", 1], ["guard", 1]),
+    ],
+  );
+  const slotted = (wanted: GrantedSkill[], locked?: Locked) =>
+    recommend(wanted, cat, 10, null, locked)[0].pieces.head?.decoIds;
+  check("a + jewel takes the level 4 slot when the target needs its two points", slotted(want(["attack", 4])), [
+    "attack-plus",
+    "attack-jewel",
+    "attack-jewel",
+  ]);
+  // the guard jewel would take the level 4 slot and leave attack a point short
+  check("a combo jewel brings two wanted skills in one slot", slotted(want(["guard", 1], ["attack", 3])), [
+    "attack-guard",
+    "attack-jewel",
+    "attack-jewel",
+  ]);
+  check("a small jewel stays where it reaches as much as a big one", slotted(want(["attack", 1])), [
+    null,
+    "attack-jewel",
+    null,
+  ]);
+  check(
+    "a combo jewel on a locked piece counts for both its skills",
+    slotted(want(["guard", 1], ["attack", 2]), {
+      pieces: { head: { armorId: "helm", decoIds: ["attack-guard", null, null] } },
+    }),
+    ["attack-guard", "attack-jewel", null],
+  );
+}
+
+// Small jewels everywhere would give attack its two points from the level 1 slots and leave eye
+// one, in the level 4 slot. The + jewel there gives attack both, and eye the small slots.
+check(
+  "a + jewel in the level 4 slot leaves the small slots to the next skill",
+  recommend(
+    want(["attack", 2], ["eye", 2]),
+    catalog(
+      [armor("helm", "head", { slots: [4, 1, 1] })],
+      [jewel("attack", 1), jewel("eye", 1), big("attack-plus", ["attack", 2])],
+    ),
+  )[0].pieces.head?.decoIds,
+  ["attack-plus", "eye-jewel", "eye-jewel"],
+);
+
+// Attack reaches 2 either way, from a small jewel in each slot or from the + jewel, and guard,
+// whose jewel needs a bigger slot than the level 1, gets nothing either way. But a level 4 slot
+// shared by two + jewels looks to the bound as if it could bring a point of each, so the search
+// does weigh the + jewel, and then keeps the small ones.
+check(
+  "of small jewels and a big one that reach as much, the small ones",
+  recommend(
+    want(["attack", 2], ["guard", 2]),
+    catalog(
+      [armor("helm", "head", { slots: [4, 1] })],
+      [
+        jewel("attack", 1),
+        jewel("guard", 3),
+        big("attack-plus", ["attack", 2]),
+        big("guard-plus", ["guard", 2]),
+      ],
+    ),
+  )[0].pieces.head?.decoIds,
+  ["attack-jewel", "attack-jewel"],
+);
+
+check(
+  "a combo jewel is the way to a skill no jewel of its own brings",
+  recommend(
+    want(["eye", 1], ["attack", 1]),
+    catalog(
+      [armor("helm", "head", { slots: [4], skills: [{ skill: "attack", level: 1 }] })],
+      [jewel("attack", 1), big("attack-eye", ["attack", 1], ["eye", 1])],
+    ),
+  )[0].pieces.head?.decoIds,
+  ["attack-eye"],
+);
+
+// Both sets reach attack 2, and the plate's is the tougher. Its attack is all in the helm's
+// slots, so a bound that held attack to what the pieces carry would cut it away. Eye, which
+// nothing here brings, is the skill a bound does hold to that.
+check(
+  "a skill a jewel brings is not held to what the pieces carry",
+  recommend(
+    want(["attack", 2], ["eye", 1]),
+    catalog(
+      [
+        armor("slotted-helm", "head", { defense: 10, slots: [1, 1] }),
+        armor("attack-helm", "head", { defense: 50, skills: [{ skill: "attack", level: 1 }] }),
+        armor("attack-mail", "chest", { skills: [{ skill: "attack", level: 1 }] }),
+        armor("plate", "chest", { defense: 100 }),
+      ],
+      [jewel("attack", 1)],
+    ),
+    1,
+  )[0].pieces,
+  {
+    head: { armorId: "slotted-helm", decoIds: ["attack-jewel", "attack-jewel"] },
+    chest: { armorId: "plate", decoIds: [] },
+    arms: null,
+    waist: null,
+    legs: null,
+  },
+);
+
 check(
   "a target past the skill's cap counts as the cap, so it can't outweigh a skill above it",
   recommend(
@@ -359,18 +478,28 @@ for (let seed = 1; seed <= 40; seed++) {
     Array.from({ length: 3 }, (_, i) =>
       armor(`${type}${i}`, type, {
         defense: int(4) * 10,
-        slots: Array.from({ length: [0, 0, 1, 1, 2][int(5)] }, () => 1 + int(3)),
+        slots: Array.from({ length: [0, 0, 1, 1, 2][int(5)] }, () => 1 + int(4)),
         skills: grants(),
       }),
     ),
   );
-  const jewels = [jewel("attack", 1), jewel("eye", 2), jewel("guard", 3)];
+  // with a level 4 jewel of each kind: a "+" of two points, a "+" of three (worth more than any
+  // other here), and two combos
+  const jewels = [
+    jewel("attack", 1),
+    jewel("eye", 2),
+    jewel("guard", 3),
+    big("attack-plus", ["attack", 2]),
+    big("guard-hard", ["guard", 3]),
+    big("attack-eye", ["attack", 1], ["eye", 1]),
+    big("eye-guard", ["eye", 1], ["guard", 1]),
+  ];
   const charms = [charm("charm0", grants()), charm("charm1", grants())];
   const wanted = ids.map((_, i) => ({ skill: ids[(i + seed) % ids.length], level: 1 + int(5) }));
   // three seeds in four hold a weapon, with up to two slots of its own. It is drawn last, so
   // the armor, charms and targets of a seed are what they were before weapons were in.
   const blade =
-    seed % 4 ? weapon("blade", Array.from({ length: int(3) }, () => 1 + int(3))) : undefined;
+    seed % 4 ? weapon("blade", Array.from({ length: int(3) }, () => 1 + int(4))) : undefined;
   const cat = catalog(armors, jewels, charms, blade ? [blade] : []);
 
   // Each catalog is searched twice: with nothing locked, then with a piece locked, a jewel on
@@ -393,7 +522,6 @@ for (let seed = 1; seed <= 40; seed++) {
     const types = ARMOR_TYPES.map((type) =>
       armors.filter((a) => a.type === type && a.id === (locked.pieces?.[type]?.armorId ?? a.id)),
     );
-    const sizes = wanted.map((w) => jewels.find((j) => j.skills[0].skill === w.skill)!.slot);
     const each = (chosen: Armor[]) => {
       if (chosen.length < types.length) {
         for (const next of types[chosen.length]) each([...chosen, next]);
@@ -419,18 +547,28 @@ for (let seed = 1; seed <= 40; seed++) {
         const points = wanted.map((w) =>
           granted.reduce((sum, g) => sum + (g.skill === w.skill ? g.level : 0), 0),
         );
-        const fill = (k: number, levels: number[]) => {
-          if (k === slots.length) {
-            const r = rank(levels.map((level, i) => Math.min(level, wanted[i].level)));
-            if (r > best[0] || (r === best[0] && defense > best[1])) [best[0], best[1]] = [r, defense];
-            return;
+        // Every jewel in every slot it fits, and the best of all the ways. Levels are held to
+        // the target as they go, so two ways to the same levels can share what follows.
+        const cap = (levels: number[]) => levels.map((level, i) => Math.min(level, wanted[i].level));
+        const memo = new Map<string, number>();
+        const fill = (k: number, levels: number[]): number => {
+          if (k === slots.length) return rank(levels);
+          const key = `${k}:${levels}`;
+          let most = memo.get(key);
+          if (most === undefined) {
+            // a point never hurts, so a slot only stays empty when no jewel fits it
+            const fits = jewels.filter((j) => j.slot <= slots[k]);
+            most = fits.length ? -1 : fill(k + 1, levels);
+            for (const j of fits) {
+              const add = (skill: string) => j.skills.find((g) => g.skill === skill)?.level ?? 0;
+              most = Math.max(most, fill(k + 1, cap(levels.map((level, i) => level + add(wanted[i].skill)))));
+            }
+            memo.set(key, most);
           }
-          // a point never hurts, so a slot only stays empty when no wanted jewel fits it
-          const fits = sizes.flatMap((size, i) => (size <= slots[k] ? [i] : []));
-          if (fits.length === 0) fill(k + 1, levels);
-          for (const i of fits) fill(k + 1, levels.with(i, levels[i] + 1));
+          return most;
         };
-        fill(0, points);
+        const r = fill(0, cap(points));
+        if (r > best[0] || (r === best[0] && defense > best[1])) [best[0], best[1]] = [r, defense];
       }
     };
     each([]);
