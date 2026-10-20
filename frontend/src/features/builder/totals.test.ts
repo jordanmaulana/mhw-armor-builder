@@ -65,7 +65,7 @@ const eye = skill("eye", "Critical Eye", 7, [
 const will = {
   id: "will",
   name: "Anjanath Will",
-  icon_url: "",
+  icon_url: "will.png",
   effects: ["Less stamina use at low health.", "Raises the stamina cap."],
   tiers: [
     { pieces: 2, skill: "Adrenaline" },
@@ -74,10 +74,34 @@ const will = {
 };
 const adrenaline = { pieces: 2, skill: "Adrenaline", effect: "Less stamina use at low health." };
 const staminaCap = { pieces: 4, skill: "Stamina Cap Up", effect: "Raises the stamina cap." };
+// another bonus with Adrenaline, as Anjanath Power has
+const power = {
+  id: "power",
+  name: "Anjanath Power",
+  icon_url: "power.png",
+  effects: ["Adrenaline, said by Power."],
+  tiers: [{ pieces: 3, skill: "Adrenaline" }],
+};
+// its skill is in the catalog as a stub: Guts, with no description and no lines
+const baz = {
+  id: "baz",
+  name: "Bazelgeuse Protection",
+  icon_url: "baz.png",
+  effects: ["Survive a fatal blow."],
+  tiers: [{ pieces: 3, skill: "Guts" }],
+};
+// no such bonus in the game: one level of a skill that has seven, to see brass and purple meet
+const sight = {
+  id: "sight",
+  name: "Eye Favor",
+  icon_url: "sight.png",
+  effects: ["Affinity, said by the bonus."],
+  tiers: [{ pieces: 2, skill: "Critical Eye" }],
+};
 
 const catalog: Catalog = {
   skills: byId([attack, guts, eye]),
-  setBonuses: byId([will]),
+  setBonuses: byId([will, power, baz, sight]),
   armors: byId([
     armor("helm", "head", {
       defense: 70,
@@ -103,6 +127,14 @@ const catalog: Catalog = {
     armor("anja-braces", "arms", { set_bonus: "will" }),
     armor("anja-coil", "waist", { set_bonus: "will" }),
     armor("gone-bonus-greaves", "legs", { set_bonus: "gone" }),
+    armor("power-mail", "chest", { set_bonus: "power" }),
+    armor("power-coil", "waist", { set_bonus: "power" }),
+    armor("power-greaves", "legs", { set_bonus: "power" }),
+    armor("baz-helm", "head", { set_bonus: "baz" }),
+    armor("baz-braces", "arms", { set_bonus: "baz" }),
+    armor("baz-coil", "waist", { set_bonus: "baz" }),
+    armor("sight-braces", "arms", { set_bonus: "sight" }),
+    armor("sight-greaves", "legs", { set_bonus: "sight" }),
   ]),
   decorations: byId([
     { id: "attack-jewel", name: "Attack Jewel 1", slot: 1, rarity: 6, skills: [{ skill: "attack", level: 1 }] },
@@ -153,9 +185,9 @@ check(
   "skills add up across armor, decorations and charm, capped at max level, highest first",
   full.skills,
   [
-    { skill: attack, points: 6, level: 6 }, // 2 armor + 1 decoration + 3 charm
-    { skill: eye, points: 1, level: 1 },
-    { skill: guts, points: 2, level: 1 }, // 1 armor + 1 decoration, but Guts stops at 1
+    { skill: attack, points: 6, level: 6, bonus: 0 }, // 2 armor + 1 decoration + 3 charm
+    { skill: eye, points: 1, level: 1, bonus: 0 },
+    { skill: guts, points: 2, level: 1, bonus: 0 }, // 1 armor + 1 decoration, but Guts stops at 1
   ],
 );
 
@@ -174,7 +206,7 @@ check(
     },
     catalog,
   ).skills,
-  [{ skill: attack, points: 2, level: 2 }],
+  [{ skill: attack, points: 2, level: 2, bonus: 0 }],
 );
 
 const wielding = (held: Build["weapon"]) => {
@@ -184,7 +216,7 @@ const wielding = (held: Build["weapon"]) => {
 check(
   "a weapon adds its defense bonus and the jewels in its slots",
   wielding({ weaponId: "blade", decoIds: ["attack-jewel", null] }),
-  { defense: 20, skills: [{ skill: attack, points: 1, level: 1 }] },
+  { defense: 20, skills: [{ skill: attack, points: 1, level: 1, bonus: 0 }] },
 );
 check(
   "a weapon the catalog lost is skipped, its jewels with it",
@@ -278,6 +310,77 @@ check(
         { ...staminaCap, active: true },
       ],
     },
+  ],
+);
+
+const skillsOf = (pieces: Partial<Build["pieces"]>, charmId: string | null = null) =>
+  computeTotals({ ...empty, pieces: { ...empty.pieces, ...pieces }, charmId }, catalog).skills;
+// what totals make of a set-bonus skill the catalog lacks
+const madeUp = (name: string, effect: string, icon_url: string): Skill => ({
+  id: `set-bonus:${name}`,
+  name,
+  icon_url,
+  description: effect,
+  max_level: 1,
+  levels: [],
+});
+
+check("a tier not yet reached adds no skill", skillsOf({ head: piece("anja-helm") }), []);
+check(
+  "an active tier's skill the catalog lacks is made up: one level, purple, the bonus's words and icon",
+  skillsOf({ head: piece("anja-helm"), chest: piece("aloy-mail") }),
+  [{ skill: madeUp("Adrenaline", adrenaline.effect, "will.png"), points: 1, level: 1, bonus: 1 }],
+);
+check(
+  "the gear's skills come first, then the set bonus's by name",
+  skillsOf(
+    {
+      head: piece("anja-helm"),
+      chest: piece("aloy-mail"),
+      arms: piece("anja-braces"),
+      waist: piece("anja-coil"),
+    },
+    "attack-charm",
+  ),
+  [
+    { skill: attack, points: 3, level: 3, bonus: 0 },
+    { skill: madeUp("Adrenaline", adrenaline.effect, "will.png"), points: 1, level: 1, bonus: 1 },
+    { skill: madeUp("Stamina Cap Up", staminaCap.effect, "will.png"), points: 1, level: 1, bonus: 1 },
+  ],
+);
+check(
+  "two bonuses with one skill grant it once, in the words of the one with more pieces",
+  skillsOf({
+    head: piece("anja-helm"),
+    arms: piece("anja-braces"),
+    chest: piece("power-mail"),
+    waist: piece("power-coil"),
+    legs: piece("power-greaves"),
+  }),
+  [{ skill: madeUp("Adrenaline", power.effects[0], "power.png"), points: 1, level: 1, bonus: 1 }],
+);
+
+const bazPieces = { head: piece("baz-helm"), arms: piece("baz-braces"), waist: piece("baz-coil") };
+const filledGuts = { ...guts, icon_url: "baz.png", description: baz.effects[0] };
+check(
+  "a stub in the catalog is the skill a tier names, with the bonus's words and icon",
+  skillsOf(bazPieces),
+  [{ skill: filledGuts, points: 1, level: 1, bonus: 1 }],
+);
+check(
+  "a bonus level past the cap is over the cap, not purple",
+  skillsOf({ ...bazPieces, chest: piece("mail") }),
+  [
+    { skill: eye, points: 1, level: 1, bonus: 0 },
+    { skill: filledGuts, points: 2, level: 1, bonus: 0 }, // 1 armor + 1 bonus, Guts stops at 1
+  ],
+);
+check(
+  "a bonus adds its level to the gear's, and keeps a full skill's own words",
+  skillsOf({ chest: piece("mail"), arms: piece("sight-braces"), legs: piece("sight-greaves") }),
+  [
+    { skill: eye, points: 2, level: 2, bonus: 1 },
+    { skill: guts, points: 1, level: 1, bonus: 0 },
   ],
 );
 

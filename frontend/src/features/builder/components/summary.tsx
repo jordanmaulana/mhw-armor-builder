@@ -74,7 +74,7 @@ export function Summary({ totals }: { totals: Totals }) {
           </p>
         ) : (
           <ul>
-            {totals.skills.map(({ skill, points, level }) => (
+            {totals.skills.map(({ skill, points, level, bonus }) => (
               <li key={skill.id} className={`flex items-center gap-3 py-2 ${RULE}`}>
                 <img
                   src={skill.icon_url}
@@ -95,7 +95,8 @@ export function Summary({ totals }: { totals: Totals }) {
                     <SkillInfo skill={skill} level={level} />
                   </div>
                   <span className="flex items-center gap-3">
-                    {/* the pips sit on a hairline that runs out to the level */}
+                    {/* the pips sit on a hairline that runs out to the level: the gear's in
+                        brass, then a set bonus's in purple, as its earned tiers below are */}
                     <span
                       aria-hidden
                       className="flex flex-1 items-center gap-[3px] after:h-px after:flex-1 after:bg-seam"
@@ -103,7 +104,13 @@ export function Summary({ totals }: { totals: Totals }) {
                       {Array.from({ length: skill.max_level }, (_, i) => (
                         <span
                           key={i}
-                          className={`size-2.5 ${i < level ? "bg-brass" : "border border-seam bg-plate"}`}
+                          className={`size-2.5 ${
+                            i < level - bonus
+                              ? "bg-brass"
+                              : i < level
+                                ? "bg-bonus"
+                                : "border border-seam bg-plate"
+                          }`}
                         />
                       ))}
                     </span>
@@ -112,7 +119,11 @@ export function Summary({ totals }: { totals: Totals }) {
                     )}
                     <span className="shrink-0 text-sm tabular-nums">
                       Level {level}
-                      <span className="sr-only"> of {skill.max_level}</span>
+                      <span className="sr-only">
+                        {" "}
+                        of {skill.max_level}
+                        {bonus > 0 && `, ${bonus} from a set bonus`}
+                      </span>
                     </span>
                   </span>
                 </div>
@@ -138,22 +149,31 @@ export function Summary({ totals }: { totals: Totals }) {
                   {tiers.map((tier) => (
                     <li
                       key={tier.pieces}
-                      title={tier.effect}
-                      className={`flex items-center gap-1.5 ${tier.active ? "" : "text-moss/70"}`}
+                      className={`flex items-start gap-1.5 ${tier.active ? "" : "text-moss/70"}`}
                     >
-                      {/* the piece count that unlocks the tier, boxed as in the game */}
+                      {/* the piece count that unlocks the tier, boxed as in the game; purple once
+                          earned, the colour of the pips it adds to Skills */}
                       <span
                         aria-hidden
                         className={`grid size-5 shrink-0 place-items-center border text-xs font-semibold tabular-nums ${
-                          tier.active ? "border-brass text-brass" : "border-seam"
+                          tier.active ? "border-bonus text-bonus" : "border-seam"
                         }`}
                       >
                         {tier.pieces}
                       </span>
-                      <span aria-hidden>▸</span>
-                      {tier.skill}
-                      <span className="sr-only">
-                        , {tier.active ? "active" : "not active"}, needs {tier.pieces} pieces
+                      {/* on the page, not in a tooltip: a phone has no hover */}
+                      <span className="flex min-w-0 flex-col">
+                        <span>
+                          <span aria-hidden>▸ </span>
+                          {tier.skill}
+                          <span className="sr-only">
+                            , {tier.active ? "active" : "not active"}, needs {tier.pieces} pieces
+                            {tier.effect && ":"}
+                          </span>
+                        </span>
+                        {tier.effect && (
+                          <span className={tier.active ? "text-moss" : ""}>{tier.effect}</span>
+                        )}
                       </span>
                     </li>
                   ))}

@@ -19,7 +19,8 @@
   --color-seam: #5f6560; /* dashed rules, panel frame, control borders */
   --color-bone: #e6e8e4; /* names, values */
   --color-moss: #a4a8a2; /* stat labels */
-  --color-brass: #d6bd4f; /* lit pips, earned tiers */
+  --color-brass: #d6bd4f; /* lit pips */
+  --color-bonus: #b377f5; /* a set bonus's pips and earned tiers: the slot icons' jewel purple */
   --color-ember: #e5525e; /* the game's #bb2133, lifted until it reads on black */
   --color-aqua: #4fcada; /* panel titles */
   --color-hunt: #6fd13f; /* selection cursor, focus ring */

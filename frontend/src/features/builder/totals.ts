@@ -5,8 +5,9 @@ export type Element = (typeof ELEMENTS)[number];
 
 export interface SkillTotal {
   skill: Skill;
-  points: number; // everything the build grants
+  points: number; // everything the build grants, set bonuses too
   level: number; // what actually applies
+  bonus: number; // of `level`, what a set bonus adds: the purple pips, drawn after the brass
 }
 
 export interface SetBonusTotal {
@@ -55,8 +56,8 @@ export function describeWeapon(weapon: Weapon): string {
     ...elements,
     `Affinity ${weapon.affinity > 0 ? "+" : ""}${weapon.affinity}%`,
     weapon.defense > 0 && `Defense +${weapon.defense}`,
-    // ponytail: a name and no more. It is a skill, a set bonus or a set-bonus skill, and none
-    // of the three is counted in the totals below
+    // ponytail: a name and no more. It is a skill, a set bonus or a set-bonus skill, and the
+    // totals below count none of them for a weapon
     weapon.skill,
   ]
     .filter(Boolean)
@@ -91,18 +92,6 @@ export function computeTotals(build: Build, catalog: Catalog): Totals {
     for (const id of held.decoIds) grant(id ? catalog.decorations.get(id)?.skills : undefined);
   }
 
-  const skills: SkillTotal[] = [];
-  for (const [id, total] of points) {
-    const skill = catalog.skills.get(id);
-    // ponytail: caps at max_level. Secret caps (Agitator 5 -> 7) come from Iceborne set bonuses,
-    // and the scraped set list is base game only; raise the cap here once those sets are in.
-    if (skill) skills.push({ skill, points: total, level: Math.min(total, skill.max_level) });
-  }
-  skills.sort((a, b) => b.level - a.level || a.skill.name.localeCompare(b.skill.name));
-
-  // ponytail: a set bonus's skills are listed on their own, never added to the points above;
-  // most of them (Adrenaline, Guts, ...) aren't in the skill catalog. Merge the few that are
-  // (Critical Element, Non-elemental Boost) if a build ever needs them counted together.
   const setBonuses: SetBonusTotal[] = [];
   for (const [id, pieces] of worn) {
     const bonus = catalog.setBonuses.get(id);
@@ -116,5 +105,62 @@ export function computeTotals(build: Build, catalog: Catalog): Totals {
   }
   setBonuses.sort((a, b) => b.pieces - a.pieces || a.bonus.name.localeCompare(b.bonus.name));
 
-  return { defense, resistances, skills, setBonuses };
+  // The skills the active tiers grant, by name: a tier names its skill, it does not link it. One
+  // level each, however many bonuses grant it (Critical Element from Rathalos Power and Rathalos
+  // Mastery), with the first bonus's effect.
+  const granted = new Map<string, { effect: string; icon: string }>();
+  for (const { bonus, tiers } of setBonuses) {
+    for (const tier of tiers) {
+      if (tier.active && !granted.has(tier.skill)) {
+        granted.set(tier.skill, { effect: tier.effect, icon: bonus.icon_url });
+      }
+    }
+  }
+  // A skill a loader stubbed (Adrenaline, Guts) has no description, no lines and no icon: the
+  // bonus has an effect and an icon.
+  const fill = (skill: Skill, from: { effect: string; icon: string }): Skill =>
+    skill.description || skill.levels.length > 0
+      ? skill
+      : { ...skill, description: from.effect, icon_url: skill.icon_url || from.icon };
+
+  const skills: SkillTotal[] = [];
+  for (const [id, total] of points) {
+    const skill = catalog.skills.get(id);
+    if (!skill) continue;
+    const from = granted.get(skill.name);
+    granted.delete(skill.name);
+    // ponytail: caps at max_level. Secret caps (Agitator 5 -> 7) come from Iceborne set bonuses,
+    // and the scraped set list is base game only; raise the cap here once those sets are in.
+    const gear = Math.min(total, skill.max_level);
+    const bonus = from ? Math.min(1, skill.max_level - gear) : 0;
+    skills.push({
+      skill: from ? fill(skill, from) : skill,
+      points: total + (from ? 1 : 0),
+      level: gear + bonus,
+      bonus,
+    });
+  }
+  skills.sort((a, b) => b.level - a.level || a.skill.name.localeCompare(b.skill.name));
+
+  // What only a set bonus grants comes after the gear's skills. Most of it (Great Luck, Master's
+  // Touch) is in no catalog, and is made up here as a skill of one level.
+  const byName = new Map([...catalog.skills.values()].map((skill) => [skill.name, skill]));
+  const extra = [...granted]
+    .map(([name, from]) => {
+      const known = byName.get(name);
+      const skill: Skill = known
+        ? fill(known, from)
+        : {
+            id: `set-bonus:${name}`,
+            name,
+            icon_url: from.icon,
+            description: from.effect,
+            max_level: 1,
+            levels: [],
+          };
+      return { skill, points: 1, level: 1, bonus: 1 };
+    })
+    .sort((a, b) => a.skill.name.localeCompare(b.skill.name));
+
+  return { defense, resistances, skills: [...skills, ...extra], setBonuses };
 }
