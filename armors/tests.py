@@ -428,6 +428,25 @@ class LoadSetsTests(TestCase):
         self.assertEqual(bonus_of("Xeno'jiiva Spine Gamma"), "Xeno'jiiva Divinity")
         self.assertIsNone(Armor.objects.get(name="Alloy Helm").set_bonus)
 
+        # Master Rank: Raging Brachydios's pieces are "Brachydium", and its bonus is the Will
+        self.assertEqual(bonus_of("Brachydium Helm Alpha +"), "Brachydios Will")
+        self.assertEqual(bonus_of("Brachydium Greaves Beta +"), "Brachydios Will")
+        self.assertEqual(bonus_of("Brachydios Helm Alpha +"), "Brachydios Essence")
+        self.assertEqual(
+            SetBonus.objects.get(name="Brachydios Will").tiers,
+            [{"pieces": 2, "skill": "Agitator Secret"}, {"pieces": 4, "skill": "Artillery Secret"}],
+        )
+        # the dataset's spelling, not the game's (Golden Lunehelm α+)
+        self.assertEqual(bonus_of("Golden Lunehelm Alpha+"), "Gold Rathian Essence")
+        # a base-game bonus that Master Rank pieces reuse
+        self.assertEqual(bonus_of("Kushala Glare Alpha +"), "Kushala Daora Flight")
+        # Kiranico alone, then the wiki alone (PlayStation-only)
+        self.assertEqual(bonus_of("Leon's Head Alpha +"), "Survivor")
+        self.assertEqual(bonus_of("Shield-Weaver Head +"), "Power Cell")
+        self.assertIsNone(Armor.objects.get(name="Bone Helm Alpha +").set_bonus)
+        self.assertEqual(Armor.objects.filter(set_bonus__isnull=False, rarity__gte=9).count(), 550)
+        self.assertEqual(Armor.objects.filter(set_bonus__isnull=False).count(), 850)
+
         # a linked bonus that never activates would be a dead link
         linked = SetBonus.objects.filter(armors__isnull=False).distinct()
         self.assertEqual([bonus.name for bonus in linked if not bonus.tiers], [])

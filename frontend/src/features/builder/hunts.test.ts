@@ -71,6 +71,8 @@ check(
     icon_url: "",
     description: "",
     max_level: 7,
+    secret_name: "",
+    secret_max_level: null,
     levels: [],
   };
   const catalog: Catalog = {

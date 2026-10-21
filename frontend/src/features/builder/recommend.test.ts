@@ -28,6 +28,8 @@ const skill = (id: string, max_level: number): Skill => ({
   icon_url: "",
   description: "",
   max_level,
+  secret_name: "",
+  secret_max_level: null,
   levels: [],
 });
 const SKILLS = [skill("attack", 7), skill("eye", 7), skill("guard", 5)];

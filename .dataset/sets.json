@@ -1,5 +1,5 @@
 {
-  "source": "https://monsterhunterworld.wiki.fextralife.com/Armor_Set_Defense_Bonus_Skill_Comparison",
+  "source": "Base game: https://monsterhunterworld.wiki.fextralife.com/Armor_Set_Defense_Bonus_Skill_Comparison. Master Rank: MHWorldData (armorset_base.csv, armorset_bonus_base.csv), checked against Kiranico (/armorseries, /skilltrees) and poedb (/eng/skills); Banuk α+ and Shield-Weaver + from the wiki's set pages.",
   "set_bonuses": [
     {
       "name": "Anjanath Power",
@@ -260,6 +260,495 @@
         {
           "pieces": 3,
           "skill": "Critical Status"
+        }
+      ]
+    },
+    {
+      "name": "Alatreon Divinity",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Element Conversion"
+        },
+        {
+          "pieces": 3,
+          "skill": "All Elemental Resistance"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Divinity",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Critical Status"
+        }
+      ]
+    },
+    {
+      "name": "Anjanath Dominance",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Stamina Cap Up"
+        }
+      ]
+    },
+    {
+      "name": "Appreciation Blessing",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Gratitude's Gift"
+        },
+        {
+          "pieces": 5,
+          "skill": "Gratitude's Blessing"
+        }
+      ]
+    },
+    {
+      "name": "Barioth Hidden Art",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Punishing Draw"
+        }
+      ]
+    },
+    {
+      "name": "Bazelgeuse Ambition",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Guts"
+        }
+      ]
+    },
+    {
+      "name": "Brachydios Essence",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Agitator Secret"
+        }
+      ]
+    },
+    {
+      "name": "Brachydios Will",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Agitator Secret"
+        },
+        {
+          "pieces": 4,
+          "skill": "Artillery Secret"
+        }
+      ]
+    },
+    {
+      "name": "Commission Alchemy",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Bombardier Secret"
+        }
+      ]
+    },
+    {
+      "name": "Deviljho Essence",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Stamina Thief Secret"
+        }
+      ]
+    },
+    {
+      "name": "Diablos Ambition",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Slugger Secret"
+        }
+      ]
+    },
+    {
+      "name": "Fatalis Legend",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Inheritance"
+        },
+        {
+          "pieces": 4,
+          "skill": "Transcendence"
+        }
+      ]
+    },
+    {
+      "name": "Frostfang Absolute Art",
+      "tiers": [
+        {
+          "pieces": 1,
+          "skill": "Punishing Draw"
+        },
+        {
+          "pieces": 3,
+          "skill": "Slugger Secret"
+        }
+      ]
+    },
+    {
+      "name": "Full Bloom Blessing",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Full Bloom's Gift"
+        },
+        {
+          "pieces": 5,
+          "skill": "Full Bloom Gratitude"
+        }
+      ]
+    },
+    {
+      "name": "Fun Fright Blessing",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Fun Fright's Gift"
+        },
+        {
+          "pieces": 5,
+          "skill": "Fun Fright's Gratitude"
+        }
+      ]
+    },
+    {
+      "name": "Glavenus Essence",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Maximum Might Secret"
+        }
+      ]
+    },
+    {
+      "name": "Gold Rathian Essence",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Divine Blessing Secret"
+        },
+        {
+          "pieces": 4,
+          "skill": "True Critical Status"
+        }
+      ]
+    },
+    {
+      "name": "Guild Pride",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Good Luck"
+        },
+        {
+          "pieces": 4,
+          "skill": "Carving Master"
+        }
+      ]
+    },
+    {
+      "name": "Instructor's Guidance",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Capture Master"
+        }
+      ]
+    },
+    {
+      "name": "Joyful Blessing",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Joy's Gift"
+        },
+        {
+          "pieces": 5,
+          "skill": "Joy's Gratitude"
+        }
+      ]
+    },
+    {
+      "name": "Kirin Divinity",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Great Luck"
+        }
+      ]
+    },
+    {
+      "name": "Kulve Taroth Essence",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Guts"
+        },
+        {
+          "pieces": 4,
+          "skill": "Free Meal Secret"
+        }
+      ]
+    },
+    {
+      "name": "Legiana Ambition",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Bow Charge Plus"
+        }
+      ]
+    },
+    {
+      "name": "Lunastra Essence",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Tool Specialist Secret"
+        }
+      ]
+    },
+    {
+      "name": "Namielle Divinity",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Element Acceleration"
+        },
+        {
+          "pieces": 4,
+          "skill": "True Element Acceleration"
+        }
+      ]
+    },
+    {
+      "name": "Nargacuga Essence",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "True Razor Sharp/Spare Shot"
+        }
+      ]
+    },
+    {
+      "name": "Nergigante Ambition",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Hasten Recovery"
+        }
+      ]
+    },
+    {
+      "name": "New World",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Hasten Recovery"
+        },
+        {
+          "pieces": 4,
+          "skill": "Great Luck"
+        }
+      ]
+    },
+    {
+      "name": "Odogaron Essence",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Protective Polish"
+        }
+      ]
+    },
+    {
+      "name": "Power Cell",
+      "tiers": [
+        {
+          "pieces": 5,
+          "skill": "Ancient Armory"
+        }
+      ]
+    },
+    {
+      "name": "Rajang Will",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Maximum Might Secret"
+        },
+        {
+          "pieces": 4,
+          "skill": "Heroics Secret"
+        }
+      ]
+    },
+    {
+      "name": "Rajang's Rage",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Mind's Eye/Ballistics"
+        },
+        {
+          "pieces": 4,
+          "skill": "Protective Polish"
+        }
+      ]
+    },
+    {
+      "name": "Rathalos Essence",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Mind's Eye/Ballistics"
+        }
+      ]
+    },
+    {
+      "name": "Rathian Essence",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Poison Duration Up"
+        }
+      ]
+    },
+    {
+      "name": "Safi'jiiva Seal",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Dragonvein Awakening"
+        },
+        {
+          "pieces": 5,
+          "skill": "True Dragonvein Awakening"
+        }
+      ]
+    },
+    {
+      "name": "Shara Ishvalda Divinity",
+      "tiers": [
+        {
+          "pieces": 4,
+          "skill": "Gaia's Veil"
+        },
+        {
+          "pieces": 5,
+          "skill": "True Gaia's Veil"
+        }
+      ]
+    },
+    {
+      "name": "Silver Rathalos Essence",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Slinger Ammo Secret"
+        },
+        {
+          "pieces": 4,
+          "skill": "True Critical Element"
+        }
+      ]
+    },
+    {
+      "name": "Sizzling Blessing",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Sizzling Gift"
+        },
+        {
+          "pieces": 5,
+          "skill": "Sizzling Gratitude"
+        }
+      ]
+    },
+    {
+      "name": "Survivor",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Zombie & Effluvia Res"
+        },
+        {
+          "pieces": 4,
+          "skill": "Agitator Secret"
+        }
+      ]
+    },
+    {
+      "name": "Tigrex Essence",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Free Meal Secret"
+        }
+      ]
+    },
+    {
+      "name": "Uragaan Ambition",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Guard Up"
+        }
+      ]
+    },
+    {
+      "name": "Vaal Soulvein",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Super Recovery"
+        }
+      ]
+    },
+    {
+      "name": "Velkhana Divinity",
+      "tiers": [
+        {
+          "pieces": 2,
+          "skill": "Critical Element"
+        },
+        {
+          "pieces": 4,
+          "skill": "Frostcraft"
+        }
+      ]
+    },
+    {
+      "name": "Zinogre Essence",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Latent Power Secret"
+        }
+      ]
+    },
+    {
+      "name": "Zorah Magdaros Essence",
+      "tiers": [
+        {
+          "pieces": 3,
+          "skill": "Artillery Secret"
         }
       ]
     }
@@ -2283,6 +2772,1338 @@
         "Kulve Taroth’s Rage Gamma",
         "Kulve Taroth's Malice Gamma",
         "Kulve Taroth's Wrath Gamma"
+      ]
+    },
+    {
+      "name": "Anja α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/72kJp/anja-a",
+      "set_bonus": "Anjanath Dominance",
+      "pieces": [
+        "Anja Helm Alpha +",
+        "Anja Mail Alpha +",
+        "Anja Vambraces Alpha +",
+        "Anja Coil Alpha +",
+        "Anja Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Anja β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BkZYp/anja-b",
+      "set_bonus": "Anjanath Dominance",
+      "pieces": [
+        "Anja Helm Beta +",
+        "Anja Mail Beta +",
+        "Anja Vambraces Beta +",
+        "Anja Coil Beta +",
+        "Anja Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Fulgur Anja α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5WNPB/fulgur-anja-a",
+      "set_bonus": "Anjanath Dominance",
+      "pieces": [
+        "Fulgur Helm Alpha +",
+        "Fulgur Mail Alpha +",
+        "Fulgur Vambraces Alpha +",
+        "Fulgur Coil Alpha +",
+        "Fulgur Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Fulgur Anja β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/B9o27/fulgur-anja-b",
+      "set_bonus": "Anjanath Dominance",
+      "pieces": [
+        "Fulgur Helm Beta +",
+        "Fulgur Mail Beta +",
+        "Fulgur Vambraces Beta +",
+        "Fulgur Coil Beta +",
+        "Fulgur Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Rathian α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pOg8p/rathian-a",
+      "set_bonus": "Rathian Essence",
+      "pieces": [
+        "Rathian Helm Alpha +",
+        "Rathian Mail Alpha +",
+        "Rathian Vambraces Alpha +",
+        "Rathian Coil Alpha +",
+        "Rathian Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Rathian β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BGXr5/rathian-b",
+      "set_bonus": "Rathian Essence",
+      "pieces": [
+        "Rathian Helm Beta +",
+        "Rathian Mail Beta +",
+        "Rathian Vambraces Beta +",
+        "Rathian Coil Beta +",
+        "Rathian Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Rath Heart α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/70wv5/rath-heart-a",
+      "set_bonus": "Rathian Essence",
+      "pieces": [
+        "Rath Heart Helm Alpha +",
+        "Rath Heart Mail Alpha +",
+        "Rath Heart Braces Alpha +",
+        "Rath Heart Coil Alpha +",
+        "Rath Heart Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Rath Heart β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5bb15/rath-heart-b",
+      "set_bonus": "Rathian Essence",
+      "pieces": [
+        "Rath Heart Helm Beta +",
+        "Rath Heart Mail Beta +",
+        "Rath Heart Braces Beta +",
+        "Rath Heart Coil Beta +",
+        "Rath Heart Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Artian α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BrDX7/artian-a",
+      "set_bonus": "Ancient Divinity",
+      "pieces": [
+        "Artian Helm Alpha +",
+        "Artian Mail Alpha +",
+        "Artian Vambraces Alpha +",
+        "Artian Coil Alpha +",
+        "Artian Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Artian β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5nKr7/artian-b",
+      "set_bonus": "Ancient Divinity",
+      "pieces": [
+        "Artian Helm Beta +",
+        "Artian Mail Beta +",
+        "Artian Vambraces Beta +",
+        "Artian Coil Beta +",
+        "Artian Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Clockwork α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BDgnp/clockwork-a",
+      "set_bonus": "Commission Alchemy",
+      "pieces": [
+        "Clockwork Helm Alpha +",
+        "Clockwork Mail Alpha +",
+        "Clockwork Braces Alpha +",
+        "Clockwork Coil Alpha +",
+        "Clockwork Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Clockwork β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BwQ37/clockwork-b",
+      "set_bonus": "Commission Alchemy",
+      "pieces": [
+        "Clockwork Helm Beta +",
+        "Clockwork Mail Beta +",
+        "Clockwork Braces Beta +",
+        "Clockwork Coil Beta +",
+        "Clockwork Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Barioth α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/76Gnp/barioth-a",
+      "set_bonus": "Barioth Hidden Art",
+      "pieces": [
+        "Barioth Helm Alpha +",
+        "Barioth Mail Alpha +",
+        "Barioth Vambraces Alpha +",
+        "Barioth Faulds Alpha +",
+        "Barioth Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Barioth β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7mgkB/barioth-b",
+      "set_bonus": "Barioth Hidden Art",
+      "pieces": [
+        "Barioth Helm Beta +",
+        "Barioth Mail Beta +",
+        "Barioth Vambraces Beta +",
+        "Barioth Faulds Beta +",
+        "Barioth Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Rathalos α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5KZwB/rathalos-a",
+      "set_bonus": "Rathalos Essence",
+      "pieces": [
+        "Rathalos Helm Alpha +",
+        "Rathalos Mail Alpha +",
+        "Rathalos Vambraces Alpha +",
+        "Rathalos Coil Alpha +",
+        "Rathalos Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Rathalos β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5JAxB/rathalos-b",
+      "set_bonus": "Rathalos Essence",
+      "pieces": [
+        "Rathalos Helm Beta +",
+        "Rathalos Mail Beta +",
+        "Rathalos Vambraces Beta +",
+        "Rathalos Coil Beta +",
+        "Rathalos Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Rath Soul α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BdbZ7/rath-soul-a",
+      "set_bonus": "Rathalos Essence",
+      "pieces": [
+        "Rath Soul Helm Alpha +",
+        "Rath Soul Mail Alpha +",
+        "Rath Soul Braces Alpha +",
+        "Rath Soul Coil Alpha +",
+        "Rath Soul Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Rath Soul β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7qVDp/rath-soul-b",
+      "set_bonus": "Rathalos Essence",
+      "pieces": [
+        "Rath Soul Helm Beta +",
+        "Rath Soul Mail Beta +",
+        "Rath Soul Braces Beta +",
+        "Rath Soul Coil Beta +",
+        "Rath Soul Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Diablos α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pelj7/diablos-a",
+      "set_bonus": "Diablos Ambition",
+      "pieces": [
+        "Diablos Helm Alpha +",
+        "Diablos Mail Alpha +",
+        "Diablos Vambraces Alpha +",
+        "Diablos Coil Alpha +",
+        "Diablos Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Diablos β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5Rgo7/diablos-b",
+      "set_bonus": "Diablos Ambition",
+      "pieces": [
+        "Diablos Helm Beta +",
+        "Diablos Mail Beta +",
+        "Diablos Vambraces Beta +",
+        "Diablos Coil Beta +",
+        "Diablos Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Diablos Nero α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7Ngdp/diablos-nero-a",
+      "set_bonus": "Diablos Ambition",
+      "pieces": [
+        "Diablos Nero Helm Alpha +",
+        "Diablos Nero Mail Alpha +",
+        "Diablos Nero Braces Alpha +",
+        "Diablos Nero Coil Alpha +",
+        "Diablos Nero Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Diablos Nero β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/71GzB/diablos-nero-b",
+      "set_bonus": "Diablos Ambition",
+      "pieces": [
+        "Diablos Nero Helm Beta +",
+        "Diablos Nero Mail Beta +",
+        "Diablos Nero Braces Beta +",
+        "Diablos Nero Coil Beta +",
+        "Diablos Nero Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Legiana α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5ogl5/legiana-a",
+      "set_bonus": "Legiana Ambition",
+      "pieces": [
+        "Legiana Helm Alpha +",
+        "Legiana Mail Alpha +",
+        "Legiana Vambraces Alpha +",
+        "Legiana Coil Alpha +",
+        "Legiana Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Legiana β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/p442p/legiana-b",
+      "set_bonus": "Legiana Ambition",
+      "pieces": [
+        "Legiana Helm Beta +",
+        "Legiana Mail Beta +",
+        "Legiana Vambraces Beta +",
+        "Legiana Coil Beta +",
+        "Legiana Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Shrieking Legia α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/B84XB/shrieking-legia-a",
+      "set_bonus": "Legiana Ambition",
+      "pieces": [
+        "Hoarcry Helm Alpha +",
+        "Hoarcry Mail Alpha +",
+        "Hoarcry Vambraces Alpha +",
+        "Hoarcry Coil Alpha +",
+        "Hoarcry Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Shrieking Legia β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pVeX7/shrieking-legia-b",
+      "set_bonus": "Legiana Ambition",
+      "pieces": [
+        "Hoarcry Helm Beta +",
+        "Hoarcry Mail Beta +",
+        "Hoarcry Vambraces Beta +",
+        "Hoarcry Coil Beta +",
+        "Hoarcry Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Odogaron α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/payzp/odogaron-a",
+      "set_bonus": "Odogaron Essence",
+      "pieces": [
+        "Odogaron Helm Alpha +",
+        "Odogaron Mail Alpha +",
+        "Odogaron Vambraces Alpha +",
+        "Odogaron Coil Alpha +",
+        "Odogaron Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Odogaron β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BYe6B/odogaron-b",
+      "set_bonus": "Odogaron Essence",
+      "pieces": [
+        "Odogaron Helm Beta +",
+        "Odogaron Mail Beta +",
+        "Odogaron Vambraces Beta +",
+        "Odogaron Coil Beta +",
+        "Odogaron Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Death Garon α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BlvY7/death-garon-a",
+      "set_bonus": "Odogaron Essence",
+      "pieces": [
+        "Death Garon Helm Alpha +",
+        "Death Garon Mail Alpha +",
+        "Death Garon Braces Alpha +",
+        "Death Garon Coil Alpha +",
+        "Death Garon Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Death Garon β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7M6Ap/death-garon-b",
+      "set_bonus": "Odogaron Essence",
+      "pieces": [
+        "Death Garon Helm Beta +",
+        "Death Garon Mail Beta +",
+        "Death Garon Braces Beta +",
+        "Death Garon Coil Beta +",
+        "Death Garon Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Uragaan α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BPrV7/uragaan-a",
+      "set_bonus": "Uragaan Ambition",
+      "pieces": [
+        "Uragaan Helm Alpha +",
+        "Uragaan Mail Alpha +",
+        "Uragaan Vambraces Alpha +",
+        "Uragaan Coil Alpha +",
+        "Uragaan Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Uragaan β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7AgkB/uragaan-b",
+      "set_bonus": "Uragaan Ambition",
+      "pieces": [
+        "Uragaan Helm Beta +",
+        "Uragaan Mail Beta +",
+        "Uragaan Vambraces Beta +",
+        "Uragaan Coil Beta +",
+        "Uragaan Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Nargacuga α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BZW95/nargacuga-a",
+      "set_bonus": "Nargacuga Essence",
+      "pieces": [
+        "Nargacuga Helm Alpha +",
+        "Nargacuga Mail Alpha +",
+        "Nargacuga Braces Alpha +",
+        "Nargacuga Faulds Alpha +",
+        "Nargacuga Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Nargacuga β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5vgz7/nargacuga-b",
+      "set_bonus": "Nargacuga Essence",
+      "pieces": [
+        "Nargacuga Helm Beta +",
+        "Nargacuga Mail Beta +",
+        "Nargacuga Braces Beta +",
+        "Nargacuga Faulds Beta +",
+        "Nargacuga Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Glavenus α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/72zJ7/glavenus-a",
+      "set_bonus": "Glavenus Essence",
+      "pieces": [
+        "Glavenus Helm Alpha +",
+        "Glavenus Mail Alpha +",
+        "Glavenus Braces Alpha +",
+        "Glavenus Faulds Alpha +",
+        "Glavenus Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Glavenus β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BkyY7/glavenus-b",
+      "set_bonus": "Glavenus Essence",
+      "pieces": [
+        "Glavenus Helm Beta +",
+        "Glavenus Mail Beta +",
+        "Glavenus Braces Beta +",
+        "Glavenus Faulds Beta +",
+        "Glavenus Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Acidic Glavenus α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5WePp/acidic-glavenus-a",
+      "set_bonus": "Glavenus Essence",
+      "pieces": [
+        "Acidic Glavenus Helm Alpha +",
+        "Acidic Glavenus Mail Alpha +",
+        "Acidic Glavenus Braces Alpha +",
+        "Acidic Glavenus Coil Alpha +",
+        "Acidic Glavenus Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Acidic Glavenus β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/B9Y2B/acidic-glavenus-b",
+      "set_bonus": "Glavenus Essence",
+      "pieces": [
+        "Acidic Glavenus Helm Beta +",
+        "Acidic Glavenus Mail Beta +",
+        "Acidic Glavenus Braces Beta +",
+        "Acidic Glavenus Coil Beta +",
+        "Acidic Glavenus Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Brachydios α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BlQy5/brachydios-a",
+      "set_bonus": "Brachydios Essence",
+      "pieces": [
+        "Brachydios Helm Alpha +",
+        "Brachydios Mail Alpha +",
+        "Brachydios Braces Alpha +",
+        "Brachydios Faulds Alpha +",
+        "Brachydios Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Brachydios β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7M147/brachydios-b",
+      "set_bonus": "Brachydios Essence",
+      "pieces": [
+        "Brachydios Helm Beta +",
+        "Brachydios Mail Beta +",
+        "Brachydios Braces Beta +",
+        "Brachydios Faulds Beta +",
+        "Brachydios Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Tigrex α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7X1Jp/tigrex-a",
+      "set_bonus": "Tigrex Essence",
+      "pieces": [
+        "Tigrex Helm Alpha +",
+        "Tigrex Mail Alpha +",
+        "Tigrex Braces Alpha +",
+        "Tigrex Tassets Alpha +",
+        "Tigrex Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Tigrex β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/73WM7/tigrex-b",
+      "set_bonus": "Tigrex Essence",
+      "pieces": [
+        "Tigrex Helm Beta +",
+        "Tigrex Mail Beta +",
+        "Tigrex Braces Beta +",
+        "Tigrex Tassets Beta +",
+        "Tigrex Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Brute Tigrex α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BP4rB/brute-tigrex-a",
+      "set_bonus": "Tigrex Essence",
+      "pieces": [
+        "Rex Roar Helm Alpha +",
+        "Rex Roar Mail Alpha +",
+        "Rex Roar Braces Alpha +",
+        "Rex Roar Coil Alpha +",
+        "Rex Roar Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Brute Tigrex β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7Abbp/brute-tigrex-b",
+      "set_bonus": "Tigrex Essence",
+      "pieces": [
+        "Rex Roar Helm Beta +",
+        "Rex Roar Mail Beta +",
+        "Rex Roar Braces Beta +",
+        "Rex Roar Coil Beta +",
+        "Rex Roar Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Black Belt α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BZlA7/black-belt-a",
+      "set_bonus": "Instructor's Guidance",
+      "pieces": [
+        "Black Belt Helm Alpha +",
+        "Black Belt Mail Alpha +",
+        "Black Belt Braces Alpha +",
+        "Black Belt Tassets Alpha +",
+        "Black Belt Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Black Belt β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5vqwB/black-belt-b",
+      "set_bonus": "Instructor's Guidance",
+      "pieces": [
+        "Black Belt Helm Beta +",
+        "Black Belt Mail Beta +",
+        "Black Belt Braces Beta +",
+        "Black Belt Tassets Beta +",
+        "Black Belt Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Seething Bazel α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pO1X5/seething-bazel-a",
+      "set_bonus": "Bazelgeuse Ambition",
+      "pieces": [
+        "Pride Helm Alpha +",
+        "Pride Mail Alpha +",
+        "Pride Vambraces Alpha +",
+        "Pride Coil Alpha +",
+        "Pride Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Seething Bazel β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BGQZ7/seething-bazel-b",
+      "set_bonus": "Bazelgeuse Ambition",
+      "pieces": [
+        "Pride Helm Beta +",
+        "Pride Mail Beta +",
+        "Pride Vambraces Beta +",
+        "Pride Coil Beta +",
+        "Pride Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Savage Jho α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/70Qmp/savage-jho-a",
+      "set_bonus": "Deviljho Essence",
+      "pieces": [
+        "Esurient Helm Alpha +",
+        "Esurient Mail Alpha +",
+        "Esurient Vambraces Alpha +",
+        "Esurient Faulds Alpha +",
+        "Esurient Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Savage Jho β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5b2e5/savage-jho-b",
+      "set_bonus": "Deviljho Essence",
+      "pieces": [
+        "Esurient Helm Beta +",
+        "Esurient Mail Beta +",
+        "Esurient Vambraces Beta +",
+        "Esurient Faulds Beta +",
+        "Esurient Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Velkhana α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pgno7/velkhana-a",
+      "set_bonus": "Velkhana Divinity",
+      "pieces": [
+        "Rimeguard Helm Alpha +",
+        "Rimeguard Mail Alpha +",
+        "Rimeguard Vambraces Alpha +",
+        "Rimeguard Coil Alpha +",
+        "Rimeguard Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Velkhana β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7yq47/velkhana-b",
+      "set_bonus": "Velkhana Divinity",
+      "pieces": [
+        "Rimeguard Helm Beta +",
+        "Rimeguard Mail Beta +",
+        "Rimeguard Vambraces Beta +",
+        "Rimeguard Coil Beta +",
+        "Rimeguard Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Blackveil Hazak α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pQO85/blackveil-hazak-a",
+      "set_bonus": "Vaal Soulvein",
+      "pieces": [
+        "Fellshroud Helm Alpha +",
+        "Fellshroud Mail Alpha +",
+        "Fellshroud Braces Alpha +",
+        "Fellshroud Coil Alpha +",
+        "Fellshroud Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Blackveil Hazak β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pL1xB/blackveil-hazak-b",
+      "set_bonus": "Vaal Soulvein",
+      "pieces": [
+        "Fellshroud Helm Beta +",
+        "Fellshroud Mail Beta +",
+        "Fellshroud Braces Beta +",
+        "Fellshroud Coil Beta +",
+        "Fellshroud Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Teostra α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5E6n7/teostra-a",
+      "set_bonus": "Teostra Technique",
+      "pieces": [
+        "Kaiser Crown Alpha +",
+        "Kaiser Mail Alpha +",
+        "Kaiser Vambraces Alpha +",
+        "Kaiser Coil Alpha +",
+        "Kaiser Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Teostra β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pzqj7/teostra-b",
+      "set_bonus": "Teostra Technique",
+      "pieces": [
+        "Kaiser Crown Beta +",
+        "Kaiser Mail Beta +",
+        "Kaiser Vambraces Beta +",
+        "Kaiser Coil Beta +",
+        "Kaiser Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Kushala α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BrVMB/kushala-a",
+      "set_bonus": "Kushala Daora Flight",
+      "pieces": [
+        "Kushala Glare Alpha +",
+        "Kushala Cista Alpha +",
+        "Kushala Grip Alpha +",
+        "Kushala Cocoon Alpha +",
+        "Kushala Crus Alpha +"
+      ]
+    },
+    {
+      "name": "Kushala β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5nbn5/kushala-b",
+      "set_bonus": "Kushala Daora Flight",
+      "pieces": [
+        "Kushala Glare Beta +",
+        "Kushala Cista Beta +",
+        "Kushala Grip Beta +",
+        "Kushala Cocoon Beta +",
+        "Kushala Crus Beta +"
+      ]
+    },
+    {
+      "name": "Kirin α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BDbd7/kirin-a",
+      "set_bonus": "Kirin Divinity",
+      "pieces": [
+        "Kirin Horn Alpha +",
+        "Kirin Jacket Alpha +",
+        "Kirin Longarms Alpha +",
+        "Kirin Hoop Alpha +",
+        "Kirin Leg Guards Alpha +"
+      ]
+    },
+    {
+      "name": "Kirin β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BwqP7/kirin-b",
+      "set_bonus": "Kirin Divinity",
+      "pieces": [
+        "Kirin Horn Beta +",
+        "Kirin Jacket Beta +",
+        "Kirin Longarms Beta +",
+        "Kirin Hoop Beta +",
+        "Kirin Leg Guards Beta +"
+      ]
+    },
+    {
+      "name": "Namielle α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7xqkp/namielle-a",
+      "set_bonus": "Namielle Divinity",
+      "pieces": [
+        "Tentacle Cowl Alpha +",
+        "Tentacle Cloak Alpha +",
+        "Tentacle Gloves Alpha +",
+        "Tentacle Coil Alpha +",
+        "Tentacle Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Namielle β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5j1lB/namielle-b",
+      "set_bonus": "Namielle Divinity",
+      "pieces": [
+        "Tentacle Cowl Beta +",
+        "Tentacle Cloak Beta +",
+        "Tentacle Gloves Beta +",
+        "Tentacle Coil Beta +",
+        "Tentacle Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Guild Palace α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/76Rl7/guild-palace-a",
+      "set_bonus": "Guild Pride",
+      "pieces": [
+        "Guild Palace Helm Alpha +",
+        "Guild Palace Mail Alpha +",
+        "Guild Palace Braces Alpha +",
+        "Guild Palace Coil Alpha +",
+        "Guild Palace Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Guild Palace β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7mDw5/guild-palace-b",
+      "set_bonus": "Guild Pride",
+      "pieces": [
+        "Guild Palace Helm Beta +",
+        "Guild Palace Mail Beta +",
+        "Guild Palace Braces Beta +",
+        "Guild Palace Coil Beta +",
+        "Guild Palace Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Shara Ishvalda α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5JaGB/shara-ishvalda-a",
+      "set_bonus": "Shara Ishvalda Divinity",
+      "pieces": [
+        "Shara Ishvalda Helm Alpha +",
+        "Shara Ishvalda Mail Alpha +",
+        "Shara Ishvalda Braces Alpha +",
+        "Shara Ishvalda Coil Alpha +",
+        "Shara Ishvalda Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Shara Ishvalda β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/Bdym5/shara-ishvalda-b",
+      "set_bonus": "Shara Ishvalda Divinity",
+      "pieces": [
+        "Shara Ishvalda Helm Beta +",
+        "Shara Ishvalda Mail Beta +",
+        "Shara Ishvalda Braces Beta +",
+        "Shara Ishvalda Coil Beta +",
+        "Shara Ishvalda Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Zorah α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pen3B/zorah-a",
+      "set_bonus": "Zorah Magdaros Essence",
+      "pieces": [
+        "Zorah Headgear Alpha +",
+        "Zorah Hide Alpha +",
+        "Zorah Claws Alpha +",
+        "Zorah Spine Alpha +",
+        "Zorah Spurs Alpha +"
+      ]
+    },
+    {
+      "name": "Zorah β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5RNl5/zorah-b",
+      "set_bonus": "Zorah Magdaros Essence",
+      "pieces": [
+        "Zorah Headgear Beta +",
+        "Zorah Hide Beta +",
+        "Zorah Claws Beta +",
+        "Zorah Spine Beta +",
+        "Zorah Spurs Beta +"
+      ]
+    },
+    {
+      "name": "Zinogre α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5oRdB/zinogre-a",
+      "set_bonus": "Zinogre Essence",
+      "pieces": [
+        "Zinogre Helm Alpha +",
+        "Zinogre Mail Alpha +",
+        "Zinogre Braces Alpha +",
+        "Zinogre Coil Alpha +",
+        "Zinogre Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Zinogre β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/p4YQB/zinogre-b",
+      "set_bonus": "Zinogre Essence",
+      "pieces": [
+        "Zinogre Helm Beta +",
+        "Zinogre Mail Beta +",
+        "Zinogre Braces Beta +",
+        "Zinogre Coil Beta +",
+        "Zinogre Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Golden Lune α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/B8Mv5/golden-lune-a",
+      "set_bonus": "Gold Rathian Essence",
+      "pieces": [
+        "Golden Lunehelm Alpha+",
+        "Golden Lunemail Alpha +",
+        "Golden Lunebraces Alpha +",
+        "Golden Lunecoil Alpha+",
+        "Golden Lunegreaves Alpha +"
+      ]
+    },
+    {
+      "name": "Golden Lune β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pVMQ7/golden-lune-b",
+      "set_bonus": "Gold Rathian Essence",
+      "pieces": [
+        "Golden Lunehelm Beta+",
+        "Golden Lunemail Beta +",
+        "Golden Lunebraces Beta +",
+        "Golden Lunecoil Beta+",
+        "Golden Lunegreaves Beta +"
+      ]
+    },
+    {
+      "name": "Silver Sol α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/paXo7/silver-sol-a",
+      "set_bonus": "Silver Rathalos Essence",
+      "pieces": [
+        "Silver Solhelm Alpha +",
+        "Silver Solmail Alpha +",
+        "Silver Solbraces Alpha +",
+        "Silver Solcoil Alpha +",
+        "Silver Solgreaves Alpha +"
+      ]
+    },
+    {
+      "name": "Silver Sol β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BYPwp/silver-sol-b",
+      "set_bonus": "Silver Rathalos Essence",
+      "pieces": [
+        "Silver Solhelm Beta +",
+        "Silver Solmail Beta +",
+        "Silver Solbraces Beta +",
+        "Silver Solcoil Beta +",
+        "Silver Solgreaves Beta +"
+      ]
+    },
+    {
+      "name": "Lunastra α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BlGyp/lunastra-a",
+      "set_bonus": "Lunastra Essence",
+      "pieces": [
+        "Empress Crown Alpha +",
+        "Empress Mail Alpha +",
+        "Empress Vambraces Alpha +",
+        "Empress Coil Alpha +",
+        "Empress Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Lunastra β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7MJ4p/lunastra-b",
+      "set_bonus": "Lunastra Essence",
+      "pieces": [
+        "Empress Crown Beta +",
+        "Empress Mail Beta +",
+        "Empress Vambraces Beta +",
+        "Empress Coil Beta +",
+        "Empress Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Ruiner Nergi α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7X3J5/ruiner-nergi-a",
+      "set_bonus": "Nergigante Ambition",
+      "pieces": [
+        "Ruinous Helm Alpha +",
+        "Ruinous Mail Alpha +",
+        "Ruinous Vambraces Alpha +",
+        "Ruinous Coil Alpha +",
+        "Ruinous Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Ruiner Nergi β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/73xMp/ruiner-nergi-b",
+      "set_bonus": "Nergigante Ambition",
+      "pieces": [
+        "Ruinous Helm Beta +",
+        "Ruinous Mail Beta +",
+        "Ruinous Vambraces Beta +",
+        "Ruinous Coil Beta +",
+        "Ruinous Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Guildwork α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BPYr5/guildwork-a",
+      "set_bonus": "Guild Pride",
+      "pieces": [
+        "Guildwork Head Alpha +",
+        "Guildwork Body Alpha +",
+        "Guildwork Braces Alpha +",
+        "Guildwork Waist Alpha +",
+        "Guildwork Feet Alpha +"
+      ]
+    },
+    {
+      "name": "Guildwork β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7ADb5/guildwork-b",
+      "set_bonus": "Guild Pride",
+      "pieces": [
+        "Guildwork Head Beta +",
+        "Guildwork Body Beta +",
+        "Guildwork Braces Beta +",
+        "Guildwork Waist Beta +",
+        "Guildwork Feet Beta +"
+      ]
+    },
+    {
+      "name": "Rajang α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/Blw4p/rajang-a",
+      "set_bonus": "Rajang's Rage",
+      "pieces": [
+        "Golden Headdress Alpha +",
+        "Golden Haori Alpha +",
+        "Golden Kote Alpha +",
+        "Golden Obi Alpha +",
+        "Golden Hakama Alpha +"
+      ]
+    },
+    {
+      "name": "Rajang β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7M9E7/rajang-b",
+      "set_bonus": "Rajang's Rage",
+      "pieces": [
+        "Golden Headdress Beta +",
+        "Golden Haori Beta +",
+        "Golden Kote Beta +",
+        "Golden Obi Beta +",
+        "Golden Hakama Beta +"
+      ]
+    },
+    {
+      "name": "Furious Rajang α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7XzvB/furious-rajang-a",
+      "set_bonus": "Rajang Will",
+      "pieces": [
+        "Grand God's Peer Mask Alpha +",
+        "Grand God's Peer Garb Alpha +",
+        "Grand God's Peer Arms Alpha +",
+        "Grand God's Peer Belt Alpha +",
+        "Grand God's Peer Feet Alpha +"
+      ]
+    },
+    {
+      "name": "Furious Rajang β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/739vB/furious-rajang-b",
+      "set_bonus": "Rajang Will",
+      "pieces": [
+        "Grand God's Peer Mask Beta +",
+        "Grand God's Peer Garb Beta +",
+        "Grand God's Peer Arms Beta +",
+        "Grand God's Peer Belt Beta +",
+        "Grand God's Peer Feet Beta +"
+      ]
+    },
+    {
+      "name": "Stygian Zin α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BPzx7/stygian-zin-a",
+      "set_bonus": "Zinogre Essence",
+      "pieces": [
+        "Stygian Helm Alpha +",
+        "Stygian Mail Alpha +",
+        "Stygian Vambraces Alpha +",
+        "Stygian Coil Alpha +",
+        "Stygian Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Stygian Zin β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7AO0B/stygian-zin-b",
+      "set_bonus": "Zinogre Essence",
+      "pieces": [
+        "Stygian Helm Beta +",
+        "Stygian Mail Beta +",
+        "Stygian Vambraces Beta +",
+        "Stygian Coil Beta +",
+        "Stygian Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Safi'jiiva α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BZz0B/safi-jiiva-a",
+      "set_bonus": "Safi'jiiva Seal",
+      "pieces": [
+        "Safi Crested Crown Alpha +",
+        "Safi Crested Chest Alpha +",
+        "Safi Crested Vambraces Alpha +",
+        "Safi Crested Belt Alpha +",
+        "Safi Crested Boots Alpha +"
+      ]
+    },
+    {
+      "name": "Safi'jiiva β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5vo87/safi-jiiva-b",
+      "set_bonus": "Safi'jiiva Seal",
+      "pieces": [
+        "Safi Crested Crown Beta +",
+        "Safi Crested Chest Beta +",
+        "Safi Crested Vambraces Beta +",
+        "Safi Crested Belt Beta +",
+        "Safi Crested Boots Beta +"
+      ]
+    },
+    {
+      "name": "Raging Brachy α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/72W1p/raging-brachy-a",
+      "set_bonus": "Brachydios Will",
+      "pieces": [
+        "Brachydium Helm Alpha +",
+        "Brachydium Mail Alpha +",
+        "Brachydium Braces Alpha +",
+        "Brachydium Faulds Alpha +",
+        "Brachydium Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Raging Brachy β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BkLR5/raging-brachy-b",
+      "set_bonus": "Brachydios Will",
+      "pieces": [
+        "Brachydium Helm Beta +",
+        "Brachydium Mail Beta +",
+        "Brachydium Braces Beta +",
+        "Brachydium Faulds Beta +",
+        "Brachydium Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Frostfang Barioth α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5WzjB/frostfang-barioth-a",
+      "set_bonus": "Frostfang Absolute Art",
+      "pieces": [
+        "Frostfang Helm Alpha +",
+        "Frostfang Mail Alpha +",
+        "Frostfang Vambraces Alpha +",
+        "Frostfang Coil Alpha +",
+        "Frostfang Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Frostfang Barioth β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/B9P0p/frostfang-barioth-b",
+      "set_bonus": "Frostfang Absolute Art",
+      "pieces": [
+        "Frostfang Helm Beta +",
+        "Frostfang Mail Beta +",
+        "Frostfang Vambraces Beta +",
+        "Frostfang Coil Beta +",
+        "Frostfang Greaves Beta +"
+      ]
+    },
+    {
+      "name": "Alatreon α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pOzV7/alatreon-a",
+      "set_bonus": "Alatreon Divinity",
+      "pieces": [
+        "Escadora Wisdom Alpha +",
+        "Escadora Soul Alpha +",
+        "Escadora Armguards Alpha +",
+        "Escadora Might Alpha +",
+        "Escadora Sheath Alpha +"
+      ]
+    },
+    {
+      "name": "Alatreon β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BGAb7/alatreon-b",
+      "set_bonus": "Alatreon Divinity",
+      "pieces": [
+        "Escadora Wisdom Beta +",
+        "Escadora Soul Beta +",
+        "Escadora Armguards Beta +",
+        "Escadora Might Beta +",
+        "Escadora Sheath Beta +"
+      ]
+    },
+    {
+      "name": "Kulve Taroth α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pgER5/kulve-taroth-a",
+      "set_bonus": "Kulve Taroth Essence",
+      "pieces": [
+        "Kulve Taroth's Fury Alpha +",
+        "Kulve Taroth's Ire Alpha +",
+        "Kulve Taroth's Rage Alpha +",
+        "Kulve Taroth's Malice Alpha +",
+        "Kulve Taroth's Wrath Alpha +"
+      ]
+    },
+    {
+      "name": "Kulve Taroth β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7ykyB/kulve-taroth-b",
+      "set_bonus": "Kulve Taroth Essence",
+      "pieces": [
+        "Kulve Taroth's Fury Beta +",
+        "Kulve Taroth's Ire Beta +",
+        "Kulve Taroth's Rage Beta +",
+        "Kulve Taroth's Malice Beta +",
+        "Kulve Taroth's Wrath Beta +"
+      ]
+    },
+    {
+      "name": "Namielle γ+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pQmQp/namielle-g",
+      "set_bonus": "Namielle Divinity",
+      "pieces": [
+        "Tentacle Cowl Gamma +",
+        "Tentacle Cloak Gamma +",
+        "Tentacle Gloves Gamma +",
+        "Tentacle Coil Gamma +",
+        "Tentacle Greaves Gamma +"
+      ]
+    },
+    {
+      "name": "Velkhana γ+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/pLD8p/velkhana-g",
+      "set_bonus": "Velkhana Divinity",
+      "pieces": [
+        "Rimeguard Helm Gamma +",
+        "Rimeguard Mail Gamma +",
+        "Rimeguard Vambraces Gamma +",
+        "Rimeguard Coil Gamma +",
+        "Rimeguard Greaves Gamma +"
+      ]
+    },
+    {
+      "name": "Oolong α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/Blgvp/oolong-a",
+      "set_bonus": "Joyful Blessing",
+      "pieces": [
+        "Oolong Hair Alpha +",
+        "Oolong Vest Alpha +",
+        "Oolong Sleeves Alpha +",
+        "Oolong Waist Alpha +",
+        "Oolong Boots Alpha +"
+      ]
+    },
+    {
+      "name": "Astral α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7M31B/astral-a",
+      "set_bonus": "Appreciation Blessing",
+      "pieces": [
+        "Astral Veil Alpha +",
+        "Astral Cloth Alpha +",
+        "Astral Scarf Alpha +",
+        "Astral Skirt Alpha +",
+        "Astral Tights Alpha +"
+      ]
+    },
+    {
+      "name": "Rose α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7X037/rose-a",
+      "set_bonus": "Full Bloom Blessing",
+      "pieces": [
+        "Rose Headpiece Alpha +",
+        "Rose Jacket Alpha +",
+        "Rose Arms Alpha +",
+        "Rose Belt Alpha +",
+        "Rose Boots Alpha +"
+      ]
+    },
+    {
+      "name": "Passionate α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/73EbB/passion-a",
+      "set_bonus": "Sizzling Blessing",
+      "pieces": [
+        "Passionate Headdress Alpha +",
+        "Passionate Body Alpha +",
+        "Passionate Arms Alpha +",
+        "Passionate Belt Alpha +",
+        "Passionate Leggings Alpha +"
+      ]
+    },
+    {
+      "name": "Demonlord α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BPZ07/demonlord-a",
+      "set_bonus": "Fun Fright Blessing",
+      "pieces": [
+        "Demonlord Hair Alpha +",
+        "Demonlord Cloak Alpha +",
+        "Demonlord Blackarm Alpha +",
+        "Demonlord Leather Belt Alpha +",
+        "Demonlord Boots Alpha +"
+      ]
+    },
+    {
+      "name": "Dragon α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7029B/fatalis-a",
+      "set_bonus": "Fatalis Legend",
+      "pieces": [
+        "Dragonhead Alpha +",
+        "Dragonhide Alpha +",
+        "Dragonclaws Alpha +",
+        "Dragonbarbs Alpha +",
+        "Dragonfeet Alpha +"
+      ]
+    },
+    {
+      "name": "Dragon β+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5bQDB/fatalis-b",
+      "set_bonus": "Fatalis Legend",
+      "pieces": [
+        "Dragonhead Beta +",
+        "Dragonhide Beta +",
+        "Dragonclaws Beta +",
+        "Dragonbarbs Beta +",
+        "Dragonfeet Beta +"
+      ]
+    },
+    {
+      "name": "Azure Age α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5v6R5/azure-age-a",
+      "set_bonus": "Silver Rathalos Essence",
+      "pieces": [
+        "Azure Age Hair Alpha +",
+        "Azure Age Haori Alpha +",
+        "Azure Age Sleeve Alpha +",
+        "Azure Age Obi Alpha +",
+        "Azure Age Geta Alpha +"
+      ]
+    },
+    {
+      "name": "Artemis α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/5bZq5/artemis-a",
+      "set_bonus": "New World",
+      "pieces": [
+        "Artemis Head Alpha +",
+        "Artemis Mail Alpha +",
+        "Artemis Guards Alpha +",
+        "Artemis Coil Alpha +",
+        "Artemis Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Leon α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/7A8O5/leon-a",
+      "set_bonus": "Survivor",
+      "pieces": [
+        "Leon's Head Alpha +",
+        "Leon's Body Alpha +",
+        "Leon's Arms Alpha +",
+        "Leon's Torso Alpha +",
+        "Leon's Legs Alpha +"
+      ]
+    },
+    {
+      "name": "Claire α+",
+      "url": "https://mhworld.kiranico.com/en/armorseries/BZgn5/claire-a",
+      "set_bonus": "Survivor",
+      "pieces": [
+        "Claire's Head Alpha +",
+        "Claire's Body Alpha +",
+        "Claire's Arms Alpha +",
+        "Claire's Torso Alpha +",
+        "Claire's Legs Alpha +"
+      ]
+    },
+    {
+      "name": "Banuk α+",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Banuk_Alpha_Plus_Armor_Set",
+      "set_bonus": "Anjanath Dominance",
+      "pieces": [
+        "Banuk Helm Alpha +",
+        "Banuk Mail Alpha +",
+        "Banuk Arms Alpha +",
+        "Banuk Coil Alpha +",
+        "Banuk Greaves Alpha +"
+      ]
+    },
+    {
+      "name": "Shield-Weaver +",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Shield-Weaver_Plus_Armor_Set",
+      "set_bonus": "Power Cell",
+      "pieces": [
+        "Shield-Weaver Head +",
+        "Shield-Weaver Torso +",
+        "Shield-Weaver Arms +",
+        "Shield-Weaver Chest +",
+        "Shield-Weaver Legs +"
       ]
     }
   ]

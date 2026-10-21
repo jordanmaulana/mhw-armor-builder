@@ -123,16 +123,29 @@ export function computeTotals(build: Build, catalog: Catalog): Totals {
       ? skill
       : { ...skill, description: from.effect, icon_url: skill.icon_url || from.icon };
 
+  // A secret raises its skill's cap (Agitator Secret: Agitator 5 -> 7), and Fatalis's Inheritance
+  // raises every one. The secret is still listed as a skill of its own, below, as the game does.
+  const secrets = [...catalog.skills.values()].filter((skill) => skill.secret_max_level);
+  const caps = new Map<string, number>(); // Skill id -> raised cap
+  for (const name of granted.keys()) {
+    for (const skill of secrets) {
+      if (name === "Inheritance" || name === skill.secret_name) {
+        caps.set(skill.id, skill.secret_max_level!);
+      }
+    }
+  }
+
   const skills: SkillTotal[] = [];
   for (const [id, total] of points) {
-    const skill = catalog.skills.get(id);
-    if (!skill) continue;
+    const stored = catalog.skills.get(id);
+    if (!stored) continue;
+    const cap = caps.get(id) ?? stored.max_level;
+    // the pips and the lines behind the info icon both read max_level, so they follow the cap
+    const skill = cap === stored.max_level ? stored : { ...stored, max_level: cap };
     const from = granted.get(skill.name);
     granted.delete(skill.name);
-    // ponytail: caps at max_level. Secret caps (Agitator 5 -> 7) come from Iceborne set bonuses,
-    // and the scraped set list is base game only; raise the cap here once those sets are in.
-    const gear = Math.min(total, skill.max_level);
-    const bonus = from ? Math.min(1, skill.max_level - gear) : 0;
+    const gear = Math.min(total, cap);
+    const bonus = from ? Math.min(1, cap - gear) : 0;
     skills.push({
       skill: from ? fill(skill, from) : skill,
       points: total + (from ? 1 : 0),
@@ -156,6 +169,8 @@ export function computeTotals(build: Build, catalog: Catalog): Totals {
             icon_url: from.icon,
             description: from.effect,
             max_level: 1,
+            secret_name: "",
+            secret_max_level: null,
             levels: [],
           };
       return { skill, points: 1, level: 1, bonus: 1 };

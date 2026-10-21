@@ -45,12 +45,20 @@ const weapon = (id: string, over: Partial<Weapon> = {}): Weapon => ({
   ...over,
 });
 
-const skill = (id: string, name: string, max_level: number, levels: Skill["levels"] = []): Skill => ({
+const skill = (
+  id: string,
+  name: string,
+  max_level: number,
+  levels: Skill["levels"] = [],
+  secret: [string, number] | null = null,
+): Skill => ({
   id,
   name,
   icon_url: "",
   description: "",
   max_level,
+  secret_name: secret?.[0] ?? "",
+  secret_max_level: secret?.[1] ?? null,
   levels,
 });
 const attack = skill("attack", "Attack Boost", 7);
@@ -61,6 +69,16 @@ const eye = skill("eye", "Critical Eye", 7, [
   { level: 1, effect: "Affinity +5%" },
   { level: 8, effect: "Affinity +45%" },
 ]);
+
+// a secret: a set bonus tier that names it raises the cap, and the lines run past the cap
+const agitator = skill(
+  "agitator",
+  "Agitator",
+  5,
+  [1, 2, 3, 4, 5, 6, 7].map((level) => ({ level, effect: `Agitator ${level}` })),
+  ["Agitator Secret", 7],
+);
+const artillery = skill("artillery", "Artillery", 3, [], ["Artillery Secret", 5]);
 
 const will = {
   id: "will",
@@ -99,9 +117,29 @@ const sight = {
   tiers: [{ pieces: 2, skill: "Critical Eye" }],
 };
 
+// Raging Brachydios's: two secrets, at 2 and 4 pieces
+const brachy = {
+  id: "brachy",
+  name: "Brachydios Will",
+  icon_url: "brachy.png",
+  effects: ["Raises the maximum level of the Agitator skill.", "Raises the maximum level of the Artillery skill."],
+  tiers: [
+    { pieces: 2, skill: "Agitator Secret" },
+    { pieces: 4, skill: "Artillery Secret" },
+  ],
+};
+// Fatalis's: one tier that raises every secret
+const legend = {
+  id: "legend",
+  name: "Fatalis Legend",
+  icon_url: "legend.png",
+  effects: ["Removes the skill level cap for the skill secrets."],
+  tiers: [{ pieces: 2, skill: "Inheritance" }],
+};
+
 const catalog: Catalog = {
-  skills: byId([attack, guts, eye]),
-  setBonuses: byId([will, power, baz, sight]),
+  skills: byId([attack, guts, eye, agitator, artillery]),
+  setBonuses: byId([will, power, baz, sight, brachy, legend]),
   armors: byId([
     armor("helm", "head", {
       defense: 70,
@@ -135,13 +173,33 @@ const catalog: Catalog = {
     armor("baz-coil", "waist", { set_bonus: "baz" }),
     armor("sight-braces", "arms", { set_bonus: "sight" }),
     armor("sight-greaves", "legs", { set_bonus: "sight" }),
+    armor("brachy-helm", "head", { set_bonus: "brachy", skills: [{ skill: "agitator", level: 3 }] }),
+    armor("brachy-mail", "chest", { set_bonus: "brachy", skills: [{ skill: "agitator", level: 1 }] }),
+    armor("brachy-braces", "arms", { set_bonus: "brachy", skills: [{ skill: "artillery", level: 2 }] }),
+    armor("brachy-coil", "waist", { set_bonus: "brachy", skills: [{ skill: "artillery", level: 2 }] }),
+    armor("legend-helm", "head", { set_bonus: "legend", skills: [{ skill: "agitator", level: 3 }] }),
+    armor("legend-mail", "chest", { set_bonus: "legend", slots: [1], skills: [{ skill: "artillery", level: 3 }] }),
   ]),
   decorations: byId([
     { id: "attack-jewel", name: "Attack Jewel 1", slot: 1, rarity: 6, skills: [{ skill: "attack", level: 1 }] },
     { id: "guts-jewel", name: "Guts Jewel 1", slot: 1, rarity: 6, skills: [{ skill: "guts", level: 1 }] },
+    {
+      id: "artillery-jewel",
+      name: "Artillery Jewel 1",
+      slot: 1,
+      rarity: 6,
+      skills: [{ skill: "artillery", level: 1 }],
+    },
   ]),
   charms: byId([
     { id: "attack-charm", name: "Attack Charm III", rarity: 7, icon_url: "", skills: [{ skill: "attack", level: 3 }] },
+    {
+      id: "agitator-charm",
+      name: "Challenger Charm III",
+      rarity: 7,
+      icon_url: "",
+      skills: [{ skill: "agitator", level: 3 }],
+    },
   ]),
   monsters: new Map(),
   weapons: byId([weapon("blade", { defense: 20, slots: [1, 1] })]),
@@ -322,6 +380,8 @@ const madeUp = (name: string, effect: string, icon_url: string): Skill => ({
   icon_url,
   description: effect,
   max_level: 1,
+  secret_name: "",
+  secret_max_level: null,
   levels: [],
 });
 
@@ -383,6 +443,66 @@ check(
     { skill: guts, points: 1, level: 1, bonus: 0 },
   ],
 );
+
+const agitatorSecret = madeUp("Agitator Secret", brachy.effects[0], "brachy.png");
+const artillerySecret = madeUp("Artillery Secret", brachy.effects[1], "brachy.png");
+const raised = (s: Skill, max_level: number): Skill => ({ ...s, max_level });
+check(
+  "below its tier a secret raises nothing: the skill stops at its cap",
+  skillsOf({ head: piece("brachy-helm") }, "agitator-charm"),
+  [{ skill: agitator, points: 6, level: 5, bonus: 0 }],
+);
+check(
+  "an active secret raises its skill's cap, and is listed itself",
+  skillsOf({ head: piece("brachy-helm"), chest: piece("brachy-mail") }, "agitator-charm"),
+  [
+    { skill: raised(agitator, 7), points: 7, level: 7, bonus: 0 },
+    { skill: agitatorSecret, points: 1, level: 1, bonus: 1 },
+  ],
+);
+check(
+  "a secret for a skill the build lacks is listed alone, and the next tier's cap stays",
+  skillsOf({ arms: piece("brachy-braces"), waist: piece("brachy-coil") }),
+  [
+    { skill: artillery, points: 4, level: 3, bonus: 0 },
+    { skill: agitatorSecret, points: 1, level: 1, bonus: 1 },
+  ],
+);
+check(
+  "every tier reached raises its own skill",
+  skillsOf(
+    {
+      head: piece("brachy-helm"),
+      chest: piece("brachy-mail"),
+      arms: piece("brachy-braces"),
+      waist: piece("brachy-coil"),
+    },
+    "agitator-charm",
+  ),
+  [
+    { skill: raised(agitator, 7), points: 7, level: 7, bonus: 0 },
+    { skill: raised(artillery, 5), points: 4, level: 4, bonus: 0 },
+    { skill: agitatorSecret, points: 1, level: 1, bonus: 1 },
+    { skill: artillerySecret, points: 1, level: 1, bonus: 1 },
+  ],
+);
+check(
+  "Inheritance raises every skill that has a secret",
+  skillsOf(
+    {
+      head: piece("legend-helm"),
+      chest: { armorId: "legend-mail", decoIds: ["artillery-jewel"] },
+    },
+    "agitator-charm",
+  ),
+  [
+    { skill: raised(agitator, 7), points: 6, level: 6, bonus: 0 },
+    { skill: raised(artillery, 5), points: 4, level: 4, bonus: 0 },
+    { skill: madeUp("Inheritance", legend.effects[0], "legend.png"), points: 1, level: 1, bonus: 1 },
+  ],
+);
+check("a raised cap lists the secret levels' lines", levelLines(raised(agitator, 7)).length, 7);
+check("the cap as stored lists only up to it", levelLines(agitator).length, 5);
 
 check("a level's line is found by its number, not its place", effectAt(eye, 1), "Affinity +5%");
 check("a secret level has its line too", effectAt(eye, 8), "Affinity +45%");

@@ -117,6 +117,8 @@ class CatalogAPITests(TestCase):
                         "Allows the effects of certain items to also affect nearby allies."
                     ),
                     "max_level": 5,
+                    "secret_name": "",
+                    "secret_max_level": None,
                     "levels": [
                         {
                             "level": 1,

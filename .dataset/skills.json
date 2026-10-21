@@ -2968,7 +2968,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/39/Teostra-technique-skill-mhw.png",
       "requirement": "Adds Stamina Cap Up when 2 pieces of Anja Alpha + (α) Set or Anja Beta + (β) Set are eqipped",
       "effects": [
-        "Adds Stamina Cap Up. Increases Stamina Cap"
+        "Increases stamina cap."
       ]
     },
     {
@@ -2977,7 +2977,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7b/Commission-guidance-skill-mhw.png",
       "requirement": "Adds Poison Duration Up when 2 pieces of Rathian Alpha + (α) Set or Rathian Beta + (β) Set are equipped",
       "effects": [
-        "Adds Poison Duration Up. Extends the duration of your poison's effect on monsters"
+        "Extends the duration of your poison's effect on monsters."
       ]
     },
     {
@@ -2986,7 +2986,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
       "requirement": "Adds Critical Status when 2 pieces of the Artian Alpha + (α) Set or Artian Beta + (β) Set are equipped.",
       "effects": [
-        "Adds Critical Status. Increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits"
+        "Increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits."
       ]
     },
     {
@@ -2995,7 +2995,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
       "requirement": "Adds Bombardier Secret 3 pieces of the Clockwork Alpha + (α) Set or Clockwork Beta + (β) Set are equipped.",
       "effects": [
-        "Adds Bombardier Secret when 3 pieces of Clockwork Alpha + (α) Set or Clockwork Beta + (β) Set are equipped"
+        "Raises the maximum level of the Bombardier skill."
       ]
     },
     {
@@ -3004,7 +3004,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bf/Bazelgeuse-protection-skill-mhw.png",
       "requirement": "Adds Punishing Draw when 2 pieces of the Barioth Alpha + (α) Set or Barioth Beta + (β) Set are equipped.",
       "effects": [
-        "Adds Punishing Draw. Adds a stun effect to draw attacks and slightly increases attack power when 2 pieces of Barioth Alpha + (α) Set or Barioth Beta + (β) Set"
+        "Adds a stun effect to draw attacks and slightly increases attack power."
       ]
     },
     {
@@ -3013,7 +3013,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/fd/Anjanath-power-skill-mhw.png",
       "requirement": "Adds Mind's Eye/Ballistics when 3 pieces of the Rathalos Alpha + (α) Set or Rathalos Beta + (β) Set are equipped.",
       "effects": [
-        "Adds Mind's Eye/Ballistics Prevents attacks from being deflected. Also shortens the distance before ammo and arrows reach maximum power when 3 pieces of the Rathalos Alpha + (α) Set or Rathalos Beta + (β) Set are equipped."
+        "Prevents attacks from being deflected. Also shortens the distance before ammo and arrows reach maximum power."
       ]
     },
     {
@@ -3022,7 +3022,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
       "requirement": "Adds Slugger Secret when 3 pieces of Diablos Alpha + (α) Set, Diablos Beta + (β) Set, Diablos Nero Alpha + (α) Set or Diablos Nero Beta + (β) Set are equipped.",
       "effects": [
-        "Raises the maximum level of the Slugger skill when 3 pieces of Diablos Alpha + (α) Set, Diablos Beta + (β) Set, Diablos Nero Alpha + (α) Set or Diablos Nero Beta + (β) Set are equipped"
+        "Raises the maximum level of the Slugger skill."
       ]
     },
     {
@@ -3031,7 +3031,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
       "requirement": "Adds Bow Charge Plus when 3 pieces of Legiana Alpha + (α) Set or Legiana Beta + (β) Set are equipped",
       "effects": [
-        "Adds Bow Charge Plus. Increases max bow charge level by one when 3 pieces of Legiana Alpha + (α) Set or Legiana Beta + (β) Set are equipped"
+        "Increases max bow charge level by one."
       ]
     },
     {
@@ -3040,7 +3040,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Odogaron-power-skill-mhw.png",
       "requirement": "Adds Protective Polish when 3 pieces of Odogaron Alpha + (α) Set or Odogaron Beta + (β) Set are equipped",
       "effects": [
-        "Weapon sharpness does not decrease for a set time after sharpening when 3 pieces of Odogaron Alpha + (α) Set or Odogaron Beta + (β) Set are equipped"
+        "Weapon sharpness does not decrease for a set time after sharpening."
       ]
     },
     {
@@ -3049,7 +3049,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Guild-guidance-skill-mhw.png",
       "requirement": "Adds Guard Up when 2 pieces of the Uragaan Alpha + (α) Set or Uragaan Beta + (β) Set are equipped",
       "effects": [
-        "Adds Guard Up. Allows you to guard against ordinarily unblockable when 2 pieces of Uragaan Alpha + (α) Set or Uragaan Beta + (β) Set"
+        "Allows you to guard against ordinarily unblockable attacks."
       ]
     },
     {
@@ -3058,7 +3058,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
       "requirement": "Adds True Razor Sharp/Spare Shot when 3 pieces of the Nargacuga Alpha + (α) Set or Nargacuga Beta + (β) Set are equipped",
       "effects": [
-        "Adds True Razor Sharp/Spare Shot. Greatly reduces sharpness loss and bows and bowguns have a chance not to expend coating or ammo"
+        "Greatly reduces sharpness loss. Bows and bowguns have a chance not to expend coatings or ammo."
       ]
     },
     {
@@ -3067,7 +3067,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
       "requirement": "Adds Maximum Might Secret when 3 pieces of the Glavenus Alpha + (α) Set or Glavenus Beta + (β) Set are equipped.",
       "effects": [
-        "Adds Maximum Might Secret. Raises the maximum level of the Maximum Might skill to Lv5 when 3 pieces of Glavenus Alpha + (α) Set or Glavenus Beta + (β) Set"
+        "Raises the maximum level of the Maximum Might skill."
       ]
     },
     {
@@ -3076,7 +3076,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
       "requirement": "Adds Agitator Secret when 3 pieces of the Brachydios Alpha + (α) Set or Brachydios Beta + (β) Set are equipped.",
       "effects": [
-        "Adds Agitator Secret. Raises the maximum level of the Agitator skill to Lv7 when 3 pieces of Brachydios Alpha + (α) Set or Brachydios Beta + (β) Set are equipped"
+        "Raises the maximum level of the Agitator skill."
       ]
     },
     {
@@ -3085,7 +3085,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
       "requirement": "Adds Free Meal Secret when 3 pieces of the Tigrex Alpha + (α) Set or Tigrex Beta + (β) Set are equipped.",
       "effects": [
-        "Adds Free Meal Secret. Raises the maximum level of the Free Meal to Lv3 when 3 pieces of Tigrex Alpha + (α) Set or Tigrex Beta + (β) Set are equipped"
+        "Raises the maximum level of the Free Meal skill."
       ]
     },
     {
@@ -3094,7 +3094,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
       "requirement": "Adds Capture Master when 2 pieces of Black Belt Alpha + (α) Set or Black Belt Beta + (β) Set are equipped. (No effect when joining mid-quest.)",
       "effects": [
-        "Adds Capture Master. High chance of increased capture rewards when 2 pieces of Black Belt Alpha + (α) Set or Black Belt Beta + (β) Set are equipped."
+        "High chance of increased capture rewards. (No effect when joining mid-quest.)"
       ]
     },
     {
@@ -3103,7 +3103,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/39/Teostra-technique-skill-mhw.png",
       "requirement": "Adds Guts when 2 pieces of Seething Bazel Alpha + (α) Set or Seething Bazel Beta + (β) Set are equipped.",
       "effects": [
-        "Adds Guts. Above a certain health threshold, you withstand an attack would normally cart you (once only) when 2 pieces of Seething Bazel Alpha + (α) Set are equipped"
+        "Above a certain health threshold, you withstand an attack that would normally cart you (once only)."
       ]
     },
     {
@@ -3112,7 +3112,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/39/Teostra-technique-skill-mhw.png",
       "requirement": "Adds Stamina Thief Secret when 3 pieces of the Savage Jho Alpha + (α) or Savage Jho Beta + (β) are equipped.",
       "effects": [
-        "Adds Stamina Thief Secret. Raises the maximum level of the Stamina Thief skill to Lv5 when 3 pieces of Savage Jho Alpha + (α) or Savage Jho Beta + (β) are equipped"
+        "Raises the maximum level of the Stamina Thief skill."
       ]
     },
     {
@@ -3121,7 +3121,8 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5a/Xenojiiva-divinity-skill-mhw.png",
       "requirement": "2 Pieces of Velkhana Alpha + (α) Set or Velkhana Beta + (β) Set Adds Critical Element whiel 4 Pieces Adds Frostcraft",
       "effects": [
-        "Adds Critical Element when 2 pieces of Velkhana Alpha + (α) Set or Velkhana Beta + (β) Set and Adds Frostcraft when 4 pieces are equipped."
+        "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+        "An aura of frost builds when your weapon is sheathed, raising attack. Wanes each melee hit or shot fired."
       ]
     },
     {
@@ -3130,15 +3131,17 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/5/5a/Xenojiiva-divinity-skill-mhw.png",
       "requirement": "Adds Super Recovery when 2 pieces of Blackveil Hazak Alpha + (α) Set or Blackveil Hazak Beta + (β) Set are equipped",
       "effects": [
-        "Adds Super Recovery. Allows recovery to exceed the red portion of the health gauge when 2 pieces of Blackveil Hazak Alpha + (α) Set or Blackveil Hazak Beta + (β) Set are equipped"
+        "Allows recovery to exceed the red portion of the health gauge."
       ]
     },
     {
-      "name": "Hasten Recovery",
-      "url": "https://monsterhunterworld.wiki.fextralife.com/Hasten_Recovery",
+      "name": "Nergigante Ambition",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante_Ambition",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6f/Zorah-magdaros-mastery-skill-mhw.png",
-      "requirement": "Regenerates your health as you continually attack a monster. Recovery varies by weapon.",
-      "effects": []
+      "requirement": "Adds Hasten Recovery when 2 pieces of the Ruinous Alpha + (α) Set or Ruinous Beta + (β) Set are equipped.",
+      "effects": [
+        "Regenerates your health as you continually attack a monster. Recovery varies by weapon."
+      ]
     },
     {
       "name": "Kirin Divinity",
@@ -3146,7 +3149,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/6/6f/Zorah-magdaros-mastery-skill-mhw.png",
       "requirement": "Adds Great Luck when 3 pieces of Kirin Alpha + (α) Set or Kirin Beta + (β) Set are equipped. (No effect when joining mid-quest)",
       "effects": [
-        "Adds Great Luck. High chance of increased quest rewards when 3 pieces of Kirin Alpha + (α) Set or Kirin Beta + (β) Set are equipped."
+        "High chance of increased quest rewards. (No effect when joining mid-quest.)"
       ]
     },
     {
@@ -3155,7 +3158,8 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
       "requirement": "Adds Element Acceleration when 2 pieces of Namielle Alpha + (α) Set or Namielle Beta + (β) Set and Adds True Element Accelerationwhen 4 pieces are equipped",
       "effects": [
-        "Adds Element Acceleration when 2 pieces of Namielle Alpha + (α) Set or Namielle Beta + (β) Set are equipped and True Element Acceleration when 4 pieces are equipped."
+        "Continually attacking a monster activates Free Element/Ammo Up Lv2 and increases elemental damage.",
+        "Continually attacking a monster activates Free Element/Ammo Up Lv3 and increases elemental damage."
       ]
     },
     {
@@ -3164,7 +3168,8 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/f/f6/Diablos-power-skill-mhw.png",
       "requirement": "Adds Gaia's Veil when 4 pieces of Shara Ishvalda Alpha + (α) Set or Shara Ishvalda Beta + (β) Set and adds True Gaia's Veil wearing 5 pieces of are equipped.",
       "effects": [
-        "Adds Gaia's Veil whie 4 pieces of Shara Ishvalda Alpha + (α) Set or Shara Ishvalda Beta + (β) Set are equipped and True Gaia's Veil while 5 pieces are equipped."
+        "While wearing a mantle, gain Windproof Lv3, Earplugs Lv3, Tremor Res Lv3, and Flinch Free.",
+        "While wearing a mantle, gain Tremor Resistance Lv3, Earplugs Lv5, max Windproof, and Flinch Free."
       ]
     },
     {
@@ -3173,7 +3178,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Kushala-daora-flight-skill-mhw.png",
       "requirement": "Adds Artillery Secret when 3 pieces of Zorah Alpha + (α) Set or Zorah Beta + (β) Set are equipped.",
       "effects": [
-        "Adds Artillery Secret. Raises the maximum level of the Artillery skill to Lv5 when 3 pieces of Zorah Alpha + (α) Set or Zorah Beta + (β) Set are equipped."
+        "Raises the maximum level of the Artillery skill."
       ]
     },
     {
@@ -3182,7 +3187,7 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Kushala-daora-flight-skill-mhw.png",
       "requirement": "Adds Latent Power Secret when 3 pieces of the ??? and ??? are equipped.",
       "effects": [
-        "Adds Latent Power Secret. Raises the maximum level of the Latent Power skill to Lv7"
+        "Raises the maximum level of the Latent Power skill."
       ]
     },
     {
@@ -3191,7 +3196,8 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Guild-guidance-skill-mhw.png",
       "requirement": "Adds Mind's Eye Ballistics when 2 pieces of the Rajang Alpha + (α) Set or Rajang Beta + (β) Set are equipped, while Protective Polish is added when 4 pieces are equipped.",
       "effects": [
-        "Adds Minds' Eye/Ballistics and Protective Polish."
+        "Prevents attacks from being deflected. Also shortens the distance before ammo and arrows reach maximum power.",
+        "Weapon sharpness does not decrease for a set amount of time after sharpening."
       ]
     },
     {
@@ -3200,7 +3206,8 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Odogaron-power-skill-mhw.png",
       "requirement": "Adds Zombie & Effluvia Resistance when 2 pieces of Leon Alpha + (α) Set or Claire Alpha + (α) Set are equipped, while Agitator Secret is added when 4 pieces are equipped.",
       "effects": [
-        "Adds Zombie & Effluvia Res. and Agitator Secret."
+        "Prevents zombie and effluvial buildup.",
+        "Raises the maximum level of the Agitator skill."
       ]
     },
     {
@@ -3209,7 +3216,8 @@
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/27/Odogaron-power-skill-mhw.png",
       "requirement": "Adds Dragonvein Awakening when 3 pieces of Safi'jiiva α+ Set or Safi'jiiva β+ Set are equipped, while True Dragonvein Awakening is added when 5 pieces are equipped.",
       "effects": [
-        "Adds Dragonvein Awakening and True Dragonvein Awakening."
+        "Elem., abnormal status, & affinity up with weapon drawn. Take damage when attacking, but can be recovered by continually attacking.",
+        "Enhances attacks even more with weapon drawn. Take damage when attacking, but can be recovered by continually attacking."
       ]
     },
     {
@@ -3217,49 +3225,68 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Joyful_Blessing",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/0/06/Joyful-blessing-mhw-wiki-guide2.png",
       "requirement": "Joy's Gift Increases odds of getting special holiday Joy rewards when 3 pieces equipped (No effects when joining mid-quest). Greatly increases odds of getting special holiday joy rewards when 5 pieces equipped. (No effects when joining mid-quest)",
-      "effects": []
+      "effects": [
+        "Increases odds of getting special Holiday Joy rewards. (No effect when joining mid-quest.)",
+        "Greatly increases odds of getting special Holiday Joy rewards. (No effect when joining mid-quest.)"
+      ]
     },
     {
       "name": "Guild Pride",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Guild_Pride",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
       "requirement": "Adds Good Luck when 2 pieces, adds Carving Master when 4 pieces of Guildwork Sets or Guild Palace Sets are equipped.",
-      "effects": []
+      "effects": [
+        "Good chance of increased quest rewards. (No effect when joining mid-quest.)",
+        "Lets you carve one additional time. (No effect when joining mid-quest.)"
+      ]
     },
     {
       "name": "Silver Rathalos Essence",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Silver_Rathalos_Essence",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
       "requirement": "Adds Slinger Ammo Secret when 2 pieces of Sol Alpha + Armor Set and Silver Sol Beta + Armor Set: are equipped, while True Critical Element is added when 4 pieces are equipped.",
-      "effects": []
+      "effects": [
+        "Raises the maximum level of the Slinger Capacity skill.",
+        "Greatly increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits."
+      ]
     },
     {
       "name": "Gold Rathian Essence",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Gold_Rathian_Essence",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
       "requirement": "Raises the maximum level of divine blessing skills when 2 pieces are equipped. Greatly increases status effect damage (paralysis, sleep, blast, poison) when landing critical hits when 4 pieces are equipped.",
-      "effects": []
+      "effects": [
+        "Raises the maximum level of the Divine Blessing skill.",
+        "Greatly increases status effect damage (paralysis, poison, sleep, blast) when landing critical hits."
+      ]
     },
     {
       "name": "Lunastra Essence",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Lunastra_Essence",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
       "requirement": "Reduces the recharge time for specialized tools. when 3 pieces are equipped.",
-      "effects": []
+      "effects": [
+        "Raises the maximum level of the Tool Specialist skill."
+      ]
     },
     {
       "name": "Appreciation Blessing",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Appreciation_Blessing",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Legiana-favor-skill-mhw.png",
       "requirement": "Increases odds of getting special Grand Appreciation rewards. (No effect when joining mid-quest)",
-      "effects": []
+      "effects": [
+        "Increases odds of getting special Grand Appreciation rewards. (No effect when joining mid-quest.)",
+        "Greatly increases odds of getting special Grand Appreciation rewards. (No effect when joining mid-quest.)"
+      ]
     },
     {
       "name": "Power Cell",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Power_Cell",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7d/Attack-boost-skill-mhw.png",
       "requirement": "Increases defense and eliminates damage reactions. Taking several hits knocks it out, but reactivate over time.",
-      "effects": []
+      "effects": [
+        "Increases defense and eliminates damage reactions. Taking several hits knocks it out, but reactivates over time."
+      ]
     },
     {
       "name": "Witcher's Knowledge",
@@ -3273,63 +3300,100 @@
       "url": "https://monsterhunterworld.wiki.fextralife.com/Brachydios_Will",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/7/7b/Commission-guidance-skill-mhw.png",
       "requirement": "Adds Agitator Secret and Artillery Secret. Raises the maximum level of the Agitator and Artillery skills when 2 or 4 pieces of Raging Brachy Alpha + Armor Set or Raging Brachy Beta + Armor Set are equipped.",
-      "effects": []
+      "effects": [
+        "Raises the maximum level of the Agitator skill.",
+        "Raises the maximum level of the Artillery skill."
+      ]
     },
     {
       "name": "Rajang Will",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Rajang_Will",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/4/4b/Guild-guidance-skill-mhw.png",
       "requirement": "Adds Maximum Might Secret. Raises the maximum level of the Maximum Might skill to Lv5, Adds Heroics Secret. Raises the maximum level of the Heroics skill when equiping 2 or 4 pieces of Glavenus Alpha + (α) Set or Glavenus Beta + (β) Set.",
-      "effects": []
+      "effects": [
+        "Raises the maximum level of the Maximum Might skill.",
+        "Raises the maximum level of the Heroics skill."
+      ]
     },
     {
       "name": "Kulve Taroth Essence",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve_Taroth_Essence",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
       "requirement": "Adds Guts when 2 pieces of the Kulve Taroth Alpha + Armor Set or Kulve Taroth Beta + Armor Set equipped, while Free Meal Secret is added when 5 pieces are equipped. Guts, above a certain health threshold, you withstand an attack that would normally cart you (once only). Free Meal Secret, raises the maximum level of the Free Meal skill.",
-      "effects": []
+      "effects": [
+        "Above a certain health threshold, you withstand an attack that would normally cart you (once only).",
+        "Raises the maximum level of the Free Meal skill."
+      ]
     },
     {
       "name": "Alatreon Divinity",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Alatreon_Divinity",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/35/Alatreon-divinity-mhw-wiki-guide.png",
       "requirement": "Adds Element Conversion when 2 pieces of the Alatreon Alpha + Armor Set or Alatreon Beta + Armor Set equipped, while All Elemental Resistance is added when 3 pieces are equipped. Your weapon's elemental power increases as your armor's elemental resistance increases. All Elemental Resistance further increases all elemental resistances +20%.",
-      "effects": []
+      "effects": [
+        "Equipped weapon's elemental power increases as your armor's elemental resistance increases.",
+        "Increases all elemental resistances +20%."
+      ]
     },
     {
       "name": "Frostfang Absolute Art",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Frostfang_Absolute_Art",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/bf/Bazelgeuse-protection-skill-mhw.png",
       "requirement": "Adds Punishing Draw when 1 piece of Frostfang Barioth Alpha + (α) or Frostfang Barioth Beta + (β) equipped, which adds a stun effect to draw attacks and slightly increases attack power. Adds Slugger Secret when 3 pieces of Frostfang Barioth Alpha + (α) or Frostfang Barioth Beta + (β) equipped. Raises the maximum level of the slugger skill.",
-      "effects": []
+      "effects": [
+        "Adds a stun effect to draw attacks and slightly increases attack power.",
+        "Raises the maximum level of the Slugger skill."
+      ]
     },
     {
       "name": "Sizzling Blessing",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Sizzling_Blessing",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
       "requirement": "Adds Sizzling Gift when 3 pieces of Passionate Alpha + Armor Set equipped, which increases the odds of getting special Sizzling Spice rewards. Adds Sizzling Gratitude when 5 pieces of Passionate Alpha + Armor Set equipped. Greatly increases the odds of getting special Sizzling Spice rewards.",
-      "effects": []
+      "effects": [
+        "Increases odds of getting special Sizzling Spice rewards. (No effect when joining mid-quest.)",
+        "Greatly increases odds of getting special Sizzling Spice rewards. (No effect when joining mid-quest.)"
+      ]
     },
     {
       "name": "Fatalis Legend",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Fatalis_Legend",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/8/88/Kushala-daora-flight-skill-mhw.png",
       "requirement": "Adds Inheritance when 2 pieces of the Fatalis Alpha + Armor or Fatalis Beta + Armor are equipped. Adds Transcendence when 4 pieces of the Fatalis Alpha + Armor or Fatalis Beta + Armor are equipped.",
-      "effects": []
+      "effects": [
+        "Removes the skill level cap for the skill secrets.",
+        "Grants True Razor Sharp/Spare Shot. Health/Stamina +100 at the start of a quest or after fainting. (Effect doesn't stack.)"
+      ]
     },
     {
       "name": "Fun Fright Blessing",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Fun_Fright_Blessing",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/3/3e/Fun_fright_blessing_mhw-wiki-guide.png",
       "requirement": "Adds Fun Fright's Gift when 3 pieces of Demonlord Alpha + (α) equipped, which increases the odds of getting special Fun Fright rewards. Adds Fun Fright's Gratitude when 5 pieces of Demonlord Alpha + (α) equipped. Greatly increases the odds of getting special Fun Fright rewards.",
-      "effects": []
+      "effects": [
+        "Increases odds of getting special Fun Fright rewards. (No effect when joining mid-quest.)",
+        "Greatly increases odds of getting special Fun Fright rewards. (No effect when joining mid-quest.)"
+      ]
     },
     {
       "name": "New World",
       "url": "https://monsterhunterworld.wiki.fextralife.com/New_World",
       "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/2/2e/Diablos-mastery-skill-mhw.png",
       "requirement": "Adds Hasten Recovery when 2 pieces of Artemis Alpha + Armor equipped, which regenerates your health as you continually attack a monster, recovery varies by weapon. Adds Great Luck when 4 pieces of Artemis Alpha + Armor equipped. High chance of increased quest rewards.",
-      "effects": []
+      "effects": [
+        "Regenerates your health as you continually attack a monster. Recovery varies by weapon.",
+        "High chance of increased quest rewards. (No effect when joining mid-quest.)"
+      ]
+    },
+    {
+      "name": "Full Bloom Blessing",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Full_Bloom_Blessing",
+      "icon_url": "https://static0.fextralifeimages.com/file/monsterhunterworld/b/b1/Odogaron-mastery-skill-mhw.png",
+      "requirement": "Adds Full Bloom's Gift when 3 pieces, Full Bloom Gratitude when 5 pieces of the Rose Alpha + Armor Set are equipped.",
+      "effects": [
+        "Increases odds of getting special Full Bloom rewards. (No effect when joining mid-quest.)",
+        "Greatly increases odds of getting special Full Bloom rewards. (No effect when joining mid-quest.)"
+      ]
     }
   ]
 }

@@ -12,6 +12,9 @@ export interface Skill {
   icon_url: string;
   description: string;
   max_level: number;
+  // a set bonus tier that names the secret (Agitator Secret) raises max_level to this (7)
+  secret_name: string;
+  secret_max_level: number | null;
   levels: { level: number; effect: string }[]; // the game's line per level, secret levels too
 }
 

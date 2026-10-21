@@ -19,7 +19,17 @@ User = get_user_model()
 class SkillSerializer(serializers.ModelSerializer):
     class Meta:
         model = Skill
-        fields = ["id", "name", "icon_url", "description", "max_level", "levels"]
+        # the secret is what a set bonus tier names to raise max_level (Agitator Secret: 7)
+        fields = [
+            "id",
+            "name",
+            "icon_url",
+            "description",
+            "max_level",
+            "secret_name",
+            "secret_max_level",
+            "levels",
+        ]
 
 
 class SetBonusSerializer(serializers.ModelSerializer):
